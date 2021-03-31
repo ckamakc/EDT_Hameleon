@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6f4aec8-ba56-45e9-87db-905e90f4597c">
+  <producedTypes>
+    <objectType typeId="55857932-ff50-4f5b-bba3-c0be3a4431df" valueTypeId="800830af-309b-4291-b7ce-fe2814855898"/>
+    <refType typeId="3e69ec5d-8889-4b62-8c3c-8120bc2c0fc7" valueTypeId="fde52c94-4617-4380-9d51-1141122fcc05"/>
+    <selectionType typeId="9d69bdfa-601c-48bc-9ce7-0ca2a924568a" valueTypeId="ffabd79b-ebd9-4c1e-ac52-8aec8008789a"/>
+    <listType typeId="402b7c70-5e88-4ba9-8377-9f85a29666ad" valueTypeId="0e7ad660-a2cc-4440-a1d9-31d0854fff68"/>
+    <managerType typeId="7bac867f-b35d-4b05-8d8c-3f0e5d45533b" valueTypeId="4cc9f74d-62e6-4220-aeba-8ed0495e31db"/>
+  </producedTypes>
+  <name>ЕдиницаИзмеренияВысотыСпинки_Коляски_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единица измерения высоты спинки коляски Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЕдиницаИзмеренияВысотыСпинки_Коляски_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЕдиницаИзмеренияВысотыСпинки_Коляски_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <templates uuid="85e251de-d5e2-4a02-89f2-f18afbc157dc">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

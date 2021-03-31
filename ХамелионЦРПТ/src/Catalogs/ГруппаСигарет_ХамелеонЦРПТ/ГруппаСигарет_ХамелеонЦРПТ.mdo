@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec012b8e-377d-436c-b427-1ef01cb0ebe4">
+  <producedTypes>
+    <objectType typeId="380c6f6a-8ff2-4312-89d6-77c5f5238fe4" valueTypeId="d048f996-3226-4982-b44b-b7a7439e4ebb"/>
+    <refType typeId="8e7a51de-35f5-4371-9e95-4b8615963f3e" valueTypeId="8c54e2f7-4610-4a92-a350-20b4d3817dee"/>
+    <selectionType typeId="438bd3ea-4600-4869-a8d6-c16219a59740" valueTypeId="2a77c75b-a4de-494a-aaca-078e75dbaa68"/>
+    <listType typeId="664a7ba4-1f16-40f3-9f00-926817b7ed42" valueTypeId="d5b30d1b-e40a-4b61-bd20-9d15657b5ead"/>
+    <managerType typeId="fae05ca1-c8ec-4461-9f67-57c715cafcc0" valueTypeId="4f209284-d687-4152-9c57-668bf6b30412"/>
+  </producedTypes>
+  <name>ГруппаСигарет_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группа сигарет хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ГруппаСигарет_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ГруппаСигарет_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

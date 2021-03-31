@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c9ce345-4a60-4755-9dce-11766a08cc30">
+  <producedTypes>
+    <objectType typeId="9270fe48-4d48-4c56-aee3-d4548a273cf8" valueTypeId="079b6723-e319-46d0-8e52-6b6f4001dcaa"/>
+    <refType typeId="93ad15f5-d458-4602-81e1-118b4da01578" valueTypeId="6097cb24-0aff-4768-8042-17ed2382cb20"/>
+    <selectionType typeId="1e7b51a4-92f4-4df6-9a0a-fe32aa161fcd" valueTypeId="65280da0-aabc-4954-8ed3-59ef0c5be835"/>
+    <listType typeId="63a678f9-8714-4c1b-8d42-31f9edcd2997" valueTypeId="a23e0bcc-f172-4fee-8686-b5cc52205ffe"/>
+    <managerType typeId="21cb28b8-12d8-4ccc-8af6-f2eda8c119cb" valueTypeId="0405b3fa-d059-4672-ad6d-022aa6a50a32"/>
+  </producedTypes>
+  <name>ЕдиницыИзмерения_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единицы измерения Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЕдиницыИзмерения_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЕдиницыИзмерения_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="cc9973c4-3d48-40dc-bee2-b470bb8bbca5">
+    <name>НаименованиеПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование полное</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="74c8f142-5928-48c9-864c-3c1e143e1c66">
+    <name>ТипУпаковкиВXML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип упаковки ВXML</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ИспользоватьВXMLУпаковки_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <templates uuid="4d275c35-57ca-4f07-ac61-63643c8ee8d0">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

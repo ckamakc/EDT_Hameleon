@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43a0297f-0be0-4a61-83bf-cc3e13b43041">
+  <producedTypes>
+    <objectType typeId="93ccf7f7-1075-4f36-a7f1-ff381ccc740e" valueTypeId="594d5dff-92f0-422b-92ce-0cda5f753283"/>
+    <refType typeId="bfb385d9-c9c5-4124-a432-e21e2c246f3a" valueTypeId="f9a30eb5-4b7d-41ba-b5ab-eab20ba2cb52"/>
+    <selectionType typeId="9e30d106-ac3f-4d8b-bb5a-3dd43577349a" valueTypeId="56c10747-17c7-44ad-ad7d-dc90c6e5ae60"/>
+    <listType typeId="8c3cd18e-948c-4cb1-921c-bb90ca72fbd1" valueTypeId="5e6bfcca-e94b-4562-af77-086de0f54f1e"/>
+    <managerType typeId="56fac860-a704-4381-9214-241a34fc6a06" valueTypeId="dea94599-d23a-42dc-800d-32fd9b3d0b3b"/>
+  </producedTypes>
+  <name>ТипыКонструкцииРамы_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы конструкции рамы Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипыКонструкцииРамы_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТипыКонструкцииРамы_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71a7b684-06d8-43b6-a75c-a5c4d00e77e3">
+  <producedTypes>
+    <objectType typeId="78e76564-28e7-4fde-99cc-b5f20f1d48b0" valueTypeId="6306b0d6-cb8a-4deb-9e75-39220c549845"/>
+    <refType typeId="ad6859df-9a54-4425-914b-d8ecd72744e3" valueTypeId="62914774-77ab-462e-87a0-7f92eaa7c851"/>
+    <selectionType typeId="437af5f8-ed9c-4ac5-a87f-377941f09b2c" valueTypeId="5b3d7799-a4a6-4b77-ad99-eede7e7ede88"/>
+    <listType typeId="b178f4d8-3bb6-4a27-a980-055fe395b6cf" valueTypeId="71c0da87-5d84-478b-a40d-2ead23bb8f38"/>
+    <managerType typeId="7a2b9d5e-4ee8-4d7b-a7a8-225cbd1fc0d5" valueTypeId="dd1cb82e-5bdb-49d5-aa1a-a22056b3173e"/>
+  </producedTypes>
+  <name>Договора_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Договора хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Договора_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Договора_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.ПроизводителиИмпортерыКонтрагенты_ХамелеонЦРПТ</owners>
+  <owners>Catalog.Организации_ХамелеонЦРПТ</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Договора_ХамелеонЦРПТ.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Договора_ХамелеонЦРПТ.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Договора_ХамелеонЦРПТ.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="f80514aa-cc60-46d4-8f15-b3b51f089afe">
+    <name>РегистрационныйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрационный номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c5660032-3b27-4221-8cf8-0e79dcba6deb">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c33f2bf0-8907-47b1-bb0c-0d92f49446de">
+    <name>ИдентификаторФИАС_houseguid</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор ФИАС houseguid</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="00bae2e8-b0c5-4267-b2a3-662d248b700a">
+    <name>ВидИсточниковФинансирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид источников финансирования</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидИсточниковФинансирования_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dde8726f-6016-4873-a0ed-82143942715f">
+    <name>ТипДоговора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип договора</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипДоговораПриРеализации_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="609bebe2-ac43-4dd5-a494-311160bfdf82">
+    <name>РеестровыйНомерКонтрактаВЕИССЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реестровый номер контракта (договора) в Единой информационной системе в сфере закупок</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="35ed4a81-5ee4-4ebe-a487-963b980ef495">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e73b0443-6141-457e-9bfb-7ff99be673fb">
+    <name>ИдентификаторФИАС_aoguid</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор ФИАС aoguid</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="05273497-c5c3-460c-b4d4-dcea666b448c">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cf4a8797-57e8-453a-a823-e6a3d21f5e9f">
+    <name>ФормаВыбораАдресов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора адресов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="eb2cc8ec-1d42-4e32-b0c9-63e5ac4d0cbc">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5aae48d2-9937-4a63-aa51-1dc8c4a646a4">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="726bc3c6-5570-4ec2-a5b3-2205d83d8c22">
+  <producedTypes>
+    <objectType typeId="11d9a239-b078-4883-845d-4430da2d32cb" valueTypeId="d13a64c3-6648-4d3a-9a65-6a08d6fb62b8"/>
+    <refType typeId="f80bd216-af4b-4684-b3f5-742f210a1a82" valueTypeId="6558214b-7281-4fc7-8944-a4b077fa2a5a"/>
+    <selectionType typeId="db27fb40-ca47-4750-a402-a996eb489549" valueTypeId="ae1798e5-7d7f-4d19-9f08-27e8bbc71937"/>
+    <listType typeId="cf22f2a5-b6c6-4ee8-9aa6-1506a3a9dfb4" valueTypeId="4ae612f3-b2ec-412b-9160-cb2717896f8b"/>
+    <managerType typeId="880aa73c-b70d-4054-aef2-3970fec785e4" valueTypeId="ac42b57b-d968-4e39-b1bf-f1ca52dd34d2"/>
+  </producedTypes>
+  <name>ЕдиницаИзмеренияМинерализации_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единица измерения минерализации Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЕдиницаИзмеренияМинерализации_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЕдиницаИзмеренияМинерализации_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

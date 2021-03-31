@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b906aa86-a49c-4d12-85a4-bdc4d5f535b9">
+  <producedTypes>
+    <selectionType typeId="1a1ec270-6f69-43ea-ba29-8aa2ff935917" valueTypeId="2d6d25a3-d467-4d81-8a18-701525b94146"/>
+    <listType typeId="4f251f39-4a06-4044-9236-87c935a70400" valueTypeId="e5b47a7e-53f8-4911-b378-1078f72ba5d2"/>
+    <managerType typeId="a0fb4df1-14fa-4cbd-862c-a184bdeb9a39" valueTypeId="c2e647c6-f666-4f63-a6f5-9e43d3ce70ff"/>
+    <recordSetType typeId="20841037-329a-4419-ba7b-04082e2678ec" valueTypeId="708f5493-ba56-4434-a882-ad66f2cc9fd8"/>
+    <recordKeyType typeId="9af90fff-115e-4a16-af34-09284a00badf" valueTypeId="c9ec9b82-1707-4af9-b3d0-8f16f068e021"/>
+    <recordType typeId="d8266874-5664-4ffe-b13d-851f4998fc1f" valueTypeId="e3fab931-7b2d-476e-8ae8-24612d8b5b86"/>
+    <recordManagerType typeId="a9053d41-4cb4-4b9b-8b24-33c5c63c08f6" valueTypeId="1145a916-98fd-4c30-8a99-85d0a84803a7"/>
+  </producedTypes>
+  <name>СохранитьДеревоИнформациюОНомерахКМВводВОборот_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сохранить дерево информации о номерах КМ в вводе в оборот Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="5ff47492-ac07-49cd-9280-04fef536faa9">
+    <name>Хранилище</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="59aff3ca-438b-4b53-b053-ce06a76d2cf8">
+    <name>ВводВОборот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод в оборот</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ВводВОборот_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

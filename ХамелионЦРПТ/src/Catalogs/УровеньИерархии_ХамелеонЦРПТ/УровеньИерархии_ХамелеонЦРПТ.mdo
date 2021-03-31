@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5fb75ecb-e854-4d02-8b80-68badce7d719">
+  <producedTypes>
+    <objectType typeId="6bc8566d-7964-4482-931c-871613da8ef8" valueTypeId="45adf948-da98-4e1e-8fb9-042af92e628b"/>
+    <refType typeId="a69f54aa-1cd7-420d-8b66-267705309e6a" valueTypeId="d1e1b560-9a68-4515-a404-c00fd10a0bce"/>
+    <selectionType typeId="a6bea9c4-207b-4bfe-b4d5-9adc44b1daec" valueTypeId="d083f63f-99d2-492d-b38a-b53d699ae861"/>
+    <listType typeId="d13f819c-6bb3-4db3-9dbe-45d9721b66d6" valueTypeId="9fe223c0-fb13-42e2-a177-a90bbcb8053b"/>
+    <managerType typeId="f40fb9ff-bf77-4966-8151-f8e8323b4e1f" valueTypeId="874e444b-eab1-4232-b261-e23e7417b470"/>
+  </producedTypes>
+  <name>УровеньИерархии_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уровень иерархии Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УровеньИерархии_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УровеньИерархии_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <templates uuid="97532489-0623-40e1-be2c-a9fa44c00f38">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

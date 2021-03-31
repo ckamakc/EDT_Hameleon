@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49671b5e-b182-44be-b64c-21329e7826b0">
+  <producedTypes>
+    <objectType typeId="7e40cb35-8986-49b5-8473-b759c60ae0d7" valueTypeId="21567f8d-2593-47ee-9765-e12984985af6"/>
+    <refType typeId="79fb05be-70ab-40ab-aeca-ddfd20346df1" valueTypeId="3c364068-c108-43c9-945a-d10180b42f62"/>
+    <selectionType typeId="53f6fa4f-cb46-4f2b-b2b5-878204033d46" valueTypeId="402c7255-117d-47ff-a11c-e0c40c89880a"/>
+    <listType typeId="68f3ad79-03d7-4da3-a4d3-f3086dad44bd" valueTypeId="0b63a23b-4f47-422c-a9a8-afc2a78901d8"/>
+    <managerType typeId="62666b72-64b8-4af3-8513-2b4013055e79" valueTypeId="6006d949-8690-4e41-9c8f-8f7c38bc8ee1"/>
+  </producedTypes>
+  <name>СтраныДляИныхРазмеровОдежды_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Страны для иных размеров одежды Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтраныДляИныхРазмеровОдежды_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СтраныДляИныхРазмеровОдежды_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

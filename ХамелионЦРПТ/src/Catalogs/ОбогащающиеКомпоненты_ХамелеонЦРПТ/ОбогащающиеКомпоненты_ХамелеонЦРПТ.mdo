@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e9fcae9-399d-4b1b-a705-9d615488f19a">
+  <producedTypes>
+    <objectType typeId="755ccda7-afb5-48de-94b1-ac31a98a7ffa" valueTypeId="571935cd-cef5-46f2-981b-edb74fb520ac"/>
+    <refType typeId="a76966b4-e5ff-40c9-bb57-bd365a9dae40" valueTypeId="b2dc783c-15d1-4003-aa2a-d99cf0d5a8b9"/>
+    <selectionType typeId="e4f64827-dcc4-4982-8dc1-57cddeee7db6" valueTypeId="486f856f-833b-4fe0-965d-7b9bca4a4a1b"/>
+    <listType typeId="5531df38-267b-4568-8e6b-7c65607517c0" valueTypeId="48e58c31-d5ca-4d94-ae05-7c30a57740ff"/>
+    <managerType typeId="aaff5ecd-3ef5-406b-aea8-f0dc3f538c6b" valueTypeId="c29c1821-211e-43ed-8541-47fadc48e9fa"/>
+  </producedTypes>
+  <name>ОбогащающиеКомпоненты_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обогащающие компоненты Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ОбогащающиеКомпоненты_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ОбогащающиеКомпоненты_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

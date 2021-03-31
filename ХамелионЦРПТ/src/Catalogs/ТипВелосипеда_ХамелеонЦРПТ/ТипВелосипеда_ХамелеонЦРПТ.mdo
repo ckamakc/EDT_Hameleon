@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c556968-2b21-420d-ad82-c59a1a886cb3">
+  <producedTypes>
+    <objectType typeId="726e9180-5e57-41c1-adca-960bf5a14795" valueTypeId="e100513a-92db-4c45-b107-7e1ae82e1925"/>
+    <refType typeId="4b45bc9c-ecec-444d-bab4-628bcebea93d" valueTypeId="893920fd-aecc-42f8-840e-3290d07ca313"/>
+    <selectionType typeId="600c486e-15ec-4e75-b7f0-fba301238158" valueTypeId="d03605a0-c8b8-4e79-9d10-98f19a56fff7"/>
+    <listType typeId="90f2033c-59df-4715-bcd1-d46ae087caf6" valueTypeId="6e225329-652d-49f2-8263-4f6590974960"/>
+    <managerType typeId="ba331a6e-fdc4-48c8-a272-3431e775702e" valueTypeId="f3915f02-3336-499e-832d-65cb47245d60"/>
+  </producedTypes>
+  <name>ТипВелосипеда_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип велосипеда Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипВелосипеда_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТипВелосипеда_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <templates uuid="a3ff4b7d-8947-4fac-82fd-d6c74f662f97">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

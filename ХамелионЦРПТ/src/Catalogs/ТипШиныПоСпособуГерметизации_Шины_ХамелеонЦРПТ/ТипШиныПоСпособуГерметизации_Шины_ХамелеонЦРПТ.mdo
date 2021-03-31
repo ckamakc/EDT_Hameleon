@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2c56945-9ef8-4426-9643-5c4812c55bce">
+  <producedTypes>
+    <objectType typeId="c21af0ef-0405-4fb2-bbf2-d2eae8eb339f" valueTypeId="77953f28-7918-4eb7-8254-a1c95b9fd2bb"/>
+    <refType typeId="d3b21ee7-3a87-45bf-bfeb-3962bed381b0" valueTypeId="f3af7065-00d9-47d6-add7-bc277e54e645"/>
+    <selectionType typeId="1c6f0652-a9a9-4487-b900-995fbdf50ca2" valueTypeId="6730acae-49a5-4e5e-a517-0f8ef3457118"/>
+    <listType typeId="9db99625-c32a-43e4-94f6-848b3a3a8b84" valueTypeId="73907e3a-fd98-4056-acf6-8e8f96316241"/>
+    <managerType typeId="bbba6a2e-bf8f-4463-87b8-393aba13efe7" valueTypeId="f5932aa7-9a23-4ee9-a472-570b4a393def"/>
+  </producedTypes>
+  <name>ТипШиныПоСпособуГерметизации_Шины_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип шины по способу герметизации шины Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипШиныПоСпособуГерметизации_Шины_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТипШиныПоСпособуГерметизации_Шины_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <templates uuid="55ba9ded-773e-49d6-bf13-757ae5f4238c">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

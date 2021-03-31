@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45440565-387a-4d39-b9bb-dc544df14cf4">
+  <producedTypes>
+    <objectType typeId="40c44ef0-4ba3-4710-8a00-ed6d9cbe4b58" valueTypeId="a359db15-6b90-4f27-b2dd-78ae28b396a5"/>
+    <refType typeId="a2e60213-a52f-435e-9a34-9ebef8831bc4" valueTypeId="c8058761-a217-49b4-a4a2-47bdc0601854"/>
+    <selectionType typeId="b534876d-8cd9-4e18-b992-ad7f2a367371" valueTypeId="cf0bef48-3aa0-4916-9034-fdef603ba610"/>
+    <listType typeId="c258c9b3-b2d6-4a3e-aa32-9aee01412bc9" valueTypeId="8460a5be-774b-4658-aaec-13c5e8d22b00"/>
+    <managerType typeId="527d0889-1ef8-4ae2-a51c-363536e56088" valueTypeId="49bfa8d8-f2b8-4a34-a9ac-8c15a0e81a79"/>
+  </producedTypes>
+  <name>СписаниеКМНанесенныхНеНанесенныхНаТовар_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Списание КМ нанесенных\ненанесенных на товар Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.СписаниеКМНанесенныхНеНанесенныхНаТовар_ХамелеонЦРПТ.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <basedOn>Document.ВводВОборот_ХамелеонЦРПТ</basedOn>
+  <basedOn>Document.ЗаказМарок_ХамелеонЦРПТ</basedOn>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>15</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.СписаниеКМНанесенныхНеНанесенныхНаТовар_ХамелеонЦРПТ.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ОстаткиКМ_в_Обороте_ХамелеонЦРПТ</registerRecords>
+  <registerRecords>AccumulationRegister.ОстаткиКМЭмитированые_ХамелеонЦРПТ</registerRecords>
+  <registerRecords>AccumulationRegister.Резервы_ХамелеонЦРПТ</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="ee9eda57-fcbb-4ff4-b45d-5c32a89f8cc9">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2967e3b7-9a6d-4478-b338-3b42b0bd3dff">
+    <name>ТекущийПользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущий пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="238c934b-7c53-47cf-96f3-f4960ab32e60">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыДокументов_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.СтатусыДокументов_ХамелеонЦРПТ.EnumValue.ПодготовленКОтправке</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9ff34ec3-f8b0-4a12-86f0-516d5dbb6099">
+    <name>_Order_ID</name>
+    <synonym>
+      <key>ru</key>
+      <value>Order ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5f004011-c1f7-44d0-9a9c-48e7539620e3">
+    <name>ОшибкаОтправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка отправки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ca22eae2-77e5-4e97-a3b8-320bcdddce62">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f39d46c2-bcb3-4118-8937-3f43f5890685">
+    <name>ПричинаСписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина списания</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПричинаСписания_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="773f28c1-dd52-48bf-a876-08645c785974">
+    <name>КоличествоКМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество КМ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7b069a94-617a-4e62-aeae-c46f00a88489">
+    <name>КоличествоНомеровКМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество номеров КМ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2f13afa3-95fd-4304-b5f8-404ab9c4a274">
+    <name>ТипСписанияСУЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип списания СУЗ</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПричинаСписанияСУЗ_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="71d86b4c-6fdb-40ac-9b7b-6439c9eeb772">
+    <name>ТипПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип продукции</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипПродукции_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0ad097cc-fb74-43a3-843e-b4f9e23dce94">
+    <name>ВидСписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид списания</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидДокументаСписания_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ВидДокументаСписания_ХамелеонЦРПТ.EnumValue.КМНеНанесенныйНаТовар</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f38cf307-2091-492f-9b11-a4f5e97c91d7">
+    <name>ЧерезСУЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Через СУЗ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="bb89c8ea-bb66-4ea8-8a35-11a053b59320">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6552235e-8aa9-474b-8eb0-9225744525e9">
+    <name>ФормаВыбораКМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора КМ</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="117e27ea-e009-43e4-95dc-074f892bc0ab">
+    <producedTypes>
+      <objectType typeId="76bf692c-3bde-4277-8eec-2de4fea9fb39" valueTypeId="b320aa97-1dbc-461a-8cd6-03c53fb7c14c"/>
+      <rowType typeId="a2d3745a-ccd2-4919-90c0-6d6b9f541daa" valueTypeId="cd0d9cc1-5326-459b-a470-ef8edf4d6b15"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="9fb3ee3f-f178-42dc-8e89-10ed582a597d">
+      <name>GTIN</name>
+      <synonym>
+        <key>ru</key>
+        <value>GTIN</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Продукция_ХамелеонЦРПТ</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="14b2e510-7cf0-42db-a44a-d5af1a3e496f">
+      <name>КодТНВЭД</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код ТНВЭД</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КодТНВЭД_ХамелеонЦРПТ</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="700ecfba-af41-4c61-80af-1ecac66f4920">
+      <name>КоличествоКМ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество КМ</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="400bcfc7-4d29-4ba5-9109-0a1071db9598">
+      <name>СерийныйНомер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Серийный номер</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>13</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6b2e9aff-f1ce-4788-8585-73efc32cf80c">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ae89ec45-d347-4580-96ce-8851c883f88e">
+      <name>НДС</name>
+      <synonym>
+        <key>ru</key>
+        <value>НДС</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4ca164d5-147b-4ee2-baea-ef224170a77d">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="24c2573b-f316-4bb4-958a-5912e1a483d5">
+      <name>НомерСтрокиСвязи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер строки связи</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9cd69595-7fb3-4e96-bfb8-595cd5da50c0">
+      <name>КоличествоНомеровКМ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество номеров КМ</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="cde4a8a4-ff43-42e4-a4ab-704fd0b0a178">
+    <producedTypes>
+      <objectType typeId="8621f3e0-3362-4391-a176-0ced3773f355" valueTypeId="eb21c6df-0259-45fb-94c8-c4a5adbab677"/>
+      <rowType typeId="f08f8a6f-ae34-4eb8-aeb0-1bd5a4a0d024" valueTypeId="1a50a782-cd82-486a-910f-544d28768072"/>
+    </producedTypes>
+    <name>СерийныеНомера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серийные номера</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="fd6ca258-2ba2-46a7-87f8-27ecc2789c4e">
+      <name>GTIN</name>
+      <synonym>
+        <key>ru</key>
+        <value>GTIN</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>14</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2daf0382-1ada-4cbf-ad7c-d7a51c2d8578">
+      <name>СерийныйНомер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Серийный номер</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>13</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cfaad9a5-5044-498a-bb38-0eb1f6d9d716">
+      <name>НаименованиеТовара</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование товара</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Продукция_ХамелеонЦРПТ</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="44044386-da36-4fa9-8019-6ebeef219d49">
+      <name>НомерКороба</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер короба</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c342abb8-3bb8-4ea4-9b60-728fcd79d1fd">
+      <name>НомерПаллет</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер паллет</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7a1cd39a-73c6-4200-9289-26861e5b7672">
+      <name>НомерСтрокиСвязи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер строки связи</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4423892d-158c-4dba-ae51-b2ff949acac2">
+      <name>cis</name>
+      <synonym>
+        <key>ru</key>
+        <value>Cis</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="51550d40-908d-4fcf-bf15-56db6fdaa7e0">
+      <name>ПричинаСписанияКМ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Причина списания КМ</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ПричинаСписания_ХамелеонЦРПТ</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <templates uuid="6cb845f6-826f-48a9-87a9-df541d608567">
+    <name>Отгрузка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отгрузка</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="9e137c57-37fd-4d26-9ba0-fd433aa22410">
+    <name>HELP</name>
+    <synonym>
+      <key>ru</key>
+      <value>HELP</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:Document>

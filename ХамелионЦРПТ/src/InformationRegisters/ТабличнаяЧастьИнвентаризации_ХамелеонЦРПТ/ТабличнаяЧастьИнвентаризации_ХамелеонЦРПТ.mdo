@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0b58740-ad71-4c21-b35f-9a8f0215ff63">
+  <producedTypes>
+    <selectionType typeId="8e07ffeb-b8c8-4937-887c-a81f59191ab0" valueTypeId="662c5c3f-f603-4c60-8fa1-877abf9cdb7d"/>
+    <listType typeId="b8130646-3edd-4c80-b680-9740d0791c02" valueTypeId="668850f6-0866-4a2d-ab6e-93e7f381119b"/>
+    <managerType typeId="6e365339-9524-45f8-9afd-ade2540e59a6" valueTypeId="33e2ca8c-b19f-4f44-9eb8-0fbb85895ecd"/>
+    <recordSetType typeId="b7a58ff1-867b-4c62-960c-6df89e14ec6d" valueTypeId="9b10c44a-448d-4684-8ee9-25f53fd1281d"/>
+    <recordKeyType typeId="4abe612a-fb04-4d79-a4f9-704c7e1647b6" valueTypeId="d231463e-773a-4d54-9bfe-5fb1fce49491"/>
+    <recordType typeId="19e31b92-01ba-4426-9ca0-7dd7bc1e636c" valueTypeId="9e841c36-a220-4d4d-83ae-4b4863b76533"/>
+    <recordManagerType typeId="99cc8d53-0fa3-4771-9d05-3372bb27c3ae" valueTypeId="804c8656-cefe-48eb-844a-e7375fc70609"/>
+  </producedTypes>
+  <name>ТабличнаяЧастьИнвентаризации_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Табличная часть инвентаризации Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="607df9a1-5027-4e54-b152-adb1ed697b53">
+    <name>GTIN</name>
+    <synonym>
+      <key>ru</key>
+      <value>GTIN</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Продукция_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="559f06f8-a63d-4cae-a56c-63444eb9fbf0">
+    <name>КМВПрограмме</name>
+    <synonym>
+      <key>ru</key>
+      <value>КМ в программе</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="ba021270-1fb2-48cc-ab9f-cee79af51893">
+    <name>КМВЦРПТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>КМ в ЦРПТ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="55769630-729a-44c7-9d2b-d652371c0855">
+    <name>СканируемыйКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сканируемый код</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="458218c0-0ae2-47bc-af05-2a4291bb6043">
+    <name>ДокументИнвентаризации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ инвентаризации</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Инвентаризация_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d55916e7-1100-4d0e-b200-b36bb7c35865">
+    <name>КМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>КМ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>75</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

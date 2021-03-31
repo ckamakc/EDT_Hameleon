@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35540bae-e2b2-4c8a-8b59-edb01cb42e1d">
+  <producedTypes>
+    <objectType typeId="f20d54a3-2bcb-4957-8c63-3cb9f768f650" valueTypeId="f41ede6b-4a25-46dd-8698-bac78a505eda"/>
+    <refType typeId="d55b1bb3-e0ec-4f05-81ab-eb349bac3c0f" valueTypeId="a8a73ae1-e619-4943-ae49-d6595b0d0017"/>
+    <selectionType typeId="d5c8502e-6eee-4f31-93e3-2002d3fb67f8" valueTypeId="a1519185-6978-48cc-922d-da4308ac06af"/>
+    <listType typeId="36da3d5f-f895-4779-845e-5816d5893091" valueTypeId="743f1892-ce35-4d60-a780-7e2d0385e29d"/>
+    <managerType typeId="530f31f1-6c7a-4e83-9e83-cc7f5e6161e5" valueTypeId="63590fad-7795-42a6-b3ff-8fa325d523e6"/>
+  </producedTypes>
+  <name>ДополнительныеРеквизиты_Шины_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные реквизиты шины Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДополнительныеРеквизиты_Шины_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ДополнительныеРеквизиты_Шины_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="57a2b90d-194e-4e14-bb9a-fd00451f8743">
+    <name>МодельШины</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель шины</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>128</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9680cb0c-0c57-4c14-a858-fa37a347d401">
+    <name>ШиринаПрофиляШины</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ширина профиля шины</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>128</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="354a444d-7df5-4e2d-929d-7ec1fe0df95f">
+    <name>ЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЕдиницаИзмерения_Шины_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3d7aae55-c475-440d-b7c6-f1f6fa87062f">
+    <name>НоминальноеОтношениеВысотыПрофиляШиныКЕгоШирине</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номинальное отношение высоты профиля шины к его ширине</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НоминальноеОтношениеВысотыПрофиляШиныКЕгоШирине_Шины_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="628ec389-c2b1-4fca-859c-ac1137c4d346">
+    <name>ТипКонструкцииКаркасаШины</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип конструкции каркаса шины</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипКонструкцииКаркасаШины_Шины_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="622da077-8872-4dc3-9b48-eeac69502f45">
+    <name>ИндексНагрузкиНаШину</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индекс нагрузки на шину</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИндексНагрузкиНаШину_Шины_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="38ab14b2-d857-48d1-be30-15d80d0088d4">
+    <name>ИндексНагрузкиНаШинуДругое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индекс нагрузки на шину (другое)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>128</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="957d4cd9-60b9-44d8-8dca-351ea9d19d28">
+    <name>КатегорияСкорости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория скорости</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КатегорияСкорости_Шины_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5638b162-37fd-4664-8df4-cf7644572357">
+    <name>Сезонность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сезонность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сезонность_Шины_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e895cddb-2bdc-4132-bb1e-ce8e8851fcc7">
+    <name>ТипШиныПоСпособуГерметизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип шины по способу герметизации</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипШиныПоСпособуГерметизации_Шины_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4c6524a0-22e3-4a0b-97d7-eac4b6861de6">
+    <name>ШиринаПрофиляШиныКамерыДюйм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ширина профиля шины камеры дюйм</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШиринааПрофиляШиныКамерыДюймы_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d6257f11-ca67-4016-90c2-44e045d1f632">
+    <name>НоминальныйПосадочныйДиаметрОбодаВМм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номинальный посадочный диаметр обода в мм</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="202db6c3-29bc-4352-b6f9-b7d9e835a5af">
+    <name>ЕдиинцаНаружногоДиаметра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Едиинца наружного диаметра</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЕдиницаИзмерения_Шины_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c422ab7f-b3e4-4b31-a83a-e2d01bf94304">
+    <name>НаружныйДиаметр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наружный диаметр</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bc36920c-aa91-475c-991f-2a0f9244d8bd">
+    <name>ЦелевоеИспользование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Целевое использование</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЦелевоеИспользование_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="910562e8-6103-434a-87e5-bfe573d49081">
+    <name>ТопливнаяЭкономичность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Топливная экономичность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТопливнаяЭкономичность_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9cd9f262-6b8c-4d4c-b01c-e3900c570c72">
+    <name>ИндексСцепленияСМокройДорогой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индекс сцепления с мокрой дорогой</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИндексСцепленияСМокройДорогой_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6226efb1-6002-4c51-ad62-f9fd4c5b0017">
+    <name>УровеньШумаВДецибелах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень шума в децибелах</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>128</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5d4b949e-7eea-4a49-b210-914b2d870e27">
+    <name>РисунокПротектроа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рисунок протектроа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РисунокПротектора_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="07c97024-99ff-4d3c-bc3a-3d52c5d847a8">
+    <name>ТехнологияRunFlat</name>
+    <synonym>
+      <key>ru</key>
+      <value>Технология run flat</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПродукцияДляДетскогоПитания_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d6aadebd-4161-4be0-a4bc-b07e97b915b4">
+    <name>УсиленнаяШина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Усиленная шина</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УсиленнаяШина_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c8a479c3-0aef-44e2-bc5d-d093fcf18815">
+    <name>ШинаСЦельнометаллическимКордом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шина с цельнометаллическим кордом</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПродукцияДляДетскогоПитания_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="526688c8-3a95-4bc0-92a8-a53f1f145de2">
+    <name>ДополнительныеХарактеристики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные характеристики</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6a1c2ba5-3271-4464-ad93-d088bcaf5480">
+    <name>Состав</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c45a3a04-79fd-41f4-a873-5abb1b59c532">
+    <name>ТипСрокаСлужбы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип срока службы</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипСрока_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ba1bbf32-5b98-4c67-8266-6af65c585f40">
+    <name>СрокСлужбы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок службы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e86f9894-5ba3-42ed-be65-b0fdf18afa67">
+    <name>ТипГарантийногоСрока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип гарантийного срока</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипСрока_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ea76180f-cd95-4d12-be2a-2a6534a164f8">
+    <name>ГарантийныйСрокОтПроизводителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гарантийный срок от производителя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b0963abc-39da-4298-bf3b-9be7ab4e713b">
+    <name>ОсобыеУсловияХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Особые условия хранения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="70a94f9e-08ba-4a8b-bbaa-e23ab4e7607e">
+    <name>РекомендацияПоИспользованию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рекомендация по использованию</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8ecf2808-b36c-4c7b-a262-7ff73db7bf13">
+    <name>ТипСрокаХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип срока хранения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипСрока_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a2ee1b38-3e82-451d-9ab9-a01ce280994f">
+    <name>СрокХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок хранения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2f057cda-0462-49f3-9f15-84d6254dab25">
+    <name>НомерРегламента018</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТР ТС 018/2011 &quot;О безопасности колесных транспортных средств&quot;</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="99ffb487-d492-4228-a0fb-3510a4d3f683">
+    <name>НомерРегламента005</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТР ТС 005/2011 &quot;О безопасности упаковки&quot;</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="34526343-a727-44d4-8917-5f1fa7d8e848">
+    <name>НомерРегламента031</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТР ТС 031/2012 &quot;О безопасности сельскохозяйственных и лесохозяйственных тракторов и прицепов к ним&quot;</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cbd15970-d0b9-40e7-8b6f-76ebba0ca095">
+    <name>ПосадочныйДиамтерОбода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Посадочный диамтер обода</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>128</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2c16bdd4-ffb8-4923-9c8d-f88924c481d1">
+    <name>BRICKGPC</name>
+    <synonym>
+      <key>ru</key>
+      <value>BRICKGPC</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="ee6155c5-9596-49ea-a110-5b478f84b701">
+    <producedTypes>
+      <objectType typeId="77a2a6a3-c257-4bc7-8e62-5f1d07f8c8a0" valueTypeId="ca45581f-06c8-469f-a37e-2416d75b66b4"/>
+      <rowType typeId="92c61535-edb5-4847-8c23-758237b95a9e" valueTypeId="fb3029f9-c380-4bb7-b916-7ea803c7a887"/>
+    </producedTypes>
+    <name>ДопМодельАртикулы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доп модель артикулы</value>
+    </synonym>
+    <attributes uuid="00ea65d6-4703-4b2b-870e-04908f3e4456">
+      <name>ТипМодельАртикул</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип модель артикул</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ТипМодельАртикул_ХамелеонЦРПТ</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="eab3ff5a-2eff-438f-a883-6e34cd691e20">
+      <name>МодельАртикул</name>
+      <synonym>
+        <key>ru</key>
+        <value>Модель артикул</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

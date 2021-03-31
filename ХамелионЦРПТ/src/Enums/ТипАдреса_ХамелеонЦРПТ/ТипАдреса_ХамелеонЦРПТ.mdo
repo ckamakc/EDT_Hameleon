@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2606ef50-df9b-4c39-8ced-4f8b5bf9501a">
+  <producedTypes>
+    <refType typeId="68cd4555-584f-4ada-9830-fc6671cc538a" valueTypeId="d0153a19-cbf6-470d-988b-83962b976c10"/>
+    <listType typeId="da82dc4d-4171-45c7-a991-0f908303df82" valueTypeId="681b095d-edef-4829-aa75-1dc902953fc3"/>
+    <managerType typeId="531f85ab-ad3d-4490-8536-be04825a9a7e" valueTypeId="7f10d850-805a-4c46-a8bd-1b64844d1554"/>
+  </producedTypes>
+  <name>ТипАдреса_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип адреса хамелеон ЦРПТ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="96b57354-a1b6-4493-9cd1-01197e218efd">
+    <name>Юричический</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юричический</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e5dc6e5d-6b97-4413-93f7-bbabe8edccfa">
+    <name>Фактический</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фактический</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb4b9142-b990-4877-b9c2-7dc59101f774">
+  <producedTypes>
+    <objectType typeId="44c8f47a-2fc1-4c2f-beef-79194a045acc" valueTypeId="a5ca4ae6-2b6b-49b1-9965-fbeaf9053e33"/>
+    <refType typeId="cfb45ff8-adf1-4d66-8bb7-e50c71dd4a9d" valueTypeId="7017402c-296a-4e11-aa3c-f6922d63306e"/>
+    <selectionType typeId="63d50549-ac04-4fc0-a767-71c4d25eec43" valueTypeId="c1403d18-1140-4e34-b98b-621321a2d6c2"/>
+    <listType typeId="5e11393b-c56b-438f-8576-464097beea1e" valueTypeId="48b9e7a4-1497-4396-beef-3cf70e1ede83"/>
+    <managerType typeId="e3b443dc-4c5e-4c0f-8278-ab86a059af4a" valueTypeId="f4b70d3e-d082-4c96-b0de-a612f583f14e"/>
+  </producedTypes>
+  <name>ID_строки_партия_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>ID строки партия Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ID_строки_партия_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ID_строки_партия_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ID_строки_партия_ХамелеонЦРПТ.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="00a1cdf8-b028-47a7-b62c-a23a6683b3be">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e6313bf-fb87-4389-8720-278ebb9da89f">
+  <producedTypes>
+    <refType typeId="d9f6e5d8-1b42-4278-8eee-50b11d368308" valueTypeId="3b5ade80-2e41-4948-b0b2-0aa410881b3b"/>
+    <listType typeId="83a3d85f-4a34-418d-a0cb-33130fa60676" valueTypeId="e809de8a-288c-4ab1-9127-1942ef95587a"/>
+    <managerType typeId="8eb53044-879f-4cc7-ab88-db7d895c290a" valueTypeId="f5c52ec8-fe46-41ff-9672-ea260b10be53"/>
+  </producedTypes>
+  <name>ТипДокументаПеремаркировки_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип документа перемаркировки Хамелеон ЦРПТ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a017517c-ce1b-4a60-89bb-c531f8b17a2f">
+    <name>KM_SPOILED</name>
+    <synonym>
+      <key>ru</key>
+      <value>Испорчено ибо утеряно КИ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0564e7d2-7835-4fa1-8b6d-de00a4dfbc1f">
+    <name>DESCRIPTION_ERRORS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выявлены ошибки описания товара</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="08079523-3a43-4309-b883-5243eeeef92d">
+    <name>RETAIL_RETURN</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат товаров с поврежденным СИ/без СИ при розничной реализации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="95b745f4-fb65-43af-aeb2-1d22b4f4bbbe">
+    <name>REMOTE_SALE_RETURN</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат товаров с поврежденным СИ/  без СИ при дистанционном способе продажи</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dd6c7a20-4e98-46a5-86a2-c9035943b7f9">
+    <name>LEGAL_RETURN</name>
+    <synonym>
+      <key>ru</key>
+      <value>возврат от конечного покупателя (юр. лица/ИП)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a3a4b9d8-e88d-4fcf-a647-db8f3bc1f6cd">
+    <name>INTERNAL_RETURN</name>
+    <synonym>
+      <key>ru</key>
+      <value>решение о реализации товаров, приобретённых в целях, не связанных с их реализацией</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="462c0256-205b-4687-9190-0d06c5ff7ce1">
+    <name>EEC_EXPORT_RETURN</name>
+    <synonym>
+      <key>ru</key>
+      <value>возврат ранее экспортированного в ЕАЭС</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

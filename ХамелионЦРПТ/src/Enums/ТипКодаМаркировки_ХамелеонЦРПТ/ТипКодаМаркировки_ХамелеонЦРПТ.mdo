@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91aa519b-d16e-495a-8e2c-7ee6a72a36df">
+  <producedTypes>
+    <refType typeId="fefd8b97-3982-480b-9523-817c971cbbb1" valueTypeId="62540397-c8b5-4c6b-987e-2674b16a215f"/>
+    <listType typeId="dc333f06-d0ad-494f-8d6e-9b2c8b3e8c92" valueTypeId="672732d3-fd39-47e6-9d5a-468965910058"/>
+    <managerType typeId="b4b62964-06b0-4627-8b49-cf65665664ca" valueTypeId="43218a5f-fe47-4bf0-848e-777315fd6449"/>
+  </producedTypes>
+  <name>ТипКодаМаркировки_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип кода маркировки хамелеон ЦРПТ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c29fea52-bed1-45ff-b3dd-1f1f90eeb542">
+    <name>UNIT</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица товара</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="21d0a37b-1920-4969-bb4e-7732abfbd780">
+    <name>BUNDLE</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплект</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1db4149c-bd04-4ae8-bb50-1a0f49a8ca26">
+    <name>SET</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

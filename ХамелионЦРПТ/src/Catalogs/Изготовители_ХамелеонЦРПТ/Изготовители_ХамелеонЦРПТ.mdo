@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05c9b2dd-d836-4b64-ae96-8d9db4628e5d">
+  <producedTypes>
+    <objectType typeId="5bf0bc71-876d-409e-8ee5-4d0b3c2b7ddb" valueTypeId="3a70490e-ba66-49e6-bbfd-7f5ec84875c1"/>
+    <refType typeId="67f41417-9a5a-4653-bc07-c47a62d21b8e" valueTypeId="6bd40dcb-d0c8-4aa3-b1a0-e046845cfa98"/>
+    <selectionType typeId="2d7f4e5a-025e-43da-bad2-35551d9a32bc" valueTypeId="d9e4b951-624a-467c-b4ff-7b434320f692"/>
+    <listType typeId="972981bd-cf5f-4140-80f8-ce99176e92f5" valueTypeId="979da422-13ee-42dd-9786-292d4c14665c"/>
+    <managerType typeId="b3615e67-c61a-466f-9e2e-67c9b5a2744d" valueTypeId="5ca855e2-a1f3-46e9-9409-dc9bdbc296ff"/>
+  </producedTypes>
+  <name>Изготовители_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изготовители Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Изготовители_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Изготовители_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="5647c614-4211-4d0c-8240-7f1acc98f95d">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

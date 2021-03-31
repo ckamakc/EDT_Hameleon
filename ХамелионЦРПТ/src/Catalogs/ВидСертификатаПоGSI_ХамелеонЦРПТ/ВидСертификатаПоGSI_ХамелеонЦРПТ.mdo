@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7935770b-2e0d-4413-9f44-3325decaa84f">
+  <producedTypes>
+    <objectType typeId="a02af097-b123-44a7-a425-5aae4994f7cf" valueTypeId="5312c5ef-67a1-4638-a073-99dd4576fd2d"/>
+    <refType typeId="45607efc-a70d-43ee-bd65-013cd50cca50" valueTypeId="2a1c14e1-1706-4960-9989-4766b2ffba72"/>
+    <selectionType typeId="47716d45-3acd-42a4-9440-24f77e0a7ac8" valueTypeId="fd6726c6-696c-4a18-89c8-c2f10fc7a900"/>
+    <listType typeId="9e7aabae-7938-49cf-b8c8-1111535ff091" valueTypeId="e6a5af7b-70c1-4703-8bbb-7563ad635efe"/>
+    <managerType typeId="535c9bc6-432b-48ca-9231-6eee83a15f8b" valueTypeId="ca06d31c-ccf1-4c34-8000-fb41f04cb42c"/>
+  </producedTypes>
+  <name>ВидСертификатаПоGSI_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид сертификата по GSI Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидСертификатаПоGSI_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидСертификатаПоGSI_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>20</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <templates uuid="6208fb4e-e941-40e4-8d4b-89217c7551d9">
+    <name>ВидСертификатов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид сертификатов</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

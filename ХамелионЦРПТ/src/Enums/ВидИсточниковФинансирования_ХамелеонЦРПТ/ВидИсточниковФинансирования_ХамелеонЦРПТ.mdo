@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0548b55b-caee-4360-a2b6-e44d504f5557">
+  <producedTypes>
+    <refType typeId="3a6a7c8c-f334-4518-9c9e-ba9495536709" valueTypeId="dbb0d984-3490-418b-8d8e-ff8defc56042"/>
+    <listType typeId="c81d9986-5132-4a6c-9b40-babac7f54863" valueTypeId="6fb2b1d1-1df7-426b-affd-2cc1e1eaeaf5"/>
+    <managerType typeId="349c19a5-b737-492b-9184-f55b5c4c7762" valueTypeId="a87f0371-18b0-4743-b194-2b075836ba5f"/>
+  </producedTypes>
+  <name>ВидИсточниковФинансирования_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид источников финансирования Хамелеон ЦРПТ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2a8b340d-a70a-488b-8d40-b003071d53c3">
+    <name>СобственныеСредства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Собственные средства</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9a0236d4-fe76-4739-b05b-dc9eb243dd49">
+    <name>СредстваФедеральногоБюджета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средства федерального бюджета</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f9a3ead9-344d-466b-9c78-2003521d248e">
+    <name>СредстваРегиональногоБюджета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средства регионального бюджета</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

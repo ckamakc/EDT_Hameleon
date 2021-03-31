@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1daf0257-9378-46a0-9ebe-a335dd282d6d">
+  <producedTypes>
+    <objectType typeId="9fbf3a17-89d8-4c0e-b17d-b7f2f9632f74" valueTypeId="6dfd1fb2-899f-4e5b-9cc5-6cccd4fbb96d"/>
+    <refType typeId="0aabe95f-c5db-44fe-8759-6439a034baa8" valueTypeId="25b6542d-1a39-4842-8d77-cd686bfa0346"/>
+    <selectionType typeId="8f2b7159-32bb-4ed1-84ea-1b07d2472acf" valueTypeId="e8c511f1-3fbb-403e-88ec-c76d967278a5"/>
+    <listType typeId="e43075f4-8cbd-4b2b-a61f-3eecf8968e4b" valueTypeId="12e6445f-61bb-46f8-bd06-34854476b0dd"/>
+    <managerType typeId="fb7cdb28-f3ef-410b-a9d9-328605c9d41c" valueTypeId="eac2178d-1b2c-4e91-be37-f067cbd34f5e"/>
+  </producedTypes>
+  <name>ТипДозатора_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип дозатора Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипДозатора_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТипДозатора_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

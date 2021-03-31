@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93435502-1947-40fc-94ee-6ef9a7234ed7">
+  <producedTypes>
+    <selectionType typeId="d5ce1495-f794-401a-ab5c-1e7abd11b188" valueTypeId="ffe401b8-6637-4631-bfd0-cc90654e2345"/>
+    <listType typeId="54b579b6-359c-47ff-8e4f-e7de07d1a508" valueTypeId="c9087d43-a202-4b5b-9ad9-88bfbbd7ab85"/>
+    <managerType typeId="834000b5-4918-4ba6-905e-b9e35f9982ef" valueTypeId="53b9693e-25e2-451c-8dc7-6786fbe36d1d"/>
+    <recordSetType typeId="73ee1884-0e5c-45c2-afe0-96033374e623" valueTypeId="cc2a35b2-b4a2-4657-b86c-daf93d105e99"/>
+    <recordKeyType typeId="8c5f5269-2097-4e75-986f-1a32baffedff" valueTypeId="75ac4f86-c812-4b59-a1c4-8dd63923ecc4"/>
+    <recordType typeId="8bff7101-2c6d-478a-a9cb-c765697fe538" valueTypeId="151e8f87-6075-43e8-9a51-4857efd63c63"/>
+    <recordManagerType typeId="e01a0fa9-ef86-4d1e-8db6-74dfba8a6659" valueTypeId="1c1e5940-402b-4daa-b8bd-f8063a88ea65"/>
+  </producedTypes>
+  <name>ВспомогательныйДляОшибочноРазагрегированныхКоробов_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вспомогательный для ошибочно разагрегированных коробов Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ba68163c-dc13-401a-9630-1147d9bb9efb">
+    <name>АгрегацияСтарая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Агрегация старая</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.СозданиеНовогоШкНаКороба_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9ac39b09-fc04-4454-80c1-a8e0c5e075ca">
+    <name>АгрегацияНовая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Агрегация новая</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.СозданиеНовогоШкНаКороба_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="531f1ae4-3c5b-46a8-9ec3-9ad39ad77643">
+    <name>Отгрузка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отгрузка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Отгрузка_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7dc81e5e-46f5-47d9-9dfe-0856815eca2c">
+    <name>КМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>КМ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

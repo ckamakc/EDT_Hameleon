@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac8de6d6-11d9-43fd-b753-f21126ddc167">
+  <producedTypes>
+    <objectType typeId="8591253c-a9a0-4d55-9684-0f7bfd3b158b" valueTypeId="617b849b-371e-4530-8cac-91ae07b2a3fc"/>
+    <refType typeId="ba91d3f4-0e1e-4488-9796-7e25ae4e7fbe" valueTypeId="57ace38b-73b4-4f1e-b028-e45c729f9b4a"/>
+    <selectionType typeId="e9efdaab-8f56-45a1-8e3a-d1c12e79a6f2" valueTypeId="a6bcfeeb-3975-4800-ba8d-c651fb43184c"/>
+    <listType typeId="34cd6f21-7347-45d4-b68c-91cb4f87915d" valueTypeId="871e8c76-2e80-4bce-adfd-c3b1a390a086"/>
+    <managerType typeId="8c7c310b-5058-4cf9-95b4-6dd18d9e4580" valueTypeId="3fc03993-c93a-4726-8ce1-17eb09ca8215"/>
+  </producedTypes>
+  <name>ТипыДополнительныхСроковГодности_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы дополнительных сроков годности Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипыДополнительныхСроковГодности_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТипыДополнительныхСроковГодности_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

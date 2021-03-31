@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8d0dbde-a4a8-4d56-b552-33f409fe928d">
+  <producedTypes>
+    <selectionType typeId="39f97a50-25b2-4f7c-a186-8297b1126788" valueTypeId="3066820b-c39c-49f1-8e95-4a8d640b509e"/>
+    <listType typeId="df91a6c6-0b4d-453f-8afd-9b40143c68cc" valueTypeId="e600f2ff-5dd0-48da-bc2d-26537589ece5"/>
+    <managerType typeId="7f91c3fe-8413-4e13-abf8-19114a8f591f" valueTypeId="bf5fcde9-bfde-490b-85a6-07e501ea0709"/>
+    <recordSetType typeId="1cc5dcac-1579-451a-8af9-dee0acfd2c50" valueTypeId="9fded8a1-64e3-4d01-9b6a-ef13a9f4170c"/>
+    <recordKeyType typeId="6b2326ac-2c57-48f4-a3b0-c0aad3afffbd" valueTypeId="2b0dc092-6b86-4121-9ddd-cecdeab727bf"/>
+    <recordType typeId="8d6df0bf-b0c4-49c1-84d8-dba10c5d9081" valueTypeId="b9e2a3ee-9362-4c28-8f9a-d823883e866e"/>
+    <recordManagerType typeId="c94301b9-db67-42bb-86ac-9c3bba106aa2" valueTypeId="13a0be1a-3153-459d-8b59-3e9175d04fb7"/>
+  </producedTypes>
+  <name>ТипКМ_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип КМ Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="6d74fc62-ebab-48f9-ac33-6f46d45d8d62">
+    <name>Тип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Тип_КМ_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d240eec5-855d-404d-a5c7-1ffa2db222dc">
+    <name>cis</name>
+    <synonym>
+      <key>ru</key>
+      <value>Cis</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>80</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2ff32eb-8c72-41f1-ab77-0501687e7906">
+  <producedTypes>
+    <objectType typeId="d4ec8577-80c2-4665-8ce1-ecd264288ae4" valueTypeId="c9ddfcd4-e78e-4f6a-b695-2f41c6844805"/>
+    <refType typeId="749a1f74-f54b-47b9-b4e4-47d6a5bc1dba" valueTypeId="dcae5170-de8b-4640-8227-6fb13ba4461c"/>
+    <selectionType typeId="daf282f1-aa17-4a3d-866e-e9a29e7ee7d0" valueTypeId="5b55fbae-b72b-4be0-af79-428926421722"/>
+    <listType typeId="807e7c76-0be7-4fff-a1d9-f70177b88d01" valueTypeId="4ed3c514-78e9-404a-b53a-4fec89bac3bb"/>
+    <managerType typeId="eff90e00-2e78-4921-8fa3-decff8d1c4d2" valueTypeId="cf83ec5f-4035-4085-81bc-3ce16e77ba63"/>
+  </producedTypes>
+  <name>ТопливнаяЭкономичность_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Топливная экономичность Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТопливнаяЭкономичность_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТопливнаяЭкономичность_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

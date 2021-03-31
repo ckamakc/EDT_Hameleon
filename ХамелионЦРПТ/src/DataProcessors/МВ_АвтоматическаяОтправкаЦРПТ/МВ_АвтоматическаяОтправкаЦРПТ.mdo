@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29871012-3fea-4254-acad-a04a9e0a5bde">
+  <producedTypes>
+    <objectType typeId="4d6a6a0d-b4eb-490a-a45f-1a7b297ba68d" valueTypeId="fbfc9bcd-0fd3-43c5-84fc-bd0f0c7cc9c8"/>
+    <managerType typeId="3a7eba6b-1f6f-4e5c-ae21-906feed28b6d" valueTypeId="25fa9d3a-3867-40ac-8f34-b66ea3c87672"/>
+  </producedTypes>
+  <name>МВ_АвтоматическаяОтправкаЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>(МВ) Автоматическая отправка в ЦРПТ</value>
+  </synonym>
+  <comment>(МВ) Кириченко 28.09.2020</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МВ_АвтоматическаяОтправкаЦРПТ.Form.Форма</defaultForm>
+  <forms uuid="ea5facdb-a603-4b15-b419-6565bfd16e8a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

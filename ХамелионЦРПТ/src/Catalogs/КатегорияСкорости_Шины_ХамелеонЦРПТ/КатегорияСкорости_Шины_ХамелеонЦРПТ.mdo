@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fceff010-bb13-4490-b143-ca76c05b71b4">
+  <producedTypes>
+    <objectType typeId="22ebf61b-fd08-4755-9240-3732187f3107" valueTypeId="657ce5f6-ed0d-4cb9-932c-3ce0755eb5c5"/>
+    <refType typeId="706408d3-3a0e-472d-8759-06599a4a74d6" valueTypeId="8b34ae6b-83a5-4fa7-a53c-2e5251eb1d10"/>
+    <selectionType typeId="440395ce-8a29-4741-93b2-9fcd31392c25" valueTypeId="696dacab-2d9d-45b6-b449-fb4bf77ed586"/>
+    <listType typeId="82b5a76a-4baf-455d-b534-aa8aff3e49e8" valueTypeId="91e9149e-1c03-44dc-a360-6bed39ae05cc"/>
+    <managerType typeId="6df9f581-b8ee-4e17-8290-2b5fda53e1e6" valueTypeId="e39ca303-98d9-47ff-9ef4-f69c7198df50"/>
+  </producedTypes>
+  <name>КатегорияСкорости_Шины_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категория скорости шины Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КатегорияСкорости_Шины_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КатегорияСкорости_Шины_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <templates uuid="53113a5c-6866-45f4-bce2-ba9a22e01ce4">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

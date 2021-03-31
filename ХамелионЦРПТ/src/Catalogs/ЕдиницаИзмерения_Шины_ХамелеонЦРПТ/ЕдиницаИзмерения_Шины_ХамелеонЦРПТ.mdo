@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5cb6c845-727e-4ac3-9900-c1afcb5ee544">
+  <producedTypes>
+    <objectType typeId="eafbde55-4d72-4016-b70b-b0702b7c3648" valueTypeId="61fa3604-31f8-4997-8314-5fead92f511a"/>
+    <refType typeId="db3dfa7e-2cc7-4681-ade1-2b4fa432d05d" valueTypeId="e5a8cd99-b849-4454-a978-285aaa508931"/>
+    <selectionType typeId="101f2d8f-62e6-49e8-bb1b-155e21a70d45" valueTypeId="3a286157-787a-4a47-84b3-582caebedae0"/>
+    <listType typeId="8e96de8f-a644-4cf3-8df6-8a7076327b43" valueTypeId="ed126f24-e217-433d-b0dc-7e67d02d741d"/>
+    <managerType typeId="b95d3ac9-4877-4b17-a934-f52f45e633c1" valueTypeId="9ee53669-8cdf-4f43-936e-f3112ef8e0ef"/>
+  </producedTypes>
+  <name>ЕдиницаИзмерения_Шины_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единица измерения шины Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЕдиницаИзмерения_Шины_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЕдиницаИзмерения_Шины_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <templates uuid="02f00cd2-a14f-4f37-a803-d37877add5a1">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

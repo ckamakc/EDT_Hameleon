@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b4725e54-9abc-4d73-b816-e5e3959c48ae">
+  <producedTypes>
+    <objectType typeId="45dfa875-2810-4eda-859d-3e0c228a54ce" valueTypeId="5ebf1909-06ca-4481-b416-42de0ebb928e"/>
+    <refType typeId="cdc4ea11-25e5-44b4-8a59-201c2b53db9b" valueTypeId="ba81af55-2f71-4461-b0f7-d96d39b641b0"/>
+    <selectionType typeId="e9c5748c-d0a5-49b7-bfd0-42e114d4f370" valueTypeId="e3123b94-ed9b-4306-a7a7-edc494a6f177"/>
+    <listType typeId="3ed87588-d2dc-47ec-85b0-62a428c78728" valueTypeId="93a61b5b-3b0f-488a-b3fc-426369228ce2"/>
+    <managerType typeId="c83a35d1-1810-4ac0-a54d-4670bfb8cd4d" valueTypeId="9949b7c6-a7e4-47b9-863c-955557b82ba6"/>
+  </producedTypes>
+  <name>УсиленнаяШина_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Усиленная шина Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УсиленнаяШина_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УсиленнаяШина_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

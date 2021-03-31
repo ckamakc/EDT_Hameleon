@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2266a35c-ef9c-47ed-ab47-1fa58baf72f7">
+  <producedTypes>
+    <objectType typeId="d67c97a8-717e-4476-a6f2-218ce4ea2a70" valueTypeId="048f3838-03a6-48c1-b77d-f5e2731f51c3"/>
+    <refType typeId="1b80a815-ac2d-4ed8-8f62-05b256a97573" valueTypeId="a1608015-b735-492d-a1ba-866a529263eb"/>
+    <selectionType typeId="aa2a0cef-7b7b-4863-8a4a-603561e0dca6" valueTypeId="0f71d00e-1c7c-4941-9922-4abf0211c465"/>
+    <listType typeId="f1b404d6-2bda-4027-b807-51359c972cc3" valueTypeId="e6711294-18c3-4bdd-8ac5-0b85ed577949"/>
+    <managerType typeId="f9b1a22d-da81-404c-a4b9-caeabe9b1a37" valueTypeId="199e78fb-943f-4f14-b87c-105b83033481"/>
+  </producedTypes>
+  <name>ТипПодвески_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип подвески Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипПодвески_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТипПодвески_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71c2e007-d4b2-4c80-8d4b-f38a0fd503a0">
+  <producedTypes>
+    <selectionType typeId="7fc1b6cc-d292-4c49-895e-78d6ef4bef0e" valueTypeId="fdc5afe1-d19b-4795-8575-bf4038dc8386"/>
+    <listType typeId="e89732f0-0a7b-4b44-806c-6591b4c541a7" valueTypeId="0f6a903b-1644-4a1a-a5a7-27a2ca02deba"/>
+    <managerType typeId="a7e324a4-d678-40a0-8d79-7f9bb44c7033" valueTypeId="45377b20-8681-434d-990a-d7585e07dc48"/>
+    <recordSetType typeId="37139e16-5a24-4489-bcba-f888cfd41206" valueTypeId="f6894ec3-4010-4f89-8779-c67f5b712b76"/>
+    <recordKeyType typeId="9ccddbfe-7703-4708-b81a-bed418a98b58" valueTypeId="4affd96a-94b1-4cff-acd2-06ea88c5fede"/>
+    <recordType typeId="9b6dbf31-8bb6-4aff-a0ac-b386994f7c08" valueTypeId="9b5201c0-f8b6-4d04-baa1-e93b6bf402ba"/>
+    <recordManagerType typeId="fbb3f957-b190-4ef1-8a59-48d29823e9ff" valueTypeId="769d6f96-b180-4a08-aca6-f04234143fc4"/>
+  </producedTypes>
+  <name>PDFФайлы_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>PDF файлы  Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d6c42999-a80f-4c59-9d0e-29d3830c0934">
+    <name>ХранилищеФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище файла</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7481c5bb-3e9a-48a6-b4e2-6122b0c82756">
+    <name>НазваниеФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Название файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="3e4b860c-c843-449a-b80a-8a664cd3fb3c">
+    <name>Код</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ID_строки_партия_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="cb5801a5-21ff-4b96-9149-54cf39f4c394">
+    <name>Заказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказМарок_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

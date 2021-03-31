@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fbbd33bd-ff49-4136-8fa5-6509c430c821">
+  <producedTypes>
+    <refType typeId="a8ee3cb7-1b97-40fc-a678-463cefa1afcf" valueTypeId="e6c8bf8d-f3c9-4a10-97f6-275af67c101d"/>
+    <listType typeId="06441390-d0d0-4d96-98e5-55b2d9f22f54" valueTypeId="0d02980f-e892-457f-b44a-daf97cf206f2"/>
+    <managerType typeId="7c794afd-bc6f-4931-97e6-624b33b37bac" valueTypeId="4abcb185-4525-49ac-b4a1-af3789731c0f"/>
+  </producedTypes>
+  <name>ВидСИ_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид СИ Хамелеон ЦРПТ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5988513b-459c-4c71-a8a8-43af6eed7607">
+    <name>PRINTED</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатаемый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="45908f35-6873-4553-8681-b11a40c4c823">
+    <name>GLUED</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клеевой</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a64b08ef-8c42-420c-bfa5-72868d4150e0">
+    <name>HINGED</name>
+    <synonym>
+      <key>ru</key>
+      <value>Навесной</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

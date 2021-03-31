@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46ada834-05e2-45d3-84e8-bca34c32cbe7">
+  <producedTypes>
+    <selectionType typeId="eb3d3cbd-dde1-4163-a565-6409f5de69c9" valueTypeId="c06e4420-d7e9-48ff-9662-d4cd65e76262"/>
+    <listType typeId="088c23a2-008a-480e-95b8-c90739e260d0" valueTypeId="56b2b02e-da2d-41f6-b998-5d4a1f2b6c80"/>
+    <managerType typeId="223cda0d-38b7-4726-8508-624416f42141" valueTypeId="1d099aef-5377-40e1-ad5c-da6cabae4221"/>
+    <recordSetType typeId="a6cd82e3-3972-4604-860a-7c2ff7859ef4" valueTypeId="7d422416-7a40-468b-99f6-15aeafe92af0"/>
+    <recordKeyType typeId="d33ec5d9-b1bf-4057-8c70-d5a33305fc5d" valueTypeId="c9d597d0-623b-4512-bc96-49299ebe00e7"/>
+    <recordType typeId="1cb9d865-c7bb-40ad-b486-11493fd5d18a" valueTypeId="fff9f9bd-6505-4b15-96e5-f4ee83f70f10"/>
+  </producedTypes>
+  <name>ОстаткиКМЭмитированые_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки КМЭмитированые Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="3193907e-703f-4196-b342-118c9caff9f2">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="80442d29-5c4f-4ee2-8ab1-c6b522c96b06">
+    <name>ID_Строки</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID строки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="d7c30c7b-3c6e-4a39-a6b6-4f37677001d0">
+    <name>СерийныйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серийный номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="62f10b3f-937f-4801-a8a8-7b7279a7a984">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="bf87df9e-0774-42e6-95e1-cfd2831e4abf">
+    <name>Продукция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукция</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Продукция_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="5ff469fc-3011-40f0-af21-10d5b728e16c">
+    <name>КМОплачен</name>
+    <synonym>
+      <key>ru</key>
+      <value>КМОплачен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

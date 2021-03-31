@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69982837-a0ba-499c-bf14-a14d8b447c01">
+  <producedTypes>
+    <objectType typeId="334b1ced-0479-475c-93a1-eb9c8e4693e2" valueTypeId="46e5f4ea-72ec-4d70-b324-c97c114b493f"/>
+    <refType typeId="e2784e65-65e9-4237-8123-f01bd9f02b6d" valueTypeId="cde23918-da86-472b-981f-4e7ee6d7bec1"/>
+    <selectionType typeId="93f434fc-4e06-46b4-b7ed-5e965000b6a3" valueTypeId="042e7c4f-dcfb-452c-aa9b-b66a1455c868"/>
+    <listType typeId="fd5dfcc8-09b5-4279-9903-deda16e0931c" valueTypeId="8a27fff7-7cb9-4cad-97ac-a25ddae712a4"/>
+    <managerType typeId="0ec1fd96-413f-4640-a54b-fe28da3718a7" valueTypeId="bcc93e02-078a-41d5-8432-432f9a3acf64"/>
+  </producedTypes>
+  <name>ДополнительныеРеквизиты_АльтернативныйТабак_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные реквизиты альтернативный табак Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДополнительныеРеквизиты_АльтернативныйТабак_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ДополнительныеРеквизиты_АльтернативныйТабак_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="099142be-77fa-41c4-9d36-0c0961920658">
+    <name>УровеньИерархии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень иерархии</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УровеньИерархии_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ae1b594e-5633-4be7-8778-709e908dc8bb">
+    <name>КоличествоВложений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество вложений</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="20d442b1-c39c-4508-a163-b8cf9db1f6ed">
+    <name>КоличествоВПотребительскойУпаковке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество в потребительской упаковке</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="07bd41cf-6aef-430a-823c-8edd62e97834">
+    <name>КодВидаПодакцизныхТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код вида подакцизных товаров</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КодВидаПодакцизныхТоваров_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d4f717c3-a955-44e7-b064-8de0aa5d7b16">
+    <name>ОКПД2</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОКПД2</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОКПД2_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c95f5992-6b9d-445c-a11c-c9a9599b1a03">
+    <name>СсылкаНаИдентификаторВложенойУпаковки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка на идентификатор вложеной упаковки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bbe50595-3608-4f30-861d-d6c17e2e9f5e">
+    <name>КоличествоВПотребительскойУпаковкеЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество в потребительской упаковке единица измерения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЕдиницыИзмерения_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d89c652b-b725-4b32-9534-924050e2340c">
+    <name>ПотребительскаяУпаковка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Потребительская упаковка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПотребительскаяУпаковка_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0975c9b6-7084-4d7e-bf3f-48912d0d8e70">
+    <name>Состав</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="726476d8-5f96-470d-a974-3394f9f87a2f">
+    <name>ТипСрокаГодности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип срока годности</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыСроковГодности_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="97ba687f-8db2-41bc-ac23-a29d6f96f888">
+    <name>СрокГодности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок годности</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="62cb8299-c701-4dd9-b119-c02012829c33">
+    <name>РекомендацияПоИспользованию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рекомендация по использованию</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="75891026-2b56-43a8-8c14-4584e26cd245">
+    <name>BRICKGPC</name>
+    <synonym>
+      <key>ru</key>
+      <value>BRICKGPC</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="d62c5c1f-5ded-45dd-8727-fd354f97029d">
+    <producedTypes>
+      <objectType typeId="3de501dc-ff1f-40f7-9bcd-a1416d969787" valueTypeId="3ebff39f-e067-47fa-9272-5622a14c6eb3"/>
+      <rowType typeId="04a6fe73-74d0-4eae-85ac-87d7d15a4c54" valueTypeId="6cf845dd-2967-4690-91f3-832f9090f964"/>
+    </producedTypes>
+    <name>ГОСТЫИТУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ГОСТЫИТУ</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="f41c1455-c25f-48f2-a9ec-197135493458">
+      <name>ТипГОСТТУ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип ГОСТТУ</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ТипГОСТТУ_ХамелеонЦРПТ</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="873814b8-defa-4452-8551-7217bd523184">
+      <name>ГОСТТУ</name>
+      <synonym>
+        <key>ru</key>
+        <value>ГОСТТУ</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="d1de2010-9685-4863-84dd-516161044864">
+    <producedTypes>
+      <objectType typeId="041ff625-fc82-436d-a9ab-8545b108fe94" valueTypeId="4e6af60a-9806-4f54-a96f-66a12a2f1e9b"/>
+      <rowType typeId="a2a0efde-1342-4690-844c-60c48d2d2dbb" valueTypeId="02acf11e-6edd-407d-8cd6-dc504db3e4f5"/>
+    </producedTypes>
+    <name>СведенияОСвидетельствахОГосРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сведения о свидетельствах о гос. регистрации</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="5ea531d4-1979-4aea-b1ba-b800423c50dc">
+      <name>НомерЭкспертногоЗаключенияЭЗ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер экспертного заключения (ЭЗ)</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

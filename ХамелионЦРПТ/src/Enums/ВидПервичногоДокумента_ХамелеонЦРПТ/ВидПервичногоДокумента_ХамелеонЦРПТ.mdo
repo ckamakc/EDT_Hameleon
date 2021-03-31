@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3387d78c-4e41-4559-97f1-6007ce79d162">
+  <producedTypes>
+    <refType typeId="0b2697b0-756a-4bbe-b26a-dedc9a53f1ba" valueTypeId="b2cbff44-1ee2-456e-8a2f-c41bca7ceffa"/>
+    <listType typeId="dad8a856-0da3-4939-9444-8217d3f05cfd" valueTypeId="6d1dfcd9-82f6-4e18-869f-da5eb5876995"/>
+    <managerType typeId="24551e03-7859-43fa-99b5-7c0d45d1bd83" valueTypeId="ae940e1f-086e-4685-825c-63ebc53c3980"/>
+  </producedTypes>
+  <name>ВидПервичногоДокумента_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид первичного документа Хамелеон ЦРПТ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="dd1a2dbe-ca1c-405a-b92c-c8c31231b524">
+    <name>ФискальныйДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фискальный документ</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

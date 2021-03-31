@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9fabba69-9567-43f2-8152-60ee5df39282">
+  <producedTypes>
+    <objectType typeId="971c53b7-c67c-4c2e-8666-cbc042ae3e85" valueTypeId="e12cf931-1f6a-4d64-a98a-76d281e41101"/>
+    <refType typeId="49245441-cc53-4d9b-a151-4403ef1f09b9" valueTypeId="843bdebe-64e7-4541-928e-2271b1c75ef9"/>
+    <selectionType typeId="361fd330-1fd6-42eb-a88f-93b793005a52" valueTypeId="6b0c9556-5451-43bc-89d2-323d67c512cc"/>
+    <listType typeId="4d2b2899-52ea-4378-8ace-55618f67d9d5" valueTypeId="831ad95f-d3de-4815-bdf8-c35fa205fd0c"/>
+    <managerType typeId="344bfc29-6469-47e2-b60c-c9a5e0e7873a" valueTypeId="f9a6cf69-53fc-4b89-85e7-e3a2d52f2abe"/>
+  </producedTypes>
+  <name>НоминальноеОтношениеВысотыПрофиляШиныКЕгоШирине_Шины_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номинальное отношение высоты профиля шины к его ширине шины Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НоминальноеОтношениеВысотыПрофиляШиныКЕгоШирине_Шины_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.НоминальноеОтношениеВысотыПрофиляШиныКЕгоШирине_Шины_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <templates uuid="66639f94-becb-46c1-a428-73ddd6da1e25">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

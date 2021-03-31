@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a340cfda-68dd-4c08-8c0a-57361abd1ce8">
+  <producedTypes>
+    <objectType typeId="9f43ba8b-5ed3-43ff-ba12-ef92da11023f" valueTypeId="74d8ee19-3c3c-448d-81d0-f558a63b1b87"/>
+    <refType typeId="0d5842f6-8616-4750-be5d-ea6703e5d2b8" valueTypeId="d5ab9190-c57a-4a13-a490-dd913f4b68fa"/>
+    <selectionType typeId="bcd56f47-3f63-485b-b7d2-7b0b5f654f47" valueTypeId="04d977d1-b0bf-4eff-ad3c-44a047d4a073"/>
+    <listType typeId="acaaccc7-f6fb-4e23-b743-358d97ae7c9d" valueTypeId="d2356f69-d4bc-4568-b6e4-51048e89d4ba"/>
+    <managerType typeId="0ee246f7-60c4-4410-9f70-cf986c1999a7" valueTypeId="d4df71d9-31c7-42f2-a5e7-f62fd25112e6"/>
+  </producedTypes>
+  <name>Процент_Одежда_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процент одежда Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Процент_Одежда_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Процент_Одежда_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

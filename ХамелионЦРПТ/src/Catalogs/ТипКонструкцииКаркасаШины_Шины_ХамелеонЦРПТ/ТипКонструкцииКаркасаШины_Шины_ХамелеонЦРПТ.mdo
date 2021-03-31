@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2d62781-2fed-4c4e-a79f-b8188d485d33">
+  <producedTypes>
+    <objectType typeId="3a811b85-730f-4d8b-a0bc-85ad204addda" valueTypeId="0f0aebbc-aed5-406a-b313-838198538372"/>
+    <refType typeId="409aecac-41fd-4924-aeb7-e04058abdcbf" valueTypeId="af544cde-5c95-43c5-be2e-35d817ab4981"/>
+    <selectionType typeId="38cf81ee-81aa-436c-b73a-931b93501332" valueTypeId="856643c3-6f48-43b7-90a3-bb97a4692c80"/>
+    <listType typeId="cb1164d4-2f02-4165-bf1d-dad170a18927" valueTypeId="ef5b9662-1fc0-4209-a688-1185aa45bfad"/>
+    <managerType typeId="e3f816ef-6746-4d10-a5f9-379e45c5dd6d" valueTypeId="52e7542f-c92d-46b6-9656-8a7dd209f1d9"/>
+  </producedTypes>
+  <name>ТипКонструкцииКаркасаШины_Шины_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип конструкции каркаса шины шины Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипКонструкцииКаркасаШины_Шины_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТипКонструкцииКаркасаШины_Шины_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <templates uuid="9e87d79d-9c83-4a95-9b43-ae49497bcb7f">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

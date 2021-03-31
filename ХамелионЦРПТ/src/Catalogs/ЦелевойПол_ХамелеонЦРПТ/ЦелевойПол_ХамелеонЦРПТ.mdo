@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd68fe33-035f-4d53-9770-18ac7616db45">
+  <producedTypes>
+    <objectType typeId="f18732a6-c4bc-4b1c-8866-4962055ade1c" valueTypeId="8c4601cd-03b9-493f-a9a6-0e872a304fcb"/>
+    <refType typeId="bfa1df9b-d6a1-4925-916c-15df161f7a77" valueTypeId="6bbf7cd3-2924-41bf-b67c-fd0475f32126"/>
+    <selectionType typeId="4fecb065-46fa-4cc7-835d-464c4e42ae1d" valueTypeId="78bb7404-5f49-4742-9a4c-03c28cddb6a2"/>
+    <listType typeId="e8595703-a6ed-4037-a99a-4592b8412197" valueTypeId="106b4c22-e58c-4d2e-b8d7-1ff94ff4e5b2"/>
+    <managerType typeId="3c71d933-6e7f-42bd-9cd1-33246057533a" valueTypeId="e18ca362-ff33-4396-ad9b-8258636d616f"/>
+  </producedTypes>
+  <name>ЦелевойПол_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Целевой пол Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЦелевойПол_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЦелевойПол_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <templates uuid="c95dd54f-f841-4090-830b-07ccd7e74038">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8520bc2-67bc-4dcf-b635-448a49b3b4d8">
+  <producedTypes>
+    <refType typeId="2455c808-e8a2-4a0f-b8b8-fa4cb39d5c89" valueTypeId="ad69b74a-7bfa-4046-9ff5-1b2c0202fe5c"/>
+    <listType typeId="e26e2e5f-5b71-4ad0-b13a-fdf4d99069ac" valueTypeId="c66af9e8-2fce-480f-845b-917bee026081"/>
+    <managerType typeId="c0105d19-c7bb-4f65-a0c6-cce7c9081729" valueTypeId="6c876bda-ed8e-4b07-893e-6a4ed684a3cb"/>
+  </producedTypes>
+  <name>СпособФормированияСН_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ формирования СН Хамелеон ЦРПТ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="07faf6f9-4344-4ec2-9dab-69c0854ed950">
+    <name>Самостоятельно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Самостоятельно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6c5b4513-9ff4-4133-9b30-b3b9290300d6">
+    <name>ОператорИСМП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оператор ИС МП</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

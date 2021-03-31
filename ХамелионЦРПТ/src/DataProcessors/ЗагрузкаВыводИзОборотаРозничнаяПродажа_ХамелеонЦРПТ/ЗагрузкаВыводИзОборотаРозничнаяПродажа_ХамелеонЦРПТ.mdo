@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9d24396-6d8d-49e7-8b8b-42c7d6bab251">
+  <producedTypes>
+    <objectType typeId="4eb0f8a2-ca11-4d89-b3e9-fc9b3846da23" valueTypeId="8ce29fb3-d48f-4c50-b8c7-37ca6f93c065"/>
+    <managerType typeId="740c9ea3-0ab5-4559-bf90-66c2c00c62c4" valueTypeId="66e6b8ec-8f27-4b0b-853d-cac2d3659413"/>
+  </producedTypes>
+  <name>ЗагрузкаВыводИзОборотаРозничнаяПродажа_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка вывод из оборота розничная продажа Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаВыводИзОборотаРозничнаяПродажа_ХамелеонЦРПТ.Form.Форма</defaultForm>
+  <forms uuid="488c87a7-ab91-49c6-bc84-c8b0957d7635">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

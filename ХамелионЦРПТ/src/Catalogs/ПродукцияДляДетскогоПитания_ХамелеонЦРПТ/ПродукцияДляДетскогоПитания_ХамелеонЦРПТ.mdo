@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5eed07b0-a20e-4208-8b20-d8d9db950a49">
+  <producedTypes>
+    <objectType typeId="d72e4820-1949-4f2e-a9ee-215226d99a52" valueTypeId="db8275f1-28b3-4a94-902d-b0d12cb08f8f"/>
+    <refType typeId="f0269fee-6fa3-4c9c-8355-712e282afdc1" valueTypeId="0b0d4fec-04c7-4018-b1ea-dc785468df45"/>
+    <selectionType typeId="b37f4d03-4c1c-43f1-aa29-d4a83e66d392" valueTypeId="b179d300-f162-4cf3-a0fc-b5ff1b47dd77"/>
+    <listType typeId="f0f7596c-44f6-4b9d-be46-e1ce50312b50" valueTypeId="7f6704f6-dff3-41d8-acac-d1d5ee53231e"/>
+    <managerType typeId="fce844cc-bc51-4c94-b305-0c3d150da544" valueTypeId="49c8cd10-d079-4437-9e27-343a8cb23128"/>
+  </producedTypes>
+  <name>ПродукцияДляДетскогоПитания_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продукция для детского питания Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПродукцияДляДетскогоПитания_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПродукцияДляДетскогоПитания_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <templates uuid="0db050f6-5207-45e9-af05-17f0cd7942ae">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

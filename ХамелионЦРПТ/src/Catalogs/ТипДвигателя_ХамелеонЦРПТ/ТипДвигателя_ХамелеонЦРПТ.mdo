@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="559b919e-cec1-495f-91d7-9c01fcd3bc72">
+  <producedTypes>
+    <objectType typeId="fbed4759-804b-42cb-af04-06e8251e329b" valueTypeId="08f2cd10-58fb-4603-ba6d-e69dcb0ee4d2"/>
+    <refType typeId="8e3ac2e7-f53e-4405-8cdd-d65a2a0c1800" valueTypeId="58e63d1d-a84c-4cfa-9e07-2d85cb0761fc"/>
+    <selectionType typeId="52915857-615c-4028-8696-ce317eea2764" valueTypeId="a68dedc4-2342-495a-9a32-9ee9e9aab4b6"/>
+    <listType typeId="b05cea6e-9a85-4f2a-8535-89eafa055e5b" valueTypeId="c1e72f39-0c33-4700-bc1b-5bfe3cbd1418"/>
+    <managerType typeId="38a4516e-9105-4496-b254-b03ce4856c05" valueTypeId="139927b9-c655-4d69-abcf-1ffda4d998d5"/>
+  </producedTypes>
+  <name>ТипДвигателя_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип двигателя Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипДвигателя_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТипДвигателя_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <templates uuid="d0485fed-2ba3-44df-b8ec-7d91e2a27b4f">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

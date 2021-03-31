@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="89c7c8fa-759d-4fc3-a00f-2902bffd2791">
+  <producedTypes>
+    <refType typeId="e0184346-1634-4bb4-9249-73ef6c303553" valueTypeId="0997c04c-3bfd-4d25-b3cd-f19b933eed2a"/>
+    <listType typeId="3a271d88-99de-4407-a3f3-2ebabfcc3a8c" valueTypeId="06316cee-c43b-48e6-bb13-06d389cc58f2"/>
+    <managerType typeId="5edea5db-818c-417e-a77d-43cd11465197" valueTypeId="0c1db002-90e3-422c-b7f9-01af088077a9"/>
+  </producedTypes>
+  <name>Сайты_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сайты Хамелеон ЦРПТ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="116c3a31-35b6-40d9-ac0c-6332397971a7">
+    <name>Обувь</name>
+    <synonym>
+      <key>ru</key>
+      <value>mdo</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e2815cf7-43ba-4609-ae5b-33ce18ce65df">
+    <name>МеховыеИзделия</name>
+    <synonym>
+      <key>ru</key>
+      <value>init</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d12294c1-dd25-45ac-ba94-ae78a357614c">
+    <name>Лекарства</name>
+    <synonym>
+      <key>ru</key>
+      <value>mdlp</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

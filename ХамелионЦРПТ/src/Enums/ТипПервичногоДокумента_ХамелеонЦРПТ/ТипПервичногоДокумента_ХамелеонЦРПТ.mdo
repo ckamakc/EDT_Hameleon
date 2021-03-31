@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e982cb2d-07dd-4393-9901-5ecf780f9a09">
+  <producedTypes>
+    <refType typeId="4c79264e-295b-4c55-9f11-50b38c3c6ad3" valueTypeId="179c1ee4-1788-40e0-8e1b-c3b7d0cff322"/>
+    <listType typeId="3d6f7c9d-d415-45fb-97d0-84699e3c4150" valueTypeId="69e66f45-d81e-4c03-a236-a40a110f7085"/>
+    <managerType typeId="6b87f94b-7843-4fbd-bb7e-cc23106c266d" valueTypeId="b2dca6d9-8201-4b5c-9e6f-52a68d3d6c68"/>
+  </producedTypes>
+  <name>ТипПервичногоДокумента_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип первичного документа хамелеон ЦРПТ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d57d9bf8-bc84-4b8f-a3d6-841c4fcc1f44">
+    <name>RECEIPT</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кассовый чек</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9191ab96-3f1a-4254-b95e-d1a231f2a05d">
+    <name>CORRECTION_RECEIPT</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кассовый чек коррекции</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f3b5bba5-4d0a-4d2f-9876-af1f3e2644bd">
+    <name>SALES_RECEIPT</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товарный чек</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e8fe208c-661e-4599-bcf7-42a8bf4ff1e7">
+    <name>CONSIGNMENT_NOTE</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товарная накладная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aef6f8d5-0f1e-41ed-9687-9459dcb4ffa8">
+    <name>UTD</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный передаточный документ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="306eed64-628e-4715-bf94-3fef37e231b5">
+    <name>CUSTOMS_DECLARATION</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таможенная декларация на товары</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="83633226-e19e-4126-acc5-447b924544e0">
+    <name>DESTRUCTION_ACT</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт уничтожения (утраты/утилизации)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="904cb109-ea8c-4422-9901-b4763ffc808c">
+    <name>OTHER</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

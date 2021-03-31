@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="316ee5f9-4f4b-45c1-a584-28e4f14e9d1d">
+  <producedTypes>
+    <objectType typeId="f539170f-5195-4bd2-8bab-4339f4fd46a6" valueTypeId="957cfad9-d022-4dfa-8a72-b9a5e2b42c29"/>
+    <managerType typeId="73ffcf49-e1ce-4e7a-bee5-622df6f322f8" valueTypeId="911a9aa5-16da-4f69-8ac9-d6ebad5f609f"/>
+  </producedTypes>
+  <name>УниверсальныйЖурнал_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Универсальный журнал Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УниверсальныйЖурнал_ХамелеонЦРПТ.Form.Форма</defaultForm>
+  <forms uuid="299e583d-ac6a-4a5f-82ed-26907d788178">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="139c140c-19f6-4806-880a-857507cee25a">
+    <name>ФормаПоискаЭлементаСправочника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма поиска элемента справочника</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

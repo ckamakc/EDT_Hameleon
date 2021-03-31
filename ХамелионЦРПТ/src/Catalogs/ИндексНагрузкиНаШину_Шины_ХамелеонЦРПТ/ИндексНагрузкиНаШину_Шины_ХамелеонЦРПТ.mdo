@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b212358-49ee-4a8c-a396-51aaff305183">
+  <producedTypes>
+    <objectType typeId="af6b30b4-7ced-4b76-8fed-8236fe404eb2" valueTypeId="ccef306b-2196-4fe1-96b2-6bb3fae93c51"/>
+    <refType typeId="3d2f71d6-11d3-4d2a-881f-85a19d45d402" valueTypeId="8572077e-778a-43d2-8737-c4aa0c040a08"/>
+    <selectionType typeId="9a0e8e19-251c-464a-8143-8bb1cbda20ce" valueTypeId="80d7e654-97d7-47e5-b7d7-1f1f2637d9fe"/>
+    <listType typeId="137e31f4-09a3-4c04-938b-8f99872f87d3" valueTypeId="da909d56-7d47-4b64-80a3-817bbc7e0ae3"/>
+    <managerType typeId="0764680a-05c3-4769-af46-1a5b7c9a8a0d" valueTypeId="1c27e1ff-b60a-483f-b2d4-9d3d16174b91"/>
+  </producedTypes>
+  <name>ИндексНагрузкиНаШину_Шины_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Индекс нагрузки на шину шины Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ИндексНагрузкиНаШину_Шины_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ИндексНагрузкиНаШину_Шины_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <templates uuid="3dbb0764-b17c-4629-8b25-fc073a808cca">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

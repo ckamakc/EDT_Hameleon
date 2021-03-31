@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87cb757f-ce4e-4b93-a73c-fe83e54ca586">
+  <producedTypes>
+    <objectType typeId="836814ba-f696-45f3-9e9a-2fc7433df670" valueTypeId="bff0ed30-2d1d-4eb1-aa33-ee3a04412258"/>
+    <refType typeId="1bbc798e-92f4-42d9-bc2c-f8221cb35f30" valueTypeId="3b9f5734-54f5-4cd4-bb34-2cb4705bb788"/>
+    <selectionType typeId="eb88d4e6-fc72-4ebf-910d-49f9d2a5d84b" valueTypeId="0e8cad87-b374-44ae-b4c5-9a1a52c16725"/>
+    <listType typeId="806b1c08-cd4c-462b-b822-6678ca6ec296" valueTypeId="e110dcb3-68f1-4732-94ce-54cd28c1edac"/>
+    <managerType typeId="c3cf6874-8545-4233-a2d8-cd8ac0c39a6b" valueTypeId="c0c7678c-4438-4c21-803f-9c8f623e56a6"/>
+  </producedTypes>
+  <name>ДекоративныеЭлементы_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Декоративные элементы Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДекоративныеЭлементы_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ДекоративныеЭлементы_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
