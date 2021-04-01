@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b29e1997-c2a5-4492-a991-eb11d250554e">
+  <producedTypes>
+    <refType typeId="9a7b68e7-4ecd-48f5-a3ef-204bd443062c" valueTypeId="25650fbc-cf29-438f-b40d-68caeb074176"/>
+    <listType typeId="88471eb0-7ef2-4c1b-8eaa-6a8b505a06e3" valueTypeId="47af7210-413e-4f45-a3c7-5a693e33739a"/>
+    <managerType typeId="a69ebe0b-86aa-4ffb-bdc9-1c023bf66b86" valueTypeId="c31a6474-8fbb-4e0c-8148-493853ce19ef"/>
+  </producedTypes>
+  <name>СпособВыпускаТоваров_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ выпуска товаров Хамелеон ЦРПТ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ce0159d0-1cd0-4028-8be6-1b8836a856c0">
+    <name>ПроизведенВРФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Произведен В РФ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c4bc542b-c11b-4ce4-824e-ea161cfb7cb8">
+    <name>ВвезенВРФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввезен В РФ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1de47610-ba8b-4dcf-b30d-5a2d96f5c624">
+    <name>МаркировкаОстатков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маркировка остатков</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="50570b57-ed35-4ca7-a214-e86c1329bdc7">
+    <name>Перемаркировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перемаркировка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

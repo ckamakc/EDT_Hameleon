@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc5e7669-8358-4c19-a7bd-f952564266bf">
+  <producedTypes>
+    <selectionType typeId="38cb9c36-7d6d-4c7b-acdf-ad1a0f4e52b7" valueTypeId="8195ef40-3912-49df-ac31-5ffe60c45d16"/>
+    <listType typeId="b6058d0b-bbe5-43d6-9132-6bc11a1b855e" valueTypeId="57acc875-ffc5-4391-b853-cecdaf848ada"/>
+    <managerType typeId="4b6b7025-21fa-4094-b206-f0c461e5724c" valueTypeId="a5b4a45b-f5ba-4815-83d5-7497daafb6c1"/>
+    <recordSetType typeId="8e17c983-a120-4f09-ba0a-1c44e081e5ac" valueTypeId="a5610d84-7ba6-4a17-936b-f3d23764a51f"/>
+    <recordKeyType typeId="25cb61c4-11cb-4543-86ba-6c41a7ff00ac" valueTypeId="9a32f243-9648-4d5b-8064-b1875f4acf5a"/>
+    <recordType typeId="116b33f1-b40b-4b73-82cc-b2e039897d0f" valueTypeId="c39fe314-48c1-4961-9b06-bb96c62f67a7"/>
+    <recordManagerType typeId="114d8fe3-d35d-4354-be2b-d96aa21d37ac" valueTypeId="ddba1618-3927-4bb9-a85f-a064fb508e50"/>
+  </producedTypes>
+  <name>ИсторияПоCIS_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>История по CIS хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ba9c9c8d-75be-4f0c-9716-0f220b7f10fe">
+    <name>cis</name>
+    <synonym>
+      <key>ru</key>
+      <value>Cis</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="4e71f354-f661-46d1-8ee8-0f4857c4b31e">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="571cbf4f-e342-40f3-889e-4bbbe7d2f14b">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e71bcbc1-3410-4f96-bc92-809105f98e0f">
+    <name>НДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>НДС</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="bdfd9eeb-df57-4dda-ade9-df79f5ae7564">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1fc24b30-2581-49bd-ab8d-de1a711cb5da">
+    <name>НомерКороба</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер короба</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

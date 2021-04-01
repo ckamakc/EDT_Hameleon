@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d6a6869-e902-4a21-a8ad-f884678e1393">
+  <producedTypes>
+    <objectType typeId="2b882e8b-753d-45ab-ada7-c8924a7f1621" valueTypeId="c8c42f8a-2c5d-4081-97ca-a07990321176"/>
+    <managerType typeId="24f64150-a939-4482-a370-8850a6549629" valueTypeId="da95ecf5-8577-4443-99f7-0c28c6ee8002"/>
+  </producedTypes>
+  <name>РегламентныеЗаданияАвтомат_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регламентные задания автомат Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РегламентныеЗаданияАвтомат_ХамелеонЦРПТ.Form.Форма</defaultForm>
+  <forms uuid="a10fe746-9c64-4bd7-b8e1-0da6f57b70e7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

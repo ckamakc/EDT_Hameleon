@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7777c2b-1910-4337-86cf-b81f651cd445">
+  <producedTypes>
+    <objectType typeId="9499b4be-fbf3-43e1-ae68-29a73f2eb97c" valueTypeId="92e22816-bfa0-4753-a848-ee08dba1a756"/>
+    <refType typeId="8468ef38-fcf9-4bce-b822-b5df11a005f5" valueTypeId="89c8a75b-bd03-4a48-8361-90afa98f7627"/>
+    <selectionType typeId="b3d6d6ff-2bc0-4e35-ab84-1286238458a0" valueTypeId="46bebb66-5280-41a2-a53f-98894a3fed33"/>
+    <listType typeId="db16ad66-3d59-4142-96eb-21e8bf140575" valueTypeId="6052f2e5-edc6-4e81-b952-20f10558e84a"/>
+    <managerType typeId="e59e51db-a2c4-492c-ae7b-8654d2fdc544" valueTypeId="617f3796-7479-4e43-8b05-b5bb9600077a"/>
+  </producedTypes>
+  <name>ТипОбработкиМолока_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип обработки молока Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипОбработкиМолока_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТипОбработкиМолока_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

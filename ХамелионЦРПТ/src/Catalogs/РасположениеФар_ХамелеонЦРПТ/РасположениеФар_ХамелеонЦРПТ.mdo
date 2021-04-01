@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="908ff5b9-4bb5-42eb-b126-5f6ff3287a62">
+  <producedTypes>
+    <objectType typeId="167db979-2cee-4fa9-b161-63722a6d729a" valueTypeId="58516d83-8640-4c07-b6f2-ad51967f32e8"/>
+    <refType typeId="353f0dc5-c030-4ec2-b34e-05edd279ce69" valueTypeId="7b8f11ed-2e27-41bd-a624-877e1200df01"/>
+    <selectionType typeId="0a18abfa-ebd2-48c2-a52d-27750f25d252" valueTypeId="fc19961e-a7d4-4cc5-9c2a-5a28323ca98d"/>
+    <listType typeId="3544427c-fbec-4f83-afe8-f2429ee2d019" valueTypeId="9aa30b16-f9f0-4da9-8ea0-4bc7007a0648"/>
+    <managerType typeId="9892066e-e540-42d2-ace7-28a458945390" valueTypeId="165282f8-9122-46f8-abe9-702fa5cddc63"/>
+  </producedTypes>
+  <name>РасположениеФар_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расположение фар Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РасположениеФар_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.РасположениеФар_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

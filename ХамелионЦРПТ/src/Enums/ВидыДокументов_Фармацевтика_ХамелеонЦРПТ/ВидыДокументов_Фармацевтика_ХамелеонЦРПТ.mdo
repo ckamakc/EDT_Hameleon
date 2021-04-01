@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05ecede2-ccce-41ca-9593-e7dee0b5bfdf">
+  <producedTypes>
+    <refType typeId="0780fd8e-4faf-4b18-8769-151d7422399a" valueTypeId="00ba5edd-0355-452f-b11e-8e269e79d93d"/>
+    <listType typeId="c2468537-d9d8-4433-b936-f1a2faa43416" valueTypeId="4f46bd83-8642-4113-a9d4-e1706d6f0a7e"/>
+    <managerType typeId="0a6a2fc9-0fba-4aea-bb8d-61e401e73562" valueTypeId="7a4438fb-2017-4ea5-aa0d-84b640bc96f2"/>
+  </producedTypes>
+  <name>ВидыДокументов_Фармацевтика_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды документов фармацевтика Хамелеон ЦРПТ</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="27dba54c-a6fc-4734-b33d-9a62dfe89f11">
+    <name>_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>чек</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6f3176f4-27c1-4c2d-ac58-ae62f0488207">
+    <name>_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>бланк строгой отчетности (БСО)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9d5349c3-2295-44ce-8ba8-c8ef10473bf2">
+    <name>_3</name>
+    <synonym>
+      <key>ru</key>
+      <value>договор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1f44d48e-3434-4c84-a40b-798fc97ce9db">
+    <name>_4</name>
+    <synonym>
+      <key>ru</key>
+      <value>прочее</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

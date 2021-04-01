@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b524a0a-bb09-45c3-8640-616fd1e81a8f">
+  <producedTypes>
+    <objectType typeId="be280318-b5d2-4be8-85c1-aafd4519647b" valueTypeId="0e9976d2-6296-41af-9d7e-34cea0bff5a8"/>
+    <refType typeId="fcb2f8b5-e338-46c0-a2ff-a6611f4eb86a" valueTypeId="ed138917-d0ff-4c77-818a-5423a24bd79b"/>
+    <selectionType typeId="424248d2-e060-44c0-aa7c-025adf7c68ac" valueTypeId="961fa440-09f7-4df3-b112-c4d50870ff07"/>
+    <listType typeId="dc32c218-a02a-40bb-b8c5-3cd5c5e20fb7" valueTypeId="f6c00db0-71ed-49b6-ae1b-e988194ae603"/>
+    <managerType typeId="9fb55a4f-10ac-4422-9685-fd51c55ab33d" valueTypeId="e3267a11-7554-42f6-a889-2a373502bd75"/>
+  </producedTypes>
+  <name>ЕдиницаИзмеренияМолока_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единица измерения молока Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЕдиницаИзмеренияМолока_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЕдиницаИзмеренияМолока_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <templates uuid="fc481bf5-1d94-42f5-b728-439fc259e990">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

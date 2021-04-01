@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c53eef49-653c-458a-aab6-bf34b31fbb59">
+  <producedTypes>
+    <refType typeId="453df610-4304-4ff1-9d39-9a1701c20939" valueTypeId="bed10cde-aee4-4557-956c-b74171de8ff8"/>
+    <listType typeId="43c13176-039f-4a2d-8a4a-6cfb6021f8bc" valueTypeId="49a4e1ca-46f7-4fa1-bd46-0b2ba7fa0c08"/>
+    <managerType typeId="cebf704e-3924-42ba-b97b-043bcccae073" valueTypeId="ff67a791-c493-464f-9feb-54da65c29491"/>
+  </producedTypes>
+  <name>СтатусыКарточекВНК_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы карточек в НК Хамелеон ЦРПТ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8791ed46-88ae-4694-9595-65087d79d618">
+    <name>draft</name>
+    <synonym>
+      <key>ru</key>
+      <value>Черновик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="929378d1-aadc-4817-9bb2-6de3ecf404bc">
+    <name>moderation</name>
+    <synonym>
+      <key>ru</key>
+      <value>На модерации</value>
+    </synonym>
+    <comment>На модерации</comment>
+  </enumValues>
+  <enumValues uuid="bc2fef87-8a7e-4746-9390-264d06152458">
+    <name>published</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опубликована</value>
+    </synonym>
+    <comment>Опубликована</comment>
+  </enumValues>
+  <enumValues uuid="78272f79-ca1e-427d-9ac1-b06ab8720ff4">
+    <name>notsigned</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидает подписания</value>
+    </synonym>
+    <comment>Ожидает подписания</comment>
+  </enumValues>
+  <enumValues uuid="8962618e-8cac-4bc6-861e-7656e805de0d">
+    <name>errors</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требуется изменения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="65bd7590-6bb0-424b-a746-1a664df49f54">
+    <name>archive</name>
+    <synonym>
+      <key>ru</key>
+      <value>В архиве</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

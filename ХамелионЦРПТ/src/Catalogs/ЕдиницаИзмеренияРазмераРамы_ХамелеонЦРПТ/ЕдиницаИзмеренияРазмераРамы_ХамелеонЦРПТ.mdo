@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5ee3a30-0952-4a9a-b13d-b9bc214cb24c">
+  <producedTypes>
+    <objectType typeId="de461907-9964-4ca2-9e38-27998686091c" valueTypeId="18ec9762-49c7-4278-9d35-e89919674506"/>
+    <refType typeId="018b25e7-f281-4697-8f20-ff9b3b887ab4" valueTypeId="e5c6d13e-136d-4ff6-b571-d96c8348fba4"/>
+    <selectionType typeId="2ee4eedc-eab5-40e0-aec5-b898a1ce69e5" valueTypeId="aa2bfd13-96e5-41ca-aa34-7b811fd59960"/>
+    <listType typeId="74c5ff15-84eb-46f1-9b66-15fa9038a0c8" valueTypeId="f162b58e-ee85-403d-9b28-cc0c3d28f127"/>
+    <managerType typeId="0be6c730-fb12-4cd0-830a-cd2af58e0591" valueTypeId="de561e42-4ae2-4603-9176-f53437ea9d01"/>
+  </producedTypes>
+  <name>ЕдиницаИзмеренияРазмераРамы_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единица измерения размера рамы Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЕдиницаИзмеренияРазмераРамы_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЕдиницаИзмеренияРазмераРамы_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <templates uuid="b0af75a4-c3f6-4048-940c-d10bd0b96863">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

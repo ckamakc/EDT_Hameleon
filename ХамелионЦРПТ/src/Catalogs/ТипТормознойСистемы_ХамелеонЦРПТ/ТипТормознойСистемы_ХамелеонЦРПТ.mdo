@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d12fe3a-b633-4f4b-93b5-4a158252fcc6">
+  <producedTypes>
+    <objectType typeId="57b4d840-7274-450f-8290-1142c2062c0e" valueTypeId="ce7c3a80-6091-4325-b897-fa345edb5a77"/>
+    <refType typeId="ccec8c1a-018b-4af2-b94b-53b443d4dde1" valueTypeId="69b4bb07-96ac-4371-9537-9c5fd3f90029"/>
+    <selectionType typeId="e447511e-82ba-4099-a1c6-9a5da0695066" valueTypeId="6d257e01-e829-423d-86c4-f4e561a07442"/>
+    <listType typeId="a3d7c9ca-5077-4abc-bdd4-efa2cdddf4fb" valueTypeId="81528d6a-bd88-448d-a986-4722f6157812"/>
+    <managerType typeId="f0704773-a9ed-496e-826b-5f174ff0d2a6" valueTypeId="836575e1-f43c-41c2-85e5-1c18920b5f7d"/>
+  </producedTypes>
+  <name>ТипТормознойСистемы_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип тормозной системы Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипТормознойСистемы_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТипТормознойСистемы_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <templates uuid="0c80cbee-ecd1-4a9a-8f2b-02e95b75c583">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

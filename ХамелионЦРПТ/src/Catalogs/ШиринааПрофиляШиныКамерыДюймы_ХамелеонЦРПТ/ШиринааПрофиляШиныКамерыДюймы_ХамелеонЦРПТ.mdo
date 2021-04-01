@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1422471b-0a30-45fb-ba7b-1b190d838352">
+  <producedTypes>
+    <objectType typeId="1eefc49e-af09-4f59-8474-3daffa3ecbd7" valueTypeId="d92e067f-86b5-4014-9e9d-d32fb386f097"/>
+    <refType typeId="5465b478-9107-405d-a41a-f07d326b0cda" valueTypeId="5ac6338b-4231-4851-a9b8-34fed85b1a73"/>
+    <selectionType typeId="3e38dd5f-75d2-4138-8b81-5827f7e21a9d" valueTypeId="d2f67946-f373-499d-8123-356e2d1f2080"/>
+    <listType typeId="5a183807-c822-4d20-b842-edd1853d2be1" valueTypeId="b8941983-2949-4a63-946c-b24064d2f7e7"/>
+    <managerType typeId="211ab301-2bdf-4fe0-90ae-19100ef62d7e" valueTypeId="d840148d-8662-4107-8b33-cf9f4c9fe005"/>
+  </producedTypes>
+  <name>ШиринааПрофиляШиныКамерыДюймы_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ширинаа профиля шины камеры дюймы Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ШиринааПрофиляШиныКамерыДюймы_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ШиринааПрофиляШиныКамерыДюймы_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d65764c3-a410-40d8-8d4d-eb81ac71cae8">
+  <producedTypes>
+    <objectType typeId="6ed43079-3fea-4ad1-a7d3-64b548947dd6" valueTypeId="099d534f-18d6-49da-95e7-d5f63c4f31c2"/>
+    <refType typeId="6946b54c-d649-45a1-99bc-7d5cf76521f8" valueTypeId="30af1b88-0c79-44fe-a3f5-7799eb63de97"/>
+    <selectionType typeId="898e0936-cfa6-4fdb-a5cd-992828498d61" valueTypeId="3a16175c-9cc6-4ebe-8399-e32d9e159734"/>
+    <listType typeId="aa534e74-8eaa-498f-b0cd-b55d24ed3d3f" valueTypeId="5b5195d2-174f-459f-9622-fe86f3167ff2"/>
+    <managerType typeId="bedc447d-0e3c-4de6-bb81-4a6983aac606" valueTypeId="55cc5e22-071e-49f4-8bee-12f4e9bbff85"/>
+  </producedTypes>
+  <name>ТипУпаковки_Молоко_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип упаковки молоко хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипУпаковки_Молоко_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТипУпаковки_Молоко_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <templates uuid="5144b5c9-6bb4-477e-8157-3a787a242f6c">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

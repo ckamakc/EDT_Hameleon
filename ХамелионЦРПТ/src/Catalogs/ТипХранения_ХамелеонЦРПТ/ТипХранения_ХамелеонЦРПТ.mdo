@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="90b59e0d-602c-4742-a399-a64d376729e6">
+  <producedTypes>
+    <objectType typeId="be60e5ea-7973-4411-a62e-ebf0d3420da3" valueTypeId="92e6b7ac-881a-4307-b015-7e07034839d6"/>
+    <refType typeId="a7b2930c-b21b-4e55-827b-57f0b8c271b3" valueTypeId="b87afbbc-a706-4dde-b2a8-2d8eca9bc93c"/>
+    <selectionType typeId="1dd05715-6556-41b6-abe8-ebc28578096f" valueTypeId="a68995cd-dee0-46de-9695-84fce1cadde4"/>
+    <listType typeId="ad95edf5-5122-4a39-a6be-a72fe50cf695" valueTypeId="a6871d9b-98a9-40af-9e72-27f467535d9b"/>
+    <managerType typeId="9ad2ccf0-276c-4e0d-ab80-ae047a6c57c8" valueTypeId="d67eb49b-5969-4fb0-8f91-0d84a391dcf9"/>
+  </producedTypes>
+  <name>ТипХранения_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип хранения Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипХранения_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТипХранения_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e020acd8-2870-4899-a7f3-c356a72463e6">
+  <producedTypes>
+    <objectType typeId="cdc7c53c-73b8-4e68-9218-2fe522e92376" valueTypeId="1d15ec5f-157b-4989-9596-7818e3804965"/>
+    <managerType typeId="1c019900-a5b5-402e-8eb7-53b16c4cca0b" valueTypeId="7e1cdf3d-de78-42e7-8a50-d1ece5fa35c8"/>
+  </producedTypes>
+  <name>ОстаткиПоКМ_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки по КМ Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОстаткиПоКМ_ХамелеонЦРПТ.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ОстаткиПоКМ_ХамелеонЦРПТ.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="1f4fffd1-de65-4310-97cd-b575142e0fdd">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="5aaa1198-f05e-489c-bc9a-0c023942e289">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b36fe98d-a29a-4169-8382-6de21759f6fe">
+  <producedTypes>
+    <managerType typeId="42a1ac1c-8362-470b-870d-376ef849d1e4" valueTypeId="46ca7954-f158-43f2-b363-93effc1077b9"/>
+    <valueManagerType typeId="3dfd6a52-f65d-4079-b39d-541a33bfc4da" valueTypeId="695817b6-f96b-499f-966e-b2fa433def30"/>
+    <valueKeyType typeId="9bba0010-1d0e-427a-9b34-33640b92af45" valueTypeId="c2273aaf-47c4-4d94-87ef-5ac7ae3ba5b5"/>
+  </producedTypes>
+  <name>РежимРаботыХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режим работы Хамелеон ЦРПТ</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>1</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

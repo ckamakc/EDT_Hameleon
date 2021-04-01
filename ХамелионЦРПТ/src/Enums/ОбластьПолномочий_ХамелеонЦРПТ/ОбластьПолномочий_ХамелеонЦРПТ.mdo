@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc2fe02c-59a6-4bf3-959f-1b11c0efad3b">
+  <producedTypes>
+    <refType typeId="14d6434f-d476-44b9-8b13-41f3cdf783b6" valueTypeId="489952b9-a954-49c4-b6bb-ee8871231521"/>
+    <listType typeId="0ae69e6f-ddc4-4d33-8940-46b600179f84" valueTypeId="e81f3a7c-64d5-4fb2-a0da-ec4840b2afac"/>
+    <managerType typeId="4f2a7614-ffc5-40ca-a216-b384c60889f9" valueTypeId="c1cd8f5b-1fe0-4480-97a0-a7a9ebf0b587"/>
+  </producedTypes>
+  <name>ОбластьПолномочий_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Область полномочий Хамелеон ЦРПТ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="92aa3cc9-6ada-4182-83ee-e97ce7998a0c">
+    <name>_0</name>
+    <synonym>
+      <key>ru</key>
+      <value>0 - Лицо, ответственное за подписание счетов-фактур</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c8138ac3-8252-45ab-9f0f-7dcf22f7139a">
+    <name>_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>1 - лицо, совершившее сделку, операцию</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e7dc021d-7123-4f46-b345-13f013b899e3">
+    <name>_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>2 - Лицо, совершившее сделку, операцию и ответственное за ее оформление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8649592c-f897-4ca8-8e1b-1c63cdb4e426">
+    <name>_3</name>
+    <synonym>
+      <key>ru</key>
+      <value>3 - Лицо, ответственное за оформление свершившегося события</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="60f044e8-b4af-42f1-b215-0ca9557f5819">
+    <name>_4</name>
+    <synonym>
+      <key>ru</key>
+      <value>4 - Лицо, совершившее сделку, операцию и ответственное за подписание счетов-фактур</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cdabed6e-237e-455c-8304-d3cf3a578b0e">
+    <name>_5</name>
+    <synonym>
+      <key>ru</key>
+      <value>5 - Лицо, совершившее сделку, операцию и ответственное за ее оформление и за подписание счетов-фактур</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6430f514-c220-4d65-980e-6fa473bfe64e">
+    <name>_6</name>
+    <synonym>
+      <key>ru</key>
+      <value>6 - Лицо, ответственное за оформление свершившегося события и за подписание счетов-фактур</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

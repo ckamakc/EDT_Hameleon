@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ca00bf6-17d9-4e5d-a494-ae8565b50fc1">
+  <producedTypes>
+    <selectionType typeId="95e94254-f56b-47dd-b0d6-849af10e1b6f" valueTypeId="d6003a8a-bd9a-4144-9956-8e332e3e7bdb"/>
+    <listType typeId="bc949ba5-2def-499e-98ed-4ba06f63d6dd" valueTypeId="02189007-28ab-4d0a-925c-afdafa33cb2d"/>
+    <managerType typeId="eb23bd6c-9203-426e-8a3b-bedc30eb3800" valueTypeId="07183954-7027-4bc8-80db-9c529617b1aa"/>
+    <recordSetType typeId="9e2b7e80-09e9-47d7-8aa9-b000d2a2a192" valueTypeId="4e7d8a6b-99a1-49c9-87cb-5a41ce8a784d"/>
+    <recordKeyType typeId="96622824-adcb-4cc0-a167-21d4ea81baa6" valueTypeId="c319b686-b720-4613-8c8a-398863ff2ad2"/>
+    <recordType typeId="1992fbbc-4ef8-42ac-9d26-2680b1e6e547" valueTypeId="c8e2d7ff-7689-4b16-b1f5-ea2bb159e9f3"/>
+    <recordManagerType typeId="cf49ea50-e203-4726-82f1-e5e3d1733fd3" valueTypeId="8dda8a75-bd7e-4754-bac1-eeb00f9ba2ca"/>
+  </producedTypes>
+  <name>СчетчикАгрегацийGTIN_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Счетчик агрегаций GTIN Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="31af5296-67c9-408b-919d-16729b6f2483">
+    <name>Счетчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счетчик</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="62bc40d7-b7c5-455b-be25-835674bbc8cf">
+    <name>GTIN</name>
+    <synonym>
+      <key>ru</key>
+      <value>GTIN</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>11</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value>           </value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

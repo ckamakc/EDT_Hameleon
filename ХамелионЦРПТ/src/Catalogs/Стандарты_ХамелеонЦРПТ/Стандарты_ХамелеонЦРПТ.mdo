@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59d1ddd2-473d-4b3e-ad9a-a803ed8b9631">
+  <producedTypes>
+    <objectType typeId="718da8b3-9d43-48a7-b424-a4dee754e2ac" valueTypeId="5e4a8282-a034-459b-ac89-e5752cccc379"/>
+    <refType typeId="4b62b3a9-10b5-485e-aa72-93b3410eb40a" valueTypeId="7f64eaf6-5fab-4146-a543-a90c15feb9a3"/>
+    <selectionType typeId="55b3cd8d-834f-4bc4-b55e-5865053db7db" valueTypeId="19c18eb3-8793-4ab6-b738-14d324c4b487"/>
+    <listType typeId="d1317125-f58e-43f4-ae18-8de327e28c4b" valueTypeId="115d5924-ee34-4535-8a25-53a95810285b"/>
+    <managerType typeId="2936dbe3-b303-4352-9f5d-907fa9cc210b" valueTypeId="5f8c10bf-2611-47d6-9050-08dd1c422d99"/>
+  </producedTypes>
+  <name>Стандарты_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стандарты Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Стандарты_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Стандарты_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>21</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="8083d180-9d98-42d2-9414-9ed6e08460d6">
+      <name>НеРаспространяется</name>
+      <description>Действие технических регламентов не распространяется</description>
+      <code xsi:type="core:StringValue">
+        <value>000000000000000000005</value>
+      </code>
+    </items>
+    <items id="599fea1e-b39a-4669-a3c2-0ccd844523b3">
+      <name>ТРТС0052011</name>
+      <description>ТР ТС 005/2011 &quot;О безопасности упаковки&quot;</description>
+      <code xsi:type="core:StringValue">
+        <value>000000000000000000004</value>
+      </code>
+    </items>
+    <items id="7fd33946-8eaa-4098-b6b6-c8b384a422ed">
+      <name>ТРТС0072011</name>
+      <description>ТР ТС 007/2011 &quot;О безопасности продукции, предназначенной для детей и подростков&quot;</description>
+      <code xsi:type="core:StringValue">
+        <value>000000000000000000001</value>
+      </code>
+    </items>
+    <items id="3a5191bf-6a38-4b38-95a3-4a93d8229c9a">
+      <name>ТРТС0172001</name>
+      <description>ТР ТС 017/2011 &quot;О безопасности продукции легкой промышленности&quot;</description>
+      <code xsi:type="core:StringValue">
+        <value>000000000000000000002</value>
+      </code>
+    </items>
+    <items id="2bebb5f8-e6c9-4af5-a5bf-feb5b2865f27">
+      <name>ТРТС0192011</name>
+      <description>ТР ТС 019/2011 &quot;О безопасности средств индивидуальной защиты&quot;</description>
+      <code xsi:type="core:StringValue">
+        <value>000000000000000000003</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

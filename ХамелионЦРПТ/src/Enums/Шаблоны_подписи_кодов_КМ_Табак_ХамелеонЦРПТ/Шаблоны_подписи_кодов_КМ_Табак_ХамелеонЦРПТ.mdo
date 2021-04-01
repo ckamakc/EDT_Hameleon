@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2850b61-2b19-4a34-b2ab-5e08ee8fe0cd">
+  <producedTypes>
+    <refType typeId="3306d63f-6821-4e90-aecd-ab7dc95d24c9" valueTypeId="f2c7f4c0-5064-409a-829c-e70f8375323e"/>
+    <listType typeId="0641a0e3-f921-4f49-865f-d22215d02d10" valueTypeId="01cffdf0-508d-4a70-a76d-b853f7a6daaf"/>
+    <managerType typeId="12e36fef-d6db-484a-8792-767c0041610c" valueTypeId="acabffff-28d2-4b19-ace5-b5e4c2fd5d57"/>
+  </producedTypes>
+  <name>Шаблоны_подписи_кодов_КМ_Табак_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблоны подписи кодов КМ Хамелеон ЦРПТ для табака</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c16e487c-4e7d-410e-a6bd-54f0bbd85d9c">
+    <name>Блок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сиг/блк</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="225cb91a-b5a6-4b02-8d9b-3cd2b6971e09">
+    <name>Пачка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сиг/пач</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

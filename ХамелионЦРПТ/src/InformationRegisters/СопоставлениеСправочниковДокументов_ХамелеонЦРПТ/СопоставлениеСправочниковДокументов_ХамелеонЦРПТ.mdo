@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="81b70f4b-521e-46b3-a3b0-9953c513b3c3">
+  <producedTypes>
+    <selectionType typeId="22f9871f-fb76-4770-aee7-4586042e543e" valueTypeId="be81071d-218c-4a56-b311-eb63f81752a7"/>
+    <listType typeId="04fa15b0-9a85-48fa-abb4-59d12064c7f9" valueTypeId="65e5e75c-e0f4-4c1f-aacd-5a4aca97b974"/>
+    <managerType typeId="45fa90ab-6d6e-413c-af95-f5386cd88c26" valueTypeId="a4d92c65-8a13-48ac-bf55-a41bde75b736"/>
+    <recordSetType typeId="c760e044-1271-40f0-ac9e-05f8b48e2b67" valueTypeId="b5be2ce2-6e30-4046-97f6-9c6c0eb0065a"/>
+    <recordKeyType typeId="a66ecbb4-145b-43a9-b550-3219f25a3107" valueTypeId="48436ffe-50f9-4510-ab7e-c1cfb3db7eb3"/>
+    <recordType typeId="30185d60-efc6-4760-a67b-3ff0a38e9287" valueTypeId="f00776a8-e6ee-4f98-98bb-a78e7d3d78f8"/>
+    <recordManagerType typeId="7997253d-5417-40d3-878c-be83cd6875ab" valueTypeId="d7dc5a83-82c0-4382-a042-8ff6c949c9dd"/>
+  </producedTypes>
+  <name>СопоставлениеСправочниковДокументов_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Универсальное сопоставление справочников и документов Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e5bb13fc-4dbd-464d-9062-b185d0882612">
+    <name>СправочникДокумент_Меркурия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник документ меркурия</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+      <types>CatalogRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="8895aca7-6881-4ab4-81dd-77d649fc127a">
+    <name>Справочник_Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+      <types>CatalogRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

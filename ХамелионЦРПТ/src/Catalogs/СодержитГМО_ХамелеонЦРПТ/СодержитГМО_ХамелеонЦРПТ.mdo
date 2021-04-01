@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2baf5e5e-36ca-40f3-b060-ef0971d5a381">
+  <producedTypes>
+    <objectType typeId="f2f1da8b-f150-41f1-b9b6-41822184529f" valueTypeId="558a6ee7-b6b7-4553-86ad-db8acccc5014"/>
+    <refType typeId="be7f01ed-f55c-479c-b61c-bf71ab205925" valueTypeId="a4892c21-9c9d-4045-ac80-353cf22cf663"/>
+    <selectionType typeId="6a7053cf-7c38-413f-ab30-8a607f5151f0" valueTypeId="b876d3de-3be1-42bf-bba9-958c3a42f02b"/>
+    <listType typeId="87ea4f29-78f3-43ff-bd45-a2e3d73473a4" valueTypeId="6a4227f6-a111-481e-be27-a731ce20dc97"/>
+    <managerType typeId="a9febdf0-df2b-4878-b8d7-ae46137d4ab7" valueTypeId="a44b9187-443c-4938-8af3-b7f2d975ba79"/>
+  </producedTypes>
+  <name>СодержитГМО_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Содержит ГМО Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СодержитГМО_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СодержитГМО_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

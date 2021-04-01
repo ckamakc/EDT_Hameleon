@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0529c1e-fa12-4026-b820-d1922b300d1f">
+  <producedTypes>
+    <selectionType typeId="d3adef1d-7120-4ad4-955d-d17cca202456" valueTypeId="e2d58653-4c73-42c9-b84d-d003887b4265"/>
+    <listType typeId="0d438877-312a-4a8a-8810-dba8d63d24f0" valueTypeId="a13291be-b99f-4793-9420-64615b83bc3e"/>
+    <managerType typeId="da4fdd09-6554-4ffc-bd78-9f2d2f2b1bba" valueTypeId="2320e983-b5f3-46f6-9758-9b399413551d"/>
+    <recordSetType typeId="c8980bce-1b7f-42bc-9a27-6229620857d6" valueTypeId="a56db15d-4420-4056-9dc3-c3d6cd8da701"/>
+    <recordKeyType typeId="e4ee7ace-a3ab-4098-b83d-35550804fbbe" valueTypeId="246d02f8-4796-4bd2-8e35-f7f5b5070865"/>
+    <recordType typeId="9a5a33bf-eb67-4b73-91f6-07cc62bc6db7" valueTypeId="bb0af750-4305-4b12-bb23-446f16efe9c3"/>
+    <recordManagerType typeId="c1fc87c2-e051-49cd-9d82-2a807fbabddc" valueTypeId="8462bfcc-6f7c-4542-b6fb-525f460e015f"/>
+  </producedTypes>
+  <name>УникальныеУпаковки_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уникальные упаковки хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="eb105709-00c4-46e2-8d2b-2d8a2346ec15">
+    <name>УИТУпаковки</name>
+    <synonym>
+      <key>ru</key>
+      <value>УИТУпаковки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="2eb4c989-ee9a-4ee9-80fe-9a4dff03a191">
+    <name>Ссылканаобъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылканаобъект</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2e950d47-33ba-49dd-8925-a177d632daa8">
+    <name>УдалитьМарку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалить марку</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="638eeedf-a869-4ebe-8197-e3520ee0cb28">
+    <name>УИТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>УИТ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

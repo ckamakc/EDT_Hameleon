@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5c9410d-17a6-4197-b2e3-6ca60cb47244">
+  <producedTypes>
+    <objectType typeId="559fdda0-ff0d-43be-92d8-57d59dab0806" valueTypeId="d47243c6-4792-4edc-8e8e-609274a910f3"/>
+    <refType typeId="8da6944f-0e51-46f5-bc3f-8c6cfd86631f" valueTypeId="b4988660-dfaa-425a-8715-7485e44564d2"/>
+    <selectionType typeId="0539d9f1-8550-4b0d-85ba-b08150dd2f3d" valueTypeId="ed24aafd-01ed-4e10-a289-3405569e18df"/>
+    <listType typeId="d00b3ed1-fcce-4f44-b104-eece8c4c2ac0" valueTypeId="f7272939-67f2-4a00-84bf-fa4ae28ebb02"/>
+    <managerType typeId="64ba69cb-ec65-4c6e-9304-6bb18112fd2c" valueTypeId="fe4260fd-caae-4b05-9e77-e13646fd7302"/>
+  </producedTypes>
+  <name>ВозрастПотребителя_Парфюм_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Возраст потребителя парфюм Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВозрастПотребителя_Парфюм_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВозрастПотребителя_Парфюм_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

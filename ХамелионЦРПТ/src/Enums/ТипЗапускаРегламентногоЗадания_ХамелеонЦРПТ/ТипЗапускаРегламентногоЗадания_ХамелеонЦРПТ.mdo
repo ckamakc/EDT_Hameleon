@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f302169f-e153-4226-8573-6a563884f2e4">
+  <producedTypes>
+    <refType typeId="7b985849-a0bf-4f35-96f4-4dc0ab7a7a75" valueTypeId="b3021986-ae70-42e0-a859-3cc46f208522"/>
+    <listType typeId="4559e6cd-64b8-4a86-849e-f45f06fb61aa" valueTypeId="3788613a-2b6f-48ab-8bc0-7193f3e82112"/>
+    <managerType typeId="6a175077-eb26-4d99-b3e5-48c4fe628d3b" valueTypeId="04230fe9-5771-46b2-9c0b-5d40e3968886"/>
+  </producedTypes>
+  <name>ТипЗапускаРегламентногоЗадания_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип запуска регламентного задания Хамелеон ЦРПТ</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fae289eb-b924-4cf5-b015-979458ab2a7d">
+    <name>Запуск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запуск</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="37fbb0c1-91db-40c5-8cdb-8f6b189ff9cc">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2609088d-4ddd-4b0c-b402-3741e0da4c9e">
+    <name>Остановка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остановка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91d62d60-45ca-46a0-a147-58ae4864fddd">
+  <producedTypes>
+    <objectType typeId="4f048c49-b617-4ed6-9602-e091906b494d" valueTypeId="7b8d3e20-04e5-4a70-842d-764e95aa64a4"/>
+    <refType typeId="3da0961a-5504-43fa-a269-5fcada505167" valueTypeId="78b058cd-f476-412a-82b8-1bc3f5b8bf47"/>
+    <selectionType typeId="a3e9db36-1436-44d9-9764-087819d94fda" valueTypeId="4319cfe1-f6d0-430e-b37b-8f52723a6e90"/>
+    <listType typeId="9dbf6042-c44f-4480-8031-0b7a7874e9be" valueTypeId="32312c8d-91f9-499b-b548-cc1a372b9392"/>
+    <managerType typeId="c2f2ee73-2908-4367-9657-0214a115feab" valueTypeId="423beb15-2f74-4e05-a5ee-e3a63053ffa7"/>
+  </producedTypes>
+  <name>ТипыКолесныхДисков_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы колесных дисков Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипыКолесныхДисков_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТипыКолесныхДисков_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

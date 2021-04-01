@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3d999ee-a7a8-46b2-9fff-882624f93da7">
+  <producedTypes>
+    <refType typeId="7bacb83c-f2c2-46fa-8c49-2a1d91cf073e" valueTypeId="316452e1-8ec3-4b40-9fb9-cd962fa09e64"/>
+    <listType typeId="6ac1a4b7-8157-4863-940f-39aa57c92f57" valueTypeId="52192f5b-91cc-4a89-bd08-272033a359e3"/>
+    <managerType typeId="faade97e-689f-4cd9-817b-51db8b69a136" valueTypeId="ac659123-1d9a-4558-953c-1492c6e113df"/>
+  </producedTypes>
+  <name>ВидОперацииВывдИзОборотаОтгрузка_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид операции вывд из оборота отгрузка Хамелеон ЦРПТ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a69eabc9-82c3-4608-9b58-b87d7411270e">
+    <name>NO_RETAIL_USE</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использование для собственных нужд покупателем</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c4c1cd82-8105-4697-bad4-55153cab0b00">
+    <name>DONATION</name>
+    <synonym>
+      <key>ru</key>
+      <value>Безвозмездная передача</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cc7a1669-7cb9-4f2c-9b43-6030cf999536">
+    <name>STATE_ENTERPRISE</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приобретение гос. предприятием</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="489b9b7a-ad8a-40cf-8eee-f31550ee2001">
+    <name>EEC_EXPORT</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экспорт в страны ЕАЭС</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

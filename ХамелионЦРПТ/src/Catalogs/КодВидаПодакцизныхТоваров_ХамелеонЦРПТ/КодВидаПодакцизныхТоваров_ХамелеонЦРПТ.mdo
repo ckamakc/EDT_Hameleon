@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f73fc11-00cb-4a2a-b833-3b51c5d2a0ec">
+  <producedTypes>
+    <objectType typeId="9ebcf401-8012-4afc-86ff-fb6df51f04ee" valueTypeId="167155cf-5aff-4a0f-8b4a-f7d886076ba3"/>
+    <refType typeId="94d8dcfb-c3ed-4bbd-bc42-891b31adec15" valueTypeId="95e8f1b0-8a9f-48f0-898c-8fd85b8914b6"/>
+    <selectionType typeId="e9d02d8a-699d-4d6a-ba9e-79688af2d3a2" valueTypeId="cd9bf85a-deb6-409e-802f-ddb3ea10b249"/>
+    <listType typeId="ac223dc0-cbe2-4bc3-bb60-59c7dbf30a62" valueTypeId="ca13caa0-1f6e-4e8f-8e4d-e47be7451483"/>
+    <managerType typeId="ecf3bc16-a390-4fa1-a191-79016ce0f0c2" valueTypeId="f0b99cd9-4019-4167-b9fb-9e0d12122a9c"/>
+  </producedTypes>
+  <name>КодВидаПодакцизныхТоваров_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Код вида подакцизных товаров Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КодВидаПодакцизныхТоваров_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КодВидаПодакцизныхТоваров_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>3</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <templates uuid="e3f3f890-a47d-4b58-a26d-8f94fb6b6253">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

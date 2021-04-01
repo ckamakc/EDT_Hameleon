@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62d51342-3ee9-4e0c-bcf3-354d64c5c08b">
+  <producedTypes>
+    <objectType typeId="e691a9a6-0250-4fce-98d5-25b8f922130d" valueTypeId="8f4b23d5-1a8f-409b-ba06-a0207a6428f5"/>
+    <refType typeId="90c6e57d-da5f-4834-9477-5e7575c1ea23" valueTypeId="4ebeb71c-82f1-45d5-9a7c-b81b22c0a636"/>
+    <selectionType typeId="5803b6e2-0158-4330-9d07-73fd5026dca1" valueTypeId="94465c1d-9247-42a8-a672-25a144b1d607"/>
+    <listType typeId="cfbd7fe4-0d98-4be0-94c0-7c5d73c783d3" valueTypeId="89d896c6-32d6-4552-b03e-a3fa169a1a8d"/>
+    <managerType typeId="c00c5107-d5e8-41a3-995f-1422bf5293bf" valueTypeId="b527d702-1a3d-4253-aa14-1e10d7ca8451"/>
+  </producedTypes>
+  <name>ВнешниеОбработки_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внешние обработки Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВнешниеОбработки_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВнешниеОбработки_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВнешниеОбработки_ХамелеонЦРПТ.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="112dc3f3-577e-4d6c-a573-30c9eae7bb62">
+    <name>ИмяВнешнейОБработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя внешней о бработки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f60f2ecb-8439-47cd-a13f-5f2d08a84af4">
+    <name>НаименованиеКнопки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование кнопки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ad352d2d-ddda-4ad4-b25d-a0ed4dfac159">
+    <name>Хранилище</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="b3bb0ce4-c5fe-4724-a161-0753497637a3">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="861c3e0f-4a4e-423c-81d0-d22be5263620">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2fbbc940-2c1c-4f42-b146-340bd62df5b0">
+  <producedTypes>
+    <selectionType typeId="b15461e4-50b9-4382-b4c5-fcf55da9d4e6" valueTypeId="9f9f1e40-57b8-44b3-a9b1-77077a889836"/>
+    <listType typeId="906cbf3e-2e5e-4884-95f6-ad05b77545a4" valueTypeId="842ec467-fa88-476d-8123-0d0339d0f089"/>
+    <managerType typeId="8473fda1-0cdf-4a20-a121-a5dc321066fa" valueTypeId="8c743648-5831-4e9e-a78c-c8a814273cd3"/>
+    <recordSetType typeId="eae6605a-6eb7-473e-8524-0e6b5600c332" valueTypeId="d09261af-b625-4a51-b09a-75eab82055bf"/>
+    <recordKeyType typeId="99bc16ac-7088-4026-b6e1-cf6ee6ad72c4" valueTypeId="8465ba5f-fcef-4a34-90a6-d633c622afc5"/>
+    <recordType typeId="da58a393-02af-420e-a23b-95f0e9132067" valueTypeId="f5373a2e-8ff2-4bec-915f-fadfa2f4df79"/>
+    <recordManagerType typeId="c8f3a743-81e4-4606-a3ad-cb418d67d107" valueTypeId="932485e1-dd76-401d-9762-37db2ed8f2df"/>
+  </producedTypes>
+  <name>ТокенДинамичкийДляСУЗ_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Токен динамический для СУЗ Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8befa5de-46cb-4c0e-8d40-198b4e64c310">
+    <name>Токен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токен</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="865e9204-cdc7-4b7c-9222-7df1d08106f2">
+    <name>ВремяПолучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время получения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="7c727859-eb0a-47e6-8da5-d989e29dd020">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

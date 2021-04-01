@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="994858fd-e4ea-4aca-b196-9360166f38cd">
+  <producedTypes>
+    <objectType typeId="113dfcc3-0355-4f79-a234-4db517e8e65e" valueTypeId="159b3add-2988-4c0e-ae7f-4c2d8f7ec6a1"/>
+    <refType typeId="cb63595f-3a8b-4d1e-865e-5407ad0ac142" valueTypeId="a238b76a-cd35-45cc-ba66-53078f7fec0d"/>
+    <selectionType typeId="d18fdfed-3e4b-406d-8c13-8b3ee2cb5d01" valueTypeId="7d321463-6ea1-4250-ad4a-b99fadefe0cc"/>
+    <listType typeId="8114c99c-ef75-414a-8a77-56f2ab783481" valueTypeId="45d8b6e5-16b7-4430-be1e-d7e6349e4c68"/>
+    <managerType typeId="d886763e-e401-4af5-b262-8a319babdf15" valueTypeId="685d0347-2447-4893-b2db-cd876b333ae8"/>
+  </producedTypes>
+  <name>МатериалРамы_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Материал рамы Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МатериалРамы_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.МатериалРамы_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <templates uuid="00f32d00-417e-49b8-9692-e95bd214eb93">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

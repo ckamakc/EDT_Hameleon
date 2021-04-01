@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="102cd194-8052-4897-8f45-5db318df2b57">
+  <producedTypes>
+    <objectType typeId="132ec46a-cec3-45e5-940c-dfdbd4b30cfe" valueTypeId="57ed852e-b560-44b9-b35a-e4cc7ac51d7a"/>
+    <refType typeId="34bf9cce-f6fd-4649-91ac-70c970132f73" valueTypeId="440cca91-90ec-42a6-921c-11b9ed40db74"/>
+    <selectionType typeId="ebf7ee62-3c9a-4928-9bc7-36377e1015fe" valueTypeId="b13e15c1-f031-4abe-bfa6-a8773dcd2932"/>
+    <listType typeId="4ba4d997-8200-4ee2-99d8-a5bedc106718" valueTypeId="60736f4a-4770-4064-a4c5-32c234344dde"/>
+    <managerType typeId="d1363179-974a-4264-81bc-a61ca9539a53" valueTypeId="634ad28f-b61b-41ff-b349-876efa9be45f"/>
+  </producedTypes>
+  <name>ТипыСроковГодности_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы сроков годности Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипыСроковГодности_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТипыСроковГодности_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

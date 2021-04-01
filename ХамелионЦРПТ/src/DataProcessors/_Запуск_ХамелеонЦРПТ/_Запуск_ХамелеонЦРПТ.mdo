@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4fd6e12-58ce-46fe-ac3e-d77ecab2d209">
+  <producedTypes>
+    <objectType typeId="30424820-dca0-4197-a798-d019f2fb3658" valueTypeId="55cd2665-bb23-453a-9746-26b66dda81b6"/>
+    <managerType typeId="162d29b2-4db5-4941-8238-cedc1a6b97ac" valueTypeId="f261eeed-1ad6-4d09-91ae-53fa3c56a91c"/>
+  </producedTypes>
+  <name>_Запуск_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value> Запуск ХамелеонЦРПТ</value>
+  </synonym>
+  <comment>ХамелеонЦРПТ от 26_03_2021 г.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor._Запуск_ХамелеонЦРПТ.Form.Форма</defaultForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value> </value>
+  </extendedPresentation>
+  <forms uuid="9422082a-a68e-47ab-94ba-b31e95a50cb7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e189e13d-94ce-4f12-99d4-687893b434d2">
+    <name>ФормаДобавленияКолонокПоТипуДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма добавления колонок по типу данных</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="253cc7e3-c696-41dd-a037-0701e5764cfc">
+    <name>ФормаСообщенийПользователю</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма сообщений пользователю</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="46754148-54b6-4d6a-97bf-a1bc27ddd2fa">
+    <name>ВводЧисла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод числа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="49b1c908-0c96-463b-aacb-c2f3aded699b">
+    <name>ВводСтроки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод строки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="73ed8080-285c-44e0-8ed4-12a81769bc3d">
+    <name>ПользовательскоеСоглашение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользовательское соглашение</value>
+    </synonym>
+  </templates>
+  <templates uuid="c7a83e81-a3a4-480f-b36a-dc1794889fc2">
+    <name>HELP</name>
+    <synonym>
+      <key>ru</key>
+      <value>HELP</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="f24e1764-9f58-4a97-8e09-84b2b2287231">
+    <name>HELPGSI1</name>
+    <synonym>
+      <key>ru</key>
+      <value>HELPGSI1</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="540febbd-0bfc-4c95-8f87-c5fb4dd757a5">
+    <name>HELPЗаказов</name>
+    <synonym>
+      <key>ru</key>
+      <value>HELPЗаказов</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="93968836-0ff6-4682-96cf-e60c44c7f21e">
+    <name>HELPАгрегации</name>
+    <synonym>
+      <key>ru</key>
+      <value>HELPАгрегации</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="6fb5ad6e-a699-4b62-b1ba-ccbc86afa153">
+    <name>HELPВводВОборот</name>
+    <synonym>
+      <key>ru</key>
+      <value>HELP Ввод в оборот</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

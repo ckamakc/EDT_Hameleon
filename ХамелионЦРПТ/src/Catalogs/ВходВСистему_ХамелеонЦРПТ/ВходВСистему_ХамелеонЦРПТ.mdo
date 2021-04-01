@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="126b1f5c-31de-4d4f-af8b-d37ac792b49b">
+  <producedTypes>
+    <objectType typeId="7b7a7966-dabc-40ef-abc9-781e726fdf0d" valueTypeId="efe7596e-c204-4c03-b853-749f73d39ebe"/>
+    <refType typeId="7b74fefb-439c-4246-adb8-bca49bf4ec4f" valueTypeId="7112e4ef-0262-447c-94e5-1f3836b64da4"/>
+    <selectionType typeId="3322c748-7f04-4366-a5fb-230ba2d5f8d0" valueTypeId="4e71a9f8-0021-4e4e-ba0d-a6cba7d6717c"/>
+    <listType typeId="05e8ea15-080a-45ee-a730-b1f16d8056f3" valueTypeId="83ed2eb2-5eca-49ff-bf4e-fb6e5c8fd09e"/>
+    <managerType typeId="32a37f85-369c-4484-9290-499c97047183" valueTypeId="8b216991-a0d7-487d-8af9-9a75d756f9b5"/>
+  </producedTypes>
+  <name>ВходВСистему_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вход в систему Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВходВСистему_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВходВСистему_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВходВСистему_ХамелеонЦРПТ.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ВходВСистему_ХамелеонЦРПТ.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ВходВСистему_ХамелеонЦРПТ.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="76578744-5d9d-467e-a6f6-200d15bce750">
+    <name>ОригинальныйСтенд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оригинальный стенд</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9951a57c-4e74-444e-944e-5a8f03cd8faa">
+    <name>ТестовыйСтенд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тестовый стенд</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9b75bd03-844c-4245-9037-3ce6f6eaa4fd">
+    <name>ДоступПоСУЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступ по СУЗ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0b67b267-f46f-497f-ab17-4f6ed40fc83f">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="d1075868-7426-4329-b7a4-7e513002d07b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="93d129aa-9506-4347-ac4d-1ff17cccbf40">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fa48c703-4c89-4c78-8ee7-5bf465e4bee6">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

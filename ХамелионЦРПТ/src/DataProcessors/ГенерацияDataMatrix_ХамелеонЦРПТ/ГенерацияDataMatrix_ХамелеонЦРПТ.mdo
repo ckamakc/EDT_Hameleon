@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1db0bc63-2cef-4e20-9866-cf24c3a1852b">
+  <producedTypes>
+    <objectType typeId="3301921b-78cb-4fe8-9fa5-83d741d09bd1" valueTypeId="3bd85b11-452b-456b-836d-d54901477550"/>
+    <managerType typeId="87819ab1-0f34-4a83-b806-6efa405a8d6f" valueTypeId="16b33192-5adc-41d5-993e-391df356249b"/>
+  </producedTypes>
+  <name>ГенерацияDataMatrix_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Генерация Data Matrix Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ГенерацияDataMatrix_ХамелеонЦРПТ.Form.Форма</defaultForm>
+  <attributes uuid="dc656e61-2d68-4119-be88-649fa03b9832">
+    <name>ШиринаРамки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ширина рамки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ширина в элементах белого отсупа по краям рисунка.</value>
+    </toolTip>
+    <minValue xsi:type="core:StringValue">
+      <value>0</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>5</value>
+    </maxValue>
+  </attributes>
+  <attributes uuid="7c24d6da-4f06-4c52-bc47-60cb68931759">
+    <name>РазмерЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер элемента</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Размер в пикселях одного элемента QR кода.</value>
+    </toolTip>
+    <minValue xsi:type="core:StringValue">
+      <value>1</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>10</value>
+    </maxValue>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="35745adf-2259-4cc7-b660-78faf97751a3">
+    <name>GSВНачале</name>
+    <synonym>
+      <key>ru</key>
+      <value>GS в начале</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="91aaf8ff-6cc9-4e5c-a811-881a8d680f3a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="ca06b88e-5414-4345-9a0b-0ac948a6b539">
+    <name>РазмерыКодов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размеры кодов</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="91c62a5b-ed57-4056-9f0a-74f0a819cbd1">
+    <name>ПолеГалуа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле галуа</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="4685bc2b-3ec2-4b29-8de6-64fce0298a05">
+    <name>ГенерирующиеМногочлены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Генерирующие многочлены</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="f426a3f7-1a40-429d-a444-212cdfdd765e">
+    <name>ПобитовоеИсключающееИли</name>
+    <synonym>
+      <key>ru</key>
+      <value>Побитовое исключающее или</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cba3b47d-f3e2-4830-b680-a194fea6e209">
+  <producedTypes>
+    <objectType typeId="96432060-4361-411f-bed3-b2b788fe9961" valueTypeId="70663c16-40e8-434c-9461-aa1e1dc37dbd"/>
+    <refType typeId="42ede39e-1cb9-4703-9e8f-b7e6769e9d4a" valueTypeId="cc1a6b8b-b029-4e95-a22a-87c1abc87de3"/>
+    <selectionType typeId="395f09fb-5b4f-4336-9242-f5e847bfdcbe" valueTypeId="8c7c5b19-625a-4c64-ae3f-263fd56b005c"/>
+    <listType typeId="4fe8bf8a-5541-49b9-9150-8cc8d171f8c5" valueTypeId="58d97e82-76d4-4331-a330-551598961372"/>
+    <managerType typeId="9c6b6a14-1abf-41b7-8bc0-fc48dad13f39" valueTypeId="f3b878ac-14c8-4fb9-be99-72328ba6c636"/>
+  </producedTypes>
+  <name>ЦелевойВозраст_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Целевой возраст Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЦелевойВозраст_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЦелевойВозраст_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

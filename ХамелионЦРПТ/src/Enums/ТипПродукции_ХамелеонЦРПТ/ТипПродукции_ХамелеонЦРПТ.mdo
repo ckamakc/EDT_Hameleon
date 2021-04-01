@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eba3f175-2bf7-46e8-823f-00c19ddb7f48">
+  <producedTypes>
+    <refType typeId="721eec9d-c70a-4793-b842-0e50e1352bc2" valueTypeId="1149bab6-540f-4f06-994e-0a7d74b9e1f2"/>
+    <listType typeId="51ef8f86-80f8-4c5d-8638-a3d4d99773df" valueTypeId="950d5076-c27e-4ec8-8cd4-02732ff17136"/>
+    <managerType typeId="2b24e2c6-55c1-4f65-8929-03ed050f799d" valueTypeId="e1a8a142-e16d-4bfe-a413-b1a6c14b9ada"/>
+  </producedTypes>
+  <name>ТипПродукции_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип продукции Хамелеон ЦРПТ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="74352566-dd94-4695-a296-8fe5d8a98bfc">
+    <name>Обувь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обувные товары</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3bd08885-3451-4900-b956-74eb15c5db82">
+    <name>Шины</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шины и покрышки пневматические резиновые новые</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4522f47a-0cd5-4b26-bee4-5de868a61351">
+    <name>Молоко</name>
+    <synonym>
+      <key>ru</key>
+      <value>Молочная продукция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="65091f5a-d6b6-4a06-b568-a781bf410297">
+    <name>Фото</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фотокамеры (кроме кинокамер), фотовспшыки и лампы-вспышки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5bed6a17-04ea-42a9-a37a-837ed3e13847">
+    <name>Свет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="57cd97b7-a97f-4773-94b3-2922aad0a379">
+    <name>Табак</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табачная продукция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="32b7bc29-f7c6-44cd-8916-00873563a8bb">
+    <name>Фармацевтика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фармацевтика</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e0993de8-ffb1-4572-82e2-afb4c29b7286">
+    <name>Парфюм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Духи и туалетная вода</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="44a81180-deb7-42d9-9161-21b286c027fe">
+    <name>Одежда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предметы одежды</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="93535cb4-ead3-433a-baf9-61623ced82e7">
+    <name>Велосипеды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Велосипеды</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="334f07d0-9627-4732-8773-cf43f67202cd">
+    <name>ПитьеваяВода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упакованная вода</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6ad22ed9-744e-411c-87af-abe9bcda441e">
+    <name>Белье</name>
+    <synonym>
+      <key>ru</key>
+      <value>Белье постельное, столовое, туалетное и кухонное</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="796752e3-2ab2-49b9-8728-886da265120b">
+    <name>Рамы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Велосипедные рамы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a7a2f6a2-39aa-4a91-8d44-7d3bac263729">
+    <name>КреслаКоляски</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кресла коляски</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="587540b2-e1d5-4a7d-a98d-4897da591645">
+    <name>АльтернативныйТабак</name>
+    <synonym>
+      <key>ru</key>
+      <value>Альтернативная табачная продукция</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4251a60f-e776-4385-a544-8e4203b62a5a">
+  <producedTypes>
+    <selectionType typeId="2441ecc0-21f1-42e0-bbff-b2ad30d8f004" valueTypeId="4897dd9f-42a6-479e-a22d-52a3fb5eb35f"/>
+    <listType typeId="d692e7f7-1fbd-4c4f-b2bb-21ed0fa1bd32" valueTypeId="32a0b814-d444-4c31-a34a-6f1e25ac65c6"/>
+    <managerType typeId="1be98269-0d6d-4356-b52d-bc1e2146b61f" valueTypeId="1d688508-57e6-4132-8bd7-d33e91b28d2c"/>
+    <recordSetType typeId="f75d77be-c3d3-48c4-85f3-f4618562e5f4" valueTypeId="d8c04f55-d154-4641-bbca-388f488f2496"/>
+    <recordKeyType typeId="458ac6f3-9f65-4f5b-ba54-388a4a780e3e" valueTypeId="963da389-418b-4550-b094-415dc8e7c426"/>
+    <recordType typeId="5420d380-44cb-4bb2-a4b4-6e71d51351cd" valueTypeId="8f5e1530-12af-4739-84d0-8b54a833c00b"/>
+  </producedTypes>
+  <name>ОстаткиКМ_в_Обороте_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки КМ Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="38bd0c6e-9d33-4856-b41f-a56cdded25c3">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="217186ed-86a4-41bd-a4ce-87ffece0baf9">
+    <name>ID_Строки</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID строки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ID_строки_партия_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="83cc733a-9afb-455b-8420-340f324546bb">
+    <name>СерийныйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серийный номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="a537a68c-f2c1-4486-992f-0ea74f3dfe97">
+    <name>Продукция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукция</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Продукция_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="4556101a-40f2-4d01-8a3b-1c90087830f8">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0c9300b-3f40-4897-893c-9ee2ebbf41d0">
+  <producedTypes>
+    <refType typeId="53b9de47-595d-485d-bb46-992b1c019988" valueTypeId="9fc74a19-af74-48dc-9917-0e79b3235174"/>
+    <listType typeId="7bfbced8-39ff-463e-a5c5-f95391544a6d" valueTypeId="7fc63d2d-be5f-434f-86bb-e3ce81d65136"/>
+    <managerType typeId="d7fcb6e3-093a-4583-8b4d-4ea90bd89eed" valueTypeId="6571c0a7-4b3b-424b-bcd9-8cdcd3ede4b4"/>
+  </producedTypes>
+  <name>СтавкаНДС_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ставка НДС Хамелеон ЦРПТ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1a1852e4-ceb9-4deb-b1dc-9d7e752b2969">
+    <name>НДС20</name>
+    <synonym>
+      <key>ru</key>
+      <value>НДС20</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7cd9fe13-6bf9-4428-8ba1-85cbb35e00fd">
+    <name>НДС10</name>
+    <synonym>
+      <key>ru</key>
+      <value>НДС10</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="36d54c70-498f-4add-91ed-d4863618da67">
+    <name>БезНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без НДС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ab637b51-417a-4146-8ec1-02596ecfac52">
+    <name>НДС18</name>
+    <synonym>
+      <key>ru</key>
+      <value>НДС18</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0c1fb287-9a7a-40af-8921-d7b900f5b9f7">
+    <name>НДС0</name>
+    <synonym>
+      <key>ru</key>
+      <value>НДС0</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

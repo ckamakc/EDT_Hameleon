@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7b7d207-3da6-43c0-afde-750abdc65892">
+  <name>РаботаСЭДО_На_Клиенте_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа СЭДО на клиенте хамелеон ЦРПТ</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

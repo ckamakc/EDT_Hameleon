@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="292ce5f0-06cb-49e8-b7de-0ebcaa92f0ea">
+  <producedTypes>
+    <objectType typeId="86ebfaf7-69b8-4bbd-93d8-9aa1defb8fe3" valueTypeId="417a3442-e63e-435d-80d0-f29558b695c6"/>
+    <refType typeId="27809953-b454-496c-a589-5ca6b4bb9bcc" valueTypeId="d4499ee4-ee88-487d-97c9-fc2884815b0f"/>
+    <selectionType typeId="15f1643c-ae54-4de6-a26d-bc895b5ccc77" valueTypeId="06052b0f-5eb9-4c03-a130-60704b5afe46"/>
+    <listType typeId="fff13ec6-e79d-4f0e-bf8d-baadc9030351" valueTypeId="51b8c218-3274-48d9-81cb-5308621248cd"/>
+    <managerType typeId="38a6208d-d14f-4468-ba52-5c11b4c6b884" valueTypeId="1b973943-15f3-45e2-b06d-00dbad3feab5"/>
+  </producedTypes>
+  <name>ЕдиницыИзмеренияГлубины_Коляски_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единицы измерения глубины коляски Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЕдиницыИзмеренияГлубины_Коляски_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЕдиницыИзмеренияГлубины_Коляски_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <templates uuid="95f8c7e1-ab9d-4359-87e5-1fcdad590d54">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e9bfcdd-3e5e-46ed-8b72-267606a61dc7">
+  <producedTypes>
+    <selectionType typeId="815e4be3-8956-4223-b20c-90018ba6c0c1" valueTypeId="0a649fbb-eca1-4e97-9bf1-417e87ae0427"/>
+    <listType typeId="4bf96fe0-dd48-44ed-b508-2f8741adcae6" valueTypeId="f5f610c8-bd48-40c0-923d-47127ae78aa4"/>
+    <managerType typeId="370bdff7-efdf-455a-982d-c6330e621c3d" valueTypeId="2ddf3082-679e-492a-a190-e7c644f37033"/>
+    <recordSetType typeId="cf1be58e-5aab-480f-a570-cfc8ddb72c04" valueTypeId="af84c586-67a9-416c-b3ba-fe9a30687ec6"/>
+    <recordKeyType typeId="b13ae65d-5f31-4d24-bc3a-18b7526ce719" valueTypeId="e0afd361-a0ec-4103-8e21-54f8daf100a9"/>
+    <recordType typeId="eeea487f-ec49-465b-9736-3c7d8c70bace" valueTypeId="5afc95c1-f43b-43fc-9a4e-a54de3ec08cd"/>
+    <recordManagerType typeId="6749c20d-e1f6-47f8-bc96-a283d6c55372" valueTypeId="fd5aac2a-3433-42d2-a0e5-fe7a579ae52e"/>
+  </producedTypes>
+  <name>УниверсальноеСопоставлениеДляСтроковыхЗначений_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Универсальное сопоставление для строковых значений Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <resources uuid="2c79b9ef-4d0d-4f22-a79e-75bfda2b8569">
+    <name>СправочникДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник документ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <types>DocumentRef</types>
+      <types>CatalogRef</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="3c640de4-acda-41a3-92b2-ac74b2914b9f">
+    <name>СтроковоеВыражение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строковое выражение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ceb52ff-3176-4e19-8564-463f6e758a64">
+  <producedTypes>
+    <objectType typeId="3129617a-05c5-4fc4-8f4a-33f4bbc29633" valueTypeId="d4d425e9-a418-47c4-9f2a-1e5bc3c69b36"/>
+    <refType typeId="76d3022e-143d-425b-b362-1e899860f7c9" valueTypeId="7c126c87-cdbc-4944-883f-cfad84aee18e"/>
+    <selectionType typeId="240c3502-650d-459d-bdd4-7dad09f8461d" valueTypeId="ba6cfd36-2704-4f88-ae6d-5a9c4feb5d88"/>
+    <listType typeId="f3bfcfc6-d3d7-4fb2-add3-686b2e57cef6" valueTypeId="eb332134-fef3-4e9e-8528-fe923d2a9d00"/>
+    <managerType typeId="016316ae-ae70-4b42-baf9-f32e161357bc" valueTypeId="ef81ec57-e0e5-4a1c-b0ef-dbaa37c01423"/>
+  </producedTypes>
+  <name>ВидИзделия_Белье_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид изделия белье Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидИзделия_Белье_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидИзделия_Белье_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <templates uuid="af338280-714e-451f-a8c6-f39c0a3d0513">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9e430f1-5891-4707-b993-ae3c71b2a1f9">
+  <producedTypes>
+    <refType typeId="c19b5c86-86ee-42f8-bb62-619c1ff68027" valueTypeId="371971bd-982d-40ec-b66b-2bb34196204a"/>
+    <listType typeId="01feebfa-c9be-4d9a-b450-f7b7ec0685a1" valueTypeId="e75f1664-22cb-44d2-b319-e3a4d6eeb6a1"/>
+    <managerType typeId="e3b1bcc3-2787-499b-9a5e-1b965250844e" valueTypeId="dbe5d19f-7bc1-47d8-85e6-2f2a7a94bb23"/>
+  </producedTypes>
+  <name>СтатусыДокументов_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы документов Хамелеон ЦРПТ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c92385a0-ec8e-4827-9d19-ff5314934aea">
+    <name>Отправлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлен, ожидает ответа(ждем ответ от ЦРПТ-обновите статус)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="78b78173-3922-4f87-a123-2cef8bf55131">
+    <name>Обработан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="786e3d30-ba1a-455e-8255-0f09853724b3">
+    <name>ОжидаетОтвета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидает ответа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ca66f7bd-b367-4f40-b4dc-c1a19b8008bb">
+    <name>Отказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отказ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0b1fb1a6-2e47-4fc7-bb94-505fd6cc96bd">
+    <name>ПодготовленКОтправке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подготовлен к отправке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="80582b30-a5ab-4d6a-bc86-7d79444e3288">
+    <name>ФайлОбработанЧастично</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл обработан частично</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cce84070-6475-47a9-9b00-247801b7f2df">
+    <name>ОтправленЧерновик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлен черновик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8af94f99-9b21-45e1-930d-6024f2b59f19">
+    <name>ЧерновикОбработан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Черновик обработан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="050916e2-6db3-4e22-9bf3-b29d7441f551">
+    <name>ВнутреннийПромежуточныйСтатус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутренний промежуточный статус</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="336deb42-bd29-40d1-863c-2350203f1270">
+    <name>ПринятИПереданВПроизводство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принят и передан в производство</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b9626ecc-94c0-4679-b0d5-3fc06a5b9b33">
+    <name>КМЧастичноЭмитированы</name>
+    <synonym>
+      <key>ru</key>
+      <value>КМ частично эмитированы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="54463aee-9b4c-45a9-b918-ad5518b5bcd3">
+    <name>КМЭмитирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>КМ эмитирован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9f83d9fe-ed45-4b81-8aaa-d2542291617d">
+    <name>ОжидаетОтветаОтКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидает ответа от клиента</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="494fe664-5577-4616-9dc1-d5adf9015f97">
+    <name>ВПроцессе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В процессе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5e5e5822-87ec-4749-866e-8dde1aff823f">
+    <name>ОжидаемРегистрациюУчастникавИСМП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидаем регистрацию участника в ИСМП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b3feba5e-157e-4800-a407-2b46ba50275d">
+    <name>ЧастичноПринят</name>
+    <synonym>
+      <key>ru</key>
+      <value>Частично принят</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c6d76739-b638-4f3a-8754-e05fadb1aa7b">
+    <name>ОтправленВЭДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлен в ЭДО</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

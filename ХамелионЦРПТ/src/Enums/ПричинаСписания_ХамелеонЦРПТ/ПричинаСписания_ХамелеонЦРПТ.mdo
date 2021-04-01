@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="395ef5ed-e6b4-48c7-8eb8-06a18a1946a1">
+  <producedTypes>
+    <refType typeId="cde86436-8aee-44e0-b28a-dadcd0851b89" valueTypeId="423e6e1a-e5ff-4ac3-aff0-12c70fceaa8c"/>
+    <listType typeId="4e6f68ec-ba3d-46ed-98cd-2a2dc94369ec" valueTypeId="c8be9642-1cfc-4250-9609-0741d944334f"/>
+    <managerType typeId="ac15b54b-259c-4dd2-bbc6-26265684843c" valueTypeId="01e1f8f6-1192-4966-8389-ff2c10f8c04c"/>
+  </producedTypes>
+  <name>ПричинаСписания_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причина списания Хамелеон ЦРПТ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7772cce9-7349-49e0-a463-af95b4360ee7">
+    <name>KM_SPOILED</name>
+    <synonym>
+      <key>ru</key>
+      <value>Испорчен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="31ce9e75-665d-42ed-a50a-fd2610988a72">
+    <name>KM_LOST</name>
+    <synonym>
+      <key>ru</key>
+      <value>Утерян</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b164043d-1ccc-4a2d-aa10-edd7dce51de6">
+    <name>KM_DESTROYED</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уничтожен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

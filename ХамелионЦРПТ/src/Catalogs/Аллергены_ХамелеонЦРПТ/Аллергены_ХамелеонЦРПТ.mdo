@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5651be7b-affd-46f5-89b4-c3910941a10f">
+  <producedTypes>
+    <objectType typeId="2cf527f0-eb86-4bcf-8008-35ce2ec6b5ef" valueTypeId="e48a9fac-140e-4319-9648-cbcc1a3c99bc"/>
+    <refType typeId="1022fa05-06c4-4314-8985-440832377f3e" valueTypeId="b5a5beed-554f-4466-bc32-0b3a5d4ef2dd"/>
+    <selectionType typeId="5790411a-3e97-4fb8-870b-f76edc735d79" valueTypeId="518d8224-e3e5-40bd-a2dd-22d6fe7a1fa2"/>
+    <listType typeId="5b3731f4-f020-4f11-861a-bc7389ad19bd" valueTypeId="eba24a2e-386c-4dad-8fdf-2007d50e29c5"/>
+    <managerType typeId="1a7c76f0-0473-445e-80b3-1b79d7476412" valueTypeId="724e2e81-d1cb-4eb3-9ebc-4fcfd958e423"/>
+  </producedTypes>
+  <name>Аллергены_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аллергены Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Аллергены_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Аллергены_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
