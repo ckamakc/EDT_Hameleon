@@ -12,6 +12,7 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
+  <version>1.0.3</version>
   <useManagedFormInOrdinaryApplication>true</useManagedFormInOrdinaryApplication>
   <requiredMobileApplicationPermissions>
     <permission>AllowOSBackup</permission>
@@ -46,6 +47,7 @@
   <constants>Constant.Регламент_ХамелеонЦРПТ</constants>
   <constants>Constant.РежимРаботыХамелеонЦРПТ</constants>
   <constants>Constant.ВремяПоследнегоВыполненияРегламента_ХамелеонЦРПТ</constants>
+  <constants>Constant.ТестУдалить</constants>
   <catalogs>Catalog.СтранаПроизводства_ХамелеонЦРПТ</catalogs>
   <catalogs>Catalog.ВидОбуви_ХамелеонЦРПТ</catalogs>
   <catalogs>Catalog.ВнешниеОбработки_ХамелеонЦРПТ</catalogs>
