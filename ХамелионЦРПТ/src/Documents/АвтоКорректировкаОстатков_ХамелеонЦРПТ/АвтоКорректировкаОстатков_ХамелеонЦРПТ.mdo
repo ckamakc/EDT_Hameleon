@@ -757,14 +757,6 @@
       <key>ru</key>
       <value>Фильтр по GTIN</value>
     </synonym>
-    <standardAttributes>
-      <dataHistory>Use</dataHistory>
-      <name>LineNumber</name>
-      <fillValue xsi:type="core:UndefinedValue"/>
-      <fullTextSearch>Use</fullTextSearch>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-    </standardAttributes>
     <attributes uuid="ea1926c0-7fc9-40a9-a144-e60adb4c93f2">
       <name>GTIN</name>
       <synonym>

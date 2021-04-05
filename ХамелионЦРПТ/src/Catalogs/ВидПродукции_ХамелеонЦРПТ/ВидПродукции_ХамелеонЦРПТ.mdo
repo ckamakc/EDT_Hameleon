@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f08c0b7-3662-46e7-8be2-01648637a7c4">
+  <producedTypes>
+    <objectType typeId="b2c2f084-7f2f-47cb-8607-6f597d519af1" valueTypeId="54209037-7dc2-4c1d-96e3-474ecfd6ca11"/>
+    <refType typeId="f88dc2cd-ee0f-425e-a761-79263ce9793c" valueTypeId="2486d1fc-9cce-489c-b9d4-8d8f8e0ff0cc"/>
+    <selectionType typeId="5209a081-d064-4b67-a07c-7b6118e824f4" valueTypeId="8ddca5f2-68a8-4715-a88d-8f4607f55888"/>
+    <listType typeId="5e34682d-c9aa-4d41-a067-70d3f173c31c" valueTypeId="0f9a1d4f-9f60-462a-b5ca-e30c4f1a9992"/>
+    <managerType typeId="6ce5bc4d-f3eb-4066-bc12-11af6503c8a6" valueTypeId="04b5cdb5-2655-4143-b397-1a7a8dde4173"/>
+  </producedTypes>
+  <name>ВидПродукции_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид продукции Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидПродукции_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидПродукции_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1245,6 +1245,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="c4b19a4c-8086-412a-adca-5ddf5179e420">
+    <name>ЕстьКМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Есть КМ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="edaa8fea-28b5-405e-b99c-297cccac37b3">
     <name>ФормаДокумента</name>
     <synonym>
@@ -2431,14 +2446,6 @@
       <key>ru</key>
       <value>Доп информация по строке ЭДО</value>
     </synonym>
-    <standardAttributes>
-      <dataHistory>Use</dataHistory>
-      <name>LineNumber</name>
-      <fillValue xsi:type="core:UndefinedValue"/>
-      <fullTextSearch>Use</fullTextSearch>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-    </standardAttributes>
     <attributes uuid="3ec70968-2845-4c42-8413-138111ba83b0">
       <name>НомерСтрокиСвязи</name>
       <synonym>

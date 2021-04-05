@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ddef1cdb-4016-4c18-a3bc-4ae05727ba01">
+  <producedTypes>
+    <objectType typeId="8c25840e-df6a-4f12-89ca-8ddc4c7e9c0b" valueTypeId="c80df773-084e-40d4-9c23-8eebaf2e2989"/>
+    <refType typeId="8252fe25-8b80-443f-a818-74dae90d58e7" valueTypeId="54f533fa-a3e0-4f37-9d19-32743e1fc97b"/>
+    <selectionType typeId="f61dfb12-77a0-46e1-ac90-eda1c7ef0df8" valueTypeId="f0b1a12a-8e0c-49e4-b1e5-a2c2351245bb"/>
+    <listType typeId="0a2ebfd2-4c0b-411e-9318-cb291d668e60" valueTypeId="d04c7aaf-049e-430c-8f3a-05160346d827"/>
+    <managerType typeId="50974e52-5c00-49c5-98ac-20c4f994cd1d" valueTypeId="9736c39b-7266-4541-b75d-dd98316aa91a"/>
+  </producedTypes>
+  <name>ПродукцияМолоко_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продукция молоко Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПродукцияМолоко_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПродукцияМолоко_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

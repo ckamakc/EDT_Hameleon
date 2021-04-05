@@ -193,6 +193,14 @@
   <catalogs>Catalog.ТипУпаковкиОбщий_ХамелеонЦРПТ</catalogs>
   <catalogs>Catalog.Стандарты_ХамелеонЦРПТ</catalogs>
   <catalogs>Catalog.ТСД_ХамелеонЦРПТ</catalogs>
+  <catalogs>Catalog.ТипПродукции_ХамелеонЦРПТ</catalogs>
+  <catalogs>Catalog.ПродукцияМолоко_ХамелеонЦРПТ</catalogs>
+  <catalogs>Catalog.ВидПродукции_ХамелеонЦРПТ</catalogs>
+  <catalogs>Catalog.КатегорияПродукции_ХамелеонЦРПТ</catalogs>
+  <catalogs>Catalog.ТипГОСТМолоко_ХамелеонЦРПТ</catalogs>
+  <catalogs>Catalog.ХозяйствующиеСубьектыМолоко_ХамелеонЦРПТ</catalogs>
+  <catalogs>Catalog.ПредприятиеПроизводительМолоко_ХамелеонЦРПТ</catalogs>
+  <catalogs>Catalog.ОтДоТочноеЗначение_ХамелеонЦРПТ</catalogs>
   <documents>Document.GS1_Обувь_ХамелеонЦРПТ</documents>
   <documents>Document.ЗаказМарок_ХамелеонЦРПТ</documents>
   <documents>Document.АвтоКорректировкаОстатков_ХамелеонЦРПТ</documents>

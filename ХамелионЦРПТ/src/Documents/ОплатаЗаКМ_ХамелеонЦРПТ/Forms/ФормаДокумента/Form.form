@@ -211,6 +211,11 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>1/0:ddae64f1-5d21-4ec5-a4c1-c75f51a6d4ac</segments>
+          </paths>
+        </dataPath>
         <handlers>
           <event>OnChange</event>
           <name>ТипДокументаПриИзменении</name>

@@ -6996,6 +6996,10 @@
               <segments>Объект.Товары.НомерВСД</segments>
             </paths>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>ТоварыНомерВСДПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>ТоварыНомерВСДРасширеннаяПодсказка</name>
             <id>507</id>

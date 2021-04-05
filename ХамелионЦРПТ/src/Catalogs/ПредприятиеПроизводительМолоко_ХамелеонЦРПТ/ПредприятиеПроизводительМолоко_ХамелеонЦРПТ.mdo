@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7057b0d-99ad-4b88-8904-4d1475286ff2">
+  <producedTypes>
+    <objectType typeId="714be44a-486f-44d9-959d-58a3a3ba6278" valueTypeId="141ca914-44e7-445b-8b49-7beec38ca3ef"/>
+    <refType typeId="fa975631-92ed-4779-a5e8-3108a14a73bb" valueTypeId="c4a29280-235b-487b-8189-6a5716eb3d0c"/>
+    <selectionType typeId="ff20cb1e-59a1-4cc8-9b8f-34333be6ac34" valueTypeId="027bbf7f-ee46-4a65-937a-8d15c62e6971"/>
+    <listType typeId="f6eac3d1-c3c9-4f17-82c8-eb752a6149f8" valueTypeId="3ee16670-aa22-4e27-8591-f443e378cd90"/>
+    <managerType typeId="bb3fd9b7-11a8-4034-81c5-50145ef5a26e" valueTypeId="86ae610c-5d4a-43b9-a33b-bc93e0be339e"/>
+  </producedTypes>
+  <name>ПредприятиеПроизводительМолоко_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предприятие производитель молоко Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПредприятиеПроизводительМолоко_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПредприятиеПроизводительМолоко_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>36</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.ПредприятиеПроизводительМолоко_ХамелеонЦРПТ.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ПредприятиеПроизводительМолоко_ХамелеонЦРПТ.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="fbf2545b-16a0-4ad0-8f7a-a6a768b3de76">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ef6014f1-a41b-48ce-a4fe-83fdb9d35476">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

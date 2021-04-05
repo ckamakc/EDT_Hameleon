@@ -20808,6 +20808,11 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>1/0:ce176025-2a9f-46bc-863d-861b29da730f/0:d80c99c5-716d-4376-a1e0-a488add4badb</segments>
+        </paths>
+      </dataPath>
       <extendedTooltip>
         <name>Таблица1ДатаВводВОборот8РасширеннаяПодсказка</name>
         <id>1307</id>

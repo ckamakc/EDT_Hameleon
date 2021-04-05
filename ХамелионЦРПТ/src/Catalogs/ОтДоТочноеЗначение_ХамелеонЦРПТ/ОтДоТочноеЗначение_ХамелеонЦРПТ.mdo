@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1949b13-e203-4f6b-be3c-ba8a785ecfd4">
+  <producedTypes>
+    <objectType typeId="bc1490ed-a431-4ada-84ea-ca7f7b150a6f" valueTypeId="3b38b58a-7335-4e41-a0c8-504784b0a522"/>
+    <refType typeId="7327bf7d-89b0-4705-ab98-816b9365bed1" valueTypeId="960e3749-473b-456b-b655-8782dc5d2d9e"/>
+    <selectionType typeId="fffbdefb-0bc5-4ef6-80dd-a10e4f9c9c06" valueTypeId="9edf459a-9362-42b9-95e6-25b93e743241"/>
+    <listType typeId="e2a5215e-444d-4118-8772-6030ff5656ae" valueTypeId="df397b65-f31c-4c16-942b-1437bfd275bb"/>
+    <managerType typeId="690ed7dc-fb38-409c-b486-2998699e8256" valueTypeId="ba8615c7-4839-48c8-9749-8e0c0811b30f"/>
+  </producedTypes>
+  <name>ОтДоТочноеЗначение_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>От до точное значение Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ОтДоТочноеЗначение_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ОтДоТочноеЗначение_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

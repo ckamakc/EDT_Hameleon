@@ -9,12 +9,12 @@
     <key>ru</key>
     <value> Запуск ХамелеонЦРПТ</value>
   </synonym>
-  <comment>ХамелеонЦРПТ от 26_03_2021 г.</comment>
+  <comment>ХамелеонЦРПТ от 04_04_2021 г.</comment>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor._Запуск_ХамелеонЦРПТ.Form.Форма</defaultForm>
   <extendedPresentation>
     <key>ru</key>
-    <value> </value>
+    <value>ИП Ашуркова</value>
   </extendedPresentation>
   <forms uuid="9422082a-a68e-47ab-94ba-b31e95a50cb7">
     <name>Форма</name>

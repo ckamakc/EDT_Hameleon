@@ -905,6 +905,114 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="cc709159-12b2-4d61-a4bc-84ae262313cc">
+    <name>ТипПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип продукции</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипПродукции_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a89d91e1-0330-43d1-95af-cf27dc9fce6d">
+    <name>Продукция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукция</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПродукцияМолоко_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5cb61e6f-136f-4e7e-9690-3cfd831a02b0">
+    <name>ВидПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид продукции</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидПродукции_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="155e0217-07fc-44e1-8a83-4de74c5b3e1b">
+    <name>КатегорияПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория продукции</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КатегорияПродукции_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8c661d79-d0fd-45ea-a41a-e4c18e475a74">
+    <name>ТипГОСТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип ГОСТ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипГОСТМолоко_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="922bfd25-51d0-493e-af5a-187bb1f0d444">
+    <name>ГОСТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ГОСТ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="97cfac1e-4c99-4437-a632-7282e887b19b">
+    <name>ХСПроизводитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>ХС-производитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ХозяйствующиеСубьектыМолоко_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="9c069935-8ba8-4f4a-b9b8-665e5153150c">
     <producedTypes>
       <objectType typeId="ac13edb0-0891-4549-884c-725a8c28f879" valueTypeId="5416bc55-a1e8-4a50-b772-ea5fc1eec4df"/>
@@ -1055,6 +1163,151 @@
       <synonym>
         <key>ru</key>
         <value>ГОСТТУ</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="1ef5d47d-f581-4a45-a3cd-10287ead3cd0">
+    <producedTypes>
+      <objectType typeId="e1fa0fdd-3142-435a-b20f-d1919383b40d" valueTypeId="aaecd6fb-c9ad-483c-bb5f-50661a2c29c9"/>
+      <rowType typeId="78236b07-6468-466c-a4e2-b646c1b78203" valueTypeId="65ec1aa7-583c-4297-b016-90fc77c085bb"/>
+    </producedTypes>
+    <name>ПредприятияПроизводители</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предприятия-производители</value>
+    </synonym>
+    <attributes uuid="a03efc06-3f37-43ba-945c-8a2fb8235445">
+      <name>ПредприятиеПроизводитель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Предприятие-производитель</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ПредприятиеПроизводительМолоко_ХамелеонЦРПТ</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="7b8b70ba-43c3-4c3f-969c-a677cddaac8b">
+    <producedTypes>
+      <objectType typeId="5c378d3e-5cba-4f6c-8d82-a2cfe04497d9" valueTypeId="b27cae19-7e82-42ae-a314-46cc5cea530a"/>
+      <rowType typeId="203a8f78-21d3-4a66-b0f5-05e531770545" valueTypeId="c42ed172-9d42-426f-a67d-9bf2192609fb"/>
+    </producedTypes>
+    <name>МассоваяДоляБелка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Массовая доля белка</value>
+    </synonym>
+    <attributes uuid="28a0ade1-de6b-403d-bf7a-eb81156ede67">
+      <name>Вид</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ОтДоТочноеЗначение_ХамелеонЦРПТ</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="eb0adca7-fca3-4363-95cf-9dfaf74dbce9">
+      <name>МассоваяДоляБелка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Массовая доля белка, %</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>17</precision>
+          <scale>5</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="b80b3035-81a8-443b-971f-e8c6b35bcdd4">
+    <producedTypes>
+      <objectType typeId="d47634f0-36e4-4fec-8ddb-f5bf0ce1940e" valueTypeId="5b9ad427-3e6b-474f-9938-32c131d7fed2"/>
+      <rowType typeId="e206386b-ebca-496d-846e-af26612082a1" valueTypeId="f2d0e76f-e4fb-437e-97be-69bf19704d4f"/>
+    </producedTypes>
+    <name>МассоваяДоляЖира</name>
+    <synonym>
+      <key>ru</key>
+      <value>Массовая доля жира</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="c2b5564c-7dce-46fe-903f-5cc3609af46d">
+      <name>Вид</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ОтДоТочноеЗначение_ХамелеонЦРПТ</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="27c8989c-6201-4530-a149-1e4081a389c5">
+      <name>МассоваяДоляЖира</name>
+      <synonym>
+        <key>ru</key>
+        <value>Массовая доля жира, %</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>17</precision>
+          <scale>5</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="46742031-39ad-4862-93b7-9fc475784e1f">
+    <producedTypes>
+      <objectType typeId="9e6904f9-b0b0-4585-9f5e-086172bb6c1a" valueTypeId="02920b5f-d5ae-4e14-a6dd-2ceddf4ba529"/>
+      <rowType typeId="24113c7d-451c-4acb-9dcc-09f874f82824" valueTypeId="212c0a97-e9c4-4a6d-9e20-c627fd8c3845"/>
+    </producedTypes>
+    <name>ИдентификаторыТовараВФГИСМеркурий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификаторы товара в ФГИС ВетИС (GUID ProductItem)</value>
+    </synonym>
+    <attributes uuid="8fe82656-72e0-42c6-9e32-ddce0791f2c7">
+      <name>ИдентификаторТовараВФГИСМеркурий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор товара в ФГИС ВетИС (GUID ProductItem)</value>
       </synonym>
       <type>
         <types>String</types>
