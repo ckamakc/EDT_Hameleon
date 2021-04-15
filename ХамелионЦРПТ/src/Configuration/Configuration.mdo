@@ -12,7 +12,7 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <useManagedFormInOrdinaryApplication>true</useManagedFormInOrdinaryApplication>
   <requiredMobileApplicationPermissions>
     <permission>AllowOSBackup</permission>
@@ -310,6 +310,7 @@
   <informationRegisters>InformationRegister.ТабличнаяЧастьИнвентаризации_ХамелеонЦРПТ</informationRegisters>
   <informationRegisters>InformationRegister.ТокенДинамичкийДляСУЗ_ХамелеонЦРПТ</informationRegisters>
   <informationRegisters>InformationRegister.УниверсальноеСопоставлениеДляСтроковыхЗначений_ХамелеонЦРПТ</informationRegisters>
+  <informationRegisters>InformationRegister.ТокенДинамичкийДляСУЗ_По_Идентификатору_ХамелеонЦРПТ</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиКМЭмитированые_ХамелеонЦРПТ</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиКМ_в_Обороте_ХамелеонЦРПТ</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Резервы_ХамелеонЦРПТ</accumulationRegisters>

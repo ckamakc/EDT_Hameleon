@@ -1521,6 +1521,39 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <tabularSections uuid="d2e6c29f-0a42-4e6c-8182-5341a23e148c">
+    <producedTypes>
+      <objectType typeId="cde817bd-ed7e-45fe-a88f-35376ebb29fc" valueTypeId="4d8347ed-e45d-4197-adfc-3d4172d7c6c2"/>
+      <rowType typeId="dc3e783d-8e93-40d2-bee9-b63914c11750" valueTypeId="53a76f56-dad8-4ea3-bf39-8c278cb17342"/>
+    </producedTypes>
+    <name>GTINДляПубликации</name>
+    <synonym>
+      <key>ru</key>
+      <value>GTINДля публикации</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="45b05f8e-9820-41b7-9383-8c123b4e2d57">
+      <name>GTIN</name>
+      <synonym>
+        <key>ru</key>
+        <value>GTIN</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Продукция_ХамелеонЦРПТ</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <templates uuid="7e0bad42-561a-4210-b9a5-974ce10021ca">
     <name>Импорт</name>
     <synonym>

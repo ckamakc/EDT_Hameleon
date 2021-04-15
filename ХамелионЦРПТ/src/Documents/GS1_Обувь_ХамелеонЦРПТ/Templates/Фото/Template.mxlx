@@ -10,7 +10,7 @@
 		</languageInfo>
 	</languageSettings>
 	<columns>
-		<size>552</size>
+		<size>556</size>
 		<columnsItem>
 			<index>0</index>
 			<column>
@@ -119,18 +119,42 @@
 				<formatIndex>18</formatIndex>
 			</column>
 		</columnsItem>
+		<columnsItem>
+			<index>18</index>
+			<column>
+				<formatIndex>19</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>19</index>
+			<column>
+				<formatIndex>20</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>20</index>
+			<column>
+				<formatIndex>21</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>21</index>
+			<column>
+				<formatIndex>22</formatIndex>
+			</column>
+		</columnsItem>
 	</columns>
 	<rowsItem>
 		<index>0</index>
 		<row>
 			<c>
 				<c>
-					<f>19</f>
+					<f>23</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>20</f>
+					<f>24</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -141,7 +165,7 @@
 			</c>
 			<c>
 				<c>
-					<f>20</f>
+					<f>24</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -152,7 +176,7 @@
 			</c>
 			<c>
 				<c>
-					<f>20</f>
+					<f>24</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -163,7 +187,7 @@
 			</c>
 			<c>
 				<c>
-					<f>20</f>
+					<f>24</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -174,7 +198,7 @@
 			</c>
 			<c>
 				<c>
-					<f>20</f>
+					<f>24</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -185,7 +209,7 @@
 			</c>
 			<c>
 				<c>
-					<f>21</f>
+					<f>25</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -196,7 +220,7 @@
 			</c>
 			<c>
 				<c>
-					<f>21</f>
+					<f>25</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -207,7 +231,7 @@
 			</c>
 			<c>
 				<c>
-					<f>21</f>
+					<f>25</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -218,7 +242,7 @@
 			</c>
 			<c>
 				<c>
-					<f>21</f>
+					<f>25</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -229,7 +253,7 @@
 			</c>
 			<c>
 				<c>
-					<f>21</f>
+					<f>25</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -240,7 +264,7 @@
 			</c>
 			<c>
 				<c>
-					<f>21</f>
+					<f>25</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -251,7 +275,7 @@
 			</c>
 			<c>
 				<c>
-					<f>21</f>
+					<f>25</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -262,7 +286,7 @@
 			</c>
 			<c>
 				<c>
-					<f>21</f>
+					<f>25</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -273,7 +297,7 @@
 			</c>
 			<c>
 				<c>
-					<f>21</f>
+					<f>25</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -284,7 +308,7 @@
 			</c>
 			<c>
 				<c>
-					<f>21</f>
+					<f>25</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -295,11 +319,55 @@
 			</c>
 			<c>
 				<c>
-					<f>21</f>
+					<f>25</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>V_WEB_90001811_5</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>26</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>V_WEB_90001811_6</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>27</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>V_WEB_90001800</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>28</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>V_WEB_90001801</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>29</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>V_WEB_90001804</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -311,7 +379,7 @@
 		<row>
 			<c>
 				<c>
-					<f>22</f>
+					<f>30</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -322,7 +390,7 @@
 			</c>
 			<c>
 				<c>
-					<f>23</f>
+					<f>31</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -333,7 +401,7 @@
 			</c>
 			<c>
 				<c>
-					<f>24</f>
+					<f>32</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -344,7 +412,7 @@
 			</c>
 			<c>
 				<c>
-					<f>24</f>
+					<f>32</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -355,7 +423,7 @@
 			</c>
 			<c>
 				<c>
-					<f>24</f>
+					<f>32</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -366,7 +434,7 @@
 			</c>
 			<c>
 				<c>
-					<f>24</f>
+					<f>32</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -377,7 +445,7 @@
 			</c>
 			<c>
 				<c>
-					<f>24</f>
+					<f>32</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -388,7 +456,7 @@
 			</c>
 			<c>
 				<c>
-					<f>24</f>
+					<f>32</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -399,7 +467,7 @@
 			</c>
 			<c>
 				<c>
-					<f>24</f>
+					<f>32</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -410,7 +478,7 @@
 			</c>
 			<c>
 				<c>
-					<f>24</f>
+					<f>32</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -421,7 +489,7 @@
 			</c>
 			<c>
 				<c>
-					<f>24</f>
+					<f>32</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -432,7 +500,7 @@
 			</c>
 			<c>
 				<c>
-					<f>24</f>
+					<f>32</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -443,7 +511,7 @@
 			</c>
 			<c>
 				<c>
-					<f>25</f>
+					<f>33</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -454,7 +522,7 @@
 			</c>
 			<c>
 				<c>
-					<f>26</f>
+					<f>34</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -465,7 +533,7 @@
 			</c>
 			<c>
 				<c>
-					<f>27</f>
+					<f>35</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -476,7 +544,7 @@
 			</c>
 			<c>
 				<c>
-					<f>27</f>
+					<f>35</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -487,7 +555,7 @@
 			</c>
 			<c>
 				<c>
-					<f>27</f>
+					<f>35</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -498,11 +566,55 @@
 			</c>
 			<c>
 				<c>
-					<f>28</f>
+					<f>36</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>18</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>37</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>19</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>38</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>20</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>39</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>21</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>40</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>22</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -514,7 +626,7 @@
 		<row>
 			<c>
 				<c>
-					<f>29</f>
+					<f>41</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -525,7 +637,7 @@
 			</c>
 			<c>
 				<c>
-					<f>30</f>
+					<f>42</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -536,7 +648,7 @@
 			</c>
 			<c>
 				<c>
-					<f>30</f>
+					<f>42</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -547,7 +659,7 @@
 			</c>
 			<c>
 				<c>
-					<f>30</f>
+					<f>42</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -558,7 +670,7 @@
 			</c>
 			<c>
 				<c>
-					<f>30</f>
+					<f>42</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -569,7 +681,7 @@
 			</c>
 			<c>
 				<c>
-					<f>30</f>
+					<f>42</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -580,7 +692,7 @@
 			</c>
 			<c>
 				<c>
-					<f>30</f>
+					<f>42</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -591,7 +703,7 @@
 			</c>
 			<c>
 				<c>
-					<f>30</f>
+					<f>42</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -602,7 +714,7 @@
 			</c>
 			<c>
 				<c>
-					<f>30</f>
+					<f>42</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -613,7 +725,7 @@
 			</c>
 			<c>
 				<c>
-					<f>30</f>
+					<f>42</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -624,7 +736,7 @@
 			</c>
 			<c>
 				<c>
-					<f>30</f>
+					<f>42</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -635,7 +747,7 @@
 			</c>
 			<c>
 				<c>
-					<f>30</f>
+					<f>42</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -646,7 +758,7 @@
 			</c>
 			<c>
 				<c>
-					<f>30</f>
+					<f>42</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -657,7 +769,7 @@
 			</c>
 			<c>
 				<c>
-					<f>30</f>
+					<f>42</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -668,7 +780,7 @@
 			</c>
 			<c>
 				<c>
-					<f>30</f>
+					<f>42</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -679,7 +791,7 @@
 			</c>
 			<c>
 				<c>
-					<f>30</f>
+					<f>42</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -690,7 +802,7 @@
 			</c>
 			<c>
 				<c>
-					<f>30</f>
+					<f>42</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -701,7 +813,51 @@
 			</c>
 			<c>
 				<c>
-					<f>31</f>
+					<f>43</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер регламента/стандарта</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>44</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Является ли комплектом</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>45</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Кол-во элементов внутри</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>46</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Описание</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>47</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -717,7 +873,7 @@
 		<row>
 			<c>
 				<c>
-					<f>32</f>
+					<f>48</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -728,7 +884,7 @@
 			</c>
 			<c>
 				<c>
-					<f>33</f>
+					<f>49</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -739,7 +895,7 @@
 			</c>
 			<c>
 				<c>
-					<f>33</f>
+					<f>49</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -750,7 +906,7 @@
 			</c>
 			<c>
 				<c>
-					<f>33</f>
+					<f>49</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -763,7 +919,7 @@
 			</c>
 			<c>
 				<c>
-					<f>33</f>
+					<f>49</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -774,7 +930,7 @@
 			</c>
 			<c>
 				<c>
-					<f>33</f>
+					<f>49</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -785,7 +941,7 @@
 			</c>
 			<c>
 				<c>
-					<f>33</f>
+					<f>49</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -796,7 +952,7 @@
 			</c>
 			<c>
 				<c>
-					<f>33</f>
+					<f>49</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -807,7 +963,7 @@
 			</c>
 			<c>
 				<c>
-					<f>33</f>
+					<f>49</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -818,7 +974,7 @@
 			</c>
 			<c>
 				<c>
-					<f>32</f>
+					<f>48</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -829,7 +985,7 @@
 			</c>
 			<c>
 				<c>
-					<f>33</f>
+					<f>49</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -840,7 +996,7 @@
 			</c>
 			<c>
 				<c>
-					<f>34</f>
+					<f>50</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -851,7 +1007,7 @@
 			</c>
 			<c>
 				<c>
-					<f>33</f>
+					<f>49</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -862,7 +1018,7 @@
 			</c>
 			<c>
 				<c>
-					<f>35</f>
+					<f>51</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -873,7 +1029,7 @@
 			</c>
 			<c>
 				<c>
-					<f>35</f>
+					<f>51</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -884,7 +1040,7 @@
 			</c>
 			<c>
 				<c>
-					<f>35</f>
+					<f>51</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -895,11 +1051,55 @@
 			</c>
 			<c>
 				<c>
-					<f>35</f>
+					<f>51</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>ТР ТС 020/2011 "ЭЛЕКТРОМАГНИТНАЯ СОВМЕСТИМОСТЬ ТЕХНИЧЕСКИХ СРЕДСТВ"</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>52</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ДЕЙСТВИЕ ТЕХНИЧЕСКИХ РЕГЛАМЕНТОВ НЕ РАСПРОСТРАНЯЕТСЯ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>53</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Комплект - предмет торговли, в который входит нескольких составляющих, не имеющих своего номера GTIN и которые не продаются отдельно.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>54</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Поле для указания общего количества самостоятельных предметов внутри.  Пример: внутри комплекта Фотокамера (1 шт.), лампа-вспышка (2 шт.). В данном случае кол-во элементов внутри будет 3.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>55</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Позиции нужно описывать через точку с запятой. Пример: Фотокамера (1 шт.); лампа-вспышка (2 шт.)</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -911,7 +1111,7 @@
 		<row>
 			<c>
 				<c>
-					<f>36</f>
+					<f>56</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -922,7 +1122,7 @@
 			</c>
 			<c>
 				<c>
-					<f>37</f>
+					<f>57</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -933,7 +1133,7 @@
 			</c>
 			<c>
 				<c>
-					<f>37</f>
+					<f>57</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -944,7 +1144,7 @@
 			</c>
 			<c>
 				<c>
-					<f>37</f>
+					<f>57</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -955,7 +1155,7 @@
 			</c>
 			<c>
 				<c>
-					<f>37</f>
+					<f>57</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -966,7 +1166,7 @@
 			</c>
 			<c>
 				<c>
-					<f>37</f>
+					<f>57</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -977,7 +1177,7 @@
 			</c>
 			<c>
 				<c>
-					<f>37</f>
+					<f>57</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -988,7 +1188,7 @@
 			</c>
 			<c>
 				<c>
-					<f>37</f>
+					<f>57</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -999,7 +1199,7 @@
 			</c>
 			<c>
 				<c>
-					<f>37</f>
+					<f>57</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1010,7 +1210,7 @@
 			</c>
 			<c>
 				<c>
-					<f>37</f>
+					<f>57</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1021,7 +1221,7 @@
 			</c>
 			<c>
 				<c>
-					<f>37</f>
+					<f>57</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1032,7 +1232,7 @@
 			</c>
 			<c>
 				<c>
-					<f>37</f>
+					<f>57</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1043,7 +1243,7 @@
 			</c>
 			<c>
 				<c>
-					<f>37</f>
+					<f>57</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1054,7 +1254,7 @@
 			</c>
 			<c>
 				<c>
-					<f>37</f>
+					<f>57</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1065,7 +1265,7 @@
 			</c>
 			<c>
 				<c>
-					<f>37</f>
+					<f>57</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1076,7 +1276,7 @@
 			</c>
 			<c>
 				<c>
-					<f>37</f>
+					<f>57</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1087,11 +1287,55 @@
 			</c>
 			<c>
 				<c>
-					<f>37</f>
+					<f>57</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Да</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>58</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Да</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>59</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Да</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>60</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Да</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>61</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Нет</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1103,7 +1347,7 @@
 		<row>
 			<c>
 				<c>
-					<f>38</f>
+					<f>62</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1114,7 +1358,7 @@
 			</c>
 			<c>
 				<c>
-					<f>38</f>
+					<f>62</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1125,7 +1369,7 @@
 			</c>
 			<c>
 				<c>
-					<f>38</f>
+					<f>62</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1136,7 +1380,7 @@
 			</c>
 			<c>
 				<c>
-					<f>38</f>
+					<f>62</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1147,7 +1391,7 @@
 			</c>
 			<c>
 				<c>
-					<f>38</f>
+					<f>62</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1158,7 +1402,7 @@
 			</c>
 			<c>
 				<c>
-					<f>38</f>
+					<f>62</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1169,7 +1413,7 @@
 			</c>
 			<c>
 				<c>
-					<f>38</f>
+					<f>62</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1180,7 +1424,7 @@
 			</c>
 			<c>
 				<c>
-					<f>39</f>
+					<f>63</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1191,7 +1435,7 @@
 			</c>
 			<c>
 				<c>
-					<f>38</f>
+					<f>62</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1202,7 +1446,7 @@
 			</c>
 			<c>
 				<c>
-					<f>38</f>
+					<f>62</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1213,7 +1457,7 @@
 			</c>
 			<c>
 				<c>
-					<f>39</f>
+					<f>63</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1224,7 +1468,7 @@
 			</c>
 			<c>
 				<c>
-					<f>39</f>
+					<f>63</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1236,7 +1480,7 @@
 			</c>
 			<c>
 				<c>
-					<f>38</f>
+					<f>62</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1247,7 +1491,7 @@
 			</c>
 			<c>
 				<c>
-					<f>40</f>
+					<f>64</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1258,7 +1502,7 @@
 			</c>
 			<c>
 				<c>
-					<f>40</f>
+					<f>64</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1269,7 +1513,7 @@
 			</c>
 			<c>
 				<c>
-					<f>40</f>
+					<f>64</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1280,7 +1524,7 @@
 			</c>
 			<c>
 				<c>
-					<f>40</f>
+					<f>64</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1291,7 +1535,51 @@
 			</c>
 			<c>
 				<c>
-					<f>40</f>
+					<f>65</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Логическое поле: ДА/НЕТ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>66</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Логическое поле: ДА/НЕТ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>67</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Цифровое</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>68</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Текстовое , множественное, длина 512</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1307,119 +1595,143 @@
 		<row>
 			<c>
 				<c>
-					<f>41</f>
+					<f>69</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>42</f>
+					<f>70</f>
 					<parameter>GTIN</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>42</f>
+					<f>70</f>
 					<parameter>КодВУчетнойСистеме</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>42</f>
+					<f>70</f>
 					<parameter>МодельПроизводителяАртикул</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>43</f>
+					<f>71</f>
 					<parameter>ДатаПубликацииПлан</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>44</f>
+					<f>72</f>
 					<parameter>НаименованиеТовараНаЭтикетке</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>44</f>
+					<f>72</f>
 					<parameter>БрендТорговаяМарка</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>44</f>
+					<f>72</f>
 					<parameter>ТипИзделия</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>44</f>
+					<f>72</f>
 					<parameter>ТипИзделияДругое</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>44</f>
+					<f>72</f>
 					<parameter>Модель</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>44</f>
+					<f>72</f>
 					<parameter>СтранаПроизводства</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>44</f>
+					<f>72</f>
 					<parameter>КодТНВЭД</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>44</f>
+					<f>72</f>
 					<parameter>НомерРегламента004</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>44</f>
+					<f>72</f>
 					<parameter>НомерРегламента037</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>44</f>
+					<f>72</f>
 					<parameter>НомерРегламента005</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>44</f>
+					<f>72</f>
 					<parameter>НомерРегламента012</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>44</f>
+					<f>72</f>
 					<parameter>НомерРегламента020</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>45</f>
+					<f>72</f>
+					<parameter>БезРегламента</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>73</f>
+					<parameter>Комплект</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>74</f>
+					<parameter>КоличествоЭлементовВнутри</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>75</f>
+					<parameter>Комплектация</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>76</f>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>46</defaultFormatIndex>
-	<height>7</height>
-	<vgRows>7</vgRows>
+	<defaultFormatIndex>77</defaultFormatIndex>
+	<height>250</height>
+	<vgRows>250</vgRows>
 	<merge>
 		<r>2</r>
-		<c>17</c>
+		<c>21</c>
 		<h>2</h>
 	</merge>
 	<namedItem xsi:type="NamedItemCells">
@@ -1442,19 +1754,25 @@
 			<endColumn>-1</endColumn>
 		</area>
 	</namedItem>
-	<line width="0" gap="false">
+	<line width="1" gap="false">
 		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">None</v8ui:style>
 	</line>
-	<line width="2" gap="false">
-		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+	<line width="0" gap="false">
+		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">None</v8ui:style>
 	</line>
 	<line width="1" gap="false">
 		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
 	</line>
+	<line width="2" gap="false">
+		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+	</line>
+	<font faceName="Calibri" height="11" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="Calibri" height="11.1" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="Verdana" height="9" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="Calibri" height="11.1" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Calibri" height="11" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="Calibri" height="11.1" bold="false" italic="true" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Calibri" height="11" bold="false" italic="true" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="Arial" height="8" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<format>
 		<width>157</width>
@@ -1508,11 +1826,46 @@
 		<width>360</width>
 	</format>
 	<format>
-		<width>382</width>
+		<width>232</width>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textPlacement>Auto</textPlacement>
+		<hidden>false</hidden>
+	</format>
+	<format>
+		<width>240</width>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textPlacement>Auto</textPlacement>
+		<hidden>false</hidden>
 	</format>
 	<format>
 		<font>0</font>
 		<border>0</border>
+		<width>305</width>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Auto</textPlacement>
+		<hidden>false</hidden>
+	</format>
+	<format>
+		<font>0</font>
+		<border>0</border>
+		<width>329</width>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Wrap</textPlacement>
+		<hidden>false</hidden>
+		<indent>0</indent>
+	</format>
+	<format>
+		<width>382</width>
+	</format>
+	<format>
+		<font>1</font>
+		<border>1</border>
 		<horizontalAlignment>Right</horizontalAlignment>
 		<verticalAlignment>Bottom</verticalAlignment>
 		<textColor>#000000</textColor>
@@ -1522,8 +1875,97 @@
 		<textOrientation>0</textOrientation>
 	</format>
 	<format>
+		<font>1</font>
+		<border>1</border>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<protection>false</protection>
+		<textOrientation>0</textOrientation>
+	</format>
+	<format>
+		<font>2</font>
+		<border>1</border>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<protection>false</protection>
+		<textOrientation>0</textOrientation>
+	</format>
+	<format>
+		<font>2</font>
+		<border>0</border>
+		<height>69</height>
+		<width>232</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Auto</textPlacement>
+		<hidden>true</hidden>
+		<indent>0</indent>
+	</format>
+	<format>
 		<font>0</font>
 		<border>0</border>
+		<height>69</height>
+		<width>240</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Auto</textPlacement>
+		<hidden>true</hidden>
+		<indent>0</indent>
+	</format>
+	<format>
+		<font>0</font>
+		<leftBorder>2</leftBorder>
+		<topBorder>2</topBorder>
+		<rightBorder>2</rightBorder>
+		<bottomBorder>0</bottomBorder>
+		<height>69</height>
+		<borderColor>#000000</borderColor>
+		<width>305</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Auto</textPlacement>
+		<hidden>true</hidden>
+		<indent>0</indent>
+	</format>
+	<format>
+		<font>0</font>
+		<leftBorder>2</leftBorder>
+		<topBorder>2</topBorder>
+		<rightBorder>2</rightBorder>
+		<bottomBorder>0</bottomBorder>
+		<height>69</height>
+		<borderColor>#000000</borderColor>
+		<width>329</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Auto</textPlacement>
+		<hidden>true</hidden>
+		<indent>0</indent>
+	</format>
+	<format>
+		<font>3</font>
+		<border>3</border>
+		<borderColor>#000000</borderColor>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Wrap</textPlacement>
+		<protection>false</protection>
+		<textOrientation>0</textOrientation>
+	</format>
+	<format>
+		<font>1</font>
+		<leftBorder>3</leftBorder>
+		<topBorder>3</topBorder>
+		<rightBorder>2</rightBorder>
+		<bottomBorder>1</bottomBorder>
+		<borderColor>#000000</borderColor>
 		<horizontalAlignment>Center</horizontalAlignment>
 		<verticalAlignment>Bottom</verticalAlignment>
 		<textColor>#000000</textColor>
@@ -1532,30 +1974,36 @@
 	</format>
 	<format>
 		<font>1</font>
-		<border>0</border>
-		<horizontalAlignment>Center</horizontalAlignment>
-		<verticalAlignment>Bottom</verticalAlignment>
-		<textColor>#000000</textColor>
-		<protection>false</protection>
-		<textOrientation>0</textOrientation>
-	</format>
-	<format>
-		<font>2</font>
-		<border>1</border>
+		<leftBorder>2</leftBorder>
+		<topBorder>3</topBorder>
+		<rightBorder>2</rightBorder>
+		<bottomBorder>1</bottomBorder>
 		<borderColor>#000000</borderColor>
 		<horizontalAlignment>Center</horizontalAlignment>
 		<verticalAlignment>Bottom</verticalAlignment>
 		<textColor>#000000</textColor>
-		<textPlacement>Wrap</textPlacement>
 		<protection>false</protection>
 		<textOrientation>0</textOrientation>
 	</format>
 	<format>
-		<font>0</font>
+		<font>1</font>
+		<leftBorder>2</leftBorder>
+		<topBorder>3</topBorder>
+		<rightBorder>3</rightBorder>
+		<bottomBorder>1</bottomBorder>
+		<borderColor>#000000</borderColor>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<protection>false</protection>
+		<textOrientation>0</textOrientation>
+	</format>
+	<format>
+		<font>1</font>
 		<leftBorder>1</leftBorder>
-		<topBorder>1</topBorder>
-		<rightBorder>2</rightBorder>
-		<bottomBorder>0</bottomBorder>
+		<topBorder>3</topBorder>
+		<rightBorder>3</rightBorder>
+		<bottomBorder>1</bottomBorder>
 		<borderColor>#000000</borderColor>
 		<horizontalAlignment>Center</horizontalAlignment>
 		<verticalAlignment>Bottom</verticalAlignment>
@@ -1564,11 +2012,11 @@
 		<textOrientation>0</textOrientation>
 	</format>
 	<format>
-		<font>0</font>
-		<leftBorder>2</leftBorder>
-		<topBorder>1</topBorder>
-		<rightBorder>2</rightBorder>
-		<bottomBorder>0</bottomBorder>
+		<font>1</font>
+		<leftBorder>3</leftBorder>
+		<topBorder>3</topBorder>
+		<rightBorder>3</rightBorder>
+		<bottomBorder>1</bottomBorder>
 		<borderColor>#000000</borderColor>
 		<horizontalAlignment>Center</horizontalAlignment>
 		<verticalAlignment>Bottom</verticalAlignment>
@@ -1577,47 +2025,69 @@
 		<textOrientation>0</textOrientation>
 	</format>
 	<format>
-		<font>0</font>
-		<leftBorder>2</leftBorder>
-		<topBorder>1</topBorder>
-		<rightBorder>1</rightBorder>
-		<bottomBorder>0</bottomBorder>
-		<borderColor>#000000</borderColor>
-		<horizontalAlignment>Center</horizontalAlignment>
-		<verticalAlignment>Bottom</verticalAlignment>
-		<textColor>#000000</textColor>
-		<protection>false</protection>
-		<textOrientation>0</textOrientation>
-	</format>
-	<format>
-		<font>0</font>
+		<font>4</font>
 		<leftBorder>0</leftBorder>
-		<topBorder>1</topBorder>
-		<rightBorder>1</rightBorder>
+		<topBorder>3</topBorder>
+		<rightBorder>3</rightBorder>
 		<bottomBorder>0</bottomBorder>
+		<height>63</height>
 		<borderColor>#000000</borderColor>
+		<width>232</width>
 		<horizontalAlignment>Center</horizontalAlignment>
 		<verticalAlignment>Bottom</verticalAlignment>
 		<textColor>#000000</textColor>
-		<protection>false</protection>
-		<textOrientation>0</textOrientation>
+		<textPlacement>Cut</textPlacement>
+		<hidden>false</hidden>
+		<indent>0</indent>
 	</format>
 	<format>
-		<font>0</font>
-		<leftBorder>1</leftBorder>
-		<topBorder>1</topBorder>
-		<rightBorder>1</rightBorder>
+		<font>4</font>
+		<leftBorder>0</leftBorder>
+		<topBorder>3</topBorder>
+		<rightBorder>3</rightBorder>
 		<bottomBorder>0</bottomBorder>
+		<height>63</height>
 		<borderColor>#000000</borderColor>
+		<width>240</width>
 		<horizontalAlignment>Center</horizontalAlignment>
 		<verticalAlignment>Bottom</verticalAlignment>
 		<textColor>#000000</textColor>
-		<protection>false</protection>
-		<textOrientation>0</textOrientation>
+		<textPlacement>Cut</textPlacement>
+		<hidden>false</hidden>
+		<indent>0</indent>
 	</format>
 	<format>
-		<font>2</font>
-		<border>1</border>
+		<font>4</font>
+		<border>3</border>
+		<height>63</height>
+		<borderColor>#000000</borderColor>
+		<width>305</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Cut</textPlacement>
+		<hidden>false</hidden>
+		<indent>0</indent>
+	</format>
+	<format>
+		<font>4</font>
+		<leftBorder>0</leftBorder>
+		<topBorder>3</topBorder>
+		<rightBorder>3</rightBorder>
+		<bottomBorder>3</bottomBorder>
+		<height>63</height>
+		<borderColor>#000000</borderColor>
+		<width>329</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Cut</textPlacement>
+		<hidden>false</hidden>
+		<indent>0</indent>
+	</format>
+	<format>
+		<font>3</font>
+		<border>3</border>
 		<borderColor>#000000</borderColor>
 		<horizontalAlignment>Center</horizontalAlignment>
 		<verticalAlignment>Bottom</verticalAlignment>
@@ -1628,10 +2098,10 @@
 		<textOrientation>0</textOrientation>
 	</format>
 	<format>
-		<font>2</font>
-		<leftBorder>1</leftBorder>
-		<topBorder>1</topBorder>
-		<rightBorder>0</rightBorder>
+		<font>3</font>
+		<leftBorder>3</leftBorder>
+		<topBorder>3</topBorder>
+		<rightBorder>1</rightBorder>
 		<bottomBorder>2</bottomBorder>
 		<borderColor>#000000</borderColor>
 		<horizontalAlignment>Center</horizontalAlignment>
@@ -1642,10 +2112,10 @@
 		<textOrientation>0</textOrientation>
 	</format>
 	<format>
-		<font>2</font>
-		<leftBorder>1</leftBorder>
-		<topBorder>1</topBorder>
-		<rightBorder>1</rightBorder>
+		<font>3</font>
+		<leftBorder>3</leftBorder>
+		<topBorder>3</topBorder>
+		<rightBorder>3</rightBorder>
 		<bottomBorder>2</bottomBorder>
 		<borderColor>#000000</borderColor>
 		<horizontalAlignment>Center</horizontalAlignment>
@@ -1655,136 +2125,125 @@
 		<textOrientation>0</textOrientation>
 	</format>
 	<format>
-		<font>2</font>
-		<leftBorder>0</leftBorder>
+		<font>4</font>
+		<leftBorder>3</leftBorder>
+		<topBorder>3</topBorder>
+		<rightBorder>3</rightBorder>
+		<bottomBorder>2</bottomBorder>
+		<borderColor>#000000</borderColor>
+		<width>232</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Auto</textPlacement>
+		<hidden>false</hidden>
+		<indent>0</indent>
+	</format>
+	<format>
+		<font>4</font>
+		<leftBorder>3</leftBorder>
+		<topBorder>3</topBorder>
+		<rightBorder>0</rightBorder>
+		<bottomBorder>2</bottomBorder>
+		<borderColor>#000000</borderColor>
+		<width>240</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Wrap</textPlacement>
+		<hidden>false</hidden>
+		<indent>0</indent>
+	</format>
+	<format>
+		<font>4</font>
+		<leftBorder>3</leftBorder>
+		<topBorder>0</topBorder>
+		<rightBorder>3</rightBorder>
+		<bottomBorder>2</bottomBorder>
+		<borderColor>#000000</borderColor>
+		<width>305</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Wrap</textPlacement>
+		<hidden>false</hidden>
+		<indent>0</indent>
+	</format>
+	<format>
+		<font>4</font>
+		<leftBorder>3</leftBorder>
+		<topBorder>0</topBorder>
+		<rightBorder>3</rightBorder>
+		<bottomBorder>2</bottomBorder>
+		<borderColor>#000000</borderColor>
+		<width>329</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Wrap</textPlacement>
+		<hidden>false</hidden>
+		<indent>0</indent>
+	</format>
+	<format>
+		<font>3</font>
+		<leftBorder>1</leftBorder>
+		<topBorder>3</topBorder>
+		<rightBorder>3</rightBorder>
+		<bottomBorder>3</bottomBorder>
+		<borderColor>#000000</borderColor>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Wrap</textPlacement>
+		<protection>false</protection>
+		<textOrientation>0</textOrientation>
+	</format>
+	<format>
+		<font>3</font>
+		<leftBorder>3</leftBorder>
+		<topBorder>2</topBorder>
+		<rightBorder>1</rightBorder>
+		<bottomBorder>2</bottomBorder>
+		<borderColor>#000000</borderColor>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Wrap</textPlacement>
+		<protection>false</protection>
+		<textOrientation>0</textOrientation>
+	</format>
+	<format>
+		<font>3</font>
+		<leftBorder>3</leftBorder>
+		<topBorder>2</topBorder>
+		<rightBorder>3</rightBorder>
+		<bottomBorder>2</bottomBorder>
+		<borderColor>#000000</borderColor>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Wrap</textPlacement>
+		<protection>false</protection>
+		<textOrientation>0</textOrientation>
+	</format>
+	<format>
+		<font>3</font>
+		<leftBorder>3</leftBorder>
+		<topBorder>2</topBorder>
+		<rightBorder>3</rightBorder>
+		<bottomBorder>2</bottomBorder>
+		<borderColor>#000000</borderColor>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<protection>false</protection>
+		<textOrientation>0</textOrientation>
+	</format>
+	<format>
+		<font>3</font>
+		<leftBorder>1</leftBorder>
 		<topBorder>1</topBorder>
-		<rightBorder>1</rightBorder>
-		<bottomBorder>1</bottomBorder>
-		<borderColor>#000000</borderColor>
-		<horizontalAlignment>Center</horizontalAlignment>
-		<verticalAlignment>Center</verticalAlignment>
-		<textColor>#000000</textColor>
-		<textPlacement>Wrap</textPlacement>
-		<protection>false</protection>
-		<textOrientation>0</textOrientation>
-	</format>
-	<format>
-		<font>2</font>
-		<leftBorder>1</leftBorder>
-		<topBorder>2</topBorder>
-		<rightBorder>0</rightBorder>
-		<bottomBorder>2</bottomBorder>
-		<borderColor>#000000</borderColor>
-		<horizontalAlignment>Center</horizontalAlignment>
-		<verticalAlignment>Center</verticalAlignment>
-		<textColor>#000000</textColor>
-		<textPlacement>Wrap</textPlacement>
-		<protection>false</protection>
-		<textOrientation>0</textOrientation>
-	</format>
-	<format>
-		<font>2</font>
-		<leftBorder>1</leftBorder>
-		<topBorder>2</topBorder>
-		<rightBorder>1</rightBorder>
-		<bottomBorder>2</bottomBorder>
-		<borderColor>#000000</borderColor>
-		<horizontalAlignment>Center</horizontalAlignment>
-		<verticalAlignment>Center</verticalAlignment>
-		<textColor>#000000</textColor>
-		<textPlacement>Wrap</textPlacement>
-		<protection>false</protection>
-		<textOrientation>0</textOrientation>
-	</format>
-	<format>
-		<font>2</font>
-		<leftBorder>1</leftBorder>
-		<topBorder>2</topBorder>
-		<rightBorder>1</rightBorder>
-		<bottomBorder>2</bottomBorder>
-		<borderColor>#000000</borderColor>
-		<horizontalAlignment>Center</horizontalAlignment>
-		<verticalAlignment>Center</verticalAlignment>
-		<textColor>#000000</textColor>
-		<protection>false</protection>
-		<textOrientation>0</textOrientation>
-	</format>
-	<format>
-		<font>2</font>
-		<leftBorder>0</leftBorder>
-		<topBorder>0</topBorder>
-		<rightBorder>1</rightBorder>
-		<bottomBorder>0</bottomBorder>
-		<borderColor>#000000</borderColor>
-		<horizontalAlignment>Center</horizontalAlignment>
-		<verticalAlignment>Center</verticalAlignment>
-		<textColor>#000000</textColor>
-		<textPlacement>Wrap</textPlacement>
-		<protection>false</protection>
-		<textOrientation>0</textOrientation>
-	</format>
-	<format>
-		<font>3</font>
-		<leftBorder>1</leftBorder>
-		<topBorder>2</topBorder>
-		<rightBorder>0</rightBorder>
-		<bottomBorder>2</bottomBorder>
-		<borderColor>#000000</borderColor>
-		<horizontalAlignment>Center</horizontalAlignment>
-		<verticalAlignment>Center</verticalAlignment>
-		<textColor>#000000</textColor>
-		<textPlacement>Wrap</textPlacement>
-		<protection>false</protection>
-		<textOrientation>0</textOrientation>
-	</format>
-	<format>
-		<font>3</font>
-		<leftBorder>1</leftBorder>
-		<topBorder>2</topBorder>
-		<rightBorder>1</rightBorder>
-		<bottomBorder>2</bottomBorder>
-		<borderColor>#000000</borderColor>
-		<horizontalAlignment>Center</horizontalAlignment>
-		<verticalAlignment>Center</verticalAlignment>
-		<textColor>#000000</textColor>
-		<textPlacement>Wrap</textPlacement>
-		<protection>false</protection>
-		<textOrientation>0</textOrientation>
-	</format>
-	<format>
-		<font>3</font>
-		<leftBorder>1</leftBorder>
-		<topBorder>2</topBorder>
-		<rightBorder>1</rightBorder>
-		<bottomBorder>1</bottomBorder>
-		<borderColor>#000000</borderColor>
-		<horizontalAlignment>Center</horizontalAlignment>
-		<verticalAlignment>Center</verticalAlignment>
-		<textColor>#000000</textColor>
-		<textPlacement>Wrap</textPlacement>
-		<protection>false</protection>
-		<textOrientation>0</textOrientation>
-	</format>
-	<format>
-		<font>3</font>
-		<leftBorder>1</leftBorder>
-		<topBorder>2</topBorder>
-		<rightBorder>1</rightBorder>
-		<bottomBorder>1</bottomBorder>
-		<borderColor>#000000</borderColor>
-		<horizontalAlignment>Center</horizontalAlignment>
-		<verticalAlignment>Center</verticalAlignment>
-		<textColor>#000000</textColor>
-		<backColor>#FFFFFF</backColor>
-		<textPlacement>Wrap</textPlacement>
-		<protection>false</protection>
-		<textOrientation>0</textOrientation>
-	</format>
-	<format>
-		<font>3</font>
-		<leftBorder>0</leftBorder>
-		<topBorder>0</topBorder>
-		<rightBorder>1</rightBorder>
+		<rightBorder>3</rightBorder>
 		<bottomBorder>1</bottomBorder>
 		<borderColor>#000000</borderColor>
 		<horizontalAlignment>Center</horizontalAlignment>
@@ -1796,6 +2255,265 @@
 	</format>
 	<format>
 		<font>4</font>
+		<border>0</border>
+		<height>420</height>
+		<width>232</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Wrap</textPlacement>
+		<hidden>false</hidden>
+		<indent>0</indent>
+	</format>
+	<format>
+		<font>4</font>
+		<leftBorder>3</leftBorder>
+		<topBorder>2</topBorder>
+		<rightBorder>0</rightBorder>
+		<bottomBorder>2</bottomBorder>
+		<height>420</height>
+		<borderColor>#000000</borderColor>
+		<width>240</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Wrap</textPlacement>
+		<hidden>false</hidden>
+		<indent>0</indent>
+	</format>
+	<format>
+		<font>4</font>
+		<leftBorder>3</leftBorder>
+		<topBorder>2</topBorder>
+		<rightBorder>3</rightBorder>
+		<bottomBorder>2</bottomBorder>
+		<height>420</height>
+		<borderColor>#000000</borderColor>
+		<width>305</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Wrap</textPlacement>
+		<hidden>false</hidden>
+		<indent>0</indent>
+	</format>
+	<format>
+		<font>4</font>
+		<leftBorder>3</leftBorder>
+		<topBorder>2</topBorder>
+		<rightBorder>3</rightBorder>
+		<bottomBorder>2</bottomBorder>
+		<height>420</height>
+		<borderColor>#000000</borderColor>
+		<width>329</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Wrap</textPlacement>
+		<hidden>false</hidden>
+		<indent>0</indent>
+	</format>
+	<format>
+		<font>5</font>
+		<leftBorder>3</leftBorder>
+		<topBorder>2</topBorder>
+		<rightBorder>1</rightBorder>
+		<bottomBorder>2</bottomBorder>
+		<borderColor>#000000</borderColor>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Wrap</textPlacement>
+		<protection>false</protection>
+		<textOrientation>0</textOrientation>
+	</format>
+	<format>
+		<font>5</font>
+		<leftBorder>3</leftBorder>
+		<topBorder>2</topBorder>
+		<rightBorder>3</rightBorder>
+		<bottomBorder>2</bottomBorder>
+		<borderColor>#000000</borderColor>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Wrap</textPlacement>
+		<protection>false</protection>
+		<textOrientation>0</textOrientation>
+	</format>
+	<format>
+		<font>6</font>
+		<leftBorder>3</leftBorder>
+		<topBorder>2</topBorder>
+		<rightBorder>3</rightBorder>
+		<bottomBorder>2</bottomBorder>
+		<height>63</height>
+		<borderColor>#000000</borderColor>
+		<width>232</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Wrap</textPlacement>
+		<hidden>false</hidden>
+		<indent>0</indent>
+	</format>
+	<format>
+		<font>6</font>
+		<leftBorder>3</leftBorder>
+		<topBorder>2</topBorder>
+		<rightBorder>0</rightBorder>
+		<bottomBorder>2</bottomBorder>
+		<height>63</height>
+		<borderColor>#000000</borderColor>
+		<width>240</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Wrap</textPlacement>
+		<hidden>false</hidden>
+		<indent>0</indent>
+	</format>
+	<format>
+		<font>6</font>
+		<leftBorder>3</leftBorder>
+		<topBorder>2</topBorder>
+		<rightBorder>3</rightBorder>
+		<bottomBorder>2</bottomBorder>
+		<height>63</height>
+		<borderColor>#000000</borderColor>
+		<width>305</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Wrap</textPlacement>
+		<hidden>false</hidden>
+		<indent>0</indent>
+	</format>
+	<format>
+		<font>6</font>
+		<leftBorder>3</leftBorder>
+		<topBorder>2</topBorder>
+		<rightBorder>3</rightBorder>
+		<bottomBorder>2</bottomBorder>
+		<height>63</height>
+		<borderColor>#000000</borderColor>
+		<width>329</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Wrap</textPlacement>
+		<hidden>false</hidden>
+		<indent>0</indent>
+	</format>
+	<format>
+		<font>5</font>
+		<leftBorder>3</leftBorder>
+		<topBorder>2</topBorder>
+		<rightBorder>3</rightBorder>
+		<bottomBorder>3</bottomBorder>
+		<borderColor>#000000</borderColor>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Wrap</textPlacement>
+		<protection>false</protection>
+		<textOrientation>0</textOrientation>
+	</format>
+	<format>
+		<font>5</font>
+		<leftBorder>3</leftBorder>
+		<topBorder>2</topBorder>
+		<rightBorder>3</rightBorder>
+		<bottomBorder>3</bottomBorder>
+		<borderColor>#000000</borderColor>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Wrap</textPlacement>
+		<protection>false</protection>
+		<textOrientation>0</textOrientation>
+	</format>
+	<format>
+		<font>5</font>
+		<leftBorder>1</leftBorder>
+		<topBorder>1</topBorder>
+		<rightBorder>3</rightBorder>
+		<bottomBorder>3</bottomBorder>
+		<borderColor>#000000</borderColor>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Wrap</textPlacement>
+		<protection>false</protection>
+		<textOrientation>0</textOrientation>
+	</format>
+	<format>
+		<font>6</font>
+		<leftBorder>0</leftBorder>
+		<topBorder>0</topBorder>
+		<rightBorder>3</rightBorder>
+		<bottomBorder>3</bottomBorder>
+		<height>183</height>
+		<borderColor>#000000</borderColor>
+		<width>232</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Wrap</textPlacement>
+		<hidden>false</hidden>
+		<indent>0</indent>
+	</format>
+	<format>
+		<font>6</font>
+		<leftBorder>0</leftBorder>
+		<topBorder>2</topBorder>
+		<rightBorder>0</rightBorder>
+		<bottomBorder>3</bottomBorder>
+		<height>183</height>
+		<borderColor>#000000</borderColor>
+		<width>240</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Wrap</textPlacement>
+		<hidden>false</hidden>
+		<indent>0</indent>
+	</format>
+	<format>
+		<font>6</font>
+		<leftBorder>3</leftBorder>
+		<topBorder>2</topBorder>
+		<rightBorder>3</rightBorder>
+		<bottomBorder>3</bottomBorder>
+		<height>183</height>
+		<borderColor>#000000</borderColor>
+		<width>305</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Wrap</textPlacement>
+		<hidden>false</hidden>
+		<indent>0</indent>
+	</format>
+	<format>
+		<font>6</font>
+		<leftBorder>3</leftBorder>
+		<topBorder>2</topBorder>
+		<rightBorder>3</rightBorder>
+		<bottomBorder>3</bottomBorder>
+		<height>183</height>
+		<borderColor>#000000</borderColor>
+		<width>329</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Wrap</textPlacement>
+		<hidden>false</hidden>
+		<indent>0</indent>
+	</format>
+	<format>
+		<font>7</font>
 		<width>208</width>
 		<containsValue>true</containsValue>
 		<valueType>
@@ -1808,7 +2526,7 @@
 		<controlType>381ed624-9217-4e63-85db-c4c3cb87daae</controlType>
 	</format>
 	<format>
-		<font>4</font>
+		<font>7</font>
 		<width>208</width>
 		<fillType>Parameter</fillType>
 		<containsValue>true</containsValue>
@@ -1822,7 +2540,7 @@
 		<controlType>381ed624-9217-4e63-85db-c4c3cb87daae</controlType>
 	</format>
 	<format>
-		<font>4</font>
+		<font>7</font>
 		<width>208</width>
 		<fillType>Parameter</fillType>
 		<containsValue>true</containsValue>
@@ -1841,7 +2559,7 @@
 		<controlType>381ed624-9217-4e63-85db-c4c3cb87daae</controlType>
 	</format>
 	<format>
-		<font>4</font>
+		<font>7</font>
 		<width>208</width>
 		<fillType>Parameter</fillType>
 		<containsValue>true</containsValue>
@@ -1861,7 +2579,56 @@
 		<controlType>381ed624-9217-4e63-85db-c4c3cb87daae</controlType>
 	</format>
 	<format>
-		<font>4</font>
+		<font>7</font>
+		<width>208</width>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textPlacement>Auto</textPlacement>
+		<fillType>Parameter</fillType>
+		<hidden>false</hidden>
+		<containsValue>true</containsValue>
+		<valueType>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>0</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</valueType>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ДФ=dd.MM.yyyy</v8:content>
+			</v8:item>
+		</format>
+		<controlType>381ed624-9217-4e63-85db-c4c3cb87daae</controlType>
+	</format>
+	<format>
+		<font>0</font>
+		<border>0</border>
+		<height>120</height>
+		<width>274</width>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Block</textPlacement>
+		<fillType>Parameter</fillType>
+		<hidden>false</hidden>
+	</format>
+	<format>
+		<font>0</font>
+		<border>0</border>
+		<height>120</height>
+		<width>376</width>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
+		<hidden>false</hidden>
+		<indent>0</indent>
+	</format>
+	<format>
+		<font>7</font>
 		<width>208</width>
 		<containsValue>true</containsValue>
 		<valueType>

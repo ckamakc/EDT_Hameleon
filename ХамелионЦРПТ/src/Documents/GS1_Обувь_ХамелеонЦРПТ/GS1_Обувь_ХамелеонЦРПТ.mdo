@@ -3256,6 +3256,66 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
+    <attributes uuid="871ee733-1f9e-40a0-8fad-29bdf81298cd">
+      <name>БезРегламента</name>
+      <synonym>
+        <key>ru</key>
+        <value>ДЕЙСТВИЕ ТЕХНИЧЕСКИХ РЕГЛАМЕНТОВ НЕ РАСПРОСТРАНЯЕТСЯ</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6cf7ca94-4839-4a9c-b758-dfc609fad4bb">
+      <name>Комплект</name>
+      <synonym>
+        <key>ru</key>
+        <value>Комплект</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c6b33247-092c-4d04-a684-88ea6cd5234f">
+      <name>КоличествоЭлементовВнутри</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество элементов внутри</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a391e5d7-09f9-4dcb-b1b6-dc296d36840b">
+      <name>Комплектация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Комплектация</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
   </tabularSections>
   <tabularSections uuid="976be73f-bc9d-4a7b-ace2-9b82c9afc468">
     <producedTypes>

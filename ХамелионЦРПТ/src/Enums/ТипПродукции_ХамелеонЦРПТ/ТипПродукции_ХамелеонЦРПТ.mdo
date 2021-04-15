@@ -117,4 +117,11 @@
       <value>Альтернативная табачная продукция</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="b6944857-4df0-45d1-9e9e-ea53fe05901b">
+    <name>Пиво</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пиво</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

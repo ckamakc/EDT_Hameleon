@@ -7731,6 +7731,66 @@
               <placementArea>UserCmds</placementArea>
               <representationInContextMenu>Auto</representationInContextMenu>
             </items>
+            <items xsi:type="form:Button">
+              <name>ВводВОборотТаблицаСоздатьВыводИзОборотаДляВельберис</name>
+              <id>1542</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>ВводВОборотТаблицаСоздатьВыводИзОборотаДляВельберисРасширеннаяПодсказка</name>
+                <id>1543</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <commandName>Form.Command.СоздатьВыводИзОборотаДляВельберис</commandName>
+              <representation>Auto</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <representationInContextMenu>Auto</representationInContextMenu>
+            </items>
+            <items xsi:type="form:Button">
+              <name>ВводВОборотТаблицаСоздатьИОтправитьВводВОборотВальберис</name>
+              <id>1544</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>ВводВОборотТаблицаСоздатьИОтправитьВводВОборотВальберисРасширеннаяПодсказка</name>
+                <id>1545</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <commandName>Form.Command.СоздатьИОтправитьВыводВОборотВальберис</commandName>
+              <representation>Auto</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <representationInContextMenu>Auto</representationInContextMenu>
+            </items>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -19794,7 +19854,7 @@
           </userVisible>
           <title>
             <key>ru</key>
-            <value>Основная настройки</value>
+            <value>Основные настройки</value>
           </title>
           <toolTip>
             <key>ru</key>
@@ -28837,6 +28897,48 @@
     <use>
       <common>true</common>
     </use>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>СоздатьВыводИзОборотаДляВельберис</name>
+    <title>
+      <key>ru</key>
+      <value>Создать вывод из оборота для Валберис</value>
+    </title>
+    <id>139</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Создать вывод из оборота для вельберис</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>СоздатьВыводИзОборотаДляВельберис</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>СоздатьИОтправитьВыводВОборотВальберис</name>
+    <title>
+      <key>ru</key>
+      <value>Создать и отправить вывод из оборота Валберис</value>
+    </title>
+    <id>140</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Создать и отправить вывод в оборот вальберис</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>СоздатьИОтправитьВводВОборотВальберис</name>
+      </handler>
+    </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>

@@ -185,4 +185,12 @@
       <value>Альтернативный табак</value>
     </synonym>
   </templates>
+  <templates uuid="b440ffb8-e6a4-43e4-ae9d-b60dadb9a555">
+    <name>Пиво</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пиво</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
 </mdclass:Catalog>

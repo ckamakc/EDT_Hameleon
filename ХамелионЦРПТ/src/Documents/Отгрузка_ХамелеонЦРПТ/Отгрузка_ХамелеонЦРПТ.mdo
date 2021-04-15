@@ -1528,7 +1528,10 @@
       </synonym>
       <type>
         <types>String</types>
-        <stringQualifiers/>
+        <types>CatalogRef</types>
+        <stringQualifiers>
+          <length>1000</length>
+        </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
