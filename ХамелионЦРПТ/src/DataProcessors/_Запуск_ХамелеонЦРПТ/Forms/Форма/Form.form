@@ -18609,7 +18609,7 @@
               <id>776</id>
               <title>
                 <key>ru</key>
-                <value>При заполнении отгрузки(и ввод в оборот+списание) не учитывать остаток</value>
+                <value>При заполнении отгрузки(и ввод в оборот+списание+агрегация) не учитывать остаток</value>
               </title>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -26033,6 +26033,58 @@
     <edit>
       <common>true</common>
     </edit>
+  </attributes>
+  <attributes>
+    <name>КМДляУдаления</name>
+    <title>
+      <key>ru</key>
+      <value>КМДля удаления</value>
+    </title>
+    <id>95</id>
+    <valueType>
+      <types>ValueTable</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <columns>
+      <name>КМ</name>
+      <title>
+        <key>ru</key>
+        <value>КМ</value>
+      </title>
+      <id>1</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Проверять</name>
+      <title>
+        <key>ru</key>
+        <value>Проверять</value>
+      </title>
+      <id>2</id>
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <formCommands>
     <name>HELP</name>

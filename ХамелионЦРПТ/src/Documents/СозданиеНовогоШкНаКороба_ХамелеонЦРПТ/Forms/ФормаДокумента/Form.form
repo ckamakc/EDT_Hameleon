@@ -5648,6 +5648,23 @@
       </edit>
     </columns>
   </attributes>
+  <attributes>
+    <name>ПриЗаполненииОтгрузкиНеУчитыватьОстаток</name>
+    <title>
+      <key>ru</key>
+      <value>При заполнении отгрузки не учитывать остаток</value>
+    </title>
+    <id>20</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>УказатьВнешнююОбработку</name>
     <title>

@@ -1324,6 +1324,24 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
+    <attributes uuid="747c3eef-c222-43fd-b293-2199109a8487">
+      <name>Акциз</name>
+      <synonym>
+        <key>ru</key>
+        <value>Акциз</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
   </tabularSections>
   <tabularSections uuid="f93e7c62-24dd-4ef4-8ba1-0670a926b6c8">
     <producedTypes>
@@ -1400,7 +1418,7 @@
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>50</length>
+          <length>72</length>
         </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
@@ -1514,6 +1532,21 @@
       </synonym>
       <type>
         <types>EnumRef.Тип_КМ_ХамелеонЦРПТ</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="16fb89a4-20d4-448c-bff7-7136486a0936">
+      <name>ТипЭмиссии</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип эмиссии</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

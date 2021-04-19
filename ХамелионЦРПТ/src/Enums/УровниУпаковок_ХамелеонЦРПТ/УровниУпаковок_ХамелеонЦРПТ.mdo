@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b28621ac-61bc-4ea0-bf75-cdef9352aef9">
+  <producedTypes>
+    <refType typeId="10f3da1a-ddb5-4c8c-b141-0baeb7af4afa" valueTypeId="24a72734-8f17-4e36-972e-1707832f85e4"/>
+    <listType typeId="7c1437a1-1cc5-47c7-b464-51bb6915a6f3" valueTypeId="f5d960a0-fe2e-469f-b8e4-3dc03a246628"/>
+    <managerType typeId="9b8e125c-6af6-4df2-9aa4-3a3c6d67e3a7" valueTypeId="67a4243c-0a96-4b35-bfc2-035ca24d97c1"/>
+  </producedTypes>
+  <name>УровниУпаковок_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уровни упаковок хамелеон ЦРПТ</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6517d80b-645a-4797-9973-1e5c41ebe0f4">
+    <name>ГрупповаяПотребительскаяУпаковка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Групповая потребительская упаковка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="af29799c-3173-478a-86af-50ff14a4aba9">
+    <name>ТранспортнаяУпаковка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспортная упаковка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
