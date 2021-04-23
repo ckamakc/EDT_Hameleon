@@ -6241,6 +6241,24 @@
         <common>true</common>
       </edit>
     </columns>
+    <columns>
+      <name>НомерАгрегата</name>
+      <title>
+        <key>ru</key>
+        <value>Номер агрегата</value>
+      </title>
+      <id>9</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <attributes>
     <name>ИтогУпаковок</name>

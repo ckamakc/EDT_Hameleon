@@ -1173,4 +1173,19 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
+  <resources uuid="b814e7ee-3b34-4c5e-8ec0-10bf0070014b">
+    <name>ПриПроведенииПриемкиПриходоватьКМВоВложении</name>
+    <synonym>
+      <key>ru</key>
+      <value>При проведении приемки приходовать КМВо вложении</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
 </mdclass:InformationRegister>

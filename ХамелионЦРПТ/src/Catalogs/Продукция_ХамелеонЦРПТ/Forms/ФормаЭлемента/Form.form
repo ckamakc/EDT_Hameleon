@@ -6289,7 +6289,7 @@
         </extInfo>
       </items>
       <items xsi:type="form:Table">
-        <name>Таблица7</name>
+        <name>ДополнительныеУпаковки</name>
         <id>2215</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -6496,9 +6496,15 @@
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:InputFieldExtInfo">
+            <handlers>
+              <event>StartListChoice</event>
+              <name>Таблица7КодТовараВложенияВУпаковкуНачалоВыбораИзСписка</name>
+            </handlers>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <wrap>true</wrap>
+            <choiceListButton>true</choiceListButton>
+            <dropListButton>true</dropListButton>
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
@@ -6973,8 +6979,38 @@
           </extInfo>
         </items>
         <autoCommandBar>
-          <name>Таблица7КоманднаяПанель</name>
+          <name>ДополнительныеУпаковкиКоманднаяПанель</name>
           <id>2217</id>
+          <items xsi:type="form:Button">
+            <name>СгенерироватьGTIN</name>
+            <id>2267</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>СгенерироватьGTINРасширеннаяПодсказка</name>
+              <id>2268</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Command.СгенерироватьGTIN</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -6989,10 +7025,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <name>Таблица7СтрокаПоиска</name>
+          <name>ДополнительныеУпаковкиСтрокаПоиска</name>
           <id>2219</id>
           <extendedTooltip>
-            <name>Таблица7СтрокаПоискаРасширеннаяПодсказка</name>
+            <name>ДополнительныеУпаковкиСтрокаПоискаРасширеннаяПодсказка</name>
             <id>2221</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -7007,7 +7043,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>Таблица7СтрокаПоискаКонтекстноеМеню</name>
+            <name>ДополнительныеУпаковкиСтрокаПоискаКонтекстноеМеню</name>
             <id>2220</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -7026,10 +7062,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <name>Таблица7СостояниеПросмотра</name>
+          <name>ДополнительныеУпаковкиСостояниеПросмотра</name>
           <id>2222</id>
           <extendedTooltip>
-            <name>Таблица7СостояниеПросмотраРасширеннаяПодсказка</name>
+            <name>ДополнительныеУпаковкиСостояниеПросмотраРасширеннаяПодсказка</name>
             <id>2224</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -7044,7 +7080,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>Таблица7СостояниеПросмотраКонтекстноеМеню</name>
+            <name>ДополнительныеУпаковкиСостояниеПросмотраКонтекстноеМеню</name>
             <id>2223</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -7064,10 +7100,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <name>Таблица7УправлениеПоиском</name>
+          <name>ДополнительныеУпаковкиУправлениеПоиском</name>
           <id>2225</id>
           <extendedTooltip>
-            <name>Таблица7УправлениеПоискомРасширеннаяПодсказка</name>
+            <name>ДополнительныеУпаковкиУправлениеПоискомРасширеннаяПодсказка</name>
             <id>2227</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -7082,7 +7118,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>Таблица7УправлениеПоискомКонтекстноеМеню</name>
+            <name>ДополнительныеУпаковкиУправлениеПоискомКонтекстноеМеню</name>
             <id>2226</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -7097,7 +7133,7 @@
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>Таблица7РасширеннаяПодсказка</name>
+          <name>ДополнительныеУпаковкиРасширеннаяПодсказка</name>
           <id>2218</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -7112,7 +7148,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>Таблица7КонтекстноеМеню</name>
+          <name>ДополнительныеУпаковкиКонтекстноеМеню</name>
           <id>2216</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -38184,6 +38220,27 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>РедактироватьЛюбуюКарточку</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>СгенерироватьGTIN</name>
+    <title>
+      <key>ru</key>
+      <value>Сгенерировать GTIN для выделенной строчки</value>
+    </title>
+    <id>14</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Сгенерировать GTIN</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>СгенерироватьGTIN</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

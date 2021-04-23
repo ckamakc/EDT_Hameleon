@@ -12,7 +12,7 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
-  <version>1.0.1</version>
+  <version>22_04_21_ЦРПТ.cf</version>
   <useManagedFormInOrdinaryApplication>true</useManagedFormInOrdinaryApplication>
   <requiredMobileApplicationPermissions>
     <permission>AllowOSBackup</permission>
@@ -23,7 +23,7 @@
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>UseWithWarnings</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>UseWithWarnings</synchronousPlatformExtensionAndAddInCallUseMode>
-  <compatibilityMode>8.3.17</compatibilityMode>
+  <compatibilityMode>8.3.15</compatibilityMode>
   <languages uuid="2d7ab082-20cd-4d58-b0c2-54d9c5c65c81">
     <name>Русский</name>
     <synonym>

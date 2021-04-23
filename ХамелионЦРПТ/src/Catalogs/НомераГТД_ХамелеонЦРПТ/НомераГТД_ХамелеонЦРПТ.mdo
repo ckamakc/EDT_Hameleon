@@ -10,7 +10,7 @@
   <name>НомераГТД_ХамелеонЦРПТ</name>
   <synonym>
     <key>ru</key>
-    <value>Номера ГТД хамелеон ЦРПТ</value>
+    <value>Номера ГТД Хамелеон ЦРПТ</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.НомераГТД_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
