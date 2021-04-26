@@ -590,6 +590,39 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="01d2572b-cd02-4acb-b8a7-f78cfe67d19a">
+    <name>Комплект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплект</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5c43083f-b694-4ff0-b1c0-655d446b6d86">
+    <name>КоличествоЭлементовВнутри</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество элементов внутри</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="f1db22f4-dc91-4145-9372-4019b07371ae">
     <producedTypes>
       <objectType typeId="625c3bee-bc95-4eac-964d-94fb6bdd6f02" valueTypeId="e92c5246-799f-410a-a314-a0aa4e4becaf"/>

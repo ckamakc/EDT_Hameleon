@@ -2097,15 +2097,32 @@
 				</c>
 			</c>
 			<c>
-				<i>26</i>
 				<c>
 					<f>66</f>
+					<parameter>Комплект</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>67</f>
+					<parameter>КоличествоЭлементовВнутри</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>68</f>
+					<parameter>Комплектация</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>69</f>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>67</defaultFormatIndex>
+	<defaultFormatIndex>70</defaultFormatIndex>
 	<height>249</height>
 	<vgRows>249</vgRows>
 	<merge>
@@ -2848,6 +2865,55 @@
 			</v8:item>
 		</format>
 		<controlType>381ed624-9217-4e63-85db-c4c3cb87daae</controlType>
+	</format>
+	<format>
+		<font>6</font>
+		<width>208</width>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textPlacement>Auto</textPlacement>
+		<fillType>Parameter</fillType>
+		<hidden>false</hidden>
+		<containsValue>true</containsValue>
+		<valueType>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>0</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</valueType>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ДФ=dd.MM.yyyy</v8:content>
+			</v8:item>
+		</format>
+		<controlType>381ed624-9217-4e63-85db-c4c3cb87daae</controlType>
+	</format>
+	<format>
+		<font>0</font>
+		<border>0</border>
+		<height>120</height>
+		<width>274</width>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Block</textPlacement>
+		<fillType>Parameter</fillType>
+		<hidden>false</hidden>
+	</format>
+	<format>
+		<font>0</font>
+		<border>0</border>
+		<height>120</height>
+		<width>376</width>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
+		<hidden>false</hidden>
+		<indent>0</indent>
 	</format>
 	<format>
 		<font>6</font>
