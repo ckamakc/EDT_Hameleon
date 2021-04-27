@@ -7672,6 +7672,36 @@
               <representationInContextMenu>Auto</representationInContextMenu>
             </items>
             <items xsi:type="form:Button">
+              <name>ВводВОборотТаблицаСоздатьОтчетОНанесенииИзXML</name>
+              <id>1225</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>ВводВОборотТаблицаСоздатьОтчетОНанесенииИзXMLРасширеннаяПодсказка</name>
+                <id>1226</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <commandName>Form.Command.СоздатьОтчетОНанесенииИзXML</commandName>
+              <representation>Auto</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <representationInContextMenu>Auto</representationInContextMenu>
+            </items>
+            <items xsi:type="form:Button">
               <name>ВводВОборотТаблицаСоздатьОтчетОНанесенииИзXMLИОтправить</name>
               <id>1227</id>
               <visible>true</visible>
@@ -22184,7 +22214,7 @@
             <id>1350</id>
             <title>
               <key>ru</key>
-              <value>Получать КМ по заказу ЦРПТ в фоне</value>
+              <value>Получать КМ по заказу ЦРПТ в фоне, а также отправлять отчет о нанесении в фоновом режиме</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>

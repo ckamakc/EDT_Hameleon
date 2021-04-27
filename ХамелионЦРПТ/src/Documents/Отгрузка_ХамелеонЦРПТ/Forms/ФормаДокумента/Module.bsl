@@ -17238,8 +17238,11 @@ EndFunction
 	//
 	//
 	FileUUID = РеквизитыДокумента_1.ИдентификаторЭД;
+	
+	
+	
 	Request.Open("POST", "https://diadoc.kontur.ru/ShelfUpload?nameOnShelf=/__userId__/" + FileUUID + "&partIndex=0&isLastPart=1", 0);
-	Request.SetRequestHeader("Content-Length", Формат(СтрокаXML.Текстовыйдо,"ЧГ="));
+	Request.SetRequestHeader("Content-Length", Формат(Stream.Size,"ЧГ="));
 	Request.SetRequestHeader("Content-Type", "application/octet-stream");
 	Request.Send(Stream);//СтрокаXML.Текстовыйдо.Получитьтекст());
 	Request.WaitForResponse();

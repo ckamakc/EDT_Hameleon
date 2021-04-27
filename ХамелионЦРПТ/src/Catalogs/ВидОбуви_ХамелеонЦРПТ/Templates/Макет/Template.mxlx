@@ -27,7 +27,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>&lt;310000001&gt; БОКСЕРКИ</v8:content>
+							<v8:content>&lt;310000031&gt; БАЛЕТКИ</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -43,7 +43,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>&lt;310000002&gt; БОРЦОВКИ</v8:content>
+							<v8:content>&lt;310000001&gt; БОКСЕРКИ</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -59,7 +59,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>&lt;310000003&gt; БОТИНКИ</v8:content>
+							<v8:content>&lt;310000002&gt; БОРЦОВКИ</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -75,7 +75,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>&lt;310000004&gt; БОТИНКИ ДЛЯ БЕГОВЫХ ЛЫЖ</v8:content>
+							<v8:content>&lt;310000030&gt; БОСОНОЖКИ</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -91,7 +91,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>&lt;310000005&gt; БОТИНКИ ДЛЯ ГОРНЫХ ЛЫЖ</v8:content>
+							<v8:content>&lt;310000032&gt; БОТИЛЬОНЫ</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -107,7 +107,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>&lt;310000006&gt; БОТИНКИ ПЛАВАТЕЛЬНЫЕ</v8:content>
+							<v8:content>&lt;310000033&gt; БОТИЛЬОНЫ ВЫСОКИЕ</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -123,7 +123,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>&lt;310000007&gt; БОТИНКИ СНОУБОРДИЧЕСКИЕ</v8:content>
+							<v8:content>&lt;310000003&gt; БОТИНКИ</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -139,7 +139,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>&lt;310000008&gt; БУТСЫ</v8:content>
+							<v8:content>&lt;310000034&gt; БОТИНКИ ВЫСОКИЕ</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -155,7 +155,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>&lt;310000026&gt; ВАЛЕНКИ</v8:content>
+							<v8:content>&lt;310000004&gt; БОТИНКИ ДЛЯ БЕГОВЫХ ЛЫЖ</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -171,7 +171,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>&lt;310000009&gt; ГАЛОШИ</v8:content>
+							<v8:content>&lt;310000005&gt; БОТИНКИ ДЛЯ ГОРНЫХ ЛЫЖ</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -187,7 +187,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>&lt;310000010&gt; КЕДЫ</v8:content>
+							<v8:content>&lt;310000006&gt; БОТИНКИ ПЛАВАТЕЛЬНЫЕ</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -203,7 +203,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>&lt;310000011&gt; МОКАСИНЫ</v8:content>
+							<v8:content>&lt;310000076&gt; БОТИНКИ ПРОИЗВОДСТВЕННЫЕ</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -219,7 +219,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>&lt;310000012&gt; ПАНТОЛЕТЫ (ШЛЕПАНЦЫ)</v8:content>
+							<v8:content>&lt;310000007&gt; БОТИНКИ СНОУБОРДИЧЕСКИЕ</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -235,7 +235,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>&lt;310000013&gt; ПИНЕТКИ</v8:content>
+							<v8:content>&lt;310000075&gt; БОТИНКИ СПЕЦИАЛЬНЫЕ</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -251,7 +251,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>&lt;310000014&gt; ПОЛУБОТИНКИ</v8:content>
+							<v8:content>&lt;310000047&gt; БОТЫ</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -267,7 +267,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>&lt;310000015&gt; ПОЛУКЕДЫ</v8:content>
+							<v8:content>&lt;310000035&gt; БРОГИ</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -283,7 +283,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>&lt;310000016&gt; ПОЛУСАПОГИ</v8:content>
+							<v8:content>&lt;310000008&gt; БУТСЫ</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -299,7 +299,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>&lt;310000027&gt; ПУАНТЫ</v8:content>
+							<v8:content>&lt;310000026&gt; ВАЛЕНКИ</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -315,7 +315,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>&lt;310000017&gt; САМБОВКИ</v8:content>
+							<v8:content>&lt;310000053&gt; ВЬЕТНАМКИ</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -331,7 +331,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>&lt;310000018&gt; САНДАЛЕТЫ</v8:content>
+							<v8:content>&lt;310000009&gt; ГАЛОШИ</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -347,7 +347,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>&lt;310000019&gt; САНДАЛИИ</v8:content>
+							<v8:content>&lt;310000072&gt; ГИМНАСТИЧЕСКИЕ ПОЛУТАПОЧКИ</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -363,7 +363,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>&lt;310000020&gt; САПОГИ</v8:content>
+							<v8:content>&lt;310000054&gt; ГЛАДИАТОРЫ</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -379,7 +379,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>&lt;310000021&gt; САПОГИ С УДЛИНЕННЫМИ ГОЛЕНИЩАМИ (БОТФОРТЫ)</v8:content>
+							<v8:content>&lt;310000036&gt; ДЕРБИ</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -395,7 +395,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>&lt;310000022&gt; ТАПОЧКИ</v8:content>
+							<v8:content>&lt;310000055&gt; ДЖИБИТСЫ</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -411,7 +411,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>&lt;310000023&gt; ТУФЛИ</v8:content>
+							<v8:content>&lt;310000037&gt; ДОМАШНЯЯ ОБУВЬ</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -427,7 +427,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>&lt;310000024&gt; ТУФЛИ ДЛЯ ХОЖДЕНИЯ ПО КОРАЛЛАМ</v8:content>
+							<v8:content>&lt;310000056&gt; ДУТИКИ</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -443,7 +443,935 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000010&gt; КЕДЫ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>27</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000038&gt; КЕДЫ ВЫСОКИЕ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>28</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000039&gt; КРОССОВКИ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>29</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000040&gt; КРОССОВКИ ВЫСОКИЕ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>30</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000057&gt; КРОССОВКИ РОЛИКОВЫЕ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>31</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000041&gt; ЛОФЕРЫ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>32</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000058&gt; ЛУНОХОДЫ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>33</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000011&gt; МОКАСИНЫ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>34</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000080&gt; ОБУВЬ ПЛЯЖНАЯ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>35</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000042&gt; ОКСФОРДЫ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>36</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000012&gt; ПАНТОЛЕТЫ (ШЛЕПАНЦЫ)</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>37</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000013&gt; ПИНЕТКИ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>38</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000014&gt; ПОЛУБОТИНКИ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>39</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000015&gt; ПОЛУКЕДЫ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>40</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000016&gt; ПОЛУСАПОГИ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>41</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000079&gt; ПОЛУСАПОЖКИ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>42</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000059&gt; ПОЛУЧЕШКИ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>43</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000027&gt; ПУАНТЫ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>44</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000050&gt; ОБУВЬ ДЛЯ ЕДИНОБОРСТВ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>45</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000051&gt; ОБУВЬ ДЛЯ ТЯЖЕЛОЙ АТЛЕТИКИ И СИЛОВЫХ ВИДОВ СПОРТА </v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>46</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000052&gt; ОБУВЬ ТРЕНИРОВОЧНАЯ ДЛЯ ЗАНЯТИЙ СПОРТОМ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>47</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000044&gt; РЕЗИНОВЫЕ САПОГИ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>48</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000029&gt; САБО</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>49</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000017&gt; САМБОВКИ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>50</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000018&gt; САНДАЛЕТЫ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>51</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000019&gt; САНДАЛИИ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>52</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000020&gt; САПОГИ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>53</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000073&gt; САПОГИ СПЕЦИАЛЬНЫЕ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>54</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000074&gt; САПОГИ ПРОИЗВОДСТВЕННЫЕ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>55</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000021&gt; САПОГИ С УДЛИНЕННЫМИ ГОЛЕНИЩАМИ (БОТФОРТЫ)</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>56</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000046&gt; САПОЖКИ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>57</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000049&gt; СКАЛЬНЫЕ ТУФЛИ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>58</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000062&gt; СЛАНЦЫ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>59</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000063&gt; СЛИПЕРЫ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>60</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000048&gt; СЛИПОНЫ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>61</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000064&gt; СНИКЕРЫ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>62</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000065&gt; СНОУБУТСЫ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>63</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000045&gt; СРЕДСТВА ДОПОЛНИТЕЛЬНОЙ ЗАЩИТЫ НОГ ОТ УДАРОВ В НОСОЧНОЙ ЧАСТИ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>64</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000022&gt; ТАПОЧКИ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>65</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000066&gt; ТОПСАЙДЕРЫ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>66</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000023&gt; ТУФЛИ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>67</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000024&gt; ТУФЛИ ДЛЯ ХОЖДЕНИЯ ПО КОРАЛЛАМ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>68</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000028&gt; ТУФЛИ ЛЕТНИЕ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>69</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000070&gt; ТУФЛИ КУПАЛЬНЫЕ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>70</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000078&gt; ТУФЛИ ПРОИЗВОДСТВЕННЫЕ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>71</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000077&gt; ТУФЛИ СПЕЦИАЛЬНЫЕ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>72</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000071&gt; ТУФЛИ ТАНЦЕВАЛЬНЫЕ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>73</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000067&gt; УГГИ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>74</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000043&gt; УНТЫ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>75</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000069&gt; ЭСПАДРИЛЬИ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>76</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000068&gt; ЧЕЛСИ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>77</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
 							<v8:content>&lt;310000025&gt; ЧЕШКИ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>78</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000081&gt; ПОЛУБОТИНКИ СПЕЦИАЛЬНЫЕ </v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>79</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000082&gt; ВАЛЕНКИ СПЕЦИАЛЬНЫЕ </v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>80</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000083&gt; ГАЛОШИ СПЕЦИАЛЬНЫЕ </v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>81</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000084&gt; БОТЫ СПЕЦИАЛЬНЫЕ </v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>82</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000085&gt; ТАПОЧКИ (САНДАЛИИ) СПЕЦИАЛЬНЫЕ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>83</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000086&gt; ЧУВЯКИ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>84</index>
+		<row>
+			<c>
+				<c>
+					<f>2</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;310000087&gt; ТУФЛИ ПЛЯЖНЫЕ</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -452,17 +1380,22 @@
 	</rowsItem>
 	<templateMode>true</templateMode>
 	<defaultFormatIndex>3</defaultFormatIndex>
-	<height>27</height>
-	<vgRows>27</vgRows>
+	<height>85</height>
+	<vgRows>85</vgRows>
+	<line width="0" gap="false">
+		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">None</v8ui:style>
+	</line>
 	<font faceName="Calibri" height="11.1" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<format>
 		<width>721</width>
 	</format>
 	<format>
 		<font>0</font>
+		<border>0</border>
 		<horizontalAlignment>Left</horizontalAlignment>
 		<verticalAlignment>Bottom</verticalAlignment>
 		<textColor>#000000</textColor>
+		<protection>false</protection>
 		<textOrientation>0</textOrientation>
 	</format>
 	<format>

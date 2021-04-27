@@ -2524,7 +2524,7 @@
     <name>ЗагрузитьИзНКПоAPI</name>
     <title>
       <key>ru</key>
-      <value>Загрузить из НК по API</value>
+      <value>Загрузить из НК по API-ключу (по субаккаунту)</value>
     </title>
     <id>20</id>
     <toolTip>
