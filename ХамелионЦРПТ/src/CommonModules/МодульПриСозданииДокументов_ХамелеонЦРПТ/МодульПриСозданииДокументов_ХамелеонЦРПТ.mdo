@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="adec37e6-ca79-4fa1-bc85-b0b4c0d20bb3">
+  <name>МодульПриСозданииДокументов_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Модуль при создании документов хамелеон ЦРПТ</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

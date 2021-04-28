@@ -12,7 +12,7 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
-  <version>26_04_21_ЦРПТ.cf</version>
+  <version>28_04_21_ЦРПТ.cf</version>
   <useManagedFormInOrdinaryApplication>true</useManagedFormInOrdinaryApplication>
   <requiredMobileApplicationPermissions>
     <permission>AllowOSBackup</permission>
@@ -44,6 +44,7 @@
   <commonModules>CommonModule.РаботаСЭДО_На_Клиенте_ХамелеонЦРПТ</commonModules>
   <commonModules>CommonModule.МВ_ЗапускПрограммыВызовСервера</commonModules>
   <commonModules>CommonModule.ОбщийМодуль_ОграничениеПользователей_ХамелеонЦРПТ</commonModules>
+  <commonModules>CommonModule.МодульПриСозданииДокументов_ХамелеонЦРПТ</commonModules>
   <constants>Constant.Регламент_ХамелеонЦРПТ</constants>
   <constants>Constant.РежимРаботыХамелеонЦРПТ</constants>
   <constants>Constant.ВремяПоследнегоВыполненияРегламента_ХамелеонЦРПТ</constants>
