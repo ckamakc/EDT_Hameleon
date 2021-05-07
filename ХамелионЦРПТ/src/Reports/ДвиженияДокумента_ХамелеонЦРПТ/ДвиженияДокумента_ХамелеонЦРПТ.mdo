@@ -57,6 +57,7 @@
       <types>DocumentRef.ВводВОборот_ХамелеонЦРПТ</types>
       <types>DocumentRef.Отгрузка_ХамелеонЦРПТ</types>
       <types>DocumentRef.Приемка_ХамелеонЦРПТ</types>
+      <types>DocumentRef.СозданиеНовогоАТК_ХамелеонЦРПТ</types>
       <types>DocumentRef.СписаниеКМНанесенныхНеНанесенныхНаТовар_ХамелеонЦРПТ</types>
       <types>DocumentRef.АвтоКорректировкаОстатков_ХамелеонЦРПТ</types>
       <types>DocumentRef.ЗаказМарок_ХамелеонЦРПТ</types>

@@ -219,6 +219,7 @@
   <documents>Document.НациооналныйКаталог_Одежда_ХамелеонЦРПТ</documents>
   <documents>Document.РегистрацияСведенийОбОтменеОперации_ХамелеонЦРПТ</documents>
   <documents>Document.Инвентаризация_ХамелеонЦРПТ</documents>
+  <documents>Document.СозданиеНовогоАТК_ХамелеонЦРПТ</documents>
   <enums>Enum.СтатусыДокументов_ХамелеонЦРПТ</enums>
   <enums>Enum.Сайты_ХамелеонЦРПТ</enums>
   <enums>Enum.СпособИзготовленияСИ_ХамелеонЦРПТ</enums>

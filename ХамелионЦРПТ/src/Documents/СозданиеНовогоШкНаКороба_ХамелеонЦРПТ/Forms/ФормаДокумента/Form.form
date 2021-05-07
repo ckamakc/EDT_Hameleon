@@ -2220,6 +2220,40 @@
                     <placementArea>UserCmds</placementArea>
                     <representationInContextMenu>Auto</representationInContextMenu>
                   </items>
+                  <items xsi:type="form:Button">
+                    <name>МаркиПолучитьИнформациюПоКМ</name>
+                    <id>341</id>
+                    <title>
+                      <key>ru</key>
+                      <value>Поллучить информацию об агрегациях</value>
+                    </title>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <extendedTooltip>
+                      <name>МаркиПолучитьИнформациюПоКМРасширеннаяПодсказка</name>
+                      <id>342</id>
+                      <visible>true</visible>
+                      <enabled>true</enabled>
+                      <userVisible>
+                        <common>true</common>
+                      </userVisible>
+                      <type>Label</type>
+                      <autoMaxWidth>true</autoMaxWidth>
+                      <autoMaxHeight>true</autoMaxHeight>
+                      <extInfo xsi:type="form:LabelDecorationExtInfo">
+                        <horizontalAlign>Left</horizontalAlign>
+                      </extInfo>
+                    </extendedTooltip>
+                    <commandName>Form.Command.ПолучитьИнформациюПоКМ</commandName>
+                    <representation>Auto</representation>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <placementArea>UserCmds</placementArea>
+                    <representationInContextMenu>Auto</representationInContextMenu>
+                  </items>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -5992,6 +6026,27 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ВывестиДвижения</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ПолучитьИнформациюПоКМ</name>
+    <title>
+      <key>ru</key>
+      <value>Получить информацию по КМ</value>
+    </title>
+    <id>17</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Получить информацию по КМ</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПолучитьИнформациюПоКМ</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

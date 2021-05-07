@@ -26,4 +26,11 @@
       <value>Упаковка</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="7a96e00f-ec3f-4c5a-9cd8-23ee4d77d1d5">
+    <name>АТК</name>
+    <synonym>
+      <key>ru</key>
+      <value>АТК</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>
