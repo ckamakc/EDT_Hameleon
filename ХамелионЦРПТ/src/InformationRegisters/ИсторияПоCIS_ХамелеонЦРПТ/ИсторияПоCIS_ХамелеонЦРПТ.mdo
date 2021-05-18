@@ -95,6 +95,26 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
+  <resources uuid="43d178b7-1532-4d66-a022-d3ea780c36b4">
+    <name>НомерАгрегата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер агрегата</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
   <dimensions uuid="bdfd9eeb-df57-4dda-ade9-df79f5ae7564">
     <name>Документ</name>
     <synonym>

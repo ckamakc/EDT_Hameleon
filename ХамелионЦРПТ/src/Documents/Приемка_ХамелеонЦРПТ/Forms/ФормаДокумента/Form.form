@@ -2572,11 +2572,44 @@
             <name>ЗакачатьДетИнф</name>
             <id>387</id>
             <items xsi:type="form:Button">
+              <name>ТоварыЗакачатьДетальнуюИфнормациюБыстро</name>
+              <id>526</id>
+              <title>
+                <key>ru</key>
+                <value>1а. Закачать детальную ифнормацию быстро</value>
+              </title>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>ТоварыЗакачатьДетальнуюИфнормациюБыстроРасширеннаяПодсказка</name>
+                <id>527</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <commandName>Form.Command.ЗакачатьДетальнуюИфнормациюБыстро</commandName>
+              <representation>Auto</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <representationInContextMenu>Auto</representationInContextMenu>
+            </items>
+            <items xsi:type="form:Button">
               <name>ТоварыЗакачатьДетальнуюИнформацию</name>
               <id>293</id>
               <title>
                 <key>ru</key>
-                <value>Закачать дет. инф. о продукциях, когда больше 50 коробов(иногда требуется повторно нажать)</value>
+                <value>Закачать дет. инф. о продукциях</value>
               </title>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -5048,6 +5081,143 @@
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <items xsi:type="form:FormGroup">
+            <name>ЗакачатьДетИнф1</name>
+            <id>528</id>
+            <items xsi:type="form:Button">
+              <name>ТоварыЗакачатьДетальнуюИфнормациюБыстро1</name>
+              <id>530</id>
+              <title>
+                <key>ru</key>
+                <value>1а. Закачать детальную ифнормацию быстро</value>
+              </title>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>ТоварыЗакачатьДетальнуюИфнормациюБыстро1РасширеннаяПодсказка</name>
+                <id>531</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <commandName>Form.Command.ЗакачатьДетальнуюИфнормациюБыстро</commandName>
+              <representation>Auto</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <representationInContextMenu>Auto</representationInContextMenu>
+            </items>
+            <items xsi:type="form:Button">
+              <name>ТоварыЗакачатьДетальнуюИнформацию2</name>
+              <id>532</id>
+              <title>
+                <key>ru</key>
+                <value>Закачать дет. инф. о продукциях</value>
+              </title>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>ТоварыЗакачатьДетальнуюИнформацию2РасширеннаяПодсказка</name>
+                <id>533</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <commandName>Form.Command.ЗакачатьДетальнуюИнформацию</commandName>
+              <representation>Auto</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <representationInContextMenu>Auto</representationInContextMenu>
+            </items>
+            <items xsi:type="form:Button">
+              <name>ПроверкаПоНомерамКМОбновитьИнформациюПоВсем2</name>
+              <id>534</id>
+              <title>
+                <key>ru</key>
+                <value>Закачать дет. инф. о продукциях(другой метод)</value>
+              </title>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>ПроверкаПоНомерамКМОбновитьИнформациюПоВсем2РасширеннаяПодсказка</name>
+                <id>535</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <commandName>Form.Command.ОбновитьИнформациюПоВсем</commandName>
+              <representation>Auto</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <representationInContextMenu>Auto</representationInContextMenu>
+            </items>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Закачать дет. инф.</value>
+            </title>
+            <toolTip>
+              <key>ru</key>
+              <value>Закачать дет инф</value>
+            </toolTip>
+            <extendedTooltip>
+              <name>ЗакачатьДетИнф1РасширеннаяПодсказка</name>
+              <id>529</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>Popup</type>
+            <extInfo xsi:type="form:PopupGroupExtInfo">
+              <representation>Auto</representation>
+            </extInfo>
           </items>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -10264,6 +10434,27 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ОпределитьНомераПартииСерийники</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ЗакачатьДетальнуюИфнормациюБыстро</name>
+    <title>
+      <key>ru</key>
+      <value>Закачать детальную ифнормацию быстро</value>
+    </title>
+    <id>33</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Закачать детальную ифнормацию быстро</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ЗакачатьДетальнуюИфнормациюБыстро</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
