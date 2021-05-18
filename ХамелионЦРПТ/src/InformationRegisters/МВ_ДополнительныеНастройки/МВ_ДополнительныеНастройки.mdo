@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69e5a00c-b2ae-43e0-ba42-d3c181a117ac">
+  <producedTypes>
+    <selectionType typeId="a29b59fe-60ad-4e75-872d-42e56987abe4" valueTypeId="71f53b4e-45cb-4047-a6e9-de0ab720eeb7"/>
+    <listType typeId="26ce5f5e-1c24-4db8-8655-2f438b76c3ea" valueTypeId="0cd854cf-a1c6-4905-a307-244012e214de"/>
+    <managerType typeId="2fcca861-d382-46df-9fc5-fdbfb281b5d7" valueTypeId="881353fb-8796-4549-be97-275b85df4b08"/>
+    <recordSetType typeId="929a60e1-7a6d-42b9-b306-8a5b643cf63c" valueTypeId="d96ce965-ff3b-4f5d-964d-5e18a22ccc87"/>
+    <recordKeyType typeId="c826eca2-1c5b-4013-a1d8-d451eb543be7" valueTypeId="c456a911-89e7-42e5-ba6f-6c8e2c1ed1aa"/>
+    <recordType typeId="762a5c55-5ca1-4f48-9931-295629747348" valueTypeId="8f46fc23-6378-468d-8019-69ad43a59daf"/>
+    <recordManagerType typeId="fad43093-b7f8-440d-a7ca-055c1862e977" valueTypeId="7a81e11a-30c7-416b-8846-e92d05a639dd"/>
+  </producedTypes>
+  <name>МВ_ДополнительныеНастройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>(МВ) Дополнительные настройки</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.МВ_ДополнительныеНастройки.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.МВ_ДополнительныеНастройки.Form.ОсновнаяФорма</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Дополнительная настройка</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Дополнительная настройка</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>(МВ) Дополнительные настройки</value>
+  </extendedListPresentation>
+  <resources uuid="38040290-eb85-4579-b336-b7065cfbee3c">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Characteristic.МВ_ПереченьДополнительныхНастроек</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="9e8c7312-e02f-4992-923d-0142ca69cf40">
+    <name>Настройка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.МВ_ПереченьДополнительныхНастроек</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="97af8f16-5e9b-468f-8070-8fc31352b9c7">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="e2cb9fc1-aa4b-48e8-8010-f6d3ddbc01c3">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="86b1e13a-895f-447b-93a8-cce600477bf3">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9e0c034c-98b2-4743-9483-c9ca3282f0e3">
+    <name>ФормаИстории</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма истории</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a647adb8-5d7b-4278-8e65-42ca5ad9d0b2">
+    <name>ОсновнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="af2a0a14-56b9-4730-ad1b-963361c193fd">
+    <name>ФормаЗаписиИстории</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи истории</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="dcf65072-6325-4509-a9d7-e507a1415551">
+    <name>ДополнительныеНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные настройки</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:InformationRegister>

@@ -33,7 +33,13 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.ЗапускХамелеонЦРПТ</subsystems>
+  <subsystems>Subsystem.МВ_ДобавленныеОбъекты</subsystems>
+  <subsystems>Subsystem.Хамелеон</subsystems>
   <commonPictures>CommonPicture.СтатусыНакладных_ХамелеонЦРПТ</commonPictures>
+  <commonPictures>CommonPicture.Папка</commonPictures>
+  <commonPictures>CommonPicture.ПапкаОблачногоСервиса</commonPictures>
+  <commonPictures>CommonPicture.ЭлементПапка</commonPictures>
+  <commonPictures>CommonPicture.ЧестныйЗнак</commonPictures>
   <roles>Role.Права_ХамелеонЦРПТ</roles>
   <roles>Role.МВ_ПолныеПрава</roles>
   <commonModules>CommonModule.ОбщиеМетоды_НаКлиенте_ХамелеонЦРПТ</commonModules>
@@ -45,6 +51,37 @@
   <commonModules>CommonModule.МВ_ЗапускПрограммыВызовСервера</commonModules>
   <commonModules>CommonModule.ОбщийМодуль_ОграничениеПользователей_ХамелеонЦРПТ</commonModules>
   <commonModules>CommonModule.МодульПриСозданииДокументов_ХамелеонЦРПТ</commonModules>
+  <commonModules>CommonModule.КомпоновкаДанныхКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
+  <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
+  <commonModules>CommonModule.СтандартныеПодсистемыСервер</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиентСервер</commonModules>
+  <commonModules>CommonModule.СтандартныеПодсистемыПовтИсп</commonModules>
+  <commonModules>CommonModule.СтандартныеПодсистемыКлиентПовтИсп</commonModules>
+  <commonModules>CommonModule.ИнтеграцияПодсистемБСП</commonModules>
+  <commonModules>CommonModule.ИнтеграцияПодсистемБСПКлиент</commonModules>
+  <commonModules>CommonModule.РегламентныеЗаданияСервер</commonModules>
+  <commonModules>CommonModule.ФайловаяСистема</commonModules>
+  <commonModules>CommonModule.ФайловаяСистемаКлиент</commonModules>
+  <commonModules>CommonModule.ФайловаяСистемаСлужебныйКлиент</commonModules>
+  <commonModules>CommonModule.Пользователи</commonModules>
+  <commonModules>CommonModule.ПользователиКлиент</commonModules>
+  <commonModules>CommonModule.ПользователиКлиентСервер</commonModules>
+  <commonModules>CommonModule.ПользователиЛокализация</commonModules>
+  <commonModules>CommonModule.ПользователиПереопределяемый</commonModules>
+  <commonModules>CommonModule.ПользователиСлужебный</commonModules>
+  <commonModules>CommonModule.ПользователиСлужебныйКлиент</commonModules>
+  <commonModules>CommonModule.ПользователиСлужебныйКлиентСервер</commonModules>
+  <commonModules>CommonModule.ПользователиСлужебныйПовтИсп</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияПереопределяемый</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиентПовтИсп</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияПовтИсп</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиент</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиентСервер1</commonModules>
+  <commonModules>CommonModule.МВ_РегламентныеЗадания</commonModules>
+  <scheduledJobs>ScheduledJob.МВ_СформироватьВВодВОборотОКТО</scheduledJobs>
   <constants>Constant.Регламент_ХамелеонЦРПТ</constants>
   <constants>Constant.РежимРаботыХамелеонЦРПТ</constants>
   <constants>Constant.ВремяПоследнегоВыполненияРегламента_ХамелеонЦРПТ</constants>
@@ -288,6 +325,7 @@
   <dataProcessors>DataProcessor.ПолучитьИнформациОпроизводственномВСДпоВСДрасхода_ХамелеонЦРПТ</dataProcessors>
   <dataProcessors>DataProcessor.ОпределениеГУИДВСДПоГУИДЗаписиЖурнала_ХамелеонЦРПТ</dataProcessors>
   <dataProcessors>DataProcessor.МВ_АвтоматическаяОтправкаЦРПТ</dataProcessors>
+  <dataProcessors>DataProcessor.МВ_СформироватьВВодВОборотОКТО</dataProcessors>
   <informationRegisters>InformationRegister.ТокенПоСертификату_ХамелеонЦРПТ</informationRegisters>
   <informationRegisters>InformationRegister.PDFФайлы_ХамелеонЦРПТ</informationRegisters>
   <informationRegisters>InformationRegister.ОтправленныеПолученные_ХамелеонЦРПТ</informationRegisters>
@@ -314,8 +352,11 @@
   <informationRegisters>InformationRegister.ТокенДинамичкийДляСУЗ_ХамелеонЦРПТ</informationRegisters>
   <informationRegisters>InformationRegister.УниверсальноеСопоставлениеДляСтроковыхЗначений_ХамелеонЦРПТ</informationRegisters>
   <informationRegisters>InformationRegister.ТокенДинамичкийДляСУЗ_По_Идентификатору_ХамелеонЦРПТ</informationRegisters>
+  <informationRegisters>InformationRegister.МВ_РегистрФайлов</informationRegisters>
+  <informationRegisters>InformationRegister.МВ_ДополнительныеНастройки</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиКМЭмитированые_ХамелеонЦРПТ</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиКМ_в_Обороте_ХамелеонЦРПТ</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Резервы_ХамелеонЦРПТ</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиКМНеобходимоВвестиОтчетомОбИспользовании_ХамелеонЦРПТ</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.МВ_ПереченьДополнительныхНастроек</chartsOfCharacteristicTypes>
 </mdclass:Configuration>

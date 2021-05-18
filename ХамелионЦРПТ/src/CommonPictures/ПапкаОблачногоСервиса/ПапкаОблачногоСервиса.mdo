@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5a441e0-3a41-4837-a479-c6ec73f42633">
+  <name>ПапкаОблачногоСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Папка облачного сервиса</value>
+  </synonym>
+</mdclass:CommonPicture>

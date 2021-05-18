@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17fa347a-cec1-4f4a-8e2b-050804da5980">
+  <producedTypes>
+    <objectType typeId="808435e9-9488-458b-9efc-6f8619fb0c78" valueTypeId="ffd7a7e5-2735-42e0-b4c0-82ae69d608b8"/>
+    <refType typeId="a538aaf9-a917-4a40-9711-aa9a5c98d5c6" valueTypeId="18aa2021-d9ce-4267-b77d-386183112d90"/>
+    <selectionType typeId="cc23c225-38f6-4699-b721-d76322238e63" valueTypeId="e520219f-1d5c-4135-8cf2-ddb271d921f7"/>
+    <listType typeId="25ef7b41-4188-4ce3-8dc5-c139e08503ed" valueTypeId="4c77833e-f3b6-49bd-b6ca-4626c33e2017"/>
+    <managerType typeId="45ca3e16-5025-4e52-8917-b8d289277ad2" valueTypeId="b2b57dcc-bb5f-4ff9-8748-38ca2257cd22"/>
+    <containerType typeId="f36b1efc-8b05-48ce-a67c-86d0eeb0431f" valueTypeId="60770f46-feb2-4f85-9b34-bc515cc7cda6"/>
+  </producedTypes>
+  <name>МВ_ПереченьДополнительныхНастроек</name>
+  <synonym>
+    <key>ru</key>
+    <value>(МВ) Перечень дополнительных настроек</value>
+  </synonym>
+  <inputByString>ChartOfCharacteristicTypes.МВ_ПереченьДополнительныхНастроек.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ValueType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>9b0e7c41-f046-48c0-a0f7-dc9d514c7245.00000000-0000-0000-0000-000000000000</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Дополнительная настройка</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Перечень дополнительных настроек</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>(МВ) Перечень дополнительных настроек</value>
+  </extendedListPresentation>
+  <type>
+    <types>Boolean</types>
+    <types>CatalogRef.Пользователи_ХамелеонЦРПТ</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>Number</types>
+    <types>CatalogRef.Продукция_ХамелеонЦРПТ</types>
+    <types>CatalogRef.Организации_ХамелеонЦРПТ</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <scale>3</scale>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>1024</length>
+    </stringQualifiers>
+    <dateQualifiers/>
+  </type>
+  <hierarchical>true</hierarchical>
+  <foldersOnTop>true</foldersOnTop>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>150</descriptionLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="2ee6c32a-aea1-4f5f-b535-7907a89b3020">
+      <name>РаботаСОператоромОКТО</name>
+      <description>Работа с оператором ОКТО</description>
+      <isFolder>true</isFolder>
+      <type/>
+      <content id="cf5eafaa-ad00-47fb-bc27-4d969c54d11a">
+        <name>ОКТОКаталогФайловДляВводаВОборот</name>
+        <description>Каталог файлов для загрузки ввода в оборот от ОКТО</description>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>1024</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="76514a64-3d04-4195-b810-9639140fd7ad">
+        <name>ОКТОКаталогФайловДляЗагрузкиКМ</name>
+        <description>Каталог файлов для загрузки КМ от ОКТО</description>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>1024</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="c1b4f2c1-c6c5-495f-8e1c-8e48ffdf0fbd">
+        <name>ОКТОЛогин</name>
+        <description>Логин</description>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>50</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="2b531cd7-b468-4ce6-9e7e-9b47cfa48ddf">
+        <name>ОКТОПароль</name>
+        <description>Пароль</description>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>50</length>
+          </stringQualifiers>
+        </type>
+      </content>
+    </items>
+    <items id="dbe9dba7-4bc5-4d2d-87ee-de9d727c278c">
+      <name>КаталогЧтенияВСД</name>
+      <description>Каталог чтения ВСД</description>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="a67e648b-d682-470e-b9c2-b1f4f01f1046">
+      <name>ОсновнаяОрганизация</name>
+      <description>Основная организация</description>
+      <type>
+        <types>Boolean</types>
+        <types>String</types>
+        <types>Date</types>
+        <types>Number</types>
+        <types>CatalogRef.Организации_ХамелеонЦРПТ</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+        <dateQualifiers/>
+      </type>
+    </items>
+    <items id="a18609c2-cc4e-4efb-ae12-9b0759f070ba">
+      <name>ОсновнойПоставщик</name>
+      <description>Основной поставщик</description>
+      <type>
+        <types>Boolean</types>
+        <types>String</types>
+        <types>Date</types>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+        <dateQualifiers/>
+      </type>
+    </items>
+    <items id="189214a1-9683-455a-96d5-adbe47c63884">
+      <name>ЭтоЦентральнаяБаза</name>
+      <description>Это центральная база</description>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </items>
+  </predefined>
+  <predefinedDataUpdate>AutoUpdate</predefinedDataUpdate>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ChartOfCharacteristicTypes.МВ_ПереченьДополнительныхНастроек.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>ChartOfCharacteristicTypes.МВ_ПереченьДополнительныхНастроек.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>ChartOfCharacteristicTypes.МВ_ПереченьДополнительныхНастроек.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>ChartOfCharacteristicTypes.МВ_ПереченьДополнительныхНастроек.Form.ФормаСписка</defaultChoiceForm>
+  <attributes uuid="7ac2997f-52a3-4ed8-a407-f5c3c8c32e68">
+    <name>Общая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общая</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c1d57e6a-cd36-4ea7-bac7-8dade7435a8c">
+    <name>ЗначениеПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение по умолчанию</value>
+    </synonym>
+    <type>
+      <types>Characteristic.МВ_ПереченьДополнительныхНастроек</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b86d48fc-d12f-4785-957f-9457c1960e60">
+    <name>Порядок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="13660974-473b-4132-9716-371482cd9bcc">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="ca467075-ea06-4147-83c0-6ee0269c8bad">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d334c51a-0f01-4713-9cd6-6638b3a7e0eb">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9280a91b-a11e-4438-ba39-91ae7604b1db">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ChartOfCharacteristicTypes>

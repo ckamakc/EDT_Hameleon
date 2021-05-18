@@ -68,6 +68,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ВводВОборот_ХамелеонЦРПТ.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ВводВОборот_ХамелеонЦРПТ.Form.ФормаСписка</defaultListForm>
   <defaultChoiceForm>Document.ВводВОборот_ХамелеонЦРПТ.Form.ФормаВыбора</defaultChoiceForm>
   <registerRecords>AccumulationRegister.ОстаткиКМ_в_Обороте_ХамелеонЦРПТ</registerRecords>
   <registerRecords>AccumulationRegister.ОстаткиКМЭмитированые_ХамелеонЦРПТ</registerRecords>
@@ -907,6 +908,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма ТНВЭД</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="21385d17-520d-476f-b818-7b292342b861">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
