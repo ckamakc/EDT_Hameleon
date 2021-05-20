@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb985c3c-ac37-4f0a-a315-df56214a952b">
+  <name>МВ_ОбщийМодуль_НаСервере_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>(МВ) Общий модуль на сервере Хамелеон ЦРПТ</value>
+  </synonym>
+  <server>true</server>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

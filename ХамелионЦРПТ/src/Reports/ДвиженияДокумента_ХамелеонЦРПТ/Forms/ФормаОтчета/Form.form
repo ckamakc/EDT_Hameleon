@@ -396,7 +396,7 @@
   </commandInterface>
   <extInfo xsi:type="form:ReportFormExtInfo">
     <showState>ShowOnComposition</showState>
-    <reportResult>3</reportResult>
+    <reportResult>СпособВыводаОтчета</reportResult>
     <detailsInformation>0</detailsInformation>
   </extInfo>
 </form:Form>
