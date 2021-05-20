@@ -12,4 +12,5 @@
   <content>InformationRegister.МВ_РегистрФайлов</content>
   <content>CommonPicture.ЧестныйЗнак</content>
   <content>DataProcessor.МВ_СформироватьВВодВОборотОКТО</content>
+  <content>Catalog.МВ_Интеграторы</content>
 </mdclass:Subsystem>
