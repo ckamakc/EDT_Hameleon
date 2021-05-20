@@ -12,7 +12,7 @@
   <name>СерийныеНомера_ХамелеонЦРПТ</name>
   <synonym>
     <key>ru</key>
-    <value>Серийные номера хамелеон ЦРПТ</value>
+    <value>(не использовать) Серийные номера хамелеон ЦРПТ</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
@@ -289,6 +289,42 @@
     <synonym>
       <key>ru</key>
       <value>Резерв1 С</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="dc7308d9-43e8-45d7-b554-a991008d4d17">
+    <name>КоличествоКМ_До_Эмитировано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество КМ до эммитирования</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fba96920-e7f3-4a7e-9c77-2ae3e5d77d80">
+    <name>КоличествоКМ_До_ЭмитированоПрограммно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество КМ до эммитирования в 1С</value>
     </synonym>
     <type>
       <types>Number</types>

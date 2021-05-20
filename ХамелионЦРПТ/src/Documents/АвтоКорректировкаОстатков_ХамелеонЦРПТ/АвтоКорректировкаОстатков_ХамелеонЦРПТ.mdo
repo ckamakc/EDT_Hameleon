@@ -10,7 +10,7 @@
   <name>АвтоКорректировкаОстатков_ХамелеонЦРПТ</name>
   <synonym>
     <key>ru</key>
-    <value>Авто корректировка остатков Хамелеон ЦРПТ</value>
+    <value>(не использовать) Авто корректировка остатков Хамелеон ЦРПТ</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.АвтоКорректировкаОстатков_ХамелеонЦРПТ.StandardAttribute.Number</inputByString>
@@ -461,6 +461,40 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
+    <attributes uuid="e7cbe47a-d4df-4315-b593-7ffb60fdff72">
+      <name>КоличествоКМ_До_Эмитировано</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество КМ до эммитирования</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0d28a2cf-4208-446c-88ec-569a766ed441">
+      <name>КоличествоКМ_До_ЭмитированоПрограммно</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество КМ до эммитирования в 1С</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
   </tabularSections>
   <tabularSections uuid="b8b3742d-120e-4d9b-b663-5c3a7decd96b">
     <producedTypes>
@@ -704,7 +738,7 @@
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>100</length>
+          <length>150</length>
         </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
@@ -734,6 +768,40 @@
       <synonym>
         <key>ru</key>
         <value>Резерв1 С</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="19e2d6e2-b8b2-4895-96ec-0e0002577337">
+      <name>КоличествоКМ_До_Эмитировано</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество КМ до эммитирования</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="36091999-589a-463b-8224-1c1d33a9b89d">
+      <name>КоличествоКМ_До_ЭмитированоПрограммно</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество КМ до эммитирования в 1С</value>
       </synonym>
       <type>
         <types>Number</types>

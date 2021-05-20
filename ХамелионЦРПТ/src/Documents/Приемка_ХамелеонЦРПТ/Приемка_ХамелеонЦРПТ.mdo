@@ -1782,6 +1782,55 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <tabularSections uuid="3f8e014c-785d-4a63-a8e8-5d4ebeea7aa2">
+    <producedTypes>
+      <objectType typeId="d4768646-9943-44a0-b45a-a2bc7e39be04" valueTypeId="2d228b2b-bb88-4305-8926-b9ccad182577"/>
+      <rowType typeId="c2ed7a8e-9c8f-4563-bb98-5f01d3ec4016" valueTypeId="fd932aec-d450-477c-a3e7-57f4c3caa6cb"/>
+    </producedTypes>
+    <name>ДополнительныеЗначения_ЭДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные значения ЭДО</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="05fec034-7509-436c-bc61-69d8632e444e">
+      <name>Идентификатор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a189e36e-40bd-4d50-9882-04aa069b83ef">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <templates uuid="aba20c30-8730-4c4d-a07c-6c5dafb08809">
     <name>ПринятьТовар</name>
     <synonym>

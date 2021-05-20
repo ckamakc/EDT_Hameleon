@@ -858,6 +858,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="68c08d74-b74e-440a-b04c-9dd66ed916f8">
+    <name>СоздатьАгрегацию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать агрегацию</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="1283aae2-59d8-4b13-9f53-f58e5bb46983">
     <name>ФормаДокумента</name>
     <synonym>

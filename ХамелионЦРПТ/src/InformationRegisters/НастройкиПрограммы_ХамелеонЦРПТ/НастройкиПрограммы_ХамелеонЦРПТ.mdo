@@ -1188,4 +1188,19 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
+  <resources uuid="3575c1d2-216a-4d96-98c7-9daa25d7cc0a">
+    <name>ДелатьАгрегациюПослеОбработкиОтчетаОбИспользования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Делать агрегацию после обработки отчета об использования</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
 </mdclass:InformationRegister>

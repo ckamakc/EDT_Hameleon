@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0530da0c-acac-415d-bbce-30b35b105b68">
+  <producedTypes>
+    <objectType typeId="68360fc1-e397-4940-9f4b-3651b93f1543" valueTypeId="1ce1f169-630e-4748-bdcc-1ba028ccb433"/>
+    <refType typeId="37dcf2a7-7fa5-4a3d-a96c-75a01f9be1db" valueTypeId="465d3ce3-8ca7-4a2b-8fc0-a2e5615d4792"/>
+    <selectionType typeId="44c67c8c-f4ec-4c0d-b7a4-761b4d54a1dc" valueTypeId="36cd25c5-19b1-424b-a953-fb68e0d91152"/>
+    <listType typeId="5527f48e-a7c8-48ac-9f17-9c0153d0488b" valueTypeId="2490fd48-b7ee-4f09-b0a3-6f1f512518fc"/>
+    <managerType typeId="8d192c83-83b8-4a26-9580-708e566d1d9e" valueTypeId="0561ddc6-4b7f-4848-8b6a-11e327157432"/>
+  </producedTypes>
+  <name>КМДляКорректировки_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>КМ для корректировки Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КМДляКорректировки_ХамелеонЦРПТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КМДляКорректировки_ХамелеонЦРПТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

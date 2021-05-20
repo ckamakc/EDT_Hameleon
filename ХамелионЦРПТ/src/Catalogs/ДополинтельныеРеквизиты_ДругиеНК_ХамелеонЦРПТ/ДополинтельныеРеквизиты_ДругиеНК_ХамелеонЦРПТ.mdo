@@ -441,14 +441,6 @@
       <key>ru</key>
       <value>Дополнительные упаковки</value>
     </synonym>
-    <standardAttributes>
-      <dataHistory>Use</dataHistory>
-      <name>LineNumber</name>
-      <fillValue xsi:type="core:UndefinedValue"/>
-      <fullTextSearch>Use</fullTextSearch>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-    </standardAttributes>
     <attributes uuid="f3af4dc5-0d96-40ec-9255-fff6f2fe7122">
       <name>УровеньУпаковки</name>
       <synonym>

@@ -13,13 +13,6 @@
 		<size>9</size>
 	</columns>
 	<rowsItem>
-		<index>0</index>
-		<indexTo>2</indexTo>
-		<row>
-			<empty>true</empty>
-		</row>
-	</rowsItem>
-	<rowsItem>
 		<index>3</index>
 		<row>
 			<c>
@@ -68,12 +61,6 @@
 					<f>2</f>
 				</c>
 			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>4</index>
-		<row>
-			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
@@ -181,13 +168,6 @@
 					<f>2</f>
 				</c>
 			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>8</index>
-		<indexTo>23</indexTo>
-		<row>
-			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
@@ -677,7 +657,7 @@
 		<endColumnOffset>186</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>AutoSize</pictureSize>
-		<zOrder>1</zOrder>
+		<zOrder>0</zOrder>
 		<pictureIndex>1</pictureIndex>
 	</drawing>
 	<drawing>
@@ -694,7 +674,7 @@
 		<endColumnOffset>168</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>Stretch</pictureSize>
-		<zOrder>2</zOrder>
+		<zOrder>0</zOrder>
 		<pictureIndex>1</pictureIndex>
 	</drawing>
 	<drawing>
@@ -711,7 +691,7 @@
 		<endColumnOffset>228</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>Proportionally</pictureSize>
-		<zOrder>3</zOrder>
+		<zOrder>0</zOrder>
 		<pictureIndex>1</pictureIndex>
 	</drawing>
 	<templateMode>true</templateMode>

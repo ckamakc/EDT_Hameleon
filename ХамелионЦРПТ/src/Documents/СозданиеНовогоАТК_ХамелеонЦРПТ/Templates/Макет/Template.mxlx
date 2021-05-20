@@ -37,13 +37,6 @@
 		</columnsItem>
 	</columns>
 	<rowsItem>
-		<index>0</index>
-		<indexTo>4</indexTo>
-		<row>
-			<empty>true</empty>
-		</row>
-	</rowsItem>
-	<rowsItem>
 		<index>5</index>
 		<row>
 			<formatIndex>5</formatIndex>
@@ -848,7 +841,7 @@
 		<endColumnOffset>186</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>AutoSize</pictureSize>
-		<zOrder>1</zOrder>
+		<zOrder>0</zOrder>
 		<pictureIndex>1</pictureIndex>
 	</drawing>
 	<templateMode>true</templateMode>
