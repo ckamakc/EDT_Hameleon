@@ -4321,7 +4321,7 @@
         </dataPath>
         <titleLocation>None</titleLocation>
         <excludedCommands>Change</excludedCommands>
-        <excludedCommands>Choose</excludedCommands>
+        <excludedCommands>ChangeHistory</excludedCommands>
         <excludedCommands>Copy</excludedCommands>
         <excludedCommands>Create</excludedCommands>
         <excludedCommands>Delete</excludedCommands>
@@ -6212,7 +6212,7 @@
         </dataPath>
         <titleLocation>None</titleLocation>
         <excludedCommands>Change</excludedCommands>
-        <excludedCommands>Choose</excludedCommands>
+        <excludedCommands>ChangeHistory</excludedCommands>
         <excludedCommands>Copy</excludedCommands>
         <excludedCommands>Create</excludedCommands>
         <excludedCommands>Delete</excludedCommands>

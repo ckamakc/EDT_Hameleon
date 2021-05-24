@@ -34,51 +34,51 @@
   </languages>
   <subsystems>Subsystem.ЗапускХамелеонЦРПТ</subsystems>
   <subsystems>Subsystem.МВ_ДобавленныеОбъекты</subsystems>
-  <subsystems>Subsystem.Хамелеон</subsystems>
+  <subsystems>Subsystem.ЦРПТ</subsystems>
   <commonPictures>CommonPicture.СтатусыНакладных_ХамелеонЦРПТ</commonPictures>
   <commonPictures>CommonPicture.Папка</commonPictures>
   <commonPictures>CommonPicture.ПапкаОблачногоСервиса</commonPictures>
   <commonPictures>CommonPicture.ЭлементПапка</commonPictures>
-  <commonPictures>CommonPicture.ЧестныйЗнак</commonPictures>
+  <commonPictures>CommonPicture.МВ_ЧестныйЗнак</commonPictures>
   <roles>Role.Права_ХамелеонЦРПТ</roles>
   <roles>Role.МВ_ПолныеПрава</roles>
+  <commonModules>CommonModule.ИнтеграцияПодсистемБСП</commonModules>
+  <commonModules>CommonModule.ИнтеграцияПодсистемБСПКлиент</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиентПовтИсп</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияПереопределяемый</commonModules>
+  <commonModules>CommonModule.МодульПриСозданииДокументов_ХамелеонЦРПТ</commonModules>
+  <commonModules>CommonModule.КомпоновкаДанныхКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияПовтИсп</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиент</commonModules>
+  <commonModules>CommonModule.Пользователи</commonModules>
+  <commonModules>CommonModule.ПользователиКлиентСервер</commonModules>
+  <commonModules>CommonModule.ПользователиПереопределяемый</commonModules>
+  <commonModules>CommonModule.ПользователиСлужебный</commonModules>
+  <commonModules>CommonModule.ПользователиСлужебныйКлиент</commonModules>
+  <commonModules>CommonModule.ПользователиСлужебныйКлиентСервер</commonModules>
+  <commonModules>CommonModule.ПользователиСлужебныйПовтИсп</commonModules>
+  <commonModules>CommonModule.РегламентныеЗаданияСервер</commonModules>
+  <commonModules>CommonModule.ФайловаяСистемаКлиент</commonModules>
+  <commonModules>CommonModule.ФайловаяСистемаСлужебныйКлиент</commonModules>
+  <commonModules>CommonModule.СтандартныеПодсистемыКлиентПовтИсп</commonModules>
+  <commonModules>CommonModule.СтандартныеПодсистемыПовтИсп</commonModules>
+  <commonModules>CommonModule.СтандартныеПодсистемыСервер</commonModules>
+  <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
+  <commonModules>CommonModule.ПользователиКлиент</commonModules>
+  <commonModules>CommonModule.ПользователиЛокализация</commonModules>
+  <commonModules>CommonModule.ФайловаяСистема</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ОбщиеМетоды_НаКлиенте_ХамелеонЦРПТ</commonModules>
   <commonModules>CommonModule.ОбщийМодуль_НаСервере_ХамелеонЦРПТ</commonModules>
   <commonModules>CommonModule.ОбщийМодуль_Выполнить_На_КЛИЕНТЕ_ХамелеонЦРПТ</commonModules>
   <commonModules>CommonModule.ОбщийМодуль_ВЫПОЛНИТЬ_ВЫЗОВОМ_СЕРВЕРА_ХамелеонЦРПТ</commonModules>
   <commonModules>CommonModule.ЗагрузкаXMLЭДОСервер_ХамелеонЦРПТ</commonModules>
   <commonModules>CommonModule.РаботаСЭДО_На_Клиенте_ХамелеонЦРПТ</commonModules>
-  <commonModules>CommonModule.ОбщийМодуль_ОграничениеПользователей_ХамелеонЦРПТ</commonModules>
-  <commonModules>CommonModule.МодульПриСозданииДокументов_ХамелеонЦРПТ</commonModules>
-  <commonModules>CommonModule.КомпоновкаДанныхКлиентСервер</commonModules>
-  <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
-  <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
-  <commonModules>CommonModule.СтандартныеПодсистемыСервер</commonModules>
-  <commonModules>CommonModule.СтандартныеПодсистемыПовтИсп</commonModules>
-  <commonModules>CommonModule.СтандартныеПодсистемыКлиентПовтИсп</commonModules>
-  <commonModules>CommonModule.ИнтеграцияПодсистемБСП</commonModules>
-  <commonModules>CommonModule.ИнтеграцияПодсистемБСПКлиент</commonModules>
-  <commonModules>CommonModule.РегламентныеЗаданияСервер</commonModules>
-  <commonModules>CommonModule.ФайловаяСистема</commonModules>
-  <commonModules>CommonModule.ФайловаяСистемаКлиент</commonModules>
-  <commonModules>CommonModule.ФайловаяСистемаСлужебныйКлиент</commonModules>
-  <commonModules>CommonModule.Пользователи</commonModules>
-  <commonModules>CommonModule.ПользователиКлиент</commonModules>
-  <commonModules>CommonModule.ПользователиКлиентСервер</commonModules>
-  <commonModules>CommonModule.ПользователиЛокализация</commonModules>
-  <commonModules>CommonModule.ПользователиПереопределяемый</commonModules>
-  <commonModules>CommonModule.ПользователиСлужебный</commonModules>
-  <commonModules>CommonModule.ПользователиСлужебныйКлиент</commonModules>
-  <commonModules>CommonModule.ПользователиСлужебныйКлиентСервер</commonModules>
-  <commonModules>CommonModule.ПользователиСлужебныйПовтИсп</commonModules>
-  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
-  <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
-  <commonModules>CommonModule.ОбщегоНазначенияПереопределяемый</commonModules>
-  <commonModules>CommonModule.ОбщегоНазначенияКлиентПовтИсп</commonModules>
-  <commonModules>CommonModule.ОбщегоНазначенияПовтИсп</commonModules>
-  <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиент</commonModules>
-  <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.МВ_ЗапускПрограммыВызовСервера</commonModules>
+  <commonModules>CommonModule.ОбщийМодуль_ОграничениеПользователей_ХамелеонЦРПТ</commonModules>
   <commonModules>CommonModule.МВ_РегламентныеЗадания</commonModules>
   <commonModules>CommonModule.МВ_ОбщийМодуль_НаСервере_ХамелеонЦРПТ</commonModules>
   <scheduledJobs>ScheduledJob.МВ_СформироватьВВодВОборотОКТО</scheduledJobs>
