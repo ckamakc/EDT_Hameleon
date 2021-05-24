@@ -685,7 +685,7 @@
 			Подписываем=ОтветСтруктура.data;
 			Имя_вр_1="";
 			СерийныйНомер="";
-			ПодписатьФайл(Thumbprint_1.Внешняя,Подписываем,Thumbprint_1.Thumbprint_1,Имя_вр_1,,,СерийныйНомер);
+			ПодписатьФайл(Thumbprint_1.Внешняя,Подписываем,Thumbprint_1,Имя_вр_1,,,СерийныйНомер);
 			
 			Добав=Имя_вр_1;
 			//Добав=ПолучитьСтрокуИздвоичныхДанных(РР);
@@ -6443,7 +6443,7 @@ Thumbprint_1=ПолучитьИзПользователя(Пользовател
 				Добав=СтрЗаменить(Добав,"\r\n","");
 
 				
-		ПодписатьФайл(Thumbprint_1.Внешняя,СформироватьФайлДляОтправки ,Thumbprint_1.Thumbprint_1,Подписанный,Истина);
+		ПодписатьФайл(Thumbprint_1.Внешняя,СформироватьФайлДляОтправки ,Thumbprint_1,Подписанный,Истина);
 		
 		//Подписанный=base64Строка(ОбщийМодуль_НаСервере_ХамелеонЦРПТ.ПолучитьДвоичныеДанныеИзСтроки_Сервер(
 		//Подписанный,КодировкаТекста.UTF8,Ложь));
@@ -6627,7 +6627,7 @@ Thumbprint_1=ПолучитьИзПользователя(Пользовател
 			
 	Подписанный="";
 	Попытка
-	ПодписатьФайл(Thumbprint_1.Внешняя,СформироватьФайлДляОтправки,Thumbprint_1.Thumbprint_1,Подписанный,Истина);
+	ПодписатьФайл(Thumbprint_1.Внешняя,СформироватьФайлДляОтправки,Thumbprint_1,Подписанный,Истина);
 	
 	//Подписанный=base64Строка(ОбщийМодуль_НаСервере_ХамелеонЦРПТ.ПолучитьДвоичныеДанныеИзСтроки_Сервер(
 	//Подписанный,КодировкаТекста.UTF8,Ложь));
@@ -8220,7 +8220,7 @@ Thumbprint_1=ПолучитьИзПользователя(Пользовател
 				Добав=СтрЗаменить(Добав,"\r\n","");
 
 				
-		ПодписатьФайл(Thumbprint_1.Внешняя,СформироватьФайлДляОтправки ,Thumbprint_1.Thumbprint_1,Подписанный,Истина);
+		ПодписатьФайл(Thumbprint_1.Внешняя,СформироватьФайлДляОтправки ,Thumbprint_1,Подписанный,Истина);
 		
 		//Подписанный=base64Строка(ОбщийМодуль_НаСервере_ХамелеонЦРПТ.ПолучитьДвоичныеДанныеИзСтроки_Сервер(
 		//Подписанный,КодировкаТекста.UTF8,Ложь));
@@ -9726,7 +9726,7 @@ Thumbprint_1=ПолучитьИзПользователя(Пользовател
 		
 		
 	Подписанный="";
-	ПодписатьФайл(Thumbprint_1.Внешняя,СформироватьФайлДляОтправки,Thumbprint_1.Thumbprint_1,Подписанный,Истина);
+	ПодписатьФайл(Thumbprint_1.Внешняя,СформироватьФайлДляОтправки,Thumbprint_1,Подписанный,Истина);
 	
 	//Подписанный=base64Строка(ОбщийМодуль_НаСервере_ХамелеонЦРПТ.ПолучитьДвоичныеДанныеИзСтроки_Сервер(
 	//Подписанный,КодировкаТекста.UTF8,Ложь));
@@ -10264,7 +10264,7 @@ Thumbprint_1=ПолучитьИзПользователя(Пользовател
 
 				
 				Подписанный="";
-				ПодписатьФайл(Thumbprint_1.Внешняя,СформироватьФайлДляОтправки ,Thumbprint_1.Thumbprint_1,Подписанный,Истина);
+				ПодписатьФайл(Thumbprint_1.Внешняя,СформироватьФайлДляОтправки ,Thumbprint_1,Подписанный,Истина);
 		
 			Подписанный=СтрЗаменить(Подписанный,Символы.ПС,"\r\n");
 		Подписанный=СтрЗаменить(Подписанный,Символы.ВК,"");
@@ -10720,7 +10720,7 @@ Thumbprint_1=ПолучитьИзПользователя(Пользовател
 		//ПодписатьФайл(Thumbprint_1.Внешняя,СформироватьФайлДляОтправки ,Thumbprint_1.Thumbprint_1,Подписанный,Истина);
 	//	ПодписатьФайл_ЛДМП(СформироватьФайлДляОтправки ,Thumbprint_1.Thumbprint_1,Подписанный,Ложь);
 			Если Найти(Thumbprint_1.АдресКАПИ,"api")=1 Тогда
-				ПодписатьФайл(Thumbprint_1.Внешняя,СформироватьФайлДляОтправки ,Thumbprint_1.Thumbprint_1,Подписанный,Истина);
+				ПодписатьФайл(Thumbprint_1.Внешняя,СформироватьФайлДляОтправки ,Thumbprint_1,Подписанный,Истина);
 			Иначе
 				ПодписатьФайл_ЛДМП(СформироватьФайлДляОтправки ,Thumbprint_1.Thumbprint_1,Подписанный,Ложь);
 				
@@ -10926,7 +10926,7 @@ Thumbprint_1=ПолучитьИзПользователя(Пользовател
 		
 		
 	Подписанный="";
-	ПодписатьФайл(Thumbprint_1.Внешняя,СформироватьФайлДляОтправки,Thumbprint_1.Thumbprint_1,Подписанный,Истина);
+	ПодписатьФайл(Thumbprint_1.Внешняя,СформироватьФайлДляОтправки,Thumbprint_1,Подписанный,Истина);
 	
 	//Подписанный=base64Строка(ОбщийМодуль_НаСервере_ХамелеонЦРПТ.ПолучитьДвоичныеДанныеИзСтроки_Сервер(
 	//Подписанный,КодировкаТекста.UTF8,Ложь));
@@ -11950,8 +11950,6 @@ Thumbprint_1=ПолучитьИзПользователя(Пользовател
 		СформироватьФайлДляОтправки=СтрЗаменить(СформироватьФайлДляОтправки_3,Символы.ПС,"");
 		СформироватьФайлДляОтправки=СтрЗаменить(СформироватьФайлДляОтправки,Символы.ВК,"");
 	
-	//Подписанный="";
-	//ПодписатьФайл(Thumbprint_1.Внешняя,СформироватьФайлДляОтправки,Thumbprint_1.Thumbprint_1,Подписанный,Истина);
 	
 	//Подписанный=base64Строка(ОбщийМодуль_НаСервере_ХамелеонЦРПТ.ПолучитьДвоичныеДанныеИзСтроки_Сервер(
 	//Подписанный,КодировкаТекста.UTF8,Ложь));
@@ -21401,7 +21399,7 @@ children="";
 			ОтветСтруктура =ЗаполнитьСтруктуруИзОтветаJSON(Ответ.ПолучитьТелоКакСтроку());
 			Подписываем=ОтветСтруктура.data;
 			Имя_вр_1="";
-			ПодписатьФайл(Thumbprint_1.Внешняя,Подписываем,Thumbprint_1.Thumbprint_1,Имя_вр_1,,,СерийныйНомер);
+			ПодписатьФайл(Thumbprint_1.Внешняя,Подписываем,Thumbprint_1,Имя_вр_1,,,СерийныйНомер);
 			
 			Добав=Имя_вр_1;
 			//Добав=ПолучитьСтрокуИздвоичныхДанных(РР);
@@ -21457,393 +21455,6 @@ children="";
 
 
 
-//Процедура ПодписатьФайл(Внешняя,Знач ИмяВр,Текущийпользователь,Имя_вр_1,Открепленная=Ложь,Уже64=Ложь)	Экспорт
-//	
-//	    cadesplugin=Новый Структура();
-//        cadesplugin.Вставить("CAPICOM_LOCAL_MACHINE_STORE", 1);
-//        cadesplugin.Вставить("CAPICOM_CURRENT_USER_STORE", 2);
-//        cadesplugin.Вставить("CADESCOM_LOCAL_MACHINE_STORE", 1);
-//        cadesplugin.Вставить("CADESCOM_CURRENT_USER_STORE", 2);
-//        cadesplugin.Вставить("CADESCOM_CONTAINER_STORE", 100);
-
-//        cadesplugin.Вставить("CAPICOM_MY_STORE", "My");
-
-//        cadesplugin.Вставить("CAPICOM_STORE_OPEN_MAXIMUM_ALLOWED", 2);
-
-//        cadesplugin.Вставить("CAPICOM_CERTIFICATE_FIND_SUBJECT_NAME", 1);
-
-//        cadesplugin.Вставить("CADESCOM_XML_SIGNATURE_TYPE_ENVELOPED", 0);
-//        cadesplugin.Вставить("CADESCOM_XML_SIGNATURE_TYPE_ENVELOPING", 1);
-//        cadesplugin.Вставить("CADESCOM_XML_SIGNATURE_TYPE_TEMPLATE", 2);
-
-//        cadesplugin.Вставить("XmlDsigGost3410UrlObsolete", "http://www.Вставить(""w3.Вставить(""org/2001/04/xmldsig-more#gostr34102001-gostr3411");
-//        cadesplugin.Вставить("XmlDsigGost3411UrlObsolete", "http://www.Вставить(""w3.Вставить(""org/2001/04/xmldsig-more#gostr3411");
-//        cadesplugin.Вставить("XmlDsigGost3410Url", "urn:ietf:params:xml:ns:cpxmlsec:algorithms:gostr34102001-gostr3411");
-//        cadesplugin.Вставить("XmlDsigGost3411Url", "urn:ietf:params:xml:ns:cpxmlsec:algorithms:gostr3411");
-
-//        cadesplugin.Вставить("CADESCOM_CADES_DEFAULT", 0);
-//        cadesplugin.Вставить("CADESCOM_CADES_BES", 1);
-//        cadesplugin.Вставить("CADESCOM_CADES_T", 5);
-//        cadesplugin.Вставить("CADESCOM_CADES_X_LONG_TYPE_1", 93);
-
-//        cadesplugin.Вставить("CADESCOM_ENCODE_BASE64", 0);
-//        cadesplugin.Вставить("CADESCOM_ENCODE_BINARY", 1);
-//        cadesplugin.Вставить("CADESCOM_ENCODE_ANY", -1);
-
-//        cadesplugin.Вставить("CAPICOM_CERTIFICATE_INCLUDE_CHAIN_EXCEPT_ROOT", 0);
-//        cadesplugin.Вставить("CAPICOM_CERTIFICATE_INCLUDE_WHOLE_CHAIN", 1);
-//        cadesplugin.Вставить("CAPICOM_CERTIFICATE_INCLUDE_END_ENTITY_ONLY", 2);
-
-//        cadesplugin.Вставить("CAPICOM_CERT_INFO_SUBJECT_SIMPLE_NAME", 0);
-//        cadesplugin.Вставить("CAPICOM_CERT_INFO_ISSUER_SIMPLE_NAME", 1);
-
-//        cadesplugin.Вставить("CAPICOM_CERTIFICATE_FIND_SHA1_HASH", 0);                              
-//        cadesplugin.Вставить("CAPICOM_CERTIFICATE_FIND_SUBJECT_NAME", 1);
-//        cadesplugin.Вставить("CAPICOM_CERTIFICATE_FIND_ISSUER_NAME", 2);
-//        cadesplugin.Вставить("CAPICOM_CERTIFICATE_FIND_ROOT_NAME", 3);
-//        cadesplugin.Вставить("CAPICOM_CERTIFICATE_FIND_TEMPLATE_NAME", 4);
-//        cadesplugin.Вставить("CAPICOM_CERTIFICATE_FIND_EXTENSION", 5);
-//        cadesplugin.Вставить("CAPICOM_CERTIFICATE_FIND_EXTENDED_PROPERTY", 6);
-//        cadesplugin.Вставить("CAPICOM_CERTIFICATE_FIND_APPLICATION_POLICY", 7);
-//        cadesplugin.Вставить("CAPICOM_CERTIFICATE_FIND_CERTIFICATE_POLICY", 8);
-//        cadesplugin.Вставить("CAPICOM_CERTIFICATE_FIND_TIME_VALID", 9);
-//        cadesplugin.Вставить("CAPICOM_CERTIFICATE_FIND_TIME_NOT_YET_VALID", 10);
-//        cadesplugin.Вставить("CAPICOM_CERTIFICATE_FIND_TIME_EXPIRED", 11);
-//        cadesplugin.Вставить("CAPICOM_CERTIFICATE_FIND_KEY_USAGE", 12);
-
-//        cadesplugin.Вставить("CAPICOM_DIGITAL_SIGNATURE_KEY_USAGE", 128);
-
-//        cadesplugin.Вставить("CAPICOM_PROPID_ENHKEY_USAGE", 9);
-
-//        cadesplugin.Вставить("CAPICOM_OID_OTHER", 0);
-//        cadesplugin.Вставить("CAPICOM_OID_KEY_USAGE_EXTENSION", 10);
-
-//        cadesplugin.Вставить("CAPICOM_EKU_CLIENT_AUTH", 2);
-//        cadesplugin.Вставить("CAPICOM_EKU_SMARTCARD_LOGON", 5);
-//        cadesplugin.Вставить("CAPICOM_EKU_OTHER", 0);
-
-//        cadesplugin.Вставить("CAPICOM_AUTHENTICATED_ATTRIBUTE_SIGNING_TIME", 0);
-//        cadesplugin.Вставить("CAPICOM_AUTHENTICATED_ATTRIBUTE_DOCUMENT_NAME", 1);
-//        cadesplugin.Вставить("CAPICOM_AUTHENTICATED_ATTRIBUTE_DOCUMENT_DESCRIPTION", 2);
-//        cadesplugin.Вставить("CADESCOM_AUTHENTICATED_ATTRIBUTE_SIGNING_TIME", 0);
-//        cadesplugin.Вставить("CADESCOM_AUTHENTICATED_ATTRIBUTE_DOCUMENT_NAME", 1);
-//        cadesplugin.Вставить("CADESCOM_AUTHENTICATED_ATTRIBUTE_DOCUMENT_DESCRIPTION", 2);
-//        cadesplugin.Вставить("CADESCOM_ATTRIBUTE_OTHER", -1);
-
-//        cadesplugin.Вставить("CADESCOM_STRING_TO_UCS2LE", 0);
-//        cadesplugin.Вставить("CADESCOM_BASE64_TO_BINARY", 1);
-
-//        cadesplugin.Вставить("CADESCOM_DISPLAY_DATA_NONE", 0);
-//        cadesplugin.Вставить("CADESCOM_DISPLAY_DATA_CONTENT", 1);
-//        cadesplugin.Вставить("CADESCOM_DISPLAY_DATA_ATTRIBUTE", 2);
-
-//        cadesplugin.Вставить("CADESCOM_ENCRYPTION_ALGORITHM_RC2", 0);
-//        cadesplugin.Вставить("CADESCOM_ENCRYPTION_ALGORITHM_RC4", 1);
-//        cadesplugin.Вставить("CADESCOM_ENCRYPTION_ALGORITHM_DES", 2);
-//        cadesplugin.Вставить("CADESCOM_ENCRYPTION_ALGORITHM_3DES", 3);
-//        cadesplugin.Вставить("CADESCOM_ENCRYPTION_ALGORITHM_AES", 4);
-//        cadesplugin.Вставить("CADESCOM_ENCRYPTION_ALGORITHM_GOST_28147_89", 25);
-
-//        cadesplugin.Вставить("CADESCOM_HASH_ALGORITHM_SHA1", 0);
-//        cadesplugin.Вставить("CADESCOM_HASH_ALGORITHM_MD2", 1);
-//        cadesplugin.Вставить("CADESCOM_HASH_ALGORITHM_MD4", 2);
-//        cadesplugin.Вставить("CADESCOM_HASH_ALGORITHM_MD5", 3);
-//        cadesplugin.Вставить("CADESCOM_HASH_ALGORITHM_SHA_256", 4);
-//        cadesplugin.Вставить("CADESCOM_HASH_ALGORITHM_SHA_384", 5);
-//        cadesplugin.Вставить("CADESCOM_HASH_ALGORITHM_SHA_512", 6);
-//        cadesplugin.Вставить("CADESCOM_HASH_ALGORITHM_CP_GOST_3411", 100);
-//        cadesplugin.Вставить("CADESCOM_HASH_ALGORITHM_CP_GOST_3411_2012_256", 101);
-//        cadesplugin.Вставить("CADESCOM_HASH_ALGORITHM_CP_GOST_3411_2012_512", 102);
-
-//        cadesplugin.Вставить("LOG_LEVEL_DEBUG", 4);
-//        cadesplugin.Вставить("LOG_LEVEL_INFO", 2);
-//        cadesplugin.Вставить("LOG_LEVEL_ERROR", 1);
-
-//        cadesplugin.Вставить("CADESCOM_AllowNone", 0);
-//        cadesplugin.Вставить("CADESCOM_AllowNoOutstandingRequest", "0x1");
-//        cadesplugin.Вставить("CADESCOM_AllowUntrustedCertificate", "0x2");
-//        cadesplugin.Вставить("CADESCOM_AllowUntrustedRoot", "0x4");
-//        cadesplugin.Вставить("CADESCOM_SkipInstallToStore", "0x10000000");
-//	
-//	
-//	
-//	CAPICOM_CURRENT_USER_STORE=2;
-//	CAPICOM_MY_STORE="My";
-//	CAPICOM_OTHER_STORE="AddressBook";
-//	CAPICOM_STORE_OPEN_READ_ONLY=0;
-//	CAPICOM_CERTIFICATE_FIND_TIME_VALID=9;
-//	CAPICOM_STORE_OPEN_MAXIMUM_ALLOWED = 2;
-
-//	
-//	ТекДата=ТекущаяДата();
-//	
-//	СохранённыйОтпечатокДекларанта=Неопределено;
-//	СохранённыеОтпечаткиПолучателей=Новый Массив;
-//	// восстанавливаем настройки
-//	Попытка
-//		// формируем список наших сертификатов
-//		ТекЭлемент=Неопределено;
-//		СписокНашихСертификатов=Новый СписокЗначений;
-//		
-//		Store=Новый COMОбъект("CAPICOM.Store");
-//		Store.Open(CAPICOM_CURRENT_USER_STORE,CAPICOM_MY_STORE,CAPICOM_STORE_OPEN_MAXIMUM_ALLOWED);
-//		Certs=Store.Certificates;
-//		ValidCerts=Certs;//.Find(CAPICOM_CERTIFICATE_FIND_TIME_VALID,ТекДата,-1);
-//		Для CertNum=1 По ValidCerts.Count Цикл
-//			CurCert=ValidCerts.Item(CertNum);
-//			Thumbprint=CurCert.Thumbprint;
-//			Если Thumbprint=Текущийпользователь Тогда
-//				ВыбСертификат=CurCert;
-//				Прервать;
-//			Конецесли;
-//		КонецЦикла;
-//	Исключение
-//		ТекстОшибки=СтрЗаменить(ОписаниеОшибки(),"'","");
-//		Сообщить(NStr("ru = 'Ошибка при работе с хранилищем сертификатов! (Возможно, не установлен модуль CAPICOM)"+Символы.ПС+"Описание ошибки: "+ТекстОшибки+"'", "ru"));
-//		Возврат;
-//	КонецПопытки;
-
-//	//Если     Открепленная=Истина  ТОгда
-//	////Ф=ПолучитьИмяВременногоФайла();
-//	//Текст=Новый ТекстовыйДокумент;
-//	//Текст.ДобавитьСтроку(ИмяВр);
-//	////Текст.Записать(Ф);
-//	////ИмяФ_1=ПолучитьИмяВременногоФайла();
-//	//
-//	//КонецЕсли;
-//	
-//	oSigner = Новый COMОбъект("CAdESCOM.CPSigner"); // Объект, задающий параметры создания и содержащий информацию об усовершенствованной подписи. 
-//	
-//	oSigningTimeAttr=Новый COMОбъект("CADESCOM.CPAttribute");
-
-//    //oSigningTimeAttr.propset_Name(cadesplugin.CAPICOM_AUTHENTICATED_ATTRIBUTE_SIGNING_TIME);
-//    oSigningTimeAttr.Name=cadesplugin.CAPICOM_AUTHENTICATED_ATTRIBUTE_SIGNING_TIME;
-//    oTimeNow = Текущаядата();
-//    oSigningTimeAttr.Value=oTimeNow;
-//    attr = oSigner.AuthenticatedAttributes2;
-//    attr.Add(oSigningTimeAttr);
-//     oDocumentNameAttr = Новый COMОбъект("CADESCOM.CPAttribute");
-//      oDocumentNameAttr.Name=cadesplugin.CADESCOM_AUTHENTICATED_ATTRIBUTE_DOCUMENT_NAME;
-//      oDocumentNameAttr.Value="CRPT";
-//      attr.Add(oDocumentNameAttr);
-//          oSigner.Certificate=ВыбСертификат;
-
-//           oSignedData = Новый COMОбъект("CAdESCOM.CadesSignedData");
-//                // Данные на подпись ввели
-//				Если НЕ ВернутьНеИспользоватьCAPICOM_CERTIFICATE_INCLUDE_END_ENTITY_ONLY() Тогда
-//           				oSigner.Options=cadesplugin.CAPICOM_CERTIFICATE_INCLUDE_END_ENTITY_ONLY;
-//					КонецЕсли;
-//           //oSigner.Options=cadesplugin.CAPICOM_CERTIFICATE_INCLUDE_END_ENTITY_ONLY;
-////			oSigner.TSAAddress = "http://cryptopro.ru/tsp/";
-//			//oSigner.OCSPAddress = "http://cryptopro.ru/ocsp/";
-//			Если Уже64=Истина Тогда
-//             oSignedData.ContentEncoding=cadesplugin.CADESCOM_BASE64_TO_BINARY; //
-//			ИмяВр=ИмяВр;
-//				
-//		   ИначеЕсли   Открепленная=Истина Тогда
-//             oSignedData.ContentEncoding=cadesplugin.CADESCOM_BASE64_TO_BINARY; //
-//			ИмяВр=base64Строка(ОбщийМодуль_НаСервере_ХамелеонЦРПТ.ПолучитьДвоичныеДанныеИзСтроки_Сервер(ИмяВр));
-//		  Иначе
-//              oSignedData.ContentEncoding=cadesplugin.CADESCOM_STRING_TO_UCS2LE; //
-//		КонецЕсли;
-//                      oSignedData.Content=
-//			 ИмяВр;
-//			 
-//			 
-//			 Если Открепленная=Истина Тогда
-//               Имя_вр_1 = oSignedData.SignCades(oSigner,1,true);
-// 			    //Имя_вр_1 =Base64Строка(ОбщийМодуль_НаСервере_ХамелеонЦРПТ.ПолучитьДвоичныеДанныеИзСтроки_Сервер(Имя_вр_1));
-//				Иначе
-//               Имя_вр_1 = oSignedData.SignCades(oSigner, cadesplugin.CADESCOM_CADES_BES);
-//	                 КонецЕсли;
-//	
-//	
-////    ПолучитьСписокСертификатов(2, Истина,ОповещенияПослеВыполения,ИмяВр,Текущийпользователь,ЭтаФорма,ОтветСтруктура);
-//	
-//	
-//КонецПроцедуры		
-
-//&НаКлиенте
-//Процедура ПодписатьФайл(Внешняя,Знач ИмяВр,Текущийпользователь,Имя_вр_1,Открепленная=Ложь,Уже64=Ложь,СерийныйНомер="")	Экспорт
-//	
-//	    cadesplugin=Новый Структура();
-//        cadesplugin.Вставить("CAPICOM_LOCAL_MACHINE_STORE", 1);
-//        cadesplugin.Вставить("CAPICOM_CURRENT_USER_STORE", 2);
-//        cadesplugin.Вставить("CADESCOM_LOCAL_MACHINE_STORE", 1);
-//        cadesplugin.Вставить("CADESCOM_CURRENT_USER_STORE", 2);
-//        cadesplugin.Вставить("CADESCOM_CONTAINER_STORE", 100);
-
-//        cadesplugin.Вставить("CAPICOM_MY_STORE", "My");
-
-//        cadesplugin.Вставить("CAPICOM_STORE_OPEN_MAXIMUM_ALLOWED", 2);
-
-//        cadesplugin.Вставить("CAPICOM_CERTIFICATE_FIND_SUBJECT_NAME", 1);
-
-//        cadesplugin.Вставить("CADESCOM_XML_SIGNATURE_TYPE_ENVELOPED", 0);
-//        cadesplugin.Вставить("CADESCOM_XML_SIGNATURE_TYPE_ENVELOPING", 1);
-//        cadesplugin.Вставить("CADESCOM_XML_SIGNATURE_TYPE_TEMPLATE", 2);
-
-//        cadesplugin.Вставить("XmlDsigGost3410UrlObsolete", "http://www.Вставить(""w3.Вставить(""org/2001/04/xmldsig-more#gostr34102001-gostr3411");
-//        cadesplugin.Вставить("XmlDsigGost3411UrlObsolete", "http://www.Вставить(""w3.Вставить(""org/2001/04/xmldsig-more#gostr3411");
-//        cadesplugin.Вставить("XmlDsigGost3410Url", "urn:ietf:params:xml:ns:cpxmlsec:algorithms:gostr34102001-gostr3411");
-//        cadesplugin.Вставить("XmlDsigGost3411Url", "urn:ietf:params:xml:ns:cpxmlsec:algorithms:gostr3411");
-
-//        cadesplugin.Вставить("CADESCOM_CADES_DEFAULT", 0);
-//        cadesplugin.Вставить("CADESCOM_CADES_BES", 1);
-//        cadesplugin.Вставить("CADESCOM_CADES_T", 5);
-//        cadesplugin.Вставить("CADESCOM_CADES_X_LONG_TYPE_1", 93);
-
-//        cadesplugin.Вставить("CADESCOM_ENCODE_BASE64", 0);
-//        cadesplugin.Вставить("CADESCOM_ENCODE_BINARY", 1);
-//        cadesplugin.Вставить("CADESCOM_ENCODE_ANY", -1);
-
-//        cadesplugin.Вставить("CAPICOM_CERTIFICATE_INCLUDE_CHAIN_EXCEPT_ROOT", 0);
-//        cadesplugin.Вставить("CAPICOM_CERTIFICATE_INCLUDE_WHOLE_CHAIN", 1);
-//        cadesplugin.Вставить("CAPICOM_CERTIFICATE_INCLUDE_END_ENTITY_ONLY", 2);
-
-//        cadesplugin.Вставить("CAPICOM_CERT_INFO_SUBJECT_SIMPLE_NAME", 0);
-//        cadesplugin.Вставить("CAPICOM_CERT_INFO_ISSUER_SIMPLE_NAME", 1);
-
-//        cadesplugin.Вставить("CAPICOM_CERTIFICATE_FIND_SHA1_HASH", 0);                              
-//        cadesplugin.Вставить("CAPICOM_CERTIFICATE_FIND_SUBJECT_NAME", 1);
-//        cadesplugin.Вставить("CAPICOM_CERTIFICATE_FIND_ISSUER_NAME", 2);
-//        cadesplugin.Вставить("CAPICOM_CERTIFICATE_FIND_ROOT_NAME", 3);
-//        cadesplugin.Вставить("CAPICOM_CERTIFICATE_FIND_TEMPLATE_NAME", 4);
-//        cadesplugin.Вставить("CAPICOM_CERTIFICATE_FIND_EXTENSION", 5);
-//        cadesplugin.Вставить("CAPICOM_CERTIFICATE_FIND_EXTENDED_PROPERTY", 6);
-//        cadesplugin.Вставить("CAPICOM_CERTIFICATE_FIND_APPLICATION_POLICY", 7);
-//        cadesplugin.Вставить("CAPICOM_CERTIFICATE_FIND_CERTIFICATE_POLICY", 8);
-//        cadesplugin.Вставить("CAPICOM_CERTIFICATE_FIND_TIME_VALID", 9);
-//        cadesplugin.Вставить("CAPICOM_CERTIFICATE_FIND_TIME_NOT_YET_VALID", 10);
-//        cadesplugin.Вставить("CAPICOM_CERTIFICATE_FIND_TIME_EXPIRED", 11);
-//        cadesplugin.Вставить("CAPICOM_CERTIFICATE_FIND_KEY_USAGE", 12);
-
-//        cadesplugin.Вставить("CAPICOM_DIGITAL_SIGNATURE_KEY_USAGE", 128);
-
-//        cadesplugin.Вставить("CAPICOM_PROPID_ENHKEY_USAGE", 9);
-
-//        cadesplugin.Вставить("CAPICOM_OID_OTHER", 0);
-//        cadesplugin.Вставить("CAPICOM_OID_KEY_USAGE_EXTENSION", 10);
-
-//        cadesplugin.Вставить("CAPICOM_EKU_CLIENT_AUTH", 2);
-//        cadesplugin.Вставить("CAPICOM_EKU_SMARTCARD_LOGON", 5);
-//        cadesplugin.Вставить("CAPICOM_EKU_OTHER", 0);
-
-//        cadesplugin.Вставить("CAPICOM_AUTHENTICATED_ATTRIBUTE_SIGNING_TIME", 0);
-//        cadesplugin.Вставить("CAPICOM_AUTHENTICATED_ATTRIBUTE_DOCUMENT_NAME", 1);
-//        cadesplugin.Вставить("CAPICOM_AUTHENTICATED_ATTRIBUTE_DOCUMENT_DESCRIPTION", 2);
-//        cadesplugin.Вставить("CADESCOM_AUTHENTICATED_ATTRIBUTE_SIGNING_TIME", 0);
-//        cadesplugin.Вставить("CADESCOM_AUTHENTICATED_ATTRIBUTE_DOCUMENT_NAME", 1);
-//        cadesplugin.Вставить("CADESCOM_AUTHENTICATED_ATTRIBUTE_DOCUMENT_DESCRIPTION", 2);
-//        cadesplugin.Вставить("CADESCOM_ATTRIBUTE_OTHER", -1);
-
-//        cadesplugin.Вставить("CADESCOM_STRING_TO_UCS2LE", 0);
-//        cadesplugin.Вставить("CADESCOM_BASE64_TO_BINARY", 1);
-
-//        cadesplugin.Вставить("CADESCOM_DISPLAY_DATA_NONE", 0);
-//        cadesplugin.Вставить("CADESCOM_DISPLAY_DATA_CONTENT", 1);
-//        cadesplugin.Вставить("CADESCOM_DISPLAY_DATA_ATTRIBUTE", 2);
-
-//        cadesplugin.Вставить("CADESCOM_ENCRYPTION_ALGORITHM_RC2", 0);
-//        cadesplugin.Вставить("CADESCOM_ENCRYPTION_ALGORITHM_RC4", 1);
-//        cadesplugin.Вставить("CADESCOM_ENCRYPTION_ALGORITHM_DES", 2);
-//        cadesplugin.Вставить("CADESCOM_ENCRYPTION_ALGORITHM_3DES", 3);
-//        cadesplugin.Вставить("CADESCOM_ENCRYPTION_ALGORITHM_AES", 4);
-//        cadesplugin.Вставить("CADESCOM_ENCRYPTION_ALGORITHM_GOST_28147_89", 25);
-
-//        cadesplugin.Вставить("CADESCOM_HASH_ALGORITHM_SHA1", 0);
-//        cadesplugin.Вставить("CADESCOM_HASH_ALGORITHM_MD2", 1);
-//        cadesplugin.Вставить("CADESCOM_HASH_ALGORITHM_MD4", 2);
-//        cadesplugin.Вставить("CADESCOM_HASH_ALGORITHM_MD5", 3);
-//        cadesplugin.Вставить("CADESCOM_HASH_ALGORITHM_SHA_256", 4);
-//        cadesplugin.Вставить("CADESCOM_HASH_ALGORITHM_SHA_384", 5);
-//        cadesplugin.Вставить("CADESCOM_HASH_ALGORITHM_SHA_512", 6);
-//        cadesplugin.Вставить("CADESCOM_HASH_ALGORITHM_CP_GOST_3411", 100);
-//        cadesplugin.Вставить("CADESCOM_HASH_ALGORITHM_CP_GOST_3411_2012_256", 101);
-//        cadesplugin.Вставить("CADESCOM_HASH_ALGORITHM_CP_GOST_3411_2012_512", 102);
-
-//        cadesplugin.Вставить("LOG_LEVEL_DEBUG", 4);
-//        cadesplugin.Вставить("LOG_LEVEL_INFO", 2);
-//        cadesplugin.Вставить("LOG_LEVEL_ERROR", 1);
-
-//        cadesplugin.Вставить("CADESCOM_AllowNone", 0);
-//        cadesplugin.Вставить("CADESCOM_AllowNoOutstandingRequest", "0x1");
-//        cadesplugin.Вставить("CADESCOM_AllowUntrustedCertificate", "0x2");
-//        cadesplugin.Вставить("CADESCOM_AllowUntrustedRoot", "0x4");
-//        cadesplugin.Вставить("CADESCOM_SkipInstallToStore", "0x10000000");
-//	
-//	
-//	
-//	CAPICOM_CURRENT_USER_STORE=2;
-//	CAPICOM_MY_STORE="My";
-//	CAPICOM_OTHER_STORE="AddressBook";
-//	CAPICOM_STORE_OPEN_READ_ONLY=0;
-//	CAPICOM_CERTIFICATE_FIND_TIME_VALID=9;
-//	CAPICOM_STORE_OPEN_MAXIMUM_ALLOWED = 2;
-
-//	
-//	ТекДата=ТекущаяДата();
-//	
-//	СохранённыйОтпечатокДекларанта=Неопределено;
-//	СохранённыеОтпечаткиПолучателей=Новый Массив;
-//	// восстанавливаем настройки
-//	НашлиСертификат=Ложь;
-//	Попытка
-//		// формируем список наших сертификатов
-//		ТекЭлемент=Неопределено;
-//		СписокНашихСертификатов=Новый СписокЗначений;
-//		
-//		Store=Новый COMОбъект("CAPICOM.Store");
-//		Store.Open(CAPICOM_CURRENT_USER_STORE,CAPICOM_MY_STORE,CAPICOM_STORE_OPEN_MAXIMUM_ALLOWED);
-//		Certs=Store.Certificates;
-//		ValidCerts=Certs;//.Find(CAPICOM_CERTIFICATE_FIND_TIME_VALID,ТекДата,-1);
-//		Для CertNum=1 По ValidCerts.Count Цикл
-//			
-//			CurCert=ValidCerts.Item(CertNum);
-//			Thumbprint=CurCert.Thumbprint;
-//			СерийныйНомер=CurCert.SerialNumber;
-//			Если Thumbprint=Текущийпользователь Тогда
-//				НашлиСертификат=Истина;
-//				ВыбСертификат=CurCert;
-//				Прервать;
-//			Конецесли;
-//		КонецЦикла;
-//	Исключение
-//		ТекстОшибки=СтрЗаменить(ОписаниеОшибки(),"'","");
-//		Сообщить(NStr("ru = 'Ошибка при работе с хранилищем сертификатов! (Возможно, не установлен модуль CAPICOM)"+Символы.ПС+"Описание ошибки: "+ТекстОшибки+"'", "ru"));
-//		Возврат;
-//	КонецПопытки;
-
-//	Если НашлиСертификат=Ложь Тогда
-//		Сообщить("В системе нет сертификата!!");
-//		Возврат;
-//	КонецЕсли;
-
-//	//Если     Открепленная=Истина  ТОгда
-//	////Ф=ПолучитьИмяВременногоФайла();
-//	//Текст=Новый ТекстовыйДокумент;
-//	//Текст.ДобавитьСтроку(ИмяВр);
-//	////Текст.Записать(Ф);
-//	////ИмяФ_1=ПолучитьИмяВременногоФайла();
-//	//
-//	//КонецЕсли;
-//	
-//	oSigner = Новый COMОбъект("CAdESCOM.CPSigner"); // Объект, задающий параметры создания и содержащий информацию об усовершенствованной подписи. 
-//	
-//	oSigningTimeAttr=Новый COMОбъект("CADESCOM.CPAttribute");
-
-//    //oSigningTimeAttr.propset_Name(cadesplugin.CAPICOM_AUTHENTICATED_ATTRIBUTE_SIGNING_TIME);
-//    oSigningTimeAttr.Name=cadesplugin.CAPICOM_AUTHENTICATED_ATTRIBUTE_SIGNING_TIME;
-//    oTimeNow = Текущаядата();
-//    oSigningTimeAttr.Value=oTimeNow;
-//    attr = oSigner.AuthenticatedAttributes2;
-//    attr.Add(oSigningTimeAttr);
-//     oDocumentNameAttr = Новый COMОбъект("CADESCOM.CPAttribute");
-//      oDocumentNameAttr.Name=cadesplugin.CADESCOM_AUTHENTICATED_ATTRIBUTE_DOCUMENT_NAME;
-//      oDocumentNameAttr.Value="CRPT";
-//      attr.Add(oDocumentNameAttr);
-//          oSigner.Certificate=ВыбСертификат;
-
 //           oSignedData = Новый COMОбъект("CAdESCOM.CadesSignedData");
 //                // Данные на подпись ввели
 //				Если НЕ ОбщийМодуль_НаСервере_ХамелеонЦРПТ.ВернутьНеИспользоватьCAPICOM_CERTIFICATE_INCLUDE_END_ENTITY_ONLY() Тогда
@@ -21877,9 +21488,14 @@ children="";
 //	
 //	
 //КонецПроцедуры		
-Процедура ПодписатьФайл(Внешняя,Знач ИмяВр,Текущийпользователь,Имя_вр_1,Открепленная=Ложь,Уже64=Ложь,СерийныйНомер="",PIN="",
+Процедура ПодписатьФайл(Внешняя,Знач ИмяВр,Текущийпользователь_1,Имя_вр_1,Открепленная=Ложь,Уже64=Ложь,СерийныйНомер="",PIN="",
 	ПодписываемКарточку=Ложь)	Экспорт
 	
+	Если ТипЗнч(Текущийпользователь_1)=Тип("Строка") тогда
+		Текущийпользователь=Текущийпользователь_1;
+	Иначе
+		Текущийпользователь=Текущийпользователь_1.Thumbprint_1;
+	Конецесли;
 	
 	
 		//МенеджерКриптографии = Новый МенеджерКриптографии("Crypto-Pro GOST R 34.10-2012 Cryptographic Service Provider", "", 80 );
@@ -22810,7 +22426,7 @@ children="";
 				ОтветСтруктура =ЗаполнитьСтруктуруИзОтветаJSON(Ответ.ПолучитьТелоКакСтроку());
 				Подписываем=ОтветСтруктура.code;
 				Имя_вр_1="";
-				ПодписатьФайл(Подписываем,Thumbprint_1.Thumbprint_1,Имя_вр_1,Истина);
+				ПодписатьФайл(Подписываем,Thumbprint_1,Имя_вр_1,Истина);
 				
 				Добав=Имя_вр_1;
 				//Добав=ПолучитьСтрокуИздвоичныхДанных(РР);
@@ -26477,7 +26093,7 @@ children="";
 		
 		
 	Подписанный="";
-	ОбщийМодуль_НаСервере_ХамелеонЦРПТ.ПодписатьФайл(Thumbprint_1.Внешняя,СформироватьФайлДляОтправки,Thumbprint_1.Thumbprint_1,Подписанный,Истина);
+	ОбщийМодуль_НаСервере_ХамелеонЦРПТ.ПодписатьФайл(Thumbprint_1.Внешняя,СформироватьФайлДляОтправки,Thumbprint_1,Подписанный,Истина);
 	
 	//Подписанный=base64Строка(ОбщийМодуль_НаСервере_ХамелеонЦРПТ.ПолучитьДвоичныеДанныеИзСтроки_Сервер(
 	//Подписанный,КодировкаТекста.UTF8,Ложь));
@@ -29661,7 +29277,7 @@ EndFunction
 	
 	Подписанный="";
 	Попытка
-	ПодписатьФайл(Thumbprint_1.Внешняя,СформироватьФайлДляОтправки,Thumbprint_1.Thumbprint_1,Подписанный,Истина);
+	ПодписатьФайл(Thumbprint_1.Внешняя,СформироватьФайлДляОтправки,Thumbprint_1,Подписанный,Истина);
 	
 	//Подписанный=base64Строка(ОбщийМодуль_НаСервере_ХамелеонЦРПТ.ПолучитьДвоичныеДанныеИзСтроки_Сервер(
 	//Подписанный,КодировкаТекста.UTF8,Ложь));
@@ -31646,6 +31262,7 @@ EndFunction
 			Иначе
 				Для Каждого Стр Из Сведения.products_list.product Цикл
 					Добав=МассивКМ.Добавить();
+					Добав.Сертификат=Справочники.Сертификат_ДекларацияСоответствия_ХамелеонЦРПТ.ПустаяСсылка();
 					Если Стр.Свойства().Получить("certificate_date")<>Неопределено Тогда
 						ДатаД=Стр.certificate_date;
 						Добав.СертификатДата=Дата(ЧИсло(Сред(ДатаД,7,4)),Число(Сред(ДатаД,4,2)),Число(Сред(ДатаД,1,2)));

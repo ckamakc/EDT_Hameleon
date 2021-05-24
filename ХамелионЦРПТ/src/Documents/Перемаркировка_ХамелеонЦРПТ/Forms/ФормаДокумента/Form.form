@@ -569,11 +569,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>1/0:39143cc2-3a57-45ee-9a12-aa6b76afb671</segments>
-            </paths>
-          </dataPath>
           <extendedTooltip>
             <name>Собственник_ПолеРасширеннаяПодсказка</name>
             <id>266</id>
@@ -621,11 +616,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>1/0:4cb43e09-ca8a-4db6-88fa-9bd99b09c40b</segments>
-            </paths>
-          </dataPath>
           <extendedTooltip>
             <name>СпособПроизводства_ПолеРасширеннаяПодсказка</name>
             <id>269</id>
@@ -683,11 +673,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>1/0:0269f7bf-ae44-4db7-96e3-a8a64ee888d8</segments>
-            </paths>
-          </dataPath>
           <extendedTooltip>
             <name>ПроизводительРасширеннаяПодсказка</name>
             <id>272</id>
@@ -772,11 +757,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>1/0:548ae716-99c6-4398-a5a0-3e3ac31796eb</segments>
-          </paths>
-        </dataPath>
         <extendedTooltip>
           <name>ДатаПроизводства_КонтрактРасширеннаяПодсказка</name>
           <id>275</id>
@@ -2443,11 +2423,6 @@
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
-          <footerDataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>1/0:d5ef1e34-95f6-4872-9b2a-e14c7a2a5e72</segments>
-            </paths>
-          </footerDataPath>
           <extInfo xsi:type="form:InputFieldExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>

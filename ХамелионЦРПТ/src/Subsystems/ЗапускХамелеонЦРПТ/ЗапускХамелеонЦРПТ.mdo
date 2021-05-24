@@ -8,5 +8,4 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>DataProcessor._Запуск_ХамелеонЦРПТ</content>
-  <content>Document.ЗаказМарок_ХамелеонЦРПТ</content>
 </mdclass:Subsystem>

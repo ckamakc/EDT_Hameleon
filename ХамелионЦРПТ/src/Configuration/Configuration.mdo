@@ -33,8 +33,6 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.ЗапускХамелеонЦРПТ</subsystems>
-  <subsystems>Subsystem.МВ_ДобавленныеОбъекты</subsystems>
-  <subsystems>Subsystem.ЦРПТ</subsystems>
   <commonPictures>CommonPicture.СтатусыНакладных_ХамелеонЦРПТ</commonPictures>
   <commonPictures>CommonPicture.Папка</commonPictures>
   <commonPictures>CommonPicture.ПапкаОблачногоСервиса</commonPictures>
@@ -306,6 +304,7 @@
   <enums>Enum.ВидыДокументов_Фармацевтика_ХамелеонЦРПТ</enums>
   <enums>Enum.МодельИзделия_ХамелеонЦРПТ</enums>
   <enums>Enum.УровниУпаковок_ХамелеонЦРПТ</enums>
+  <enums>Enum.ТипПолученияТокенаИзПользователя_ХамелеонЦРПТ</enums>
   <reports>Report.ДвиженияДокумента_ХамелеонЦРПТ</reports>
   <reports>Report.ОтчетПоВыведеннымКМПоРознице_ХамелеонЦРПТ</reports>
   <reports>Report.ОтчетПоКМ_ХамелеонЦРПТ</reports>

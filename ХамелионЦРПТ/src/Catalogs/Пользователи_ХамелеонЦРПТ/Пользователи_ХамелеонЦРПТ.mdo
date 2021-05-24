@@ -1199,6 +1199,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="e1127908-8292-4cd2-b732-54889e6d7328">
+    <name>ПолучитьТокен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить токен</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипПолученияТокенаИзПользователя_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="5ac366ff-b278-4a0b-8909-7b1443b66f25">
     <producedTypes>
       <objectType typeId="fbd42930-ca00-4870-a346-c12debeb3421" valueTypeId="fba4d462-cfd0-45a4-bb22-2365f4b0d82b"/>
