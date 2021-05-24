@@ -285,7 +285,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -305,7 +305,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -345,7 +344,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -365,7 +364,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -444,7 +442,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -464,7 +462,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -504,7 +501,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -524,7 +521,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -564,7 +560,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -584,7 +580,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -625,7 +620,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -645,7 +640,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -686,7 +680,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -706,7 +700,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -746,7 +739,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -766,7 +759,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -806,7 +798,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -826,7 +818,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -866,7 +857,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -886,7 +877,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -926,7 +916,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -946,7 +936,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -986,7 +975,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -1006,7 +995,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -1077,7 +1065,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -1097,7 +1085,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -1143,7 +1130,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -1163,7 +1150,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -1209,7 +1195,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -1229,7 +1215,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -1275,7 +1260,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -1295,7 +1280,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -1372,7 +1356,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -1392,7 +1376,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -1433,7 +1416,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -1453,7 +1436,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -1494,7 +1476,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -1514,7 +1496,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -1554,7 +1535,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -1574,7 +1555,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -1614,7 +1594,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -1634,7 +1614,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -1674,7 +1653,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -1694,7 +1673,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -1734,7 +1712,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -1754,7 +1732,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -1794,7 +1771,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -1814,7 +1791,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -1854,7 +1830,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -1874,7 +1850,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -1945,7 +1920,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -1965,7 +1940,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -2036,7 +2010,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -2056,7 +2030,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -2097,7 +2070,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -2117,7 +2090,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -2189,7 +2161,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -2209,7 +2181,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -2249,7 +2220,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -2269,7 +2240,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -2309,7 +2279,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -2329,7 +2299,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -2517,7 +2486,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -2537,7 +2506,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -2608,7 +2576,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -2628,7 +2596,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -2668,7 +2635,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -2688,7 +2655,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -2802,7 +2768,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -2822,7 +2788,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -2862,7 +2827,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -2882,7 +2847,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -2922,7 +2886,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -2942,7 +2906,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -2982,7 +2945,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -3002,7 +2965,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -4511,7 +4473,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -4531,7 +4493,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -6778,7 +6739,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -6798,7 +6759,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -7035,7 +6995,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -7055,7 +7015,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -7132,7 +7091,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -7152,7 +7111,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -7192,7 +7150,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -7212,7 +7170,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -7326,7 +7283,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -7346,7 +7303,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -8174,7 +8130,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -8194,7 +8150,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -8240,7 +8195,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -8260,7 +8215,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -8380,7 +8334,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -8400,7 +8354,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -8477,7 +8430,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -8497,7 +8450,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -8685,7 +8637,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -8705,7 +8657,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -8819,7 +8770,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -8839,7 +8790,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -8885,7 +8835,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -8905,7 +8855,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -8951,7 +8900,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -8971,7 +8920,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -9017,7 +8965,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -9037,7 +8985,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -9083,7 +9030,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -9103,7 +9050,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -9519,7 +9465,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -9539,7 +9485,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -9579,7 +9524,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -9599,7 +9544,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -9639,7 +9583,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -9659,7 +9603,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -9699,7 +9642,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -9719,7 +9662,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -9907,7 +9849,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -9927,7 +9869,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -9973,7 +9914,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -9993,7 +9934,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -10039,7 +9979,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -10059,7 +9999,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -10105,7 +10044,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -10125,7 +10064,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -10171,7 +10109,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -10191,7 +10129,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -10237,7 +10174,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -10257,7 +10194,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -10303,7 +10239,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -10323,7 +10259,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -10603,7 +10538,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -10623,7 +10558,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -10669,7 +10603,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -10689,7 +10623,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -10735,7 +10668,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -10755,7 +10688,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -10992,7 +10924,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -11012,7 +10944,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -11186,7 +11117,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -11206,7 +11137,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -11252,7 +11182,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -11272,7 +11202,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -11827,7 +11756,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -11847,7 +11776,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -11887,7 +11815,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -11907,7 +11835,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -12161,7 +12088,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -12181,7 +12108,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>
@@ -12270,7 +12196,7 @@
 						</v8:item>
 					</tl>
 					<note>
-						<drawingType>Text</drawingType>
+						<drawingType>Comment</drawingType>
 						<id>0</id>
 						<formatIndex>18</formatIndex>
 						<text>
@@ -12290,7 +12216,6 @@
 						<endColumnOffset>1443</endColumnOffset>
 						<autoSize>false</autoSize>
 						<pictureSize>Stretch</pictureSize>
-						<zOrder>0</zOrder>
 					</note>
 				</c>
 			</c>

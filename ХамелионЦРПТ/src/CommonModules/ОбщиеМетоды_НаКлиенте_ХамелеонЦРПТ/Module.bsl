@@ -4716,7 +4716,8 @@ HTTPСервисЗапрос=Новый HTTPСоединение(Thumbprint_1.А
 		Страница=0;
 		Пока Истина Цикл
 			Страница=Страница+1;
-			HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/cis/cis_list?childrenPaging=true&childrenPage="+Формат(Страница,"ЧГ=")+"&childrenLimit=10&?pg="+Что);
+			 
+			HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/cis/cis_list?childrenPaging=true&childrenPage="+Формат(Страница,"ЧГ=")+"&childrenLimit=10&pg="+Что);
 						
 							
 						//ИНН=ВернутьИНН(Обр.Организации[0].Организация );

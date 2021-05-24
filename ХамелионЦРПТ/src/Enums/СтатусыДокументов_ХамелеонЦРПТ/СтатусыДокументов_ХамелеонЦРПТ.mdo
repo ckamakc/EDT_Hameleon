@@ -131,4 +131,11 @@
       <value>Отправлен в ЭДО</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="e4dd245e-762e-4309-932a-72ceb06d86d3">
+    <name>ОбработаноСОшибкойВЭДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработано с ошибкой в ЭДО</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

@@ -1203,4 +1203,19 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
+  <resources uuid="11e2d5eb-0609-4a72-bb3f-38e96d0bd185">
+    <name>НеОпределятьДатуПроизводстваИГоденДоПоНомеруВСД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не определять дату производства и годен до по номеру ВСД</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
 </mdclass:InformationRegister>

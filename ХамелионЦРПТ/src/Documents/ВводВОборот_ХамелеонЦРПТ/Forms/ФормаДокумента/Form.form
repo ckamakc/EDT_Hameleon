@@ -8487,7 +8487,6 @@
         <items xsi:type="form:FormField">
           <name>СерийныеНомераТаблицаГоденДо</name>
           <id>339</id>
-          <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -12124,6 +12123,23 @@
       <value>Получать КМВФоне</value>
     </title>
     <id>21</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>НеОпределятьДатуПроизводстваИГоденДоПоНомеруВСД</name>
+    <title>
+      <key>ru</key>
+      <value>Не определять дату производства и годен до по номеру ВСД</value>
+    </title>
+    <id>22</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
