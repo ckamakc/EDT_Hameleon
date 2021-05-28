@@ -1195,7 +1195,7 @@
  			что=Thumbprint_1.что;
 	
 	
-	HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Объект._Order_ID+"/body?pg="+Что+"&limit=2147483647");
+	HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Объект._Order_ID+"/body?pg="+Что+"&limit=2147483647");
 	HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 	HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 	Ответ=HTTPСервисЗапрос.ВызватьHTTPМетод("GET",HTTPЗапрос);
@@ -1306,7 +1306,7 @@
 	
  			что=Thumbprint_1.что;
 	
-	HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Объект._Order_ID+"/body?pg="+Что+"&limit=2147483647");
+	HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Объект._Order_ID+"/body?pg="+Что+"&limit=2147483647");
 	HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 	HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 	Ответ=HTTPСервисЗапрос.ВызватьHTTPМетод("GET",HTTPЗапрос);
@@ -1401,7 +1401,7 @@
  			что=Thumbprint_1.что;
 	
 	
-	HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Объект._Order_ID+"/body?pg="+Что+"&limit=2147483647");
+	HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Объект._Order_ID+"/body?pg="+Что+"&limit=2147483647");
 	HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 	HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 	Ответ=HTTPСервисЗапрос.ВызватьHTTPМетод("GET",HTTPЗапрос);
@@ -1514,7 +1514,7 @@
 	
 	
 	
-	HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Объект._Order_ID+"/body?pg="+Что+"&limit=2147483647");
+	HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Объект._Order_ID+"/body?pg="+Что+"&limit=2147483647");
 	HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 	HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 	Ответ=HTTPСервисЗапрос.ВызватьHTTPМетод("GET",HTTPЗапрос);

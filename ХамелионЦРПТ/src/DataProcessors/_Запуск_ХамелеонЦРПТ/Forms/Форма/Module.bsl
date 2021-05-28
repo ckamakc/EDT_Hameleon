@@ -10828,7 +10828,7 @@ Var Request;
 	
 								
 
-								HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Стр.order_id+"/body?pg="+что+"&limit=2147483647");
+								HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Стр.order_id+"/body?pg="+что+"&limit=2147483647");
 							HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 							HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 							//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -10943,7 +10943,7 @@ Var Request;
 								КонецЕсли;
 								
 								
-								//HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Стр.order_id+"/body");
+								//HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Стр.order_id+"/body");
 							HTTPЗапрос=Новый HTTPЗапрос("api/v2/"+Thumbprint_1.СайтКСУЗ+"/report/info?reportId="+Стр.order_id+"&omsId="+Thumbprint_1.ИдентификаторСУЗ);
 							HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 																			ТокенСУЗ=ОбщийМодуль_НаСервере_ХамелеонЦРПТ.ПодключениеКСУЗ_ХамелеонЦРПТ(Thumbprint_1);
@@ -11061,7 +11061,7 @@ Var Request;
 	
 								
 				
-				HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Стр.ГУИД+"/body?pg="+что+"&limit=2147483647");
+				HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Стр.ГУИД+"/body?pg="+что+"&limit=2147483647");
 			HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 			HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 			//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -11286,7 +11286,7 @@ Var Request;
 	
 								
 			
-			HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Стр.order_id+"/body?pg="+что+"&limit=2147483647");
+			HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Стр.order_id+"/body?pg="+что+"&limit=2147483647");
 		HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 		HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 		//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -11383,7 +11383,7 @@ Var Request;
 	
 								
 			
-			HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Стр.order_id+"/body?pg="+что+"&limit=2147483647");
+			HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Стр.order_id+"/body?pg="+что+"&limit=2147483647");
 		HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 		HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 		//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -11481,7 +11481,7 @@ Var Request;
 	
 								
 			
-			HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Стр.order_id+"/body?pg="+что+"&limit=2147483647");
+			HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Стр.order_id+"/body?pg="+что+"&limit=2147483647");
 		HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 		HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 		//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -11513,7 +11513,7 @@ Var Request;
 	
 								
 						
-						HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+NNN.body.release_order_number+"/body?pg="+что+"&limit=2147483647");
+						HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+NNN.body.release_order_number+"/body?pg="+что+"&limit=2147483647");
 						HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 						HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 						//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -11641,7 +11641,7 @@ Var Request;
 			КонецЕсли;
 			
 			
-			//HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Стр.order_id+"/body+"&limit=2147483647"");
+			//HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Стр.order_id+"/body+"&limit=2147483647"");
 		HTTPЗапрос=Новый HTTPЗапрос("api/v2/"+Thumbprint_1.СайтКСУЗ+"/report/info?reportId="+Стр.order_id+"&omsId="+Thumbprint_1.ИдентификаторСУЗ);
 		HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 																					ТокенСУЗ=ОбщийМодуль_НаСервере_ХамелеонЦРПТ.ПодключениеКСУЗ_ХамелеонЦРПТ(Thumbprint_1);
@@ -11725,7 +11725,7 @@ Var Request;
 	
 								
 			
-			HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Стр.order_id+"/body?pg="+что+"&limit=2147483647");
+			HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Стр.order_id+"/body?pg="+что+"&limit=2147483647");
 		HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 		HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 		//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -12039,6 +12039,16 @@ Var Request;
 		
 		ДокументВводВоборот=Документы.ВводВОборот_ХамелеонЦРПТ.СоздатьДокумент();
 		ДокументВводВоборот.Заполнить(ВыборкаДетальныеЗаписи.Ссылка);
+		
+		Если Не ЗначениеЗаполнено(ДокументВводВоборот.ДатаПроизводства) Тогда
+			Для каждого Стр_1 Из ДокументВводВоборот.Товары Цикл
+				ДокументВводВоборот.ДатаПроизводства=Стр_1.ДатаПроизводства;
+				Если ЗначениеЗАполнено(ДокументВводВоборот.ДатаПроизводства) тогда
+					Прервать;
+				Конецесли;
+			Конеццикла;
+		Конецесли;
+		
 		ДокументВводВоборот.Дата=Текущаядата();
 		ДокументВводВоборот.Записать();
 		ПолПр=ВыборкаДетальныеЗаписи.Ссылка.ПолучитьОбъект();
@@ -12350,7 +12360,7 @@ Thumbprint_1=ПолучитьИзПользователя();
 								КонецЕсли;
 								
 								
-								//HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Стр.order_id+"/body+"&limit=2147483647"");
+								//HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Стр.order_id+"/body+"&limit=2147483647"");
 							HTTPЗапрос=Новый HTTPЗапрос("api/v2/"+Thumbprint_1.СайтКСУЗ+"/report/info?reportId="+Стр.order_id+"&omsId="+Thumbprint_1.ИдентификаторСУЗ);
 							HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 																		ТокенСУЗ=ОбщиеМетоды_НаКлиенте_ХамелеонЦРПТ.ПодключениеКСУЗ_ХамелеонЦРПТ(Thumbprint_1);
@@ -12628,7 +12638,7 @@ Thumbprint_1=ПолучитьИзПользователя();
 	
 								
 								
-								HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Стр.order_id+"/body"+"?pg="+что+"&limit=2147483647");
+								HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Стр.order_id+"/body"+"?pg="+что+"&limit=2147483647");
 							HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 							HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 							//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -12729,7 +12739,7 @@ Thumbprint_1=ПолучитьИзПользователя();
 								КонецЕсли;
 								
 								
-								//HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Стр.order_id+"/body+"&limit=2147483647"");
+								//HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Стр.order_id+"/body+"&limit=2147483647"");
 							HTTPЗапрос=Новый HTTPЗапрос("api/v2/"+Thumbprint_1.СайтКСУЗ+"/report/info?reportId="+Стр.order_id+"&omsId="+Thumbprint_1.ИдентификаторСУЗ);
 							HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 																									ТокенСУЗ=ОбщиеМетоды_НаКлиенте_ХамелеонЦРПТ.ПодключениеКСУЗ_ХамелеонЦРПТ(Thumbprint_1);
@@ -13055,9 +13065,9 @@ Thumbprint_1=ПолучитьИзПользователя();
 				Тогда
 				  ПолучитьСправочникПоТабаку(Стр.ГУИД,что,Thumbprint_1,HTTPСервисЗапрос,ДокументПроверки,УжеОтправили,СРегистра,Стр.Ссылка,ВернутьДокументы);
 				
-				//HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Стр.ГУИД+"/body?pg="+что+"&limit=2147483647");
+				//HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Стр.ГУИД+"/body?pg="+что+"&limit=2147483647");
 			Иначе
-				HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Стр.ГУИД+"/body?pg="+что+"&limit=2147483647");
+				HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Стр.ГУИД+"/body?pg="+что+"&limit=2147483647");
 			HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 			HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 			//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -13225,7 +13235,7 @@ Thumbprint_1=ПолучитьИзПользователя();
 	
 								
 			
-			HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Стр.order_id+"/body?pg="+что+"&limit=2147483647");
+			HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Стр.order_id+"/body?pg="+что+"&limit=2147483647");
 		HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 		HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 		//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -13381,7 +13391,7 @@ Thumbprint_1=ПолучитьИзПользователя();
 	
 								
 			
-			HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Стр.order_id+"/body?pg="+Что+"&limit=2147483647");
+			HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Стр.order_id+"/body?pg="+Что+"&limit=2147483647");
 		HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 		HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 		//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -13415,7 +13425,7 @@ Thumbprint_1=ПолучитьИзПользователя();
 	//					NNN_1=ОбщийМодуль_НаСервере_ХамелеонЦРПТ.ЗаполнитьСтруктуруИзОтветаJSON(NNN_1);//ПрочитатьJSON(ЧтениеJSON);
 	//					
 	//					
-	//					HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Стр.order_id+"/body+"&limit=2147483647"");
+	//					HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Стр.order_id+"/body+"&limit=2147483647"");
 	//					HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 	//					HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 	//					//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -13432,7 +13442,7 @@ Thumbprint_1=ПолучитьИзПользователя();
 	
 								
 	
-						HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+NNN.body.release_order_number+"/body?pg="+Что+"&limit=2147483647");
+						HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+NNN.body.release_order_number+"/body?pg="+Что+"&limit=2147483647");
 						HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 						HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 						//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -13583,7 +13593,7 @@ Thumbprint_1=ПолучитьИзПользователя();
 			КонецЕсли;
 			
 			
-			//HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Стр.order_id+"/body+"&limit=2147483647"");
+			//HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Стр.order_id+"/body+"&limit=2147483647"");
 		HTTPЗапрос=Новый HTTPЗапрос("api/v2/"+Thumbprint_1.СайтКСУЗ+"/report/info?reportId="+Стр.order_id+"&omsId="+Thumbprint_1.ИдентификаторСУЗ);
 		HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 																				ТокенСУЗ=ОбщиеМетоды_НаКлиенте_ХамелеонЦРПТ.ПодключениеКСУЗ_ХамелеонЦРПТ(Thumbprint_1);
@@ -13686,7 +13696,7 @@ Thumbprint_1=ПолучитьИзПользователя();
 	
 								
 			
-			HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Стр.order_id+"/body?pg="+Что+"&limit=1");
+			HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Стр.order_id+"/body?pg="+Что+"&limit=1");
 		HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 		HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 		//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -13806,7 +13816,7 @@ Thumbprint_1=ПолучитьИзПользователя();
 			
 										
 					
-					HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Стр.order_id+"/body?pg="+Что+"&limit=1");
+					HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Стр.order_id+"/body?pg="+Что+"&limit=1");
 				HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 				HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 				//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -13921,7 +13931,7 @@ Thumbprint_1=ПолучитьИзПользователя();
 	
 								
 
-				HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Стр.order_id+"/body?pg="+Что+"&limit=2147483647");
+				HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Стр.order_id+"/body?pg="+Что+"&limit=2147483647");
 			HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 			HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 			//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -15196,7 +15206,7 @@ children="";
 // 			что=Thumbprint_1.что;
 //		
 //		
-//	HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/listV2?inputFormat=true&documentType=LP_SHIP_GOODS_CSV&documentType=LP_SHIP_GOODS_XML&documentType=LP_SHIP_GOODS&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&pageDir=NEXT&pg="+Что);
+//	HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/listV2?inputFormat=true&documentType=LP_SHIP_GOODS_CSV&documentType=LP_SHIP_GOODS_XML&documentType=LP_SHIP_GOODS&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&pageDir=NEXT&pg="+Что);
 //	HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 //	HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 //	//Тело="documentType=LP_ACCEPT_GOODS_XML";
@@ -15231,7 +15241,7 @@ children="";
 //	
 //								
 
-//						HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Стр.number+"/body?pg="+что+"&limit=2147483647");
+//						HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Стр.number+"/body?pg="+что+"&limit=2147483647");
 //						HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 //						HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 //						//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -15255,7 +15265,7 @@ children="";
 // 			что=Thumbprint_1.что;
 //	
 //				
-//				 HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/listV2?inputFormat=true&documentType=LP_SHIP_GOODS_CSV&documentType=LP_SHIP_GOODS_XML&documentType=LP_SHIP_GOODS&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&did="+did+"&orderedColumnValue="+docDate+"&pageDir=NEXT&pg="+Что);
+//				 HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/listV2?inputFormat=true&documentType=LP_SHIP_GOODS_CSV&documentType=LP_SHIP_GOODS_XML&documentType=LP_SHIP_GOODS&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&did="+did+"&orderedColumnValue="+docDate+"&pageDir=NEXT&pg="+Что);
 //				HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 //		HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 //		//Тело="documentType=LP_ACCEPT_GOODS_XML";
@@ -16280,9 +16290,9 @@ children="";
 			
 			Если ЗагружатьВсеПриходы Тогда
 				
-	HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/listV2?inputFormat=true&documentType=LP_SHIP_GOODS_CSV&documentType=LP_SHIP_GOODS_CSV&documentType=LP_SHIP_GOODS_XML&documentType=LP_SHIP_GOODS&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&pageDir=NEXT&pg="+что);
+	HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/listV2?inputFormat=true&documentType=LP_SHIP_GOODS_CSV&documentType=LP_SHIP_GOODS_CSV&documentType=LP_SHIP_GOODS_XML&documentType=LP_SHIP_GOODS&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&pageDir=NEXT&pg="+что);
 			Иначе
-	HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/listV2?inputFormat=true&documentType=LP_SHIP_GOODS_CSV&documentType=LP_SHIP_GOODS_CSV&documentType=LP_SHIP_GOODS_XML&documentType=LP_SHIP_GOODS&documentStatus=WAIT_ACCEPTANCE&documentStatus=WAIT_PARTICIPANT_REGISTRATION&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&pageDir=NEXT&pg="+что);
+	HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/listV2?inputFormat=true&documentType=LP_SHIP_GOODS_CSV&documentType=LP_SHIP_GOODS_CSV&documentType=LP_SHIP_GOODS_XML&documentType=LP_SHIP_GOODS&documentStatus=WAIT_ACCEPTANCE&documentStatus=WAIT_PARTICIPANT_REGISTRATION&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&pageDir=NEXT&pg="+что);
 	КонецЕсли;
 	HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 	HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
@@ -16323,7 +16333,7 @@ children="";
 	
 								
 						
-						HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Стр.number+"/body?pg="+что+"&limit=2147483647");
+						HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Стр.number+"/body?pg="+что+"&limit=2147483647");
 						HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 						HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 						//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -16337,7 +16347,7 @@ children="";
 							
 						Исключение
 							
-							HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Стр.number+"/body?pg="+что+"&limit=11");
+							HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Стр.number+"/body?pg="+что+"&limit=11");
 							HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 							HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 							
@@ -16523,9 +16533,9 @@ GTINНаименованиеТовара=Сред(Стр_1.Марка,3,14);
 				
 		Если ЗагружатьВсеПриходы Тогда
 				
-	HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/listV2?inputFormat=true&documentType=LP_SHIP_GOODS_CSV&documentType=LP_SHIP_GOODS_CSV&documentType=LP_SHIP_GOODS_XML&documentType=LP_SHIP_GOODS&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&did="+did+"&orderedColumnValue="+docDate+"&pageDir=NEXT&pg="+Что);
+	HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/listV2?inputFormat=true&documentType=LP_SHIP_GOODS_CSV&documentType=LP_SHIP_GOODS_CSV&documentType=LP_SHIP_GOODS_XML&documentType=LP_SHIP_GOODS&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&did="+did+"&orderedColumnValue="+docDate+"&pageDir=NEXT&pg="+Что);
 Иначе
-					 HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/listV2?inputFormat=true&documentType=LP_SHIP_GOODS_CSV&documentType=LP_SHIP_GOODS_CSV&documentType=LP_SHIP_GOODS_XML&documentType=LP_SHIP_GOODS&documentStatus=WAIT_ACCEPTANCE&documentStatus=WAIT_PARTICIPANT_REGISTRATION&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&did="+did+"&orderedColumnValue="+docDate+"&pageDir=NEXT&pg="+Что);
+					 HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/listV2?inputFormat=true&documentType=LP_SHIP_GOODS_CSV&documentType=LP_SHIP_GOODS_CSV&documentType=LP_SHIP_GOODS_XML&documentType=LP_SHIP_GOODS&documentStatus=WAIT_ACCEPTANCE&documentStatus=WAIT_PARTICIPANT_REGISTRATION&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&did="+did+"&orderedColumnValue="+docDate+"&pageDir=NEXT&pg="+Что);
 					КонецЕсли;
 				HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 		HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
@@ -19513,9 +19523,9 @@ GTINНаименованиеТовара=Сред(Стр_1.Марка,3,14);
 								
 			
 			//Если ЗначениеЗаполнено(Стр.order_id) тогда
-				HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Стр.НомерЗаказа+"/body?pg="+Что+"&limit=2147483647");
+				HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Стр.НомерЗаказа+"/body?pg="+Что+"&limit=2147483647");
 			//Иначе
-			//	HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Стр.НомерЗаказа+"/body?pg="+Что+"&limit=2147483647");
+			//	HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Стр.НомерЗаказа+"/body?pg="+Что+"&limit=2147483647");
 				
 			//КонецЕсли;
 		HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
@@ -19530,9 +19540,9 @@ GTINНаименованиеТовара=Сред(Стр_1.Марка,3,14);
 			
 		Исключение
 			
-			HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Стр.НомерЗаказа+"/body?pg="+Что+"&limit=11");
+			HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Стр.НомерЗаказа+"/body?pg="+Что+"&limit=11");
 			//Иначе
-			//	HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Стр.НомерЗаказа+"/body?pg="+Что+"&limit=2147483647");
+			//	HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Стр.НомерЗаказа+"/body?pg="+Что+"&limit=2147483647");
 					
 				//КонецЕсли;
 			HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
@@ -19561,7 +19571,7 @@ GTINНаименованиеТовара=Сред(Стр_1.Марка,3,14);
  			что=Thumbprint_1.что;
 								
 							
-						HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Стр.order_id+"/body?pg="+Что+"&limit=2147483647");
+						HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Стр.order_id+"/body?pg="+Что+"&limit=2147483647");
 						HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 						HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 						//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -20344,9 +20354,9 @@ NNN_2=Неопределено;
 			
 			Если ЗначениеЗаполнено(ДатаПр) И ЗначениеЗаполнено(НомерД) Тогда
 				
-		HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/listV2?inputFormat=true&documentType=LP_ACCEPT_GOODS&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=ASC&orderColumn=docDate&did="+НомерД+"&orderedColumnValue="+ДатаПр+"&pageDir=NEXT&pg="+Что);
+		HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/listV2?inputFormat=true&documentType=LP_ACCEPT_GOODS&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=ASC&orderColumn=docDate&did="+НомерД+"&orderedColumnValue="+ДатаПр+"&pageDir=NEXT&pg="+Что);
 	Иначе
-		HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/listV2?inputFormat=true&documentType=LP_ACCEPT_GOODS&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=ASC&orderColumn=docDate&pg="+Что);
+		HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/listV2?inputFormat=true&documentType=LP_ACCEPT_GOODS&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=ASC&orderColumn=docDate&pg="+Что);
 	КонецЕсли;
 	HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 	HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
@@ -20392,7 +20402,7 @@ NNN_2=Неопределено;
  			что=Thumbprint_1.что;
 								
 						
-						HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Стр.number+"/body?pg="+Что+"&limit=2147483647");
+						HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Стр.number+"/body?pg="+Что+"&limit=2147483647");
 						HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 						HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 						//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -20430,7 +20440,7 @@ NNN_2=Неопределено;
  			что=Thumbprint_1.что;
 	
 				
-				HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/listV2?inputFormat=true&documentType=LP_ACCEPT_GOODS&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=ASC&orderColumn=docDate&did="+did+"&orderedColumnValue="+docDate+"&pageDir=NEXT&pg="+что);
+				HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/listV2?inputFormat=true&documentType=LP_ACCEPT_GOODS&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=ASC&orderColumn=docDate&did="+did+"&orderedColumnValue="+docDate+"&pageDir=NEXT&pg="+что);
 				HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 		HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 		//Тело="documentType=LP_ACCEPT_GOODS_XML";
@@ -23766,7 +23776,7 @@ EndFunction
 	
 								
 		
-										HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Стр.order_id+"/body?pg="+Что+"&limit=11");
+										HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Стр.order_id+"/body?pg="+Что+"&limit=11");
 		HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 		HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 		//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -23916,7 +23926,7 @@ EndFunction
  			что=Thumbprint_1.что;
 								
 						
-						HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Стр_1+"/body?pg="+Что+"&limit=2147483647");
+						HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Стр_1+"/body?pg="+Что+"&limit=2147483647");
 						HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 						HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 						//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -24026,7 +24036,7 @@ EndFunction
 				HTTPСервисЗапрос=Новый HTTPСоединение(Thumbprint_1.АдресКАПИ,,,,,Thumbprint_1.Таймаут,Новый ЗащищенноеСоединениеopenSSL());
 			КонецЕсли;                                                       
 			
-//	HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/listV2?inputFormat=true&documentType=UNIVERSAL_TRANSFER_DOCUMENT&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&pageDir=NEXT");
+//	HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/listV2?inputFormat=true&documentType=UNIVERSAL_TRANSFER_DOCUMENT&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&pageDir=NEXT");
 
 
 	HTTPЗапрос=Новый HTTPЗапрос("edo-api/incoming-documents?limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&offset=0&sortBy=created_at&asc=false&folder=0");
@@ -30130,7 +30140,7 @@ EndDo;
 				HTTPСервисЗапрос=Новый HTTPСоединение(Thumbprint_1.АдресКАПИ,,,,,Thumbprint_1.Таймаут,Новый ЗащищенноеСоединениеopenSSL());
 			КонецЕсли;                                                       
 			
-	HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/listV2?inputFormat=false&documentType=LP_INTRODUCE_GOODS,LP_INTRODUCE_GOODS_CSV,LP_INTRODUCE_GOODS_XML,LP_GOODS_IMPORT,LP_GOODS_IMPORT_XML,LP_GOODS_IMPORT_CSV,LP_INTRODUCE_OST,LP_INTRODUCE_OST_XML,LP_INTRODUCE_OST_CSV,CROSSBORDER,CROSSBORDER_XML,CROSSBORDER_CSV&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&pageDir=NEXT");
+	HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/listV2?inputFormat=false&documentType=LP_INTRODUCE_GOODS,LP_INTRODUCE_GOODS_CSV,LP_INTRODUCE_GOODS_XML,LP_GOODS_IMPORT,LP_GOODS_IMPORT_XML,LP_GOODS_IMPORT_CSV,LP_INTRODUCE_OST,LP_INTRODUCE_OST_XML,LP_INTRODUCE_OST_CSV,CROSSBORDER,CROSSBORDER_XML,CROSSBORDER_CSV&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&pageDir=NEXT");
 	HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json");
 	HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 	//Тело="documentType=LP_ACCEPT_GOODS_XML";
@@ -30165,7 +30175,7 @@ EndDo;
 					//	И Найти(Стр.type,"LP_SHIP_GOODS")=1
 					//	Тогда
 						
-						HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Стр.number+"/body");
+						HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Стр.number+"/body");
 						HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 						HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 						//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -30196,7 +30206,7 @@ EndDo;
 					Прервать;
 				КонецЕсли;
 					
-				 HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/listV2?inputFormat=false&documentType=LP_INTRODUCE_GOODS,LP_INTRODUCE_GOODS_CSV,LP_INTRODUCE_GOODS_XML,LP_GOODS_IMPORT,LP_GOODS_IMPORT_XML,LP_GOODS_IMPORT_CSV,LP_INTRODUCE_OST,LP_INTRODUCE_OST_XML,LP_INTRODUCE_OST_CSV,CROSSBORDER,CROSSBORDER_XML,CROSSBORDER_CSV&&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&did="+did+"&orderedColumnValue="+docDate+"&pageDir=NEXT");
+				 HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/listV2?inputFormat=false&documentType=LP_INTRODUCE_GOODS,LP_INTRODUCE_GOODS_CSV,LP_INTRODUCE_GOODS_XML,LP_GOODS_IMPORT,LP_GOODS_IMPORT_XML,LP_GOODS_IMPORT_CSV,LP_INTRODUCE_OST,LP_INTRODUCE_OST_XML,LP_INTRODUCE_OST_CSV,CROSSBORDER,CROSSBORDER_XML,CROSSBORDER_CSV&&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&did="+did+"&orderedColumnValue="+docDate+"&pageDir=NEXT");
 				HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json");
 		HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 		//Тело="documentType=LP_ACCEPT_GOODS_XML";
@@ -30275,7 +30285,7 @@ EndDo;
 				HTTPСервисЗапрос=Новый HTTPСоединение(Thumbprint_1.АдресКАПИ,,,,,Thumbprint_1.Таймаут,Новый ЗащищенноеСоединениеopenSSL());
 			КонецЕсли;                                                       
 			
-	HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/listV2?inputFormat=false&documentType=LP_ACCEPT_GOODS&documentType=LP_ACCEPT_GOODS_XML&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&pageDir=NEXT");
+	HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/listV2?inputFormat=false&documentType=LP_ACCEPT_GOODS&documentType=LP_ACCEPT_GOODS_XML&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&pageDir=NEXT");
 	HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json");
 	HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 	//Тело="documentType=LP_ACCEPT_GOODS_XML";
@@ -30311,7 +30321,7 @@ EndDo;
 						И Найти(Стр.type,"LP_SHIP_GOODS")=1)
 						Тогда
 						
-						HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Стр.number+"/body");
+						HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Стр.number+"/body");
 						HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 						HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 						//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -30323,7 +30333,7 @@ EndDo;
 						NNN_1=ОбщийМодуль_НаСервере_ХамелеонЦРПТ.ЗаполнитьСтруктуруИзОтветаJSON(Текст1);//ПрочитатьJSON(ЧтениеJSON);
 						
 						
-						HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+NNN_1.body.release_order_number+"/body");
+						HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+NNN_1.body.release_order_number+"/body");
 						HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 						HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 						//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -30346,7 +30356,7 @@ EndDo;
 					Прервать;
 				КонецЕсли;
 					
-				 HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/listV2?inputFormat=false&&documentType=LP_ACCEPT_GOODS&documentType=LP_ACCEPT_GOODS_XML&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&did="+did+"&orderedColumnValue="+docDate+"&pageDir=NEXT");
+				 HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/listV2?inputFormat=false&&documentType=LP_ACCEPT_GOODS&documentType=LP_ACCEPT_GOODS_XML&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&did="+did+"&orderedColumnValue="+docDate+"&pageDir=NEXT");
 				HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json");
 		HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 		//Тело="documentType=LP_ACCEPT_GOODS_XML";
@@ -31488,7 +31498,7 @@ EndDo;
 	
 								
 			
-			HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Стр.order_id+"/body?pg="+что+"&limit=2147483647");
+			HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Стр.order_id+"/body?pg="+что+"&limit=2147483647");
 		HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 		HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 		//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -31714,7 +31724,7 @@ EndDo;
 //					Если Стр.input=true 
 //						Тогда
 //						
-//						HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Стр.number+"/body");
+//						HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Стр.number+"/body");
 //						HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 //						HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 //						//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -31761,7 +31771,7 @@ EndDo;
 	Текст1=Ответ.ПолучитьТелоКакСтроку();
 				
 //					
-//				 HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/listV2?inputFormat=true&documentFormat=UPD&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&did="+did+"&orderedColumnValue="+docDate+"&pageDir=NEXT&&pg="+ЧТо);
+//				 HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/listV2?inputFormat=true&documentFormat=UPD&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&did="+did+"&orderedColumnValue="+docDate+"&pageDir=NEXT&&pg="+ЧТо);
 //				HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json");
 //		HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 //		//Тело="documentType=LP_ACCEPT_GOODS_XML";
@@ -31889,7 +31899,7 @@ Thumbprint_1.Что;
 			  
 			 ДатаНачала=НачалоДня(ТекущаяДата())-КачатьСЭДОЗаПоследниеДни*24*60*60;
 
-	HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/listV2?inputFormat=true&documentFormat=UPD&dateFrom="+
+	HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/listV2?inputFormat=true&documentFormat=UPD&dateFrom="+
 	//Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&pageDir=NEXT&pg="+Что);
 	Формат(Датаначала,"ДФ=""гггг-ММ-дд""")+"T03:00:00.000Z"+"&limit="+
 	Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&pageDir=NEXT&pg="+Что);
@@ -31934,7 +31944,7 @@ Thumbprint_1.Что;
 					Если Стр.input=true 
 						Тогда
 						
-						HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Стр.number+"/body");
+						HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Стр.number+"/body");
 						HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 						HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 						//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -31967,7 +31977,7 @@ Thumbprint_1.Что;
 					Прервать;
 				КонецЕсли;
 					
-				 HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/listV2?inputFormat=true&documentFormat=UPD&dateFrom="+
+				 HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/listV2?inputFormat=true&documentFormat=UPD&dateFrom="+
 	Формат(Датаначала,"ДФ=""гггг-ММ-дд""")+"T03:00:00.000Z"+"&limit="+
 	Формат(СколькоНаСтранице,"ЧГ=")+
 	"&order=DESC&orderColumn=docDate&did="+did+"&orderedColumnValue="+docDate+"&pageDir=NEXT&pg="+ЧТо);
@@ -32592,7 +32602,7 @@ Thumbprint_1.Что;
 	
 								
 						
-						HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+РР+"/body?pg="+что+"&limit=2147483647");
+						HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+РР+"/body?pg="+что+"&limit=2147483647");
 						HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 						HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 						//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -32606,7 +32616,7 @@ Thumbprint_1.Что;
 							
 						Исключение
 							
-							HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+РР+"/body?pg="+что+"&limit=11");
+							HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+РР+"/body?pg="+что+"&limit=11");
 							HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 							HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 							
@@ -35746,7 +35756,7 @@ Thumbprint_1.Что;
 				 
 				 ПолучитьИмяФайла=ПолучитьНомерДокумента(Стр_1);
 				 Если ЗначениеЗаполненО(ПолучитьИмяФайла) тогда
-						HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+ПолучитьИмяФайла+"/body?pg="+Что);
+						HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+ПолучитьИмяФайла+"/body?pg="+Что);
 						HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 						HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 						//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -35798,7 +35808,7 @@ Thumbprint_1.Что;
 	
 	
 	
-	HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/listV2?inputFormat=true&documentFormat=UPD&documentStatus=CHECKED_NOT_OK%2CPARSE_ERROR&dateFrom="+
+	HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/listV2?inputFormat=true&documentFormat=UPD&documentStatus=CHECKED_NOT_OK%2CPARSE_ERROR&dateFrom="+
 	Формат(Датаначала,"ДФ=""гггг-ММ-дд""")+"T03:00:00.000Z"+"&limit="+
 	Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&pageDir=NEXT&pg="+Что);
 	HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json");
@@ -35842,7 +35852,7 @@ Thumbprint_1.Что;
 					Если Стр.input=true 
 						Тогда
 						
-						HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Стр.number+"/body");
+						HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Стр.number+"/body");
 						HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 						HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 						//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -35879,10 +35889,10 @@ Thumbprint_1.Что;
 					Прервать;
 				КонецЕсли;
 					
-	//HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/listV2?inputFormat=true&documentFormat=UPD&documentStatus=CHECKED_NOT_OK%2CPARSE_ERROR&dateFrom="+
+	//HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/listV2?inputFormat=true&documentFormat=UPD&documentStatus=CHECKED_NOT_OK%2CPARSE_ERROR&dateFrom="+
 	//Формат(Датаначала,"ДФ=""гггг-ММ-дд""")+"T03:00:00.000Z"+"&limit="+
 	//Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&pageDir=NEXT&pg="+Что);
-				 HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/listV2?inputFormat=true&documentFormat=UPD&documentStatus=CHECKED_NOT_OK%2CPARSE_ERROR&dateFrom="+
+				 HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/listV2?inputFormat=true&documentFormat=UPD&documentStatus=CHECKED_NOT_OK%2CPARSE_ERROR&dateFrom="+
 	Формат(СколькоНаСтранице,"ЧГ=")+
 	"&order=DESC&orderColumn=docDate&did="+did+"&orderedColumnValue="+docDate+"&pageDir=NEXT&pg="+ЧТо);
 //					Формат(Датаначала,"ДФ=""гггг-ММ-дд""")+"T03:00:00.000Z"+"&limit="+Формат(СколькоНаСтранице,"ЧГ=")+

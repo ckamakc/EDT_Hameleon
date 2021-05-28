@@ -2541,7 +2541,7 @@ oSigner = Новый COMОбъект("CAdESCOM.CPSigner"); // Объект, за
 			
 	
 						
-			HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+НадоПринять.Приемка_Ответ+"/body?pg="+Что+"&limit=2147483647");
+			HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+НадоПринять.Приемка_Ответ+"/body?pg="+Что+"&limit=2147483647");
 		HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 		HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 		//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -2566,7 +2566,7 @@ oSigner = Новый COMОбъект("CAdESCOM.CPSigner"); // Объект, за
 				что=Thumbprint_1.что;
 										
 						
-						HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+NNN.body.release_order_number+"/body?pg="+Что+"&limit=2147483647");
+						HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+NNN.body.release_order_number+"/body?pg="+Что+"&limit=2147483647");
 						HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 						HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 						//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -2694,7 +2694,7 @@ oSigner = Новый COMОбъект("CAdESCOM.CPSigner"); // Объект, за
 			что=Thumbprint_1.что;
 	
 						
-			HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+НадоПринять.Ордер+"/body?pg="+Что+"&limit=2147483647");
+			HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+НадоПринять.Ордер+"/body?pg="+Что+"&limit=2147483647");
 		HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 		HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 		//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");

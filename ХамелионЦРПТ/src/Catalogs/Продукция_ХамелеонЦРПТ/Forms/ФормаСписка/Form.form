@@ -1647,6 +1647,40 @@
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
+      <items xsi:type="form:Button">
+        <name>ЗагрузитьИзНКПоAPI_GTIN</name>
+        <id>132</id>
+        <title>
+          <key>ru</key>
+          <value>Загрузить из НК по API-ключу (по субаккаунту) пр указанному GTIN</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ЗагрузитьИзНКПоAPI_GTINРасширеннаяПодсказка</name>
+          <id>133</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.ЗагрузитьИзНКПоAPI_GTIN</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -2537,6 +2571,27 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ЗагрузитьИзНКПоAPI</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ЗагрузитьИзНКПоAPI_GTIN</name>
+    <title>
+      <key>ru</key>
+      <value>Загрузить из НКПо API GTIN</value>
+    </title>
+    <id>21</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Загрузить из НКПо API GTIN</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ЗагрузитьИзНКПоAPI_GTIN</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

@@ -64,11 +64,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>1/0:3f77d6a7-f8c4-4da5-8853-c798026d8302</segments>
-        </paths>
-      </dataPath>
       <extendedTooltip>
         <name>НомерПервичногоДокументаРасширеннаяПодсказка</name>
         <id>132</id>
@@ -569,11 +564,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>1/0:1042e6b0-22c8-4133-aa5e-4fd7a3d4d2da</segments>
-        </paths>
-      </dataPath>
       <extendedTooltip>
         <name>ДатаПередачиТовараРасширеннаяПодсказка</name>
         <id>127</id>
@@ -1296,11 +1286,6 @@
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
-          <footerDataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>1/0:f7f4ab40-5182-4d1e-93bb-23b7366d8f26</segments>
-            </paths>
-          </footerDataPath>
           <extInfo xsi:type="form:InputFieldExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>

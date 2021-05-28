@@ -907,7 +907,7 @@
 	
 								
 		
-			HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Стр.order_id+"/body?pg="+Что);
+			HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Стр.order_id+"/body?pg="+Что);
 		HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 		HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 		//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -4701,7 +4701,7 @@ GTINНаименованиеТовара=Сред(Стр_1.Марка,3,14);
  			что=Thumbprint_1.что;
 	
 	
-	HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Объект._Order_ID+"/body?pg="+Что+"&limit=2147483647");
+	HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Объект._Order_ID+"/body?pg="+Что+"&limit=2147483647");
 	HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 	HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 	Ответ=HTTPСервисЗапрос.ВызватьHTTPМетод("GET",HTTPЗапрос);
@@ -4813,7 +4813,7 @@ GTINНаименованиеТовара=Сред(Стр_1.Марка,3,14);
  			что=Thumbprint_1.что;
 	
 	
-	HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Объект._Order_ID+"/body?pg="+Что+"&limit=2147483647");
+	HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Объект._Order_ID+"/body?pg="+Что+"&limit=2147483647");
 	HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 	HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 	Ответ=HTTPСервисЗапрос.ВызватьHTTPМетод("GET",HTTPЗапрос);
@@ -4969,7 +4969,7 @@ GTINНаименованиеТовара=Сред(Стр_1.Марка,3,14);
  			что=Thumbprint_1.что;
 	
 	 Попытка
-	HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Объект._Order_ID+"/body?pg="+Что+"&limit=2147483647");
+	HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Объект._Order_ID+"/body?pg="+Что+"&limit=2147483647");
 	HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 	HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 	Ответ=HTTPСервисЗапрос.ВызватьHTTPМетод("GET",HTTPЗапрос);
@@ -5089,7 +5089,7 @@ GTINНаименованиеТовара=Сред(Стр_1.Марка,3,14);
 	Текст1=Ответ.ПолучитьТелоКакСтроку();
 	
 			
-	HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Объект._Order_ID+"/body?pg="+Что+"&limit=2147483647");
+	HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Объект._Order_ID+"/body?pg="+Что+"&limit=2147483647");
 	HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 	HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 	Ответ=HTTPСервисЗапрос.ВызватьHTTPМетод("GET",HTTPЗапрос);
@@ -11349,7 +11349,7 @@ GTINНаименованиеТовара=Сред(Стр_1.Марка,3,14);
 		
 			                                                     
 			
-//	HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/listV2?inputFormat=true&documentType=UNIVERSAL_TRANSFER_DOCUMENT&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&pageDir=NEXT");
+//	HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/listV2?inputFormat=true&documentType=UNIVERSAL_TRANSFER_DOCUMENT&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&pageDir=NEXT");
 
 	ТестовыйРежим=Ложь;
 	ПолучитьИд=НеобходимоПолучитьИд(Объект.Организация,,ТестовыйРежим);

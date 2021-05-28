@@ -1403,7 +1403,7 @@
 КонецЕсли;
 				 HTTPЗапрос=Новый HTTPЗапрос(ТекстЗапроса);
 				 
-				 //"api/v3/facade/doc/listV2?documentType=LK_RECEIPT&documentType=RECEIPT&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&did="+did+"&orderedColumnValue="+docDate+"&pageDir=NEXT");
+				 //"api/v4/facade/doc/listV2?documentType=LK_RECEIPT&documentType=RECEIPT&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&did="+did+"&orderedColumnValue="+docDate+"&pageDir=NEXT");
 				HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 		HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 		//Тело="documentType=LP_ACCEPT_GOODS_XML";

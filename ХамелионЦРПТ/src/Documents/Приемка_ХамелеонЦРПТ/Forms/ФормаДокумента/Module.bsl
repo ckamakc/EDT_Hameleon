@@ -2846,13 +2846,13 @@
 	Параметр4=ОбщийМодуль_НаСервере_ХамелеонЦРПТ.ЗаполнитьСтруктуруИзОтветаJSON(Request.ResponseText)[0];
 	
 	
-	Request.Open("GET", "https://api.kontur.ru/candy/static/public/scripts/7001201.min.js?v=2020.7.21-build11089.v2&resourceZone=candy.resources.diadoc");
+	Request.Open("GET", "https://api.kontur.ru/candy/static/public/scripts/7001201.min.js?v=2021.5.21-build14884.v2&resourceZone=candy.resources.diadoc");
 	Request.SetRequestHeader("Content-Type", "application/json; charset=UTF-8");
 	Request.Send();
 	Request.WaitForResponse();
 	
 	
-	resourcesHash=Сред(Request.ResponseText,Найти(Request.ResponseText,"var c=""")+7);
+	resourcesHash=Сред(Request.ResponseText,Найти(Request.ResponseText,"var m=""")+7);
 	resourcesHash=Сред(resourcesHash,1,Найти(resourcesHash,"""")-1);
 	
 	
@@ -2939,7 +2939,8 @@
 
 	
 	 Request.Open("POST", "https://api.kontur.ru/candy/v1/ns/"+boxid+"/drafts/"+ИдЧерновик+"/presentations/inner?src=changeSet&dataVersion=0&resourceZone=candy.resources.diadoc");
-	body="{""added"":[],""changed"":{""SignViewModel/Date.value"":"""+Формат(ТекущаяДата(),"ДЛФ=Д")+""",""SignViewModel/ForceValidations.value"":""true""},""removed"":[]}""";
+//	body="{""added"":[],""changed"":{""SignViewModel/Date.value"":"""+Формат(ТекущаяДата(),"ДЛФ=Д")+""",""SignViewModel/ForceValidations.value"":""true""},""removed"":[]}""";
+	body="{""added"":[],""changed"":{""SignViewModel/ForceValidations.value"":""true"",""SignViewModel/Signer/Mode.value"":""Edit""},""removed"":[]}""";
 	
 	Request.SetRequestHeader("Content-Length", Формат(StrLen(body),"ЧГ="));
 	Request.SetRequestHeader("Content-Type", "application/json; charset=UTF-8");
@@ -3045,6 +3046,7 @@ body=ТелоДляОтправкиККД(SignatureBase64,shelfPath);
 	
 	
 КонецПроцедуры
+
 Функция ТелоДляОтправкиККД(SignatureBase64,shelfPath)
 	Стр=Объект;
 	Чтен=Новый  ЗаписьJSON;
@@ -3116,7 +3118,8 @@ body=ТелоДляОтправкиККД(SignatureBase64,shelfPath);
 	
 	
 	Чтен.ЗаписатьИмяСвойства("SignViewModel/Date.value");
-	Чтен.ЗаписатьЗначение("");
+	Чтен.ЗаписатьЗначение(Формат(ТекущаяДата(),"ДЛФ=Д"));
+	//Чтен.ЗаписатьЗначение("");
 	
 	Чтен.ЗаписатьИмяСвойства("SignViewModel.value");
 	Чтен.ЗаписатьЗначение("");
@@ -3151,15 +3154,31 @@ body=ТелоДляОтправкиККД(SignatureBase64,shelfPath);
 	Чтен.ЗаписатьИмяСвойства("SignViewModel/Consignee/Type.value");
 	Чтен.ЗаписатьЗначение("CargoReceiver");
 	
-	
 	Чтен.ЗаписатьИмяСвойства("SignViewModel/Consignee/Type.disabled");
 	Чтен.ЗаписатьЗначение(false);
+	
+	
+	
+	Чтен.ЗаписатьИмяСвойства("SignViewModel/ContentOperCode/Date.value");
+	Чтен.ЗаписатьЗначение("");
+	
+	Чтен.ЗаписатьИмяСвойства("SignViewModel/ContentOperCode/NameDiscrepDocument.value");
+	Чтен.ЗаписатьЗначение("");
+	
+	Чтен.ЗаписатьИмяСвойства("SignViewModel/ContentOperCode/NumberDiscrepDocument.value");
+	Чтен.ЗаписатьЗначение("");
+	
+	Чтен.ЗаписатьИмяСвойства("SignViewModel/ContentOperCode/TypeDiscrepDocument.disabled");
+	Чтен.ЗаписатьЗначение(false);
+	
+	Чтен.ЗаписатьИмяСвойства("SignViewModel/ContentOperCode/TypeDiscrepDocument.value");
+	Чтен.ЗаписатьЗначение("1");
 	
 	Чтен.ЗаписатьИмяСвойства("SignViewModel/DisagreementInfo.value");
 	Чтен.ЗаписатьЗначение("");
 	
 	Чтен.ЗаписатьИмяСвойства("SignViewModel/HasDisagreements.value");
-	Чтен.ЗаписатьЗначение(false);
+	Чтен.ЗаписатьЗначение("1");
 	
 	Чтен.ЗаписатьИмяСвойства("SignViewModel/HasDisagreements.disabled");
 	Чтен.ЗаписатьЗначение(false);
@@ -3372,6 +3391,7 @@ body=ТелоДляОтправкиККД(SignatureBase64,shelfPath);
 Возврат Тело	
 	
 КонецФункции
+
 
 &AtServerNoContext
 Function TimeStamp()
@@ -4223,7 +4243,7 @@ EndFunction
 		//Ответ=HTTPСервисЗапрос.ОтправитьДляОбработки(HTTPЗапрос);
 		//Текст1=Ответ.ПолучитьТелоКакСтроку();
 		//
-		//HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/"+Объект._Order_ID+"/body");
+		//HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/"+Объект._Order_ID+"/body");
 		//HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 		//HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 		//Ответ=HTTPСервисЗапрос.ВызватьHTTPМетод("GET",HTTPЗапрос);
