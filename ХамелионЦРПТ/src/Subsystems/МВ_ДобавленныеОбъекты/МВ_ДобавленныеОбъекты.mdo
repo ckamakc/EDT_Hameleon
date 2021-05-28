@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7068749-56cf-443b-9e24-8ad0cd3733e1">
+  <name>МВ_ДобавленныеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>(МВ) Добавленные объекты</value>
+  </synonym>
+  <comment>//ФТО:ALNA 30701</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>ChartOfCharacteristicTypes.МВ_ПереченьДополнительныхНастроек</content>
+  <content>InformationRegister.МВ_ДополнительныеНастройки</content>
+  <content>CommonModule.МВ_РегламентныеЗадания</content>
+  <content>CommonModule.ИнтеграцияПодсистемБСП</content>
+  <content>CommonModule.ИнтеграцияПодсистемБСПКлиент</content>
+  <content>CommonModule.ОбщегоНазначения</content>
+  <content>CommonModule.ОбщегоНазначенияКлиент</content>
+  <content>CommonModule.ОбщегоНазначенияКлиентПовтИсп</content>
+  <content>CommonModule.ОбщегоНазначенияКлиентСервер</content>
+  <content>CommonModule.ОбщегоНазначенияПереопределяемый</content>
+</mdclass:Subsystem>

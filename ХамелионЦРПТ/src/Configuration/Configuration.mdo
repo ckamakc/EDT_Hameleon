@@ -33,6 +33,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.ЗапускХамелеонЦРПТ</subsystems>
+  <subsystems>Subsystem.МВ_ДобавленныеОбъекты</subsystems>
   <commonPictures>CommonPicture.СтатусыНакладных_ХамелеонЦРПТ</commonPictures>
   <commonPictures>CommonPicture.Папка</commonPictures>
   <commonPictures>CommonPicture.ПапкаОблачногоСервиса</commonPictures>

@@ -129,6 +129,22 @@
   <descriptionLength>150</descriptionLength>
   <defaultPresentation>AsDescription</defaultPresentation>
   <predefined>
+    <items id="8d52763b-c9aa-47c2-98ed-19e5b26ddbff">
+      <name>КодыМаркировки</name>
+      <description>Коды маркировки</description>
+      <isFolder>true</isFolder>
+      <type/>
+      <content id="f8eeb317-e40f-4724-9c46-48889be5c5c6">
+        <name>ОКТОИдентификаторОрганизации</name>
+        <description>Идентификатор организации в ОКТО</description>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>1024</length>
+          </stringQualifiers>
+        </type>
+      </content>
+    </items>
     <items id="2ee6c32a-aea1-4f5f-b535-7907a89b3020">
       <name>РаботаСОператоромОКТО</name>
       <description>Работа с оператором ОКТО</description>
@@ -189,19 +205,7 @@
       <name>ОсновнаяОрганизация</name>
       <description>Основная организация</description>
       <type>
-        <types>Boolean</types>
-        <types>String</types>
-        <types>Date</types>
-        <types>Number</types>
         <types>CatalogRef.Организации_ХамелеонЦРПТ</types>
-        <numberQualifiers>
-          <precision>15</precision>
-          <scale>3</scale>
-        </numberQualifiers>
-        <stringQualifiers>
-          <length>1024</length>
-        </stringQualifiers>
-        <dateQualifiers/>
       </type>
     </items>
     <items id="a18609c2-cc4e-4efb-ae12-9b0759f070ba">
