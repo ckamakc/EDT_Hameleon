@@ -4031,6 +4031,10 @@
       <items xsi:type="form:FormField">
         <name>ПолучитьТокен</name>
         <id>380</id>
+        <title>
+          <key>ru</key>
+          <value>Использовать сертификат</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>

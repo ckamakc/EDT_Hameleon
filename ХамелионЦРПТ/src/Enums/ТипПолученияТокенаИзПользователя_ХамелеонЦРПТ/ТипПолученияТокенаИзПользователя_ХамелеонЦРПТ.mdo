@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e12e56d-d367-4143-9559-6041e22f01f7">
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e12e56d-d367-4143-9559-6041e22f01f7">
   <producedTypes>
     <refType typeId="b742caa5-2461-460e-8b05-ba20146cd4d4" valueTypeId="16000bde-f454-4923-a5b0-d95e99e9acdc"/>
     <listType typeId="add5f4ef-3972-493f-b2c4-b2269dc74e6f" valueTypeId="650a9181-4d28-4e2f-b7c1-95c9e15fccf3"/>
@@ -10,22 +10,6 @@
     <key>ru</key>
     <value>Тип получения токена из пользователя хамелеон ЦРПТ</value>
   </synonym>
-  <standardAttributes>
-    <dataHistory>Use</dataHistory>
-    <name>Order</name>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </standardAttributes>
-  <standardAttributes>
-    <dataHistory>Use</dataHistory>
-    <name>Ref</name>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </standardAttributes>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
   <enumValues uuid="a069ba73-12ea-4f36-bd14-8cc010c3dc89">
