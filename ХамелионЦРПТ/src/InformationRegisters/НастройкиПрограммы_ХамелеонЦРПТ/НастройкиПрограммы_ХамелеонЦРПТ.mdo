@@ -1218,4 +1218,19 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
+  <resources uuid="bb2d90f2-47a6-493d-92a9-78e3804eeb99">
+    <name>ВыделятьНеСовпадениеВОтгрузке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выделять не совпадение в отгрузке</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
 </mdclass:InformationRegister>

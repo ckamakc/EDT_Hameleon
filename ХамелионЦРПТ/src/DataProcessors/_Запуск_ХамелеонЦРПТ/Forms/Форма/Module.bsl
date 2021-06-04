@@ -877,6 +877,12 @@ Var Request;
 		Константы.Регламент_ХамелеонЦРПТ.Установить(125);
 				
 	КонецЕсли;
+	Если Константы.Регламент_ХамелеонЦРПТ.Получить()=125 Тогда
+		
+		Справочники.ОписаниеРегламентныхЗаданий_ХамелеонЦРПТ.ОтправитьВводВОборот();
+		Константы.Регламент_ХамелеонЦРПТ.Установить(126);
+				
+	КонецЕсли;
 	
 КонецПроцедуры
 
@@ -3734,6 +3740,7 @@ Var Request;
 	ВыгружатьCSV=Настройки.ВыгружатьCSV;
 	ВыгружатьОтгрузкуВФормате=Настройки.ВыгружатьОтгрузкуВФормате;
 	ВыгружатьЭДОЛайтЧерезXML=Настройки.ВыгружатьЭДОЛайтЧерезXML;
+	ВыделятьНеСовпадениеВОтгрузке=Настройки.ВыделятьНеСовпадениеВОтгрузке;
 	ГрузитьПоступленияТолькоСМаркировкойПоЭДО=Настройки.ГрузитьПоступленияТолькоСМаркировкойПоЭДО;
 	БратьКоличествоИзТабличойЧасти=Настройки.БратьКоличествоИзТабличойЧасти;
 	ЗагрузитьПриемкуЭДОЛайт=Настройки.ЗагрузитьПриемкуЭДОЛайт;
@@ -10675,8 +10682,12 @@ Var Request;
 			ДокумП.Записать(РежимЗаписиДокумента.Запись);
 		ИначеЕсли Статус="Accepted"  Тогда
 			
-			Если ДокумП.Статус<>Перечисления.СтатусыДокументов_ХамелеонЦРПТ.Обработан Тогда
+			Если ДокумП.Статус<>Перечисления.СтатусыДокументов_ХамелеонЦРПТ.Обработан 
+				И ТипЗнч(ДокумП)=Тип("ДокументСсылка.Отгрузка_ХамелеонЦРПТ") 
+				Тогда
 				ДокумП.Статус=Перечисления.СтатусыДокументов_ХамелеонЦРПТ.ОжидаетОтветаОтКлиента;
+			Иначе
+				ДокумП.Статус=Перечисления.СтатусыДокументов_ХамелеонЦРПТ.Обработан;
 			Конецесли;
 			
 			ДокумП.ОшибкаОтправки=Ошибка;
@@ -15206,7 +15217,7 @@ children="";
 // 			что=Thumbprint_1.что;
 //		
 //		
-//	HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/listV2?inputFormat=true&documentType=LP_SHIP_GOODS_CSV&documentType=LP_SHIP_GOODS_XML&documentType=LP_SHIP_GOODS&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&pageDir=NEXT&pg="+Что);
+//	HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/listV2?inputFormat=true&documentType=LP_SHIP_GOODS_CSV&documentType=LP_SHIP_GOODS_XML&documentType=LP_SHIP_GOODS&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&pageDir=NEXT&pg="+Что);
 //	HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 //	HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 //	//Тело="documentType=LP_ACCEPT_GOODS_XML";
@@ -15265,7 +15276,7 @@ children="";
 // 			что=Thumbprint_1.что;
 //	
 //				
-//				 HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/listV2?inputFormat=true&documentType=LP_SHIP_GOODS_CSV&documentType=LP_SHIP_GOODS_XML&documentType=LP_SHIP_GOODS&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&did="+did+"&orderedColumnValue="+docDate+"&pageDir=NEXT&pg="+Что);
+//				 HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/listV2?inputFormat=true&documentType=LP_SHIP_GOODS_CSV&documentType=LP_SHIP_GOODS_XML&documentType=LP_SHIP_GOODS&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&did="+did+"&orderedColumnValue="+docDate+"&pageDir=NEXT&pg="+Что);
 //				HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 //		HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 //		//Тело="documentType=LP_ACCEPT_GOODS_XML";
@@ -16290,9 +16301,9 @@ children="";
 			
 			Если ЗагружатьВсеПриходы Тогда
 				
-	HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/listV2?inputFormat=true&documentType=LP_SHIP_GOODS_CSV&documentType=LP_SHIP_GOODS_CSV&documentType=LP_SHIP_GOODS_XML&documentType=LP_SHIP_GOODS&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&pageDir=NEXT&pg="+что);
+	HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/listV2?inputFormat=true&documentType=LP_SHIP_GOODS_CSV&documentType=LP_SHIP_GOODS_CSV&documentType=LP_SHIP_GOODS_XML&documentType=LP_SHIP_GOODS&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&pageDir=NEXT&pg="+что);
 			Иначе
-	HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/listV2?inputFormat=true&documentType=LP_SHIP_GOODS_CSV&documentType=LP_SHIP_GOODS_CSV&documentType=LP_SHIP_GOODS_XML&documentType=LP_SHIP_GOODS&documentStatus=WAIT_ACCEPTANCE&documentStatus=WAIT_PARTICIPANT_REGISTRATION&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&pageDir=NEXT&pg="+что);
+	HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/listV2?inputFormat=true&documentType=LP_SHIP_GOODS_CSV&documentType=LP_SHIP_GOODS_CSV&documentType=LP_SHIP_GOODS_XML&documentType=LP_SHIP_GOODS&documentStatus=WAIT_ACCEPTANCE&documentStatus=WAIT_PARTICIPANT_REGISTRATION&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&pageDir=NEXT&pg="+что);
 	КонецЕсли;
 	HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 	HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
@@ -16533,9 +16544,9 @@ GTINНаименованиеТовара=Сред(Стр_1.Марка,3,14);
 				
 		Если ЗагружатьВсеПриходы Тогда
 				
-	HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/listV2?inputFormat=true&documentType=LP_SHIP_GOODS_CSV&documentType=LP_SHIP_GOODS_CSV&documentType=LP_SHIP_GOODS_XML&documentType=LP_SHIP_GOODS&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&did="+did+"&orderedColumnValue="+docDate+"&pageDir=NEXT&pg="+Что);
+	HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/listV2?inputFormat=true&documentType=LP_SHIP_GOODS_CSV&documentType=LP_SHIP_GOODS_CSV&documentType=LP_SHIP_GOODS_XML&documentType=LP_SHIP_GOODS&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&did="+did+"&orderedColumnValue="+docDate+"&pageDir=NEXT&pg="+Что);
 Иначе
-					 HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/listV2?inputFormat=true&documentType=LP_SHIP_GOODS_CSV&documentType=LP_SHIP_GOODS_CSV&documentType=LP_SHIP_GOODS_XML&documentType=LP_SHIP_GOODS&documentStatus=WAIT_ACCEPTANCE&documentStatus=WAIT_PARTICIPANT_REGISTRATION&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&did="+did+"&orderedColumnValue="+docDate+"&pageDir=NEXT&pg="+Что);
+					 HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/listV2?inputFormat=true&documentType=LP_SHIP_GOODS_CSV&documentType=LP_SHIP_GOODS_CSV&documentType=LP_SHIP_GOODS_XML&documentType=LP_SHIP_GOODS&documentStatus=WAIT_ACCEPTANCE&documentStatus=WAIT_PARTICIPANT_REGISTRATION&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&did="+did+"&orderedColumnValue="+docDate+"&pageDir=NEXT&pg="+Что);
 					КонецЕсли;
 				HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 		HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
@@ -20354,9 +20365,9 @@ NNN_2=Неопределено;
 			
 			Если ЗначениеЗаполнено(ДатаПр) И ЗначениеЗаполнено(НомерД) Тогда
 				
-		HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/listV2?inputFormat=true&documentType=LP_ACCEPT_GOODS&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=ASC&orderColumn=docDate&did="+НомерД+"&orderedColumnValue="+ДатаПр+"&pageDir=NEXT&pg="+Что);
+		HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/listV2?inputFormat=true&documentType=LP_ACCEPT_GOODS&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=ASC&orderColumn=docDate&did="+НомерД+"&orderedColumnValue="+ДатаПр+"&pageDir=NEXT&pg="+Что);
 	Иначе
-		HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/listV2?inputFormat=true&documentType=LP_ACCEPT_GOODS&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=ASC&orderColumn=docDate&pg="+Что);
+		HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/listV2?inputFormat=true&documentType=LP_ACCEPT_GOODS&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=ASC&orderColumn=docDate&pg="+Что);
 	КонецЕсли;
 	HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 	HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
@@ -20440,7 +20451,7 @@ NNN_2=Неопределено;
  			что=Thumbprint_1.что;
 	
 				
-				HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/listV2?inputFormat=true&documentType=LP_ACCEPT_GOODS&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=ASC&orderColumn=docDate&did="+did+"&orderedColumnValue="+docDate+"&pageDir=NEXT&pg="+что);
+				HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/listV2?inputFormat=true&documentType=LP_ACCEPT_GOODS&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=ASC&orderColumn=docDate&did="+did+"&orderedColumnValue="+docDate+"&pageDir=NEXT&pg="+что);
 				HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 		HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 		//Тело="documentType=LP_ACCEPT_GOODS_XML";
@@ -24036,7 +24047,7 @@ EndFunction
 				HTTPСервисЗапрос=Новый HTTPСоединение(Thumbprint_1.АдресКАПИ,,,,,Thumbprint_1.Таймаут,Новый ЗащищенноеСоединениеopenSSL());
 			КонецЕсли;                                                       
 			
-//	HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/listV2?inputFormat=true&documentType=UNIVERSAL_TRANSFER_DOCUMENT&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&pageDir=NEXT");
+//	HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/listV2?inputFormat=true&documentType=UNIVERSAL_TRANSFER_DOCUMENT&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&pageDir=NEXT");
 
 
 	HTTPЗапрос=Новый HTTPЗапрос("edo-api/incoming-documents?limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&offset=0&sortBy=created_at&asc=false&folder=0");
@@ -27925,26 +27936,46 @@ Thumbprint_1=ПолучитьИзПользователя();
 	
 	Транзакция = Неопределено;
 	Для Каждого Документооборот Из ДокументооборотыДоклайнз Цикл
-		Для Каждого Документ Из Документооборот.Documents.Document Цикл
-			Если Документ.TransactionCode <> "Invoice" Тогда
-				Продолжить;
-			КонецЕсли; 
+		Если ТипЗнч(Документооборот.Documents.Document)=Тип("ОбъектXDTO") Тогда
+			Документ=Документооборот.Documents.Document;
+			Если Документ.TransactionCode = "Invoice" Тогда
+				
+				Транзакция = Новый Структура("КодРегламента, 
+					|КодТранзакции, 
+					|ПутьКДокументу, 
+					|ПутьККарточке,
+					|ИдентификаторДокументооборота");
+				
+				Транзакция.КодРегламента = Документ.ReglamentCode;
+				Транзакция.КодТранзакции = Документ.TransactionCode;
+				Транзакция.ИдентификаторДокументооборота = Документооборот.Id;
+				Транзакция.ПутьКДокументу = КаталогРаспаковки + Документ.Files.MainImage.Path;
+				Транзакция.ПутьККарточке = КаталогРаспаковки + Документ.Files.ExternalCard.Path;
+			КонецеслИ;
 			
-			Транзакция = Новый Структура("КодРегламента, 
-				|КодТранзакции, 
-				|ПутьКДокументу, 
-				|ПутьККарточке,
-				|ИдентификаторДокументооборота");
-			
-			Транзакция.КодРегламента = Документ.ReglamentCode;
-			Транзакция.КодТранзакции = Документ.TransactionCode;
-			Транзакция.ИдентификаторДокументооборота = Документооборот.Id;
-			Транзакция.ПутьКДокументу = КаталогРаспаковки + Документ.Files.MainImage.Path;
-			Транзакция.ПутьККарточке = КаталогРаспаковки + Документ.Files.ExternalCard.Path;
-			
-			Прервать;
-			
-		КонецЦикла;
+		Иначе
+			Для Каждого Документ Из Документооборот.Documents.Document Цикл
+				Если Документ.TransactionCode <> "Invoice" Тогда
+					Продолжить;
+				КонецЕсли; 
+				
+				Транзакция = Новый Структура("КодРегламента, 
+					|КодТранзакции, 
+					|ПутьКДокументу, 
+					|ПутьККарточке,
+					|ИдентификаторДокументооборота");
+				
+				Транзакция.КодРегламента = Документ.ReglamentCode;
+				Транзакция.КодТранзакции = Документ.TransactionCode;
+				Транзакция.ИдентификаторДокументооборота = Документооборот.Id;
+				Транзакция.ПутьКДокументу = КаталогРаспаковки + Документ.Files.MainImage.Path;
+				Транзакция.ПутьККарточке = КаталогРаспаковки + Документ.Files.ExternalCard.Path;
+				
+				Прервать;
+				
+			КонецЦикла;
+		конецесли;
+
 	КонецЦикла;
 	
 	Если Транзакция = Неопределено Тогда
@@ -28366,8 +28397,7 @@ Thumbprint_1=ПолучитьИзПользователя();
 				Продолжить;
 			КонецЕсли;
 			
-		
-						//{{КОНСТРУКТОР_ЗАПРОСА_С_ОБРАБОТКОЙ_РЕЗУЛЬТАТА
+									//{{КОНСТРУКТОР_ЗАПРОСА_С_ОБРАБОТКОЙ_РЕЗУЛЬТАТА
 			// Данный фрагмент построен конструктором.
 			// При повторном использовании конструктора, внесенные вручную изменения будут утеряны!!!
 			
@@ -30140,7 +30170,7 @@ EndDo;
 				HTTPСервисЗапрос=Новый HTTPСоединение(Thumbprint_1.АдресКАПИ,,,,,Thumbprint_1.Таймаут,Новый ЗащищенноеСоединениеopenSSL());
 			КонецЕсли;                                                       
 			
-	HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/listV2?inputFormat=false&documentType=LP_INTRODUCE_GOODS,LP_INTRODUCE_GOODS_CSV,LP_INTRODUCE_GOODS_XML,LP_GOODS_IMPORT,LP_GOODS_IMPORT_XML,LP_GOODS_IMPORT_CSV,LP_INTRODUCE_OST,LP_INTRODUCE_OST_XML,LP_INTRODUCE_OST_CSV,CROSSBORDER,CROSSBORDER_XML,CROSSBORDER_CSV&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&pageDir=NEXT");
+	HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/listV2?inputFormat=false&documentType=LP_INTRODUCE_GOODS,LP_INTRODUCE_GOODS_CSV,LP_INTRODUCE_GOODS_XML,LP_GOODS_IMPORT,LP_GOODS_IMPORT_XML,LP_GOODS_IMPORT_CSV,LP_INTRODUCE_OST,LP_INTRODUCE_OST_XML,LP_INTRODUCE_OST_CSV,CROSSBORDER,CROSSBORDER_XML,CROSSBORDER_CSV&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&pageDir=NEXT");
 	HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json");
 	HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 	//Тело="documentType=LP_ACCEPT_GOODS_XML";
@@ -30206,7 +30236,7 @@ EndDo;
 					Прервать;
 				КонецЕсли;
 					
-				 HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/listV2?inputFormat=false&documentType=LP_INTRODUCE_GOODS,LP_INTRODUCE_GOODS_CSV,LP_INTRODUCE_GOODS_XML,LP_GOODS_IMPORT,LP_GOODS_IMPORT_XML,LP_GOODS_IMPORT_CSV,LP_INTRODUCE_OST,LP_INTRODUCE_OST_XML,LP_INTRODUCE_OST_CSV,CROSSBORDER,CROSSBORDER_XML,CROSSBORDER_CSV&&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&did="+did+"&orderedColumnValue="+docDate+"&pageDir=NEXT");
+				 HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/listV2?inputFormat=false&documentType=LP_INTRODUCE_GOODS,LP_INTRODUCE_GOODS_CSV,LP_INTRODUCE_GOODS_XML,LP_GOODS_IMPORT,LP_GOODS_IMPORT_XML,LP_GOODS_IMPORT_CSV,LP_INTRODUCE_OST,LP_INTRODUCE_OST_XML,LP_INTRODUCE_OST_CSV,CROSSBORDER,CROSSBORDER_XML,CROSSBORDER_CSV&&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&did="+did+"&orderedColumnValue="+docDate+"&pageDir=NEXT");
 				HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json");
 		HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 		//Тело="documentType=LP_ACCEPT_GOODS_XML";
@@ -30285,7 +30315,7 @@ EndDo;
 				HTTPСервисЗапрос=Новый HTTPСоединение(Thumbprint_1.АдресКАПИ,,,,,Thumbprint_1.Таймаут,Новый ЗащищенноеСоединениеopenSSL());
 			КонецЕсли;                                                       
 			
-	HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/listV2?inputFormat=false&documentType=LP_ACCEPT_GOODS&documentType=LP_ACCEPT_GOODS_XML&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&pageDir=NEXT");
+	HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/listV2?inputFormat=false&documentType=LP_ACCEPT_GOODS&documentType=LP_ACCEPT_GOODS_XML&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&pageDir=NEXT");
 	HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json");
 	HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 	//Тело="documentType=LP_ACCEPT_GOODS_XML";
@@ -30356,7 +30386,7 @@ EndDo;
 					Прервать;
 				КонецЕсли;
 					
-				 HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/listV2?inputFormat=false&&documentType=LP_ACCEPT_GOODS&documentType=LP_ACCEPT_GOODS_XML&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&did="+did+"&orderedColumnValue="+docDate+"&pageDir=NEXT");
+				 HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/listV2?inputFormat=false&&documentType=LP_ACCEPT_GOODS&documentType=LP_ACCEPT_GOODS_XML&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&did="+did+"&orderedColumnValue="+docDate+"&pageDir=NEXT");
 				HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json");
 		HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 		//Тело="documentType=LP_ACCEPT_GOODS_XML";
@@ -31771,7 +31801,7 @@ EndDo;
 	Текст1=Ответ.ПолучитьТелоКакСтроку();
 				
 //					
-//				 HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/listV2?inputFormat=true&documentFormat=UPD&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&did="+did+"&orderedColumnValue="+docDate+"&pageDir=NEXT&&pg="+ЧТо);
+//				 HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/listV2?inputFormat=true&documentFormat=UPD&limit="+Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&did="+did+"&orderedColumnValue="+docDate+"&pageDir=NEXT&&pg="+ЧТо);
 //				HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json");
 //		HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 //		//Тело="documentType=LP_ACCEPT_GOODS_XML";
@@ -31899,7 +31929,7 @@ Thumbprint_1.Что;
 			  
 			 ДатаНачала=НачалоДня(ТекущаяДата())-КачатьСЭДОЗаПоследниеДни*24*60*60;
 
-	HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/listV2?inputFormat=true&documentFormat=UPD&dateFrom="+
+	HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/listV2?inputFormat=true&documentFormat=UPD&dateFrom="+
 	//Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&pageDir=NEXT&pg="+Что);
 	Формат(Датаначала,"ДФ=""гггг-ММ-дд""")+"T03:00:00.000Z"+"&limit="+
 	Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&pageDir=NEXT&pg="+Что);
@@ -31977,7 +32007,7 @@ Thumbprint_1.Что;
 					Прервать;
 				КонецЕсли;
 					
-				 HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/listV2?inputFormat=true&documentFormat=UPD&dateFrom="+
+				 HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/listV2?inputFormat=true&documentFormat=UPD&dateFrom="+
 	Формат(Датаначала,"ДФ=""гггг-ММ-дд""")+"T03:00:00.000Z"+"&limit="+
 	Формат(СколькоНаСтранице,"ЧГ=")+
 	"&order=DESC&orderColumn=docDate&did="+did+"&orderedColumnValue="+docDate+"&pageDir=NEXT&pg="+ЧТо);
@@ -35808,7 +35838,7 @@ Thumbprint_1.Что;
 	
 	
 	
-	HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/listV2?inputFormat=true&documentFormat=UPD&documentStatus=CHECKED_NOT_OK%2CPARSE_ERROR&dateFrom="+
+	HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/listV2?inputFormat=true&documentFormat=UPD&documentStatus=CHECKED_NOT_OK%2CPARSE_ERROR&dateFrom="+
 	Формат(Датаначала,"ДФ=""гггг-ММ-дд""")+"T03:00:00.000Z"+"&limit="+
 	Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&pageDir=NEXT&pg="+Что);
 	HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json");
@@ -35889,10 +35919,10 @@ Thumbprint_1.Что;
 					Прервать;
 				КонецЕсли;
 					
-	//HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/listV2?inputFormat=true&documentFormat=UPD&documentStatus=CHECKED_NOT_OK%2CPARSE_ERROR&dateFrom="+
+	//HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/listV2?inputFormat=true&documentFormat=UPD&documentStatus=CHECKED_NOT_OK%2CPARSE_ERROR&dateFrom="+
 	//Формат(Датаначала,"ДФ=""гггг-ММ-дд""")+"T03:00:00.000Z"+"&limit="+
 	//Формат(СколькоНаСтранице,"ЧГ=")+"&order=DESC&orderColumn=docDate&pageDir=NEXT&pg="+Что);
-				 HTTPЗапрос=Новый HTTPЗапрос("api/v4/facade/doc/listV2?inputFormat=true&documentFormat=UPD&documentStatus=CHECKED_NOT_OK%2CPARSE_ERROR&dateFrom="+
+				 HTTPЗапрос=Новый HTTPЗапрос("api/v3/facade/doc/listV2?inputFormat=true&documentFormat=UPD&documentStatus=CHECKED_NOT_OK%2CPARSE_ERROR&dateFrom="+
 	Формат(СколькоНаСтранице,"ЧГ=")+
 	"&order=DESC&orderColumn=docDate&did="+did+"&orderedColumnValue="+docDate+"&pageDir=NEXT&pg="+ЧТо);
 //					Формат(Датаначала,"ДФ=""гггг-ММ-дд""")+"T03:00:00.000Z"+"&limit="+Формат(СколькоНаСтранице,"ЧГ=")+
@@ -37223,5 +37253,32 @@ Thumbprint_1.Что;
 &НаКлиенте
 Процедура НеОпределятьДатуПроизводстваИГоденДоПоНомеруВСДПриИзменении(Элемент)
 	НеОпределятьДатуПроизводстваИГоденДоПоНомеруВСДПриИзмененииНаСервере();
+КонецПроцедуры
+
+
+&НаКлиенте
+Процедура Поле1ПриИзменении111(Элемент)
+	Поле1ПриИзмененииНаСервере();
+КонецПроцедуры
+
+
+&НаСервере
+Процедура ВыделятьНеСовпадениеВОтгрузкеПриИзмененииНаСервере()
+	// Вставить содержимое обработчика.
+	РегДв=РегистрыСведений.НастройкиПрограммы_ХамелеонЦРПТ.СоздатьНаборЗаписей();
+	РегДв.Прочитать();
+	Если РегДв.Количество()>0 Тогда
+		СтрТ=РегДв[0];
+	Иначе
+		СтрТ=РегДв.Добавить();
+	КонецЕсли;
+	СтрТ.ВыделятьНеСовпадениеВОтгрузке=ВыделятьНеСовпадениеВОтгрузке;
+	РегДв.Записать(Истина);
+КонецПроцедуры
+
+
+&НаКлиенте
+Процедура ВыделятьНеСовпадениеВОтгрузкеПриИзменении(Элемент)
+	ВыделятьНеСовпадениеВОтгрузкеПриИзмененииНаСервере();
 КонецПроцедуры
 

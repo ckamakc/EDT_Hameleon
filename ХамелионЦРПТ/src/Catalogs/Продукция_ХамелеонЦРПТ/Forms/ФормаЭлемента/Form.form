@@ -37348,7 +37348,7 @@
         <id>2269</id>
         <title>
           <key>ru</key>
-          <value>Обновить карточку по API </value>
+          <value>Обновить карточку по API  (субаккаунт)</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -37370,7 +37370,7 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <commandName>0</commandName>
+        <commandName>Form.Command.ОбновитьКарточкуПоAPIСуббакаунт</commandName>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -38275,6 +38275,27 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>СгенерироватьGTIN</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОбновитьКарточкуПоAPIСуббакаунт</name>
+    <title>
+      <key>ru</key>
+      <value>Обновить карточку по APIСуббакаунт</value>
+    </title>
+    <id>15</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Обновить карточку по APIСуббакаунт</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОбновитьКарточкуПоAPIСуббакаунт</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

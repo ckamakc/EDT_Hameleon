@@ -231,6 +231,13 @@
         <value>000000016</value>
       </code>
     </items>
+    <items id="0314cd9b-d739-4f19-8156-aecf4ac577e2">
+      <name>ОтправитьВводВОборотВЦРПТ</name>
+      <description>Отправить подготовленные вводы в оборот в ЦРПТ за текущий день</description>
+      <code xsi:type="core:StringValue">
+        <value>000000017</value>
+      </code>
+    </items>
     <items id="74993bf9-6cf4-46c4-a70e-8af4b6bab4c4">
       <name>ПринятьПриходыПоВсемОрганизациям</name>
       <description>Подтверждать приходы по всем организациям автоматически</description>
@@ -453,6 +460,14 @@
     <synonym>
       <key>ru</key>
       <value>Отправить агрегации и обновить статусы</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="81e6057d-8ef8-4072-a4d2-f572891df9fd">
+    <name>ОтправитьВводВОборотВЦРПТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправить ввод в оборот ВЦРПТ</value>
     </synonym>
     <templateType>TextDocument</templateType>
   </templates>
