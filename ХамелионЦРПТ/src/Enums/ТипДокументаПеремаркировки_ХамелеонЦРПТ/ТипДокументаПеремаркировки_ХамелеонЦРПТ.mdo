@@ -16,7 +16,7 @@
     <name>KM_SPOILED</name>
     <synonym>
       <key>ru</key>
-      <value>Испорчено ибо утеряно КИ</value>
+      <value>Испорчено либо утеряно КИ</value>
     </synonym>
   </enumValues>
   <enumValues uuid="0564e7d2-7835-4fa1-8b6d-de00a4dfbc1f">

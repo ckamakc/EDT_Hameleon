@@ -2111,11 +2111,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>1/0:6f333650-8680-45d7-9850-d5ba4b44917d</segments>
-          </paths>
-        </dataPath>
         <extendedTooltip>
           <name>КлючAPIККМТРасширеннаяПодсказка</name>
           <id>257</id>
@@ -4825,7 +4820,6 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>InputField</type>
-          <readOnly>true</readOnly>
           <editMode>Enter</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -4958,7 +4952,6 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>InputField</type>
-          <readOnly>true</readOnly>
           <editMode>Enter</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
