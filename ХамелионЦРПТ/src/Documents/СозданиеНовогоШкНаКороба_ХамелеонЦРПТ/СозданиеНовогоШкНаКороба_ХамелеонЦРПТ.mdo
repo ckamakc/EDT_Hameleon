@@ -67,6 +67,7 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.СозданиеНовогоШкНаКороба_ХамелеонЦРПТ.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.СозданиеНовогоШкНаКороба_ХамелеонЦРПТ.Form.ФормаСписка</defaultListForm>
+  <realTimePosting>Deny</realTimePosting>
   <registerRecords>AccumulationRegister.ОстаткиКМ_в_Обороте_ХамелеонЦРПТ</registerRecords>
   <registerRecords>AccumulationRegister.ОстаткиКМЭмитированые_ХамелеонЦРПТ</registerRecords>
   <registerRecords>AccumulationRegister.ОстаткиКМНеобходимоВвестиОтчетомОбИспользовании_ХамелеонЦРПТ</registerRecords>

@@ -107,4 +107,23 @@
     <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <dimensions uuid="683ebdde-6f8f-45c5-9809-6dfc33cd924f">
+    <name>НомерСтроки_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер строки 1</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
 </mdclass:InformationRegister>

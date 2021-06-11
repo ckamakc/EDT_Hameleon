@@ -62,4 +62,11 @@
       <value>Продажа по образцам, дистанционный способ продажи</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="b04ca556-dbba-484d-99fe-3dc0b6be46d7">
+    <name>OTHER</name>
+    <synonym>
+      <key>ru</key>
+      <value>Другое</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

@@ -17092,6 +17092,27 @@
     </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
+  <formCommands>
+    <name>ЗаполнитьВсеНаостатках</name>
+    <title>
+      <key>ru</key>
+      <value>Заполнить все наостатках</value>
+    </title>
+    <id>42</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Заполнить все наостатках</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ЗаполнитьВсеНаостатках</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

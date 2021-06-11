@@ -3338,6 +3338,36 @@
                 <placementArea>UserCmds</placementArea>
                 <representationInContextMenu>Auto</representationInContextMenu>
               </items>
+              <items xsi:type="form:Button">
+                <name>ТоварыЗаполнитьВсемиОстатками</name>
+                <id>850</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>ТоварыЗаполнитьВсемиОстаткамиРасширеннаяПодсказка</name>
+                  <id>851</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <commandName>Form.Command.ЗаполнитьВсемиОстатками</commandName>
+                <representation>Auto</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <representationInContextMenu>Auto</representationInContextMenu>
+              </items>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -16355,6 +16385,27 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ПроверкаКоличествоКМСКМ</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ЗаполнитьВсемиОстатками</name>
+    <title>
+      <key>ru</key>
+      <value>Заполнить всеми остатками</value>
+    </title>
+    <id>59</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Заполнить всеми остатками</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ЗаполнитьВсемиОстатками</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

@@ -5967,6 +5967,36 @@
         <representation>Auto</representation>
       </extInfo>
     </items>
+    <items xsi:type="form:Button">
+      <name>ФормаHELP</name>
+      <id>432</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаHELPРасширеннаяПодсказка</name>
+        <id>433</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.HELP</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -6147,29 +6177,27 @@
     </edit>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
-	РегистрСведенийСерийныеНомера_ХамелеонЦРПТ.ДокументКорректировки,
-	РегистрСведенийСерийныеНомера_ХамелеонЦРПТ.cis,
-	РегистрСведенийСерийныеНомера_ХамелеонЦРПТ.GTIN,
-	РегистрСведенийСерийныеНомера_ХамелеонЦРПТ.НаименованиеТовара,
-	РегистрСведенийСерийныеНомера_ХамелеонЦРПТ.ID_строки_партии,
-	РегистрСведенийСерийныеНомера_ХамелеонЦРПТ.НомерКороба,
-	РегистрСведенийСерийныеНомера_ХамелеонЦРПТ.НомерПаллет,
-	РегистрСведенийСерийныеНомера_ХамелеонЦРПТ.НомерСтрокиСвязи,
-	РегистрСведенийСерийныеНомера_ХамелеонЦРПТ.КоличествоКМ_Эмитировано,
-	РегистрСведенийСерийныеНомера_ХамелеонЦРПТ.КоличествоКМ_в_Обороте,
-	РегистрСведенийСерийныеНомера_ХамелеонЦРПТ.КоличествоКМ_выбыло,
-	РегистрСведенийСерийныеНомера_ХамелеонЦРПТ.КоличествоКМ_ЭмитированоПрограммно,
-	РегистрСведенийСерийныеНомера_ХамелеонЦРПТ.КоличествоКМ_в_ОборотеПрограммно,
-	РегистрСведенийСерийныеНомера_ХамелеонЦРПТ.КоличествоКМ_выбылоПрограммно,
-	РегистрСведенийСерийныеНомера_ХамелеонЦРПТ.Резерв,
-	РегистрСведенийСерийныеНомера_ХамелеонЦРПТ.Резерв1С,
-	РегистрСведенийСерийныеНомера_ХамелеонЦРПТ.КоличествоКМ_До_Эмитировано,
-	РегистрСведенийСерийныеНомера_ХамелеонЦРПТ.КоличествоКМ_До_ЭмитированоПрограммно
+	СерийныеНомераСправочник_ХамелеонЦРПТ.ДокументКорректировки,
+	СерийныеНомераСправочник_ХамелеонЦРПТ.cis,
+	СерийныеНомераСправочник_ХамелеонЦРПТ.GTIN,
+	СерийныеНомераСправочник_ХамелеонЦРПТ.НаименованиеТовара,
+	СерийныеНомераСправочник_ХамелеонЦРПТ.ID_строки_партии,
+	СерийныеНомераСправочник_ХамелеонЦРПТ.НомерКороба,
+	СерийныеНомераСправочник_ХамелеонЦРПТ.НомерПаллет,
+	СерийныеНомераСправочник_ХамелеонЦРПТ.НомерСтрокиСвязи,
+	СерийныеНомераСправочник_ХамелеонЦРПТ.КоличествоКМ_Эмитировано,
+	СерийныеНомераСправочник_ХамелеонЦРПТ.КоличествоКМ_в_Обороте,
+	СерийныеНомераСправочник_ХамелеонЦРПТ.КоличествоКМ_выбыло,
+	СерийныеНомераСправочник_ХамелеонЦРПТ.КоличествоКМ_ЭмитированоПрограммно,
+	СерийныеНомераСправочник_ХамелеонЦРПТ.КоличествоКМ_в_ОборотеПрограммно,
+	СерийныеНомераСправочник_ХамелеонЦРПТ.КоличествоКМ_выбылоПрограммно,
+	СерийныеНомераСправочник_ХамелеонЦРПТ.Резерв,
+	СерийныеНомераСправочник_ХамелеонЦРПТ.Резерв1С,
+	СерийныеНомераСправочник_ХамелеонЦРПТ.КоличествоКМ_До_Эмитировано,
+	СерийныеНомераСправочник_ХамелеонЦРПТ.КоличествоКМ_До_ЭмитированоПрограммно
 ИЗ
-	РегистрСведений.СерийныеНомера_ХамелеонЦРПТ КАК РегистрСведенийСерийныеНомера_ХамелеонЦРПТ
-ГДЕ
-	РегистрСведенийСерийныеНомера_ХамелеонЦРПТ.ДокументКорректировки = &amp;ДокументКорректировки</queryText>
-      <mainTable>InformationRegister.СерийныеНомера_ХамелеонЦРПТ</mainTable>
+	РегистрСведений.СерийныеНомераСправочник_ХамелеонЦРПТ КАК СерийныеНомераСправочник_ХамелеонЦРПТ</queryText>
+      <mainTable>InformationRegister.СерийныеНомераСправочник_ХамелеонЦРПТ</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
@@ -6601,6 +6629,27 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ЗакачатьДоЭмитирования</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>HELP</name>
+    <title>
+      <key>ru</key>
+      <value>HELP</value>
+    </title>
+    <id>18</id>
+    <toolTip>
+      <key>ru</key>
+      <value>HELP</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>HELP</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

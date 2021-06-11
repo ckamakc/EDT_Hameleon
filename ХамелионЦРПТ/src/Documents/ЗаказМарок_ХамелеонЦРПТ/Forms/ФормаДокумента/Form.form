@@ -7958,6 +7958,26 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>МаксисумСтроки</name>
+    <title>
+      <key>ru</key>
+      <value>Максисум строки</value>
+    </title>
+    <id>21</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>ОтправитьВЦРПТ</name>
     <title>
