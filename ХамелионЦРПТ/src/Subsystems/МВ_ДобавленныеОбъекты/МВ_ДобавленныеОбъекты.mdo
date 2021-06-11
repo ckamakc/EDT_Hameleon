@@ -19,4 +19,5 @@
   <content>CommonModule.ОбщегоНазначенияКлиентСервер</content>
   <content>CommonModule.ОбщегоНазначенияПереопределяемый</content>
   <content>Document.ВводВОборот_ХамелеонЦРПТ</content>
+  <content>InformationRegister.МВ_СоотвествиеФайловВводуВОборот</content>
 </mdclass:Subsystem>
