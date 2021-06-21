@@ -22877,6 +22877,106 @@
             <showInFooter>true</showInFooter>
             <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
           </items>
+          <items xsi:type="form:FormField">
+            <name>ПроверкаНаСимволКриллицы</name>
+            <id>1594</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>ПроверкаНаСимволКриллицы</segments>
+              </paths>
+            </dataPath>
+            <titleLocation>Right</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>ПроверкаНаСимволКриллицыПриИзменении</name>
+            </handlers>
+            <extendedTooltip>
+              <name>ПроверкаНаСимволКриллицыРасширеннаяПодсказка</name>
+              <id>1596</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ПроверкаНаСимволКриллицыКонтекстноеМеню</name>
+              <id>1595</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>CheckBoxField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ДелатьВводВОборотПослеОтчетаОНанесении</name>
+            <id>1597</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>ДелатьВводВОборотПослеОтчетаОНанесении</segments>
+              </paths>
+            </dataPath>
+            <titleLocation>Right</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>ДелатьВводВОборотПослеОтчетаОНанесенииПриИзменении</name>
+            </handlers>
+            <extendedTooltip>
+              <name>ДелатьВводВОборотПослеОтчетаОНанесенииРасширеннаяПодсказка</name>
+              <id>1599</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДелатьВводВОборотПослеОтчетаОНанесенииКонтекстноеМеню</name>
+              <id>1598</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>CheckBoxField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -27013,6 +27113,40 @@
       <value>Выделять не совпадение в отгрузке</value>
     </title>
     <id>100</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПроверкаНаСимволКриллицы</name>
+    <title>
+      <key>ru</key>
+      <value>Проверка на символ кириллицы при сканировании КМ</value>
+    </title>
+    <id>101</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ДелатьВводВОборотПослеОтчетаОНанесении</name>
+    <title>
+      <key>ru</key>
+      <value>Делать ввод в оборот после обработки отчета о нанесении</value>
+    </title>
+    <id>102</id>
     <valueType>
       <types>Boolean</types>
     </valueType>

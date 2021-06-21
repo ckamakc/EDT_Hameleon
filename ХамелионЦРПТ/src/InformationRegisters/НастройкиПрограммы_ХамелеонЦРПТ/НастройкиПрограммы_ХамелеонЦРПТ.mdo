@@ -1233,4 +1233,34 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
+  <resources uuid="3a6cf6cf-2d23-40d2-9d6b-4c683da8bf88">
+    <name>ПроверкаНаСимволКриллицы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка на символ криллицы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d3e52e96-49a3-400d-8c45-7183d951f9f8">
+    <name>ДелатьВводВОборотПослеОтчетаОНанесении</name>
+    <synonym>
+      <key>ru</key>
+      <value>Делать ввод в оборот после отчета о нанесении</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
 </mdclass:InformationRegister>

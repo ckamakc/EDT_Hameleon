@@ -1652,7 +1652,7 @@
         <id>132</id>
         <title>
           <key>ru</key>
-          <value>Загрузить из НК по API-ключу (по субаккаунту) пр указанному GTIN</value>
+          <value>Загрузить из НК по API-ключу (по субаккаунту) по указанному GTIN</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>

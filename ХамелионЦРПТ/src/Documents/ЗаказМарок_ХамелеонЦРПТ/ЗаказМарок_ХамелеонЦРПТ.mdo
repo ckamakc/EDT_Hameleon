@@ -1189,6 +1189,57 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <tabularSections uuid="86e20b50-0a45-475b-a8eb-aa5370c2606d">
+    <producedTypes>
+      <objectType typeId="41a192ce-075f-43ff-88e6-906d69bcdb96" valueTypeId="f94fd79a-3da9-4f62-9a6f-1ec0b850b4dd"/>
+      <rowType typeId="47a9e7a5-39c6-46f0-884e-b3fcbd3fe14b" valueTypeId="1161a5b9-a873-4af0-84ae-adce88c4bfd2"/>
+    </producedTypes>
+    <name>ОшибкиПолучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибки получения</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="57211be1-f0e8-412e-8e7b-3e37846a8fd5">
+      <name>Ошибка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ошибка</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="71d436b8-1986-4556-99b8-5247555c2854">
+      <name>КодОшибки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код ошибки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <templates uuid="c1c352c8-32c2-416f-9edd-75e734f5bd72">
     <name>Макет</name>
     <synonym>

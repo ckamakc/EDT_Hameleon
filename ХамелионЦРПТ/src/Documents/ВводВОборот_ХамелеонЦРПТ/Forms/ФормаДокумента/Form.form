@@ -2163,7 +2163,7 @@
                 <value>Розничная реализация</value>
               </presentation>
               <value xsi:type="core:ReferenceValue">
-                <value>Enum.ПричинаВыводаИзОборота_ХамлеонЦРПТ.EnumValue.RETAIL</value>
+                <value>Enum.ПричинаВыводаИзОборота_ХамелеонЦРПТ.EnumValue.RETAIL</value>
               </value>
             </choiceList>
           </extInfo>
@@ -3022,7 +3022,7 @@
                 <value>Использование для собственных нужд предприятия</value>
               </presentation>
               <value xsi:type="core:ReferenceValue">
-                <value>Enum.ПричинаВыводаИзОборота_ХамлеонЦРПТ.EnumValue.ENTERPRISE_USE</value>
+                <value>Enum.ПричинаВыводаИзОборота_ХамелеонЦРПТ.EnumValue.ENTERPRISE_USE</value>
               </value>
             </choiceList>
           </extInfo>
@@ -13454,6 +13454,23 @@
     <valueType>
       <types>String</types>
       <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПроверкаНаСимволКриллицы</name>
+    <title>
+      <key>ru</key>
+      <value>Проверка на символ криллицы</value>
+    </title>
+    <id>24</id>
+    <valueType>
+      <types>Boolean</types>
     </valueType>
     <view>
       <common>true</common>

@@ -5,10 +5,10 @@
     <listType typeId="249430bc-39e0-4e16-93e4-6f8bc6f9e270" valueTypeId="2be721bb-9d34-4fd5-94b9-8a67cc38d863"/>
     <managerType typeId="b4526011-9202-4863-91f8-3fb71c2078a0" valueTypeId="366fd731-dba8-405c-8e7d-e64b76454623"/>
   </producedTypes>
-  <name>ПричинаВыводаИзОборота_ХамлеонЦРПТ</name>
+  <name>ПричинаВыводаИзОборота_ХамелеонЦРПТ</name>
   <synonym>
     <key>ru</key>
-    <value>Причина вывода из оборота Хамлеон ЦРПТ</value>
+    <value>Причина вывода из оборота Хамелеон ЦРПТ</value>
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>

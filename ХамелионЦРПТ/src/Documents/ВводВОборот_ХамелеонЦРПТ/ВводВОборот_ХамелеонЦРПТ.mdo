@@ -390,7 +390,7 @@
       <value>Причина вывода из оборота</value>
     </synonym>
     <type>
-      <types>EnumRef.ПричинаВыводаИзОборота_ХамлеонЦРПТ</types>
+      <types>EnumRef.ПричинаВыводаИзОборота_ХамелеонЦРПТ</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

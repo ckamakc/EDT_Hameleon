@@ -3007,6 +3007,23 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ПроверкаНаСимволКриллицы</name>
+    <title>
+      <key>ru</key>
+      <value>Проверка на символ криллицы</value>
+    </title>
+    <id>8</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>ПрикрепитьPDF</name>
     <title>
