@@ -208,7 +208,8 @@
 			
 			
 			
-		HTTPЗапрос = Новый HTTPЗапрос("webapi/v1/enterpriseProfiles/"+Объект.ИдентификаторСУЗ+"/clientDevices?limit=10&skip=0"); //"static/1555676332000/js/main/preload.js");
+		//HTTPЗапрос = Новый HTTPЗапрос("webapi/v1/enterpriseProfiles/"+Объект.ИдентификаторСУЗ+"/clientDevices?limit=10&skip=0"); //"static/1555676332000/js/main/preload.js");
+		HTTPЗапрос = Новый HTTPЗапрос("webapi/v1/oms/me");
 			
 //				HTTPЗапрос=Новый HTTPЗапрос("enterpriseProfile/list");
 	//	HTTPЗапрос=Новый HTTPЗапрос("api/orders");
@@ -239,8 +240,8 @@
 		Текст1=СтрЗаменить(Текст1,"\\","\");
 		
 		///NNN=ОбщиеМетоды_НаКлиенте_ХамелеонЦРПТ.ЗаполнитьСтруктуруИзОтветаJSON_1(СтрЗаменить(Текст1,"""@class"":""com.equiron.sitemanager.common.entity.EnterpriseProfile"",",""));
-		Текст1=Сред(Текст1,Найти(Текст1,"name"":")+6);
-		Текст1=Сред(Текст1,1,Найти(Текст1,""",""type"));
+		Текст1=Сред(Текст1,1,Найти(Текст1,"permissions")-1);
+		//Текст1=Сред(Текст1,1,Найти(Текст1,""",""type"));
 		
 		//name":"API_ООО \"КРОКУС-ВИНОТЕКА\"","type":"AUTO
 		ПоказатЬПредупреждение(,"Успешно подключено к " +xml_ЧтениеАтрибут(Текст1));
