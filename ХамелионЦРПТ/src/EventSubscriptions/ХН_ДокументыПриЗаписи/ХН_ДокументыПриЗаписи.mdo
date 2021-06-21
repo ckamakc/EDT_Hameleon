@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e4267ef-4de6-4bf9-a548-3886710107ee">
+  <name>ХН_ДокументыПриЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>(ХН) Документы при записи</value>
+  </synonym>
+  <source>
+    <types>DocumentObject</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.МВ_ОбщийМодуль_ВызовСервера.ПриЗаписи</handler>
+</mdclass:EventSubscription>

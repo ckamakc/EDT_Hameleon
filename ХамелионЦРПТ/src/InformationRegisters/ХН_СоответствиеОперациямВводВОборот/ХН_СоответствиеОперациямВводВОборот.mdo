@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="44098fb4-dd6a-4309-8365-6d2ec0ffaba7">
+  <producedTypes>
+    <selectionType typeId="4193d0fd-e78d-4237-ac45-9ba76c953c97" valueTypeId="0d262152-990c-4430-8217-5e33b55de4ac"/>
+    <listType typeId="aa878268-d524-488a-bf9a-321020d2321e" valueTypeId="9eaa1a20-51f0-4eb0-b7ba-7f882ac01169"/>
+    <managerType typeId="b763af6e-eec5-41e5-9f5d-a23bcdcbd644" valueTypeId="35578456-ee83-4876-b756-02c1a53ec032"/>
+    <recordSetType typeId="70c96b92-cf21-4926-8631-bb585487ee6f" valueTypeId="8a909f09-a1d6-44d5-bcca-0b97f3cf6204"/>
+    <recordKeyType typeId="ba55909c-cd40-48cf-90dd-5c661184205c" valueTypeId="1aff21bd-f3ee-4596-94a7-1b04757df3f9"/>
+    <recordType typeId="e9865142-4602-4c5e-ba0d-900aec566045" valueTypeId="3311aca3-2b5e-4fb5-be76-ddff8cad6eef"/>
+    <recordManagerType typeId="1263d028-3245-45cf-af6b-e89e02225204" valueTypeId="afb4559d-7609-4dce-8534-4113a744f2c7"/>
+  </producedTypes>
+  <name>ХН_СоответствиеОперациямВводВОборот</name>
+  <synonym>
+    <key>ru</key>
+    <value>(ХН) соответствие операциям ввод в оборот</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c2d13348-3737-413a-9b4b-d81231b2cfe0">
+    <name>ОтчетОбИспользовании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет об использовании</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ВводВОборот_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="65941e9d-6d5f-4a0c-80b4-d1749cea4f3c">
+    <name>ВводВОборот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод в оборот</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ВводВОборот_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

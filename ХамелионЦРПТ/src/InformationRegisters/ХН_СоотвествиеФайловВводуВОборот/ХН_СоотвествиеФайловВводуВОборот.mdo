@@ -9,28 +9,13 @@
     <recordType typeId="13525fcd-4347-4f47-80d6-72a7566ccf8b" valueTypeId="56aadf77-a62f-4937-94ef-03ab152f9032"/>
     <recordManagerType typeId="0b08244e-4979-4bcc-a3ad-37f73a15ecd1" valueTypeId="a78d3615-5ace-425a-b01b-4b32db519126"/>
   </producedTypes>
-  <name>МВ_СоотвествиеФайловВводуВОборот</name>
+  <name>ХН_СоотвествиеФайловВводуВОборот</name>
   <synonym>
     <key>ru</key>
-    <value>(МВ) Соотвествие файлов вводу в оборот</value>
+    <value>(ХН) Соотвествие файлов вводу в оборот</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
-  <resources uuid="8c0383fe-0814-4052-af58-4a2ff25af5cf">
-    <name>ВводВОборот</name>
-    <synonym>
-      <key>ru</key>
-      <value>Ввод в оборот</value>
-    </synonym>
-    <type>
-      <types>DocumentRef.ВводВОборот_ХамелеонЦРПТ</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
   <resources uuid="ffa13f81-b6e7-4bd9-b71f-c870ba43383e">
     <name>КоличествоКМ</name>
     <synonym>
@@ -50,7 +35,7 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <attributes uuid="e5eccea4-7c09-4572-b60f-1dd567bfeef1">
+  <resources uuid="a9a2abe9-cf0f-46e0-a57f-62e5a697e9a0">
     <name>ИмяФайла</name>
     <synonym>
       <key>ru</key>
@@ -59,7 +44,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>10</length>
+        <length>100</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -69,7 +54,7 @@
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
-  </attributes>
+  </resources>
   <attributes uuid="919a0c79-9684-47ca-a0be-377dd2d7f333">
     <name>РазмерФайла</name>
     <synonym>
@@ -137,12 +122,11 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>11</length>
+        <length>50</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <denyIncompleteValues>true</denyIncompleteValues>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:StringValue">
@@ -165,6 +149,24 @@
     <denyIncompleteValues>true</denyIncompleteValues>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="abb38328-6625-43cb-9740-a207c2ef03d9">
+    <name>ВводВОборот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод в оборот</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ВводВОборот_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>

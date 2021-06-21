@@ -108,6 +108,7 @@
   </extendedListPresentation>
   <type>
     <types>Boolean</types>
+    <types>CatalogRef.МВ_Интеграторы</types>
     <types>CatalogRef.Пользователи_ХамелеонЦРПТ</types>
     <types>String</types>
     <types>Date</types>
@@ -190,6 +191,28 @@
           </stringQualifiers>
         </type>
       </content>
+    </items>
+    <items id="a9bac131-c6f5-4d70-9cc8-aa4a9cddc6e0">
+      <name>ИнтеграторНаЛинияхПроизводства</name>
+      <description>Интегратор на линиях производства</description>
+      <type>
+        <types>Boolean</types>
+        <types>CatalogRef.МВ_Интеграторы</types>
+        <types>CatalogRef.Пользователи_ХамелеонЦРПТ</types>
+        <types>String</types>
+        <types>Date</types>
+        <types>Number</types>
+        <types>CatalogRef.Продукция_ХамелеонЦРПТ</types>
+        <types>CatalogRef.Организации_ХамелеонЦРПТ</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+        <dateQualifiers/>
+      </type>
     </items>
     <items id="dbe9dba7-4bc5-4d2d-87ee-de9d727c278c">
       <name>КаталогЧтенияВСД</name>
