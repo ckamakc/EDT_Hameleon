@@ -30,12 +30,39 @@
 				<item>
 					<field>Дата</field>
 				</item>
+				<item>
+					<field>Продукция</field>
+				</item>
+				<item>
+					<field>НомерВСД</field>
+				</item>
+				<item>
+					<field>ДатаПроизводства</field>
+				</item>
+				<item>
+					<field>ДокОснование</field>
+				</item>
+				<item>
+					<field>КодВУчетнойСистеме</field>
+				</item>
+				<item>
+					<field>КодТНВЭД</field>
+				</item>
+				<item>
+					<field>КоличествоДубликатов</field>
+				</item>
+				<item>
+					<field>Комментарий</field>
+				</item>
+				<item>
+					<field>Статус</field>
+				</item>
 			</selection>
 			<filter>
 				<item xsi:type="FilterItemComparison">
 					<left xsi:type="dcscor:Field">КоличествоДубликатов</left>
 					<comparisonType>Greater</comparisonType>
-					<right xsi:type="xs:decimal">0</right>
+					<right xsi:type="xs:decimal">1</right>
 				</item>
 			</filter>
 			<appearance>

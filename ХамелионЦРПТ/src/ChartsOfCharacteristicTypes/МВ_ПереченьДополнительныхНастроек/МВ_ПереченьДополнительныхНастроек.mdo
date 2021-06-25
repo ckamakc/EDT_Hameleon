@@ -146,6 +146,52 @@
         </type>
       </content>
     </items>
+    <items id="5ad6b4ac-f9f9-4103-8045-68594fd472c4">
+      <name>ОтправкаОтчетовАрле</name>
+      <description>Отправка отчетов арле</description>
+      <isFolder>true</isFolder>
+      <type/>
+      <content id="3906bccf-1c95-4ee6-a708-ceca992635e9">
+        <name>АрлаАдресHTTPЗапрос</name>
+        <description>Адрес HTTPЗапрос</description>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>1024</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="dda3f365-3dc0-4e0c-9c5c-40c9cbc8b865">
+        <name>АрлаВебАдресДляОтправкиОтчетовВводаВОборот</name>
+        <description>Веб адрес для отправки отчетов ввода в оборот</description>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>1024</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="e729dec4-9002-41ee-9f50-2a5cd68fc47a">
+        <name>АрлаЛогин</name>
+        <description>Логин</description>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>50</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="66726083-453e-4d04-b205-5165eab57930">
+        <name>АрлаПароль</name>
+        <description>Пароль</description>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>50</length>
+          </stringQualifiers>
+        </type>
+      </content>
+    </items>
     <items id="2ee6c32a-aea1-4f5f-b535-7907a89b3020">
       <name>РаботаСОператоромОКТО</name>
       <description>Работа с оператором ОКТО</description>
