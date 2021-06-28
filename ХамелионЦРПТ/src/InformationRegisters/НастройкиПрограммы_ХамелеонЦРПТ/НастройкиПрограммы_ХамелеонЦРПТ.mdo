@@ -1263,4 +1263,34 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
+  <resources uuid="c345f405-aa30-43e8-9e9c-c0c79d24ed4e">
+    <name>ИспользоватьСтарыйФорматУКД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать старый формат УКД</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c9bec05a-b693-4c89-bfd4-55a7f24054b3">
+    <name>ЗапретОтправкиОтчетаОНанесенииБудущейДатой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрет отправки отчета о нанесении будущей датой</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
 </mdclass:InformationRegister>

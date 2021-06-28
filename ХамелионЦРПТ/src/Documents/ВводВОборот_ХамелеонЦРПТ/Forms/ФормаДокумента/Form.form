@@ -13479,6 +13479,23 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ЗапретОтправкиОтчетаОНанесенииБудущейДатой</name>
+    <title>
+      <key>ru</key>
+      <value>Запрет отправки отчета о нанесении будущей датой</value>
+    </title>
+    <id>25</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>ОтправитьВЦРПТ</name>
     <title>

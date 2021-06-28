@@ -668,6 +668,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="da7b4833-4350-4776-a792-ad4207d86235">
+    <name>СхемаОбратногоАкцепта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема обратного акцепта</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СхемыОбратногоАкцепта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="027772bf-feca-4151-bfe6-6e18429454cc">
     <name>ФормаДокумента</name>
     <synonym>
