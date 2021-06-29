@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="509a9322-250d-434b-88ed-9d01882b6087">
+  <producedTypes>
+    <objectType typeId="df36dfc0-bfa8-47c5-95ac-bcef049c15f7" valueTypeId="89b2be11-5dd4-485c-91e6-b8f4ab6217f8"/>
+    <managerType typeId="64e2fb8b-072a-47de-82d2-49e0a0d0938f" valueTypeId="7aa66e8c-c650-4323-9ee9-509925a71b7d"/>
+  </producedTypes>
+  <name>СоздатьОпределенноеКоличествоЗаказовИОтправитьВЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создать определенное количество заказов и отправить ВЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СоздатьОпределенноеКоличествоЗаказовИОтправитьВЦРПТ.Form.Форма</defaultForm>
+  <attributes uuid="37055826-5bf1-43f5-b4b4-4bbc7ba0132f">
+    <name>КоличествоЗаказов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество заказов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f0af9af1-4168-4962-9910-6d955471fafd">
+    <name>ТекущийПользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущий пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="bd8dfff8-2578-4a82-8336-c335f7211317">
+    <producedTypes>
+      <objectType typeId="8118caf2-759b-4c46-b592-9e48fa6edeb0" valueTypeId="c8baa315-bc42-4935-938d-7da1e91a3cbc"/>
+      <rowType typeId="f211db65-fa81-492e-96f4-23335a5bc2dd" valueTypeId="7ee5150a-1549-402e-bd99-54f91151632b"/>
+    </producedTypes>
+    <name>ТабличнаяЧастьЗаказов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличная часть заказов</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="7b8c1c39-c4e9-4d59-b7b1-fbfe184427df">
+      <name>Продукция</name>
+      <synonym>
+        <key>ru</key>
+        <value>Продукция</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Продукция_ХамелеонЦРПТ</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="8eb3d4ee-0447-4b1f-97ae-3ae400e9ba1d">
+      <name>КоличествоКМ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество КМ</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="37d9d8c9-217e-4581-930a-0eb24629605c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

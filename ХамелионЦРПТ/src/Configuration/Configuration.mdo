@@ -12,7 +12,7 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
-  <version>15/06/21</version>
+  <version>28/06/21</version>
   <useManagedFormInOrdinaryApplication>true</useManagedFormInOrdinaryApplication>
   <requiredMobileApplicationPermissions>
     <permission>AllowOSBackup</permission>
@@ -41,6 +41,16 @@
   <commonPictures>CommonPicture.МВ_ЧестныйЗнак</commonPictures>
   <roles>Role.Права_ХамелеонЦРПТ</roles>
   <roles>Role.МВ_ПолныеПрава</roles>
+  <commonModules>CommonModule.ОбщиеМетоды_НаКлиенте_ХамелеонЦРПТ</commonModules>
+  <commonModules>CommonModule.ОбщийМодуль_НаСервере_ХамелеонЦРПТ</commonModules>
+  <commonModules>CommonModule.ОбщийМодуль_Выполнить_На_КЛИЕНТЕ_ХамелеонЦРПТ</commonModules>
+  <commonModules>CommonModule.ОбщийМодуль_ВЫПОЛНИТЬ_ВЫЗОВОМ_СЕРВЕРА_ХамелеонЦРПТ</commonModules>
+  <commonModules>CommonModule.ЗагрузкаXMLЭДОСервер_ХамелеонЦРПТ</commonModules>
+  <commonModules>CommonModule.РаботаСЭДО_На_Клиенте_ХамелеонЦРПТ</commonModules>
+  <commonModules>CommonModule.МВ_ОбщийМодуль_ВызовСервера</commonModules>
+  <commonModules>CommonModule.ОбщийМодуль_ОграничениеПользователей_ХамелеонЦРПТ</commonModules>
+  <commonModules>CommonModule.МВ_РегламентныеЗадания</commonModules>
+  <commonModules>CommonModule.МВ_ОбщийМодуль_НаСервере_ХамелеонЦРПТ</commonModules>
   <commonModules>CommonModule.ИнтеграцияПодсистемБСП</commonModules>
   <commonModules>CommonModule.ИнтеграцияПодсистемБСПКлиент</commonModules>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
@@ -70,16 +80,7 @@
   <commonModules>CommonModule.ПользователиЛокализация</commonModules>
   <commonModules>CommonModule.ФайловаяСистема</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиентСервер</commonModules>
-  <commonModules>CommonModule.ОбщиеМетоды_НаКлиенте_ХамелеонЦРПТ</commonModules>
-  <commonModules>CommonModule.ОбщийМодуль_НаСервере_ХамелеонЦРПТ</commonModules>
-  <commonModules>CommonModule.ОбщийМодуль_Выполнить_На_КЛИЕНТЕ_ХамелеонЦРПТ</commonModules>
-  <commonModules>CommonModule.ОбщийМодуль_ВЫПОЛНИТЬ_ВЫЗОВОМ_СЕРВЕРА_ХамелеонЦРПТ</commonModules>
-  <commonModules>CommonModule.ЗагрузкаXMLЭДОСервер_ХамелеонЦРПТ</commonModules>
-  <commonModules>CommonModule.РаботаСЭДО_На_Клиенте_ХамелеонЦРПТ</commonModules>
-  <commonModules>CommonModule.МВ_ОбщийМодуль_ВызовСервера</commonModules>
-  <commonModules>CommonModule.ОбщийМодуль_ОграничениеПользователей_ХамелеонЦРПТ</commonModules>
-  <commonModules>CommonModule.МВ_РегламентныеЗадания</commonModules>
-  <commonModules>CommonModule.МВ_ОбщийМодуль_НаСервере_ХамелеонЦРПТ</commonModules>
+  <commonModules>CommonModule.ОбщийМодуль_НоывеФункции_ХамелеонЦРПТ</commonModules>
   <eventSubscriptions>EventSubscription.ХН_ДокументыПриЗаписи</eventSubscriptions>
   <scheduledJobs>ScheduledJob.МВ_СформироватьВВодВОборотОКТО</scheduledJobs>
   <constants>Constant.Регламент_ХамелеонЦРПТ</constants>
@@ -330,6 +331,7 @@
   <dataProcessors>DataProcessor.ОпределениеГУИДВСДПоГУИДЗаписиЖурнала_ХамелеонЦРПТ</dataProcessors>
   <dataProcessors>DataProcessor.МВ_АвтоматическаяОтправкаЦРПТ</dataProcessors>
   <dataProcessors>DataProcessor.МВ_СформироватьВВодВОборотОКТО</dataProcessors>
+  <dataProcessors>DataProcessor.СоздатьОпределенноеКоличествоЗаказовИОтправитьВЦРПТ</dataProcessors>
   <informationRegisters>InformationRegister.ТокенПоСертификату_ХамелеонЦРПТ</informationRegisters>
   <informationRegisters>InformationRegister.PDFФайлы_ХамелеонЦРПТ</informationRegisters>
   <informationRegisters>InformationRegister.ОтправленныеПолученные_ХамелеонЦРПТ</informationRegisters>

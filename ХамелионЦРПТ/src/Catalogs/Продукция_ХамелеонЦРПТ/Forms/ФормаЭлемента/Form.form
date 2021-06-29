@@ -15703,6 +15703,36 @@
             <autoCommandBar>
               <name>Таблица6КоманднаяПанель</name>
               <id>2184</id>
+              <items xsi:type="form:Button">
+                <name>Таблица6ОбновитьИнформациюВетисПоВыделеннойСтроке</name>
+                <id>2271</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>Таблица6ОбновитьИнформациюВетисПоВыделеннойСтрокеРасширеннаяПодсказка</name>
+                  <id>2272</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <commandName>Form.Command.ОбновитьИнформациюВетисПоВыделеннойСтроке</commandName>
+                <representation>Auto</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <representationInContextMenu>Auto</representationInContextMenu>
+              </items>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -38296,6 +38326,27 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ОбновитьКарточкуПоAPIСуббакаунт</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОбновитьИнформациюВетисПоВыделеннойСтроке</name>
+    <title>
+      <key>ru</key>
+      <value>Обновить информацию ветис по выделенной строке</value>
+    </title>
+    <id>16</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Обновить информацию ветис по выделенной строке</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОбновитьИнформациюВетисПоВыделеннойСтроке</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

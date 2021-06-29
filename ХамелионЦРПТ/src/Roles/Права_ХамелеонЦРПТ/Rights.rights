@@ -5843,6 +5843,17 @@
 		</right>
 	</object>
 	<object>
+		<name>DataProcessor.СоздатьОпределенноеКоличествоЗаказовИОтправитьВЦРПТ</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.НациооналныйКаталог_Одежда_ХамелеонЦРПТ</name>
 		<right>
 			<name>Read</name>

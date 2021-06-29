@@ -1214,6 +1214,44 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="f6792403-1fdf-4e2a-81fe-3b371dcf1cd7">
+    <name>omsConnection</name>
+    <synonym>
+      <key>ru</key>
+      <value>Oms connection</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e48e7566-561b-4740-9898-27f18160f2b8">
+    <name>АдресРегистрацииУчтенойСистемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес регистрации учтеной системы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="5ac366ff-b278-4a0b-8909-7b1443b66f25">
     <producedTypes>
       <objectType typeId="fbd42930-ca00-4870-a346-c12debeb3421" valueTypeId="fba4d462-cfd0-45a4-bb22-2365f4b0d82b"/>
