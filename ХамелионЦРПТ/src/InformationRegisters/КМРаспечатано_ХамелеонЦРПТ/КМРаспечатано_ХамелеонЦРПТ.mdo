@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e3ca1e2-ef55-4ddf-8463-0c6551c4353a">
+  <producedTypes>
+    <selectionType typeId="dd8e4c5f-cb1b-4e0c-9d1c-e4ebe08dfeb2" valueTypeId="9a44fd4f-bd13-4308-9297-1aa57f024661"/>
+    <listType typeId="7214d5d8-2084-420f-89ed-ddabc1e37cf2" valueTypeId="778a7ff9-54df-4ca9-ad10-16bfe28e619f"/>
+    <managerType typeId="9e6166f1-46f5-41a3-9135-220274791862" valueTypeId="c63672fe-7b13-4daf-909c-42060e282247"/>
+    <recordSetType typeId="7e9f0630-e5c1-4d18-8033-3b219cb43795" valueTypeId="7529c492-2440-4b30-afb3-9136d7f9b24c"/>
+    <recordKeyType typeId="4938d0e7-8c57-4be9-a1df-93bee1c27064" valueTypeId="83b1a570-079e-456d-995a-dd8452fe2a23"/>
+    <recordType typeId="ba6e3065-5977-4e2f-bd65-fa691ec92d50" valueTypeId="5511658c-48e8-49ea-a7fc-b10dc7bbc001"/>
+    <recordManagerType typeId="fd7363cf-7362-4116-8160-5afab8a8fece" valueTypeId="bb43b7b1-8a61-48f4-8114-f69bacc372e0"/>
+  </producedTypes>
+  <name>КМРаспечатано_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>КМРаспечатано Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <resources uuid="cd16e12f-3868-4209-8eff-7022dabbbb5d">
+    <name>Распечатан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Распечатан</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="cb79b18f-d897-4a84-9621-512b8dbf3058">
+    <name>cis</name>
+    <synonym>
+      <key>ru</key>
+      <value>Cis</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

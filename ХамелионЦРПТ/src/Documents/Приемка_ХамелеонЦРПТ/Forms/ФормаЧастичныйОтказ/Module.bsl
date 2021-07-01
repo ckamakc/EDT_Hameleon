@@ -476,7 +476,12 @@
 
 		Тело="{
 		|""product_document"":"""+Добав+""",
-		|""document_format"": ""MANUAL"",
+		|""document_format"": ""MANUAL"",";
+		
+		Тело=Тело+"
+			|""type"":""LP_ACCEPT_GOODS"",";
+		
+		Тело=Тело+"
 		|""signature"":"""+Подписанный+"""}";
 		
 		
@@ -508,7 +513,7 @@
 	
 				
 				
-			HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/acceptance/create?pg="+Что);
+			HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/create?pg="+Что);
 		HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 		HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 		//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -883,7 +888,13 @@
 
 		Тело="{
 		|""product_document"":"""+Добав+""",
-		|""document_format"": ""MANUAL"",
+		|""document_format"": ""MANUAL"",";
+				Тело=Тело+"
+			|""type"":""LP_ACCEPT_GOODS"",";
+
+		
+		Тело=Тело+"
+		
 		|""signature"":"""+Подписанный+"""}";
 		
 		
@@ -915,7 +926,7 @@
 	
 				
 				
-			HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/acceptance/create?pg="+Что);
+			HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/create?pg="+Что);
 		HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 		HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 		//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");

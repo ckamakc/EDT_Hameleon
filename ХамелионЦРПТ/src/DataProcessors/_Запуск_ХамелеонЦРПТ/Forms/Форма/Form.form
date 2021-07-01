@@ -23111,6 +23111,56 @@
             <showInFooter>true</showInFooter>
             <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
           </items>
+          <items xsi:type="form:FormField">
+            <name>СоответствоватьТребованиямЦРПТ</name>
+            <id>1608</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>СоответствоватьТребованиямЦРПТ</segments>
+              </paths>
+            </dataPath>
+            <titleLocation>Right</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>СоответствоватьТребованиямЦРПТПриИзменении</name>
+            </handlers>
+            <extendedTooltip>
+              <name>СоответствоватьТребованиямЦРПТРасширеннаяПодсказка</name>
+              <id>1610</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>СоответствоватьТребованиямЦРПТКонтекстноеМеню</name>
+              <id>1609</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>CheckBoxField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -27315,6 +27365,23 @@
       <value>Запрет отправки отчета о нанесении будущей датой</value>
     </title>
     <id>104</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>СоответствоватьТребованиямЦРПТ</name>
+    <title>
+      <key>ru</key>
+      <value>Соответствовать требованиям ЦРПТ</value>
+    </title>
+    <id>105</id>
     <valueType>
       <types>Boolean</types>
     </valueType>

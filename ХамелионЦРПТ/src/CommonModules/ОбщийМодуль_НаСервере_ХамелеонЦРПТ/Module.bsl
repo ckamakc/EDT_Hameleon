@@ -8727,6 +8727,12 @@ Thumbprint_1=ПолучитьИзПользователя(Пользовател
 
 			Тело=Тело+"
 			|""type"":""LP_FTS_INTRODUCE"",";
+		ИначеЕсли Объект.ТипДокумента=ПредопределенноеЗначение("Перечисление.ТипыДокументаВводВОборот_ХамелеонЦРПТ.ВводВОборотИмпорт") Тогда
+			Тело=Тело+"
+			|""type"":""LP_GOODS_IMPORT"",";
+			
+			//что=Thumbprint_1.что;
+			//HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/import/send?pg="+Что);
 			
 		КонецЕсли;
 		Тело=Тело+"
@@ -8745,7 +8751,7 @@ Thumbprint_1=ПолучитьИзПользователя(Пользовател
 		
 		Если Объект.ТипДокумента=ПредопределенноеЗначение("Перечисление.ТипыДокументаВводВОборот_ХамелеонЦРПТ.ВводВОборотИмпорт") Тогда
 			что=Thumbprint_1.что;
-			HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/import/send?pg="+Что);
+			HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/create?pg="+Что);
 		ИначеЕсли Объект.ТипДокумента=ПредопределенноеЗначение("Перечисление.ТипыДокументаВводВОборот_ХамелеонЦРПТ.ВводВОборот") Тогда
 			
 			что=Thumbprint_1.что;
@@ -9545,8 +9551,12 @@ Thumbprint_1=ПолучитьИзПользователя(Пользовател
 КонецФункции // ТекстUnicodeToUTF8()
 
 Функция ПолучитьСайт() Экспорт
+	еСЛИ кОНСТАНТЫ.РежимРаботыХамелеонЦРПТ.Получить()=2 тОГДА
+		Сайт="https://t2-mercury.vetrf.ru/hs";
+	иНАЧЕ
 		Сайт="https://mercury.vetrf.ru/hs";
 
+	кОНЕЦЕСЛИ;
 	Возврат Сайт;
 КонецФункции
 
@@ -9567,9 +9577,15 @@ Thumbprint_1=ПолучитьИзПользователя(Пользовател
 		СледующийЭтап="";
 		
 			
-		СайтОбщий="mercury.vetrf.ru";
+		еСЛИ кОНСТАНТЫ.РежимРаботыХамелеонЦРПТ.Получить()=2 тОГДА
+	СайтОбщий="t2-mercury.vetrf.ru";
+		Сайт="https://t2-mercury.vetrf.ru/hs";
+			СайтИДП="https://t2-idp.vetrf.ru";
+		Иначе
+	СайтОбщий="mercury.vetrf.ru";
 		Сайт="https://mercury.vetrf.ru/hs";
 			СайтИДП="https://idp.vetrf.ru";
+		Конецесли;
 		HTTPСервисЗапрос.Open("GET", Сайт+"/", 0);
 //		Обработки._Запуск_ХамелеонМеркурий.УстановитьПрокси(HTTPСервисЗапрос);
 			Коок="";
@@ -10256,7 +10272,12 @@ Thumbprint_1=ПолучитьИзПользователя(Пользовател
 
 	Тело="{
 	|""product_document"":"""+Добав+""",
-	|""document_format"": ""MANUAL"",
+	|""document_format"": ""MANUAL"",";
+	
+	Тело=Тело+"
+			|""type"":""REAGGREGATION_DOCUMENT"",";
+	
+	Тело=Тело+"
 	|""signature"":"""+Подписанный+"""}";
 	
  	//Если ОбработкаWEBНаСервере Тогда
@@ -10284,7 +10305,7 @@ Thumbprint_1=ПолучитьИзПользователя(Пользовател
 			
 			
  			что=Thumbprint_1.что;
-		HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/reaggregation/create?pg="+Что);
+		HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/create?pg="+Что);
 	HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 	HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 	//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -11461,6 +11482,12 @@ Thumbprint_1=ПолучитьИзПользователя(Пользовател
 	Если Объект.ТипДокумента=ПредопределенноеЗначение("Перечисление.ВидДокументаУпаковок_ХамелеонЦРПТ.Расформирование") Тогда
 			Тело=Тело+"
 			|""type"":""DISAGGREGATION_DOCUMENT"",";
+	ИначеЕсли Объект.ТипДокумента=ПредопределенноеЗначение("Перечисление.ВидДокументаУпаковок_ХамелеонЦРПТ.ДобавлениеВУпаковку") Тогда
+			Тело=Тело+"
+			|""type"":""REAGGREGATION_DOCUMENT"",";
+	Иначе
+			Тело=Тело+"
+			|""type"":""AGGREGATION_DOCUMENT"",";
 		КонецЕсли;
 	
 	Тело=Тело+"
@@ -11496,12 +11523,12 @@ Thumbprint_1=ПолучитьИзПользователя(Пользовател
 					HTTPЗапрос=Новый HTTPЗапрос("api/v3/true-api/lk/documents/create?pg="+что);
 					
 				Иначе
-					HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/disaggregation/create?pg="+что);
+					HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/create?pg="+что);
 				КонецЕсли;
 			ИначеЕсли Объект.ТипДокумента=ПредопределенноеЗначение("Перечисление.ВидДокументаУпаковок_ХамелеонЦРПТ.ДобавлениеВУпаковку") Тогда
-				HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/reaggregation/create?pg="+что);
+				HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/create?pg="+что);
 			Иначе
-				HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/aggregation/create?pg="+что);
+				HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/create?pg="+что);
 			КонецЕсли;
 	HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 	HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
@@ -28354,7 +28381,13 @@ children="";
 
 	Тело="{
 	|""product_document"":"""+Добав+""",
-	|""document_format"": ""MANUAL"",
+	|""document_format"": ""MANUAL"",";
+	
+	Тело=Тело+"
+			|""type"":""AGGREGATION_DOCUMENT"",";
+	
+
+	Тело=Тело+"
 	|""signature"":"""+Подписанный+"""}";
 	
 
@@ -28369,7 +28402,7 @@ children="";
 	
 			
  	что=Thumbprint_1.что;
-	HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/aggregation/create?pg="+Что);
+	HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/create?pg="+Что);
 	HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 	HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 	//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");

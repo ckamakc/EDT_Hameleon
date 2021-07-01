@@ -158,7 +158,9 @@
 					Thumbprint_1.НаименованиеСтенда="Альтернативный табак"
 					Тогда
 					НомерКМ=        МассивКМ[0];
-					Если Сред(НомеркМ,1,3)="010" Тогда
+					Если Сред(НомеркМ,1,3)="010" 
+					И Сред(НомерКМ,17,2)="21"
+						Тогда
 						НомерКМ="("+Сред(НомерКМ,1,2)+")"+Сред(НомерКМ,3,14)+"("+Сред(НомерКМ,17,2)+")"+Сред(НомерКМ,19);
 						
 					КонецЕсли;
@@ -309,7 +311,7 @@
 				HTTPСервисЗапрос=Новый HTTPСоединение(Thumbprint_1.АдресКАПИ,,,,,Thumbprint_1.Таймаут,Новый ЗащищенноеСоединениеopenSSL());
 			КонецЕсли;
 	
-		HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/shipment/create");
+		HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/create");
 	HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 	HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 	//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -1412,7 +1414,12 @@
 
 	Тело="{
 	|""product_document"":"""+Добав+""",
-	|""document_format"": ""CSV"",
+	|""document_format"": ""CSV"",";
+	
+		Тело=Тело+"
+			|""type"":""LP_SHIP_GOODS_CSV"",";
+	
+		Тело=Тело+"
 	|""signature"":"""+Подписанный+"""}";
 	
 	 	Если ОбработкаWEBНаСервере Тогда
@@ -1437,7 +1444,7 @@
 				HTTPСервисЗапрос=Новый HTTPСоединение(Thumbprint_1.АдресКАПИ,,,,,Thumbprint_1.Таймаут,Новый ЗащищенноеСоединениеopenSSL());
 			КонецЕсли;
 	
-		HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/shipment/create");
+		HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/create");
 	HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 	HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 	//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -1560,7 +1567,13 @@
 
 	Тело="{
 	|""product_document"":"""+Добав+""",
-	|""document_format"": ""XML"",
+	|""document_format"": ""XML"",";
+	
+	Тело=Тело+"
+			|""type"":""LP_SHIP_GOODS_XML"",";
+		
+	
+	Тело=Тело+"
 	|""signature"":"""+Подписанный+"""}";
 	
 	 	Если ОбработкаWEBНаСервере Тогда
@@ -1585,7 +1598,7 @@
 				HTTPСервисЗапрос=Новый HTTPСоединение(Thumbprint_1.АдресКАПИ,,,,,Thumbprint_1.Таймаут,Новый ЗащищенноеСоединениеopenSSL());
 			КонецЕсли;
 	
-		HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/shipment/create");
+		HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/create");
 	HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 	HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 	//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -4840,7 +4853,12 @@ GTINНаименованиеТовара=Сред(Стр_1.Марка,3,14);
 
 	Тело="{
 	|""product_document"":"""+Добав+""",
-	|""document_format"": ""XML"",
+	|""document_format"": ""XML"",";
+	
+	Тело=Тело+"
+			|""type"":""LP_CANCEL_SHIPMENT"",";
+	
+	Тело=Тело+"
 	|""signature"":"""+Подписанный+"""}";
 	
 	
@@ -4853,7 +4871,7 @@ GTINНаименованиеТовара=Сред(Стр_1.Марка,3,14);
 				HTTPСервисЗапрос=Новый HTTPСоединение(Thumbprint_1.АдресКАПИ,,,,,Thumbprint_1.Таймаут,Новый ЗащищенноеСоединениеopenSSL());
 			КонецЕсли;
 	
-		HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/shipment/cancel");
+		HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/create?pg="+Что);
 	HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 	HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 	//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -19790,7 +19808,12 @@ SignatureBase64=СтрЗаменить(SignatureBase64,Символы.ВК,"");
 
 	Тело="{
 	|""product_document"":"""+Добав+""",
-	|""document_format"": ""CSV"",
+	|""document_format"": ""CSV"",";
+	
+	Тело=Тело+"
+			|""type"":""LP_SHIP_GOODS_CSV"",";
+	
+	Тело=Тело+"
 	|""signature"":"""+Подписанный+"""}";
 	
 	 	Если ОбработкаWEBНаСервере Тогда
@@ -19815,7 +19838,7 @@ SignatureBase64=СтрЗаменить(SignatureBase64,Символы.ВК,"");
 				HTTPСервисЗапрос=Новый HTTPСоединение(Thumbprint_1.АдресКАПИ,,,,,Thumbprint_1.Таймаут,Новый ЗащищенноеСоединениеopenSSL());
 			КонецЕсли;
 	
-		HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/shipment/create");
+		HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/create");
 	HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 	HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 	//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -19938,7 +19961,12 @@ SignatureBase64=СтрЗаменить(SignatureBase64,Символы.ВК,"");
 
 	Тело="{
 	|""product_document"":"""+Добав+""",
-	|""document_format"": ""XML"",
+	|""document_format"": ""XML"",";
+	Тело=Тело+"
+			|""type"":""LP_SHIP_GOODS_XML"",";
+	
+	
+	Тело=Тело+"
 	|""signature"":"""+Подписанный+"""}";
 	
 	 	Если ОбработкаWEBНаСервере Тогда
@@ -19963,7 +19991,7 @@ SignatureBase64=СтрЗаменить(SignatureBase64,Символы.ВК,"");
 				HTTPСервисЗапрос=Новый HTTPСоединение(Thumbprint_1.АдресКАПИ,,,,,Thumbprint_1.Таймаут,Новый ЗащищенноеСоединениеopenSSL());
 			КонецЕсли;
 	
-		HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/shipment/create");
+		HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/create");
 	HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 	HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 	//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");

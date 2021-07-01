@@ -4477,7 +4477,13 @@
 
 	Тело="{
 	|""product_document"":"""+Добав+""",
-	|""document_format"": ""MANUAL"",
+	|""document_format"": ""MANUAL"",";
+	
+	Тело=Тело+"
+			|""type"":""REAGGREGATION_DOCUMENT"",";
+	
+	
+	Тело=Тело+"
 	|""signature"":"""+Подписанный+"""}";
 	
  		
@@ -4493,7 +4499,7 @@
 			
  			что=Thumbprint_1.что;
 			
-		HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/reaggregation/create?pg="+Что);
+		HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/create?pg="+Что);
 	HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 	HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 	//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -4602,7 +4608,13 @@
 
 	Тело="{
 	|""product_document"":"""+Добав+""",
-	|""document_format"": ""MANUAL"",
+	|""document_format"": ""MANUAL"",";
+	
+	
+	Тело=Тело+"
+			|""type"":""REAGGREGATION_DOCUMENT"",";
+	
+	Тело=Тело+"
 	|""signature"":"""+Подписанный+"""}";
 	
  	//Если ОбработкаWEBНаСервере Тогда
@@ -4630,7 +4642,7 @@
 			
 			
  			что=Thumbprint_1.что;
-		HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/reaggregation/create?pg="+Что);
+		HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/create?pg="+Что);
 	HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 	HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
 	//HTTPЗапрос.Заголовки.Вставить("Host","ismotp.crptech.ru");
@@ -4769,7 +4781,29 @@
 
 	Тело="{
 	|""product_document"":"""+Добав+""",
-	|""document_format"": ""MANUAL"",
+	|""document_format"": ""MANUAL"",";
+	
+	
+	
+			Если Объект.ТипДокумента=ПредопределенноеЗначение("Перечисление.ВидДокументаУпаковок_ХамелеонЦРПТ.Расформирование") Тогда
+				
+				Тело=Тело+"
+				|""type"":""DISAGGREGATION_DOCUMENT"",";
+	
+				
+				//HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/disaggregation/create?pg="+Что);
+			ИначеЕсли Объект.ТипДокумента=ПредопределенноеЗначение("Перечисление.ВидДокументаУпаковок_ХамелеонЦРПТ.ДобавлениеВУпаковку") Тогда
+				Тело=Тело+"
+				|""type"":""REAGGREGATION_DOCUMENT"",";
+				//HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/reaggregation/create?pg="+Что);
+			Иначе
+				Тело=Тело+"
+				|""type"":""AGGREGATION_DOCUMENT"",";
+				//HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/aggregation/create?pg="+Что);
+			КонецЕсли;
+	
+	
+	Тело=Тело+"
 	|""signature"":"""+Подписанный+"""}";
 	
  //	Если ОбработкаWEBНаСервере Тогда
@@ -4798,11 +4832,11 @@
 			
  			что=Thumbprint_1.что;
 			Если Объект.ТипДокумента=ПредопределенноеЗначение("Перечисление.ВидДокументаУпаковок_ХамелеонЦРПТ.Расформирование") Тогда
-				HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/disaggregation/create?pg="+Что);
+				HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/create?pg="+Что);
 			ИначеЕсли Объект.ТипДокумента=ПредопределенноеЗначение("Перечисление.ВидДокументаУпаковок_ХамелеонЦРПТ.ДобавлениеВУпаковку") Тогда
-				HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/reaggregation/create?pg="+Что);
+				HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/create?pg="+Что);
 			Иначе
-				HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/aggregation/create?pg="+Что);
+				HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/create?pg="+Что);
 			КонецЕсли;
 	HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 	HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
@@ -5478,6 +5512,17 @@
 	Если Объект.ТипДокумента=ПредопределенноеЗначение("Перечисление.ВидДокументаУпаковок_ХамелеонЦРПТ.Расформирование") Тогда
 			Тело=Тело+"
 			|""type"":""DISAGGREGATION_DOCUMENT"",";
+			
+	ИначеЕсли Объект.ТипДокумента=ПредопределенноеЗначение("Перечисление.ВидДокументаУпаковок_ХамелеонЦРПТ.ДобавлениеВУпаковку") Тогда
+			Тело=Тело+"
+			|""type"":""REAGGREGATION_DOCUMENT"",";
+				//HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/reaggregation/create?pg="+что);
+				
+			Иначе
+			Тело=Тело+"
+			|""type"":""AGGREGATION_DOCUMENT"",";
+				//HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/aggregation/create?pg="+что);
+					
 		КонецЕсли;
 	
 	Тело=Тело+"
@@ -5505,12 +5550,12 @@
 					HTTPЗапрос=Новый HTTPЗапрос("api/v3/true-api/lk/documents/create?pg="+что);
 					
 				Иначе
-					HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/disaggregation/create?pg="+что);
+					HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/create?pg="+что);
 				КонецЕсли;
 			ИначеЕсли Объект.ТипДокумента=ПредопределенноеЗначение("Перечисление.ВидДокументаУпаковок_ХамелеонЦРПТ.ДобавлениеВУпаковку") Тогда
-				HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/reaggregation/create?pg="+что);
+				HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/create?pg="+что);
 			Иначе
-				HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/aggregation/create?pg="+что);
+				HTTPЗапрос=Новый HTTPЗапрос("api/v3/lk/documents/create?pg="+что);
 			КонецЕсли;
 	HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 	HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);

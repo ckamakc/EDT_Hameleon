@@ -663,9 +663,9 @@
 				HTTPСервисЗапрос=Новый HTTPСоединение(Thumbprint_1.АдресКАПИ,,,,,Thumbprint_1.Таймаут,Новый ЗащищенноеСоединениеopenSSL());
 			КонецЕсли;
 			Если Объект.ВидСписания=ПредопределенноеЗначение("Перечисление.ВидДокументаСписания_ХамелеонЦРПТ.СИсКМНанесенныйНаТоварБезВыводаИзОборота") Тогда
-			HTTPЗапрос=Новый HTTPЗапрос("/api/v3/lk/documents/km/cancellation/applied/create?pg="+Что);
+			HTTPЗапрос=Новый HTTPЗапрос("/api/v3/lk/documents/create?pg="+Что);
 			Иначе
-			HTTPЗапрос=Новый HTTPЗапрос("/api/v3/lk/documents/km/cancellation/create?pg="+Что);
+			HTTPЗапрос=Новый HTTPЗапрос("/api/v3/lk/documents/create?pg="+Что);
 		КонецЕсли;
 	HTTPЗапрос.Заголовки.Вставить("Content-Type","application/json;charset=UTF-8");
 	HTTPЗапрос.Заголовки.Вставить("Authorization","Bearer "+СРегистра);
