@@ -197,9 +197,9 @@
       <description>Работа с оператором ОКТО</description>
       <isFolder>true</isFolder>
       <type/>
-      <content id="cf5eafaa-ad00-47fb-bc27-4d969c54d11a">
-        <name>ОКТОКаталогФайловДляВводаВОборот</name>
-        <description>Каталог файлов для загрузки ввода в оборот от ОКТО</description>
+      <content id="76514a64-3d04-4195-b810-9639140fd7ad">
+        <name>ОКТОКаталогДляВыгрузкиКМ</name>
+        <description>Каталог для выгрузки ОКТО файлов КМ</description>
         <type>
           <types>String</types>
           <stringQualifiers>
@@ -207,9 +207,9 @@
           </stringQualifiers>
         </type>
       </content>
-      <content id="76514a64-3d04-4195-b810-9639140fd7ad">
-        <name>ОКТОКаталогФайловДляЗагрузкиКМ</name>
-        <description>Каталог файлов для загрузки КМ от ОКТО</description>
+      <content id="cf5eafaa-ad00-47fb-bc27-4d969c54d11a">
+        <name>ОКТОКаталогДляВводаВОборот</name>
+        <description>Каталог для загрузки файлов ввода в оборот от ОКТО</description>
         <type>
           <types>String</types>
           <stringQualifiers>

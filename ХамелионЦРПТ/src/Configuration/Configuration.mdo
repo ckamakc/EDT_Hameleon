@@ -47,10 +47,7 @@
   <commonModules>CommonModule.ОбщийМодуль_ВЫПОЛНИТЬ_ВЫЗОВОМ_СЕРВЕРА_ХамелеонЦРПТ</commonModules>
   <commonModules>CommonModule.ЗагрузкаXMLЭДОСервер_ХамелеонЦРПТ</commonModules>
   <commonModules>CommonModule.РаботаСЭДО_На_Клиенте_ХамелеонЦРПТ</commonModules>
-  <commonModules>CommonModule.МВ_ОбщийМодуль_ВызовСервера</commonModules>
   <commonModules>CommonModule.ОбщийМодуль_ОграничениеПользователей_ХамелеонЦРПТ</commonModules>
-  <commonModules>CommonModule.МВ_РегламентныеЗадания</commonModules>
-  <commonModules>CommonModule.МВ_ОбщийМодуль_НаСервере_ХамелеонЦРПТ</commonModules>
   <commonModules>CommonModule.ИнтеграцияПодсистемБСП</commonModules>
   <commonModules>CommonModule.ИнтеграцияПодсистемБСПКлиент</commonModules>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
@@ -81,6 +78,10 @@
   <commonModules>CommonModule.ФайловаяСистема</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ОбщийМодуль_НоывеФункции_ХамелеонЦРПТ</commonModules>
+  <commonModules>CommonModule.МВ_ОбщийМодуль_ВызовСервера</commonModules>
+  <commonModules>CommonModule.МВ_РегламентныеЗадания</commonModules>
+  <commonModules>CommonModule.МВ_ОбщийМодуль_НаСервере_ХамелеонЦРПТ</commonModules>
+  <commonModules>CommonModule.ФТО_РаботаСФормами</commonModules>
   <eventSubscriptions>EventSubscription.ХН_ДокументыПриЗаписи</eventSubscriptions>
   <scheduledJobs>ScheduledJob.МВ_СформироватьВВодВОборотОКТО</scheduledJobs>
   <constants>Constant.Регламент_ХамелеонЦРПТ</constants>
