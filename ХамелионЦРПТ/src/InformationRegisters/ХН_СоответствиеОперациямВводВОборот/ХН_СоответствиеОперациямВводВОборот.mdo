@@ -16,6 +16,8 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ХН_СоответствиеОперациямВводВОборот.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ХН_СоответствиеОперациямВводВОборот.Form.ФормаСписка</defaultListForm>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Active</name>
@@ -87,4 +89,35 @@
     <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <forms uuid="89c4dcbb-b01d-44b2-ad44-c7fed6933735">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f59aadb1-0e08-4135-b9d3-9d6566d06d5b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="d8399a7b-8e2d-4ba4-9aa1-40251792e596">
+    <name>ВводВОборотОтчетаОбИспользовании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соответствие &quot;Ввода в оборот&quot; &quot;Отчету об использовании&quot;</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>DocumentRef.ВводВОборот_ХамелеонЦРПТ</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
 </mdclass:InformationRegister>

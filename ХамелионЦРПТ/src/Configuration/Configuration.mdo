@@ -333,6 +333,7 @@
   <dataProcessors>DataProcessor.МВ_АвтоматическаяОтправкаЦРПТ</dataProcessors>
   <dataProcessors>DataProcessor.МВ_СформироватьВВодВОборотОКТО</dataProcessors>
   <dataProcessors>DataProcessor.СоздатьОпределенноеКоличествоЗаказовИОтправитьВЦРПТ</dataProcessors>
+  <dataProcessors>DataProcessor.ХН_ФормированиеВводаВОборот</dataProcessors>
   <informationRegisters>InformationRegister.ТокенПоСертификату_ХамелеонЦРПТ</informationRegisters>
   <informationRegisters>InformationRegister.PDFФайлы_ХамелеонЦРПТ</informationRegisters>
   <informationRegisters>InformationRegister.ОтправленныеПолученные_ХамелеонЦРПТ</informationRegisters>

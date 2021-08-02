@@ -22,4 +22,5 @@
   <content>InformationRegister.ХН_СоотвествиеФайловВводуВОборот</content>
   <content>InformationRegister.ХН_СоответствиеОперациямВводВОборот</content>
   <content>Document.ЗаказМарок_ХамелеонЦРПТ</content>
+  <content>DataProcessor.ХН_ФормированиеВводаВОборот</content>
 </mdclass:Subsystem>

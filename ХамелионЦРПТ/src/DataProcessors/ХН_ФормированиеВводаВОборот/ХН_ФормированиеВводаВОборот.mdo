@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33de2b3b-dde2-40f8-bc3e-4e9e5c655364">
+  <producedTypes>
+    <objectType typeId="74f4cc32-ae53-4509-b718-40fc24da5454" valueTypeId="ed161758-af18-47a9-b438-6ec699137284"/>
+    <managerType typeId="8fc9e2e2-c83b-4ac2-a537-e40123fc0b6a" valueTypeId="fa5f4380-d4dd-4869-b217-ec39d68dc27e"/>
+  </producedTypes>
+  <name>ХН_ФормированиеВводаВОборот</name>
+  <synonym>
+    <key>ru</key>
+    <value>(ХН) Формирование Ввода в оборот</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ХН_ФормированиеВводаВОборот.Form.Форма</defaultForm>
+  <forms uuid="5509c9f5-dd17-48ee-a397-c1e13f857b13">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
