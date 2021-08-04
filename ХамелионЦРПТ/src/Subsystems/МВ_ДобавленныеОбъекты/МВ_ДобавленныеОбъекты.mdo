@@ -10,7 +10,7 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>ChartOfCharacteristicTypes.МВ_ПереченьДополнительныхНастроек</content>
   <content>InformationRegister.МВ_ДополнительныеНастройки</content>
-  <content>CommonModule.МВ_РегламентныеЗадания</content>
+  <content>1495a39f-28ee-46c4-8caa-d2aa3ae5bdc0</content>
   <content>CommonModule.ИнтеграцияПодсистемБСП</content>
   <content>CommonModule.ИнтеграцияПодсистемБСПКлиент</content>
   <content>CommonModule.ОбщегоНазначения</content>
