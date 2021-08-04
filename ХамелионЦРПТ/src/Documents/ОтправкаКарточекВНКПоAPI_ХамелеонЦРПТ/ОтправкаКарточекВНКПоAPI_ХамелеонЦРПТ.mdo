@@ -75,6 +75,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="1515725a-6173-4a83-9770-6d480c2bb535">
+    <name>ТипОтправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип отправки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипОтправкиКарточекВНКПоAPI_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="e3b92b0e-4665-4c21-b64f-5ce384f1ec5c">
     <name>ФормаДокумента</name>
     <synonym>

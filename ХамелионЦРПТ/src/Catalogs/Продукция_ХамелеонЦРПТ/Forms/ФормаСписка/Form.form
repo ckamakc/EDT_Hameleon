@@ -2753,6 +2753,27 @@
     </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
+  <formCommands>
+    <name>ОтправитьВыделеннуюПродукциюВНКПоAPI</name>
+    <title>
+      <key>ru</key>
+      <value>Отправить выделенную продукцию в НК по API</value>
+    </title>
+    <id>23</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Отправить выделенную продукцию ВНКПо API</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОтправитьВыделеннуюПродукциюВНКПоAPI</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a64f5ed-bbdc-4423-94c1-98901bb98d51">
+  <producedTypes>
+    <refType typeId="61263dcd-74dd-4c38-8965-251de04f640a" valueTypeId="ba6eb3c1-c238-4de9-bc8f-778f800409ef"/>
+    <listType typeId="0e1d5493-4ca9-4d21-8130-63ffdf2054a5" valueTypeId="513144a6-63d4-4e86-8eec-968570a9a518"/>
+    <managerType typeId="81037d8a-5f6b-4bae-b859-93c5ef4e2b57" valueTypeId="80b9decb-7a03-404b-a8a7-66191f343a33"/>
+  </producedTypes>
+  <name>ТипОтправкиКарточекВНКПоAPI_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип отправки карточек В НК по API Хамелеон ЦРПТ</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="eaf68e83-559e-4e9e-aeb2-0334fc7c458b">
+    <name>Черновик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Черновик (отправка всех данных)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e4254177-4355-4f1f-a4a5-547342baaf46">
+    <name>Модерация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модерация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="04ffe685-5d93-4791-b6ed-9b84de6024f0">
+    <name>Подписать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подписать</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
