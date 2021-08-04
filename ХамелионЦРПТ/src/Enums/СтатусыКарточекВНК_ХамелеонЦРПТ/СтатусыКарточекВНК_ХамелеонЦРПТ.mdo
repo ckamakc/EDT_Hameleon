@@ -57,4 +57,11 @@
       <value>В архиве</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="ba08126b-b352-48f0-8b3d-dc4555ceacd2">
+    <name>ОбработкаВНК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработка ВНК</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

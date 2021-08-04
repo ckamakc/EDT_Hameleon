@@ -483,6 +483,7 @@
 			HTTPЗапрос.Заголовки.Вставить("X-Csrf-Token",crsfToken);
 				
 						
+
 				HTTPЗапрос.Заголовки.Вставить("Content-Type","multipart/form-data; boundary="+Boundary);
 				
 				HTTPЗапрос.УстановитьТелоИзДвоичныхДанных(Двоичныеданные);

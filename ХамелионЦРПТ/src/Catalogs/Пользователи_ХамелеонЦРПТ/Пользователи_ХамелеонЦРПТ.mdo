@@ -1397,4 +1397,13 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="5fe81756-b643-4b8b-91c1-63e13f58f7ee">
+    <name>ФормаПодключениеПоГВЭ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма подключение по ГВЭ</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

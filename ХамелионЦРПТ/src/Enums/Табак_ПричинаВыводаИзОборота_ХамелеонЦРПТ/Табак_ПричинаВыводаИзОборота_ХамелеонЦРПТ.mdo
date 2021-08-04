@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6542750d-ceda-44d6-9bbc-c48d681589b8">
+  <producedTypes>
+    <refType typeId="ddb08a1c-0ec2-4d6d-b9e7-f3eec992c2f1" valueTypeId="5d4ded90-c31f-4e47-9e3f-5919b6d28dc5"/>
+    <listType typeId="266ccb9e-acec-4f6d-9ffa-c01490d57dc2" valueTypeId="9c0bdedd-3ef5-4b5a-8e0b-6990756e75ae"/>
+    <managerType typeId="33017c13-1b70-42bd-9aab-ba12b7b73c2f" valueTypeId="d2c5a748-6f47-4c30-90bb-4c5b11bf4d93"/>
+  </producedTypes>
+  <name>Табак_ПричинаВыводаИзОборота_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Табак Причина вывода из оборота Хамелеон ЦРПТ</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="16036468-2dba-48a2-bb09-fa61c809a53e">
+    <name>DEFECT</name>
+    <synonym>
+      <key>ru</key>
+      <value>повреждение/брак</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="92521a10-a3a7-40d8-abf5-b890b71f2279">
+    <name>EXPIRY</name>
+    <synonym>
+      <key>ru</key>
+      <value>истечение срока</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d164a2bd-25ea-4448-bf13-cb6a7a656191">
+    <name>QA_SAMPLES</name>
+    <synonym>
+      <key>ru</key>
+      <value>лабораторные образцы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="40fa951f-b7ee-4339-9d68-50260285ad1c">
+    <name>PRODUCT_RECALL</name>
+    <synonym>
+      <key>ru</key>
+      <value>отзыв с рынка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ba4a059b-7576-4322-b02b-ae3b24799dd6">
+    <name>COMPLAINTS</name>
+    <synonym>
+      <key>ru</key>
+      <value>рекламации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="66473f97-08e1-4938-ba62-2197f0383bcb">
+    <name>PRODUCT_TESTING</name>
+    <synonym>
+      <key>ru</key>
+      <value>тестовые образцы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a97a6697-91af-4bc9-979d-ec29eb3ad4a3">
+    <name>DEMO_SAMPLES</name>
+    <synonym>
+      <key>ru</key>
+      <value>демонстрационные образцы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c5c27840-e7ec-4ef2-95fa-e638c50be99c">
+    <name>DAMAGE_LOSS</name>
+    <synonym>
+      <key>ru</key>
+      <value>утрата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="895361ae-9812-4b01-8910-0d2d23a1be9d">
+    <name>DESTRUCTION</name>
+    <synonym>
+      <key>ru</key>
+      <value>уничтожение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fd527466-e9a8-4e87-9ac9-069ef69afd2a">
+    <name>LIQUIDATION</name>
+    <synonym>
+      <key>ru</key>
+      <value>ликвидация предприятия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ed836d30-dac8-4a98-8c62-bf3f4a80ef35">
+    <name>CONFISCATION</name>
+    <synonym>
+      <key>ru</key>
+      <value>конфискация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9a2d919a-36ed-49ee-8db5-2cf30358d948">
+    <name>OTHER</name>
+    <synonym>
+      <key>ru</key>
+      <value>иная причина</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

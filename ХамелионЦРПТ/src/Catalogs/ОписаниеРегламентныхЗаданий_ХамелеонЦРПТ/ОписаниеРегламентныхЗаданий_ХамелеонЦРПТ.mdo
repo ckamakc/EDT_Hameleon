@@ -245,6 +245,13 @@
         <value>000000011</value>
       </code>
     </items>
+    <items id="a98567fc-915c-47ea-b467-de354f8a256d">
+      <name>РегламентРазработчика_ХамелеонЦРПТ</name>
+      <description>Регламент разработчика Хамелеон ЦРПТ</description>
+      <code xsi:type="core:StringValue">
+        <value>000000018</value>
+      </code>
+    </items>
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
@@ -468,6 +475,14 @@
     <synonym>
       <key>ru</key>
       <value>Отправить ввод в оборот ВЦРПТ</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="3f37b681-bd59-4040-b831-dad5980c7921">
+    <name>РегламентРазработчика_ХамелеонЦРПТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регламент разработчика Хамелеон ЦРПТ</value>
     </synonym>
     <templateType>TextDocument</templateType>
   </templates>

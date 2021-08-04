@@ -272,7 +272,7 @@
       <value>Продукция для детского питания</value>
     </synonym>
     <type>
-      <types>CatalogRef.ПродукцияДляДетскогоПитания_ХамелеонЦРПТ</types>
+      <types>CatalogRef.ПродукцияДляДетскогоПитания_МОЛОКО_ХамелеонЦРПТ</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -1013,6 +1013,69 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="f57a1a88-e21c-4437-a53f-3be98ed19535">
+    <name>СпециализированнаяПищеваяПродкция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Специализированная пищевая продкция</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПродукцияДляДетскогоПитания_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="183707c7-bbb5-4372-9f00-b2ae20128925">
+    <name>СрокХраненияДо40СутокВключительно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок хранения до 40 суток (включительно)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПродукцияДляДетскогоПитания_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="80530902-0b64-4b59-9648-66d9b5adc758">
+    <name>НомерEДобавки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер Е-добавки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7fcb3ab3-9526-49b5-bff4-6b7bda62778b">
+    <name>НаличиеВитаминовИМинеральныхВеществ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наличие витаминов и минеральных веществ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПродукцияДляДетскогоПитания_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="9c069935-8ba8-4f4a-b9b8-665e5153150c">
     <producedTypes>
       <objectType typeId="ac13edb0-0891-4549-884c-725a8c28f879" valueTypeId="5416bc55-a1e8-4a50-b772-ea5fc1eec4df"/>
@@ -1308,6 +1371,32 @@
       <synonym>
         <key>ru</key>
         <value>Идентификатор товара в ФГИС ВетИС (GUID ProductItem)</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="75062eb2-b8fc-4480-b976-fc23ad7820c4">
+    <producedTypes>
+      <objectType typeId="40dba650-b0db-4dfb-b50d-19a75ea6ed3d" valueTypeId="ebad850e-aa07-4068-b2ac-33124dacd08f"/>
+      <rowType typeId="b1708ef1-f181-4fe5-b4e7-7410d715eeab" valueTypeId="efd8e4f7-9317-4c29-b402-6a96962ada0e"/>
+    </producedTypes>
+    <name>ВариантыСостава</name>
+    <synonym>
+      <key>ru</key>
+      <value>Варианты состава</value>
+    </synonym>
+    <attributes uuid="ec16bcb9-c58f-451f-b852-7f75625e66cf">
+      <name>ВариантСостава</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вариант состава</value>
       </synonym>
       <type>
         <types>String</types>

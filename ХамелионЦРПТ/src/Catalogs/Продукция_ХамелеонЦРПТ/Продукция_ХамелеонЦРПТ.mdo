@@ -1353,10 +1353,10 @@
     <templateType>BinaryData</templateType>
   </templates>
   <templates uuid="34b2bb7f-ac22-4a68-9549-305d690c1a86">
-    <name>НК_Молоко</name>
+    <name>НК_МолокоСтарый</name>
     <synonym>
       <key>ru</key>
-      <value>Н к молоко</value>
+      <value>Н к молоко старый</value>
     </synonym>
     <templateType>TextDocument</templateType>
   </templates>
@@ -1389,6 +1389,14 @@
     <synonym>
       <key>ru</key>
       <value>Н к велосипеды</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="ec0fa585-db2d-412b-99d0-40712c8d30b8">
+    <name>НК_Молоко</name>
+    <synonym>
+      <key>ru</key>
+      <value>Н к молоко</value>
     </synonym>
     <templateType>TextDocument</templateType>
   </templates>

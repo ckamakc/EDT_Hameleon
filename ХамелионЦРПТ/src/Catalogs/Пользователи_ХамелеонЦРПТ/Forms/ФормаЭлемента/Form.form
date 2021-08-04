@@ -1049,7 +1049,7 @@
             <id>103</id>
             <title>
               <key>ru</key>
-              <value>Проверка подключения к СУЗ</value>
+              <value>Проверка подключения к СУЗ(WEB)</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1191,6 +1191,156 @@
           <extendedTooltip>
             <name>АдресИПроверкаРасширеннаяПодсказка</name>
             <id>106</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualGroup</type>
+          <extInfo xsi:type="form:UsualGroupExtInfo">
+            <group>AlwaysHorizontal</group>
+            <showLeftMargin>true</showLeftMargin>
+            <united>true</united>
+            <throughAlign>Auto</throughAlign>
+            <currentRowUse>Auto</currentRowUse>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormGroup">
+          <name>ГруппаPING</name>
+          <id>415</id>
+          <items xsi:type="form:Button">
+            <name>PING</name>
+            <id>413</id>
+            <title>
+              <key>ru</key>
+              <value>PING к СУЗ</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>PINGРасширеннаяПодсказка</name>
+              <id>414</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>UsualButton</type>
+            <commandName>Form.Command.PING</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <backColor xsi:type="core:ColorDef">
+              <red>204</red>
+              <green>255</green>
+              <blue>204</blue>
+            </backColor>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <items xsi:type="form:Button">
+            <name>ЛогЗапросаPING</name>
+            <id>417</id>
+            <title>
+              <key>ru</key>
+              <value>Лог запроса</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ЛогЗапросаPINGРасширеннаяПодсказка</name>
+              <id>418</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>UsualButton</type>
+            <commandName>Form.Command.ЛогЗапросаPING</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <items xsi:type="form:Button">
+            <name>ЛогОтветаPING</name>
+            <id>419</id>
+            <title>
+              <key>ru</key>
+              <value>Лог ответа</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ЛогОтветаPINGРасширеннаяПодсказка</name>
+              <id>420</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>UsualButton</type>
+            <commandName>Form.Command.ЛогОтветаPING</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Группа PING</value>
+          </title>
+          <toolTip>
+            <key>ru</key>
+            <value>Группа PING</value>
+          </toolTip>
+          <extendedTooltip>
+            <name>ГруппаPINGРасширеннаяПодсказка</name>
+            <id>416</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2065,11 +2215,15 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
-          <name>РегистрацияУчетнойСистемы</name>
-          <id>385</id>
+          <name>ЗапросИОтветНаДинамическийТокен</name>
+          <id>405</id>
           <items xsi:type="form:FormField">
-            <name>omsConnection</name>
-            <id>387</id>
+            <name>ДинамиескийТокен</name>
+            <id>402</id>
+            <title>
+              <key>ru</key>
+              <value>Динамический токен</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2077,12 +2231,12 @@
             </userVisible>
             <dataPath xsi:type="form:MultiLanguageDataPath">
               <paths xsi:type="form:DataPath">
-                <segments>Объект.omsConnection</segments>
+                <segments>ДинамиескийТокен</segments>
               </paths>
             </dataPath>
             <extendedTooltip>
-              <name>omsConnectionРасширеннаяПодсказка</name>
-              <id>389</id>
+              <name>ДинамиескийТокенРасширеннаяПодсказка</name>
+              <id>404</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2096,8 +2250,8 @@
               </extInfo>
             </extendedTooltip>
             <contextMenu>
-              <name>omsConnectionКонтекстноеМеню</name>
-              <id>388</id>
+              <name>ДинамиескийТокенКонтекстноеМеню</name>
+              <id>403</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2119,6 +2273,147 @@
               <textEdit>true</textEdit>
             </extInfo>
           </items>
+          <items xsi:type="form:Button">
+            <name>ПолучитьТокенСУЗ</name>
+            <id>411</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ПолучитьТокенСУЗРасширеннаяПодсказка</name>
+              <id>412</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>UsualButton</type>
+            <commandName>Form.Command.ПолучитьТокенСУЗ</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <items xsi:type="form:Button">
+            <name>ОтправленЗапросНаПолученияДинамическийТокен</name>
+            <id>409</id>
+            <title>
+              <key>ru</key>
+              <value>Лог запроса</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ОтправленЗапросНаПолученияДинамическийТокенРасширеннаяПодсказка</name>
+              <id>410</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>UsualButton</type>
+            <commandName>Form.Command.ОтправленЗапросНаПолученияДинамическийТокен</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <items xsi:type="form:Button">
+            <name>ОтветНаЗапросПолученияИдентификатораУстройства1</name>
+            <id>407</id>
+            <title>
+              <key>ru</key>
+              <value>Лог ответа</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ОтветНаЗапросПолученияИдентификатораУстройства1РасширеннаяПодсказка</name>
+              <id>408</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>UsualButton</type>
+            <commandName>Form.Command.ЛогОтвета</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Запрос и ответ на динамический токен</value>
+          </title>
+          <toolTip>
+            <key>ru</key>
+            <value>Запрос и ответ на динамический токен</value>
+          </toolTip>
+          <extendedTooltip>
+            <name>ЗапросИОтветНаДинамическийТокенРасширеннаяПодсказка</name>
+            <id>406</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualGroup</type>
+          <extInfo xsi:type="form:UsualGroupExtInfo">
+            <group>AlwaysHorizontal</group>
+            <showLeftMargin>true</showLeftMargin>
+            <united>true</united>
+            <throughAlign>Auto</throughAlign>
+            <currentRowUse>Auto</currentRowUse>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormGroup">
+          <name>РегистрацияУчетнойСистемы</name>
+          <id>385</id>
           <items xsi:type="form:FormField">
             <name>АдресРегистрацииУчтенойСистемы</name>
             <id>390</id>
@@ -2174,6 +2469,10 @@
           <items xsi:type="form:Button">
             <name>ЗарегистрироватьУчетнуюСистему</name>
             <id>383</id>
+            <title>
+              <key>ru</key>
+              <value>Получить OMS connection</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2218,6 +2517,168 @@
           <extendedTooltip>
             <name>РегистрацияУчетнойСистемыРасширеннаяПодсказка</name>
             <id>386</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualGroup</type>
+          <extInfo xsi:type="form:UsualGroupExtInfo">
+            <group>AlwaysHorizontal</group>
+            <showLeftMargin>true</showLeftMargin>
+            <united>true</united>
+            <throughAlign>Auto</throughAlign>
+            <currentRowUse>Auto</currentRowUse>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormGroup">
+          <name>КнопкиЗапроса</name>
+          <id>395</id>
+          <items xsi:type="form:FormField">
+            <name>omsConnection</name>
+            <id>387</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>Объект.omsConnection</segments>
+              </paths>
+            </dataPath>
+            <extendedTooltip>
+              <name>omsConnectionРасширеннаяПодсказка</name>
+              <id>389</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>omsConnectionКонтекстноеМеню</name>
+              <id>388</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
+          <items xsi:type="form:Button">
+            <name>ОтправленЗапросНаПолученияИдентификатораУстройства</name>
+            <id>393</id>
+            <title>
+              <key>ru</key>
+              <value>Лог запроса</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ОтправленЗапросНаПолученияИдентификатораУстройстваРасширеннаяПодсказка</name>
+              <id>394</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>UsualButton</type>
+            <commandName>Form.Command.ОтправленЗапросНаПолученияИдентификатораУстройства</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <items xsi:type="form:Button">
+            <name>ОтветНаЗапросПолученияИдентификатораУстройства</name>
+            <id>397</id>
+            <title>
+              <key>ru</key>
+              <value>Лог ответа</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ОтветНаЗапросПолученияИдентификатораУстройстваРасширеннаяПодсказка</name>
+              <id>398</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>UsualButton</type>
+            <commandName>Form.Command.ОтветНаЗапросПолученияИдентификатораУстройства</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Кнопки запроса</value>
+          </title>
+          <toolTip>
+            <key>ru</key>
+            <value>Кнопки запроса</value>
+          </toolTip>
+          <extendedTooltip>
+            <name>КнопкиЗапросаРасширеннаяПодсказка</name>
+            <id>396</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -7120,6 +7581,41 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ДинамиескийТокен</name>
+    <title>
+      <key>ru</key>
+      <value>Динамиеский токен</value>
+    </title>
+    <id>6</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ЗаписыватьДанныеПриОтправкеЗаказа</name>
+    <title>
+      <key>ru</key>
+      <value>Записывать данные при отправке заказа</value>
+    </title>
+    <id>7</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>ПроверкаПодключения</name>
     <title>
@@ -7410,6 +7906,174 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ЗарегистрироватьУчетнуюСистему</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОтправленЗапросНаПолученияИдентификатораУстройства</name>
+    <title>
+      <key>ru</key>
+      <value>Запрос на получение идентификатора устройства</value>
+    </title>
+    <id>15</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Отправлен запрос на получения идентификатора устройства</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОтправленЗапросНаПолученияИдентификатораУстройства</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОтветНаЗапросПолученияИдентификатораУстройства</name>
+    <title>
+      <key>ru</key>
+      <value>Ответ на запрос получения идентификатора устройства</value>
+    </title>
+    <id>16</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Ответ на запрос получения идентификатора устройства</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОтветНаЗапросПолученияИдентификатораУстройства</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОтправленЗапросНаПолученияДинамическийТокен</name>
+    <title>
+      <key>ru</key>
+      <value>Запрос на получение динамиечкий токен</value>
+    </title>
+    <id>17</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Отправлен запрос на получения идентификатора устройства</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОтправленЗапросНаПолученияДинамическийТокен</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ЛогОтвета</name>
+    <title>
+      <key>ru</key>
+      <value>Ответ на запрос получения идентификатора устройства</value>
+    </title>
+    <id>18</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Ответ на запрос получения идентификатора устройства</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ЛогОтвета</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ПолучитьТокенСУЗ</name>
+    <title>
+      <key>ru</key>
+      <value>Получить</value>
+    </title>
+    <id>19</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Получить токен СУЗ</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПолучитьТокенСУЗ</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>PING</name>
+    <title>
+      <key>ru</key>
+      <value>PING</value>
+    </title>
+    <id>20</id>
+    <toolTip>
+      <key>ru</key>
+      <value>PING</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>PING</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ЛогЗапросаPING</name>
+    <title>
+      <key>ru</key>
+      <value>Лог запроса PING</value>
+    </title>
+    <id>21</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Лог запроса PING</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ЛогЗапросаPING</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ЛогОтветаPING</name>
+    <title>
+      <key>ru</key>
+      <value>Лог ответа PING</value>
+    </title>
+    <id>22</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Лог ответа PING</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ЛогОтветаPING</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

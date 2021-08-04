@@ -81,6 +81,11 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>1/0:2243c16e-9da5-435a-823d-0f1259b1e2df</segments>
+            </paths>
+          </dataPath>
           <handlers>
             <event>OnChange</event>
             <name>СтатусКМПриИзменении</name>
@@ -136,6 +141,11 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>1/0:b73a02d4-b4f4-44e7-8877-2c8ca0eceb71</segments>
+            </paths>
+          </dataPath>
           <extendedTooltip>
             <name>ЧерезСУЗРасширеннаяПодсказка</name>
             <id>210</id>
@@ -181,6 +191,11 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>1/0:80d8aa0c-e15d-4453-8144-d2b600132149</segments>
+            </paths>
+          </dataPath>
           <extendedTooltip>
             <name>ИдПроизводственногоЗаказаРасширеннаяПодсказка</name>
             <id>213</id>
@@ -372,6 +387,11 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>1/0:644a43a3-84b0-4db0-b1ae-8ed4a271fb96</segments>
+            </paths>
+          </dataPath>
           <extendedTooltip>
             <name>ДатаПроизводстваРасширеннаяПодсказка</name>
             <id>234</id>
@@ -613,6 +633,11 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>1/0:c0beaeb5-a293-4702-ad1c-41a8d7afd212</segments>
+            </paths>
+          </dataPath>
           <extendedTooltip>
             <name>ДоговорЛекарстваРасширеннаяПодсказка</name>
             <id>314</id>
@@ -1368,6 +1393,11 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>1/0:dab669fa-3be0-42a4-8cd9-4e0429079569</segments>
+            </paths>
+          </dataPath>
           <extendedTooltip>
             <name>GTINУпаковкиРасширеннаяПодсказка</name>
             <id>231</id>
@@ -1454,6 +1484,11 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>1/0:fada9073-753d-446a-99ae-67b71fbfa0a8</segments>
+            </paths>
+          </dataPath>
           <handlers>
             <event>OnChange</event>
             <name>ЗаказДляФормированияНомераКОробаПриИзменении</name>
@@ -1542,6 +1577,11 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>1/0:c881a42b-19ee-4a27-a15a-3e3de96a607e</segments>
+          </paths>
+        </dataPath>
         <extendedTooltip>
           <name>СортРасширеннаяПодсказка</name>
           <id>331</id>
@@ -2458,6 +2498,9 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>1/0:32fd433a-312f-41d0-a43b-de47761cb848</segments>
+              </dataPath>
               <titleLocation>None</titleLocation>
               <items xsi:type="form:FormField">
                 <name>ТаблицаНомеровБлокоНомерСтроки</name>
@@ -2467,6 +2510,11 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
+                <dataPath xsi:type="form:MultiLanguageDataPath">
+                  <paths xsi:type="form:DataPath">
+                    <segments>1/0:32fd433a-312f-41d0-a43b-de47761cb848/-2</segments>
+                  </paths>
+                </dataPath>
                 <extendedTooltip>
                   <name>ТаблицаНомеровБлокоНомерСтрокиРасширеннаяПодсказка</name>
                   <id>306</id>
@@ -2510,6 +2558,11 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
+                <dataPath xsi:type="form:MultiLanguageDataPath">
+                  <paths xsi:type="form:DataPath">
+                    <segments>1/0:32fd433a-312f-41d0-a43b-de47761cb848/0:4bd9fffe-e8ff-4528-a611-4f16eaa9e085</segments>
+                  </paths>
+                </dataPath>
                 <extendedTooltip>
                   <name>ТаблицаНомеровБлокоНомерБлокаРасширеннаяПодсказка</name>
                   <id>309</id>

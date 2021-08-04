@@ -33,4 +33,18 @@
       <value>Средства регионального бюджета</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="39a0c370-bd21-4b93-a971-9a58b8ea04c7">
+    <name>СредстваБюджетовВнебюджетныхФондов</name>
+    <synonym>
+      <key>ru</key>
+      <value>средства бюджетов внебюджетных фондов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6b4595fa-4afe-41af-8cc9-8e71745a43d2">
+    <name>СмешанныеСредстваБюджетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>смешанные средства бюджетов</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

@@ -9,7 +9,7 @@
     <key>ru</key>
     <value> Запуск ХамелеонЦРПТ</value>
   </synonym>
-  <comment>ХамелеонЦРПТ от 01_07_2021 г.</comment>
+  <comment>ХамелеонЦРПТ от 03_08_2021 г.</comment>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor._Запуск_ХамелеонЦРПТ.Form.Форма</defaultForm>
   <forms uuid="9422082a-a68e-47ab-94ba-b31e95a50cb7">
@@ -53,6 +53,15 @@
     <synonym>
       <key>ru</key>
       <value>Ввод строки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b4a5f8f6-918f-4915-8da9-f787da2b0f54">
+    <name>ВводИнформацииПоСчету</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод информации по счету</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dcbc7735-2789-4481-a98f-e86eaf835e71">
+  <producedTypes>
+    <selectionType typeId="6e38198b-68b2-4ca3-a6c2-37b18b87193e" valueTypeId="0375d887-dd12-4c80-ba38-0bc6213a4d14"/>
+    <listType typeId="b51b3a8b-123e-44f5-a9e9-cbefd69a2ee9" valueTypeId="0f263ff2-7d53-471f-af01-98eac7cbfc84"/>
+    <managerType typeId="e1400c68-6f06-4dc8-af15-1444dc0bbab8" valueTypeId="dbf00400-8cd8-4cf3-b96f-71b3cfbbd93a"/>
+    <recordSetType typeId="07b979e5-e268-4267-9510-cd18426d64e1" valueTypeId="d7f65edd-0f2e-442f-827c-89eb747c08b2"/>
+    <recordKeyType typeId="6c971e1e-8c53-49e0-8ec9-ce7dcb1b309a" valueTypeId="4fc85e4d-4d8f-4c96-abc8-176f0b2a8571"/>
+    <recordType typeId="1a53d6e3-cbef-486e-83cf-43d6cfc081c9" valueTypeId="d4a95af7-997b-4cd2-b281-f7e5aa29d92a"/>
+    <recordManagerType typeId="6e5a16e6-c984-4d3e-9688-8e856c4996dd" valueTypeId="93002e3c-aea0-4c8c-989a-1bb81a1ca643"/>
+  </producedTypes>
+  <name>СохранитьКэшМеркурий_ХамелеонЦРПТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сохранить кэш Меркурий Хамелеон ЦРПТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="febf99f0-426d-4c99-9125-5e11a5027490">
+    <name>Кэш</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кэш</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="98709b11-2251-4738-ac42-0123a9a5c4b2">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи_ХамелеонЦРПТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

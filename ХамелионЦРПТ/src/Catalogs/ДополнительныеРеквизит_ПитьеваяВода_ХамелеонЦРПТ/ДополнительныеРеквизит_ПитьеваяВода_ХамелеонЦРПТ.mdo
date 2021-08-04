@@ -71,7 +71,7 @@
       <value>Продукция для детского питания</value>
     </synonym>
     <type>
-      <types>CatalogRef.ПродукцияДляДетскогоПитания_ХамелеонЦРПТ</types>
+      <types>CatalogRef.ПродукцияДляДетскогоПитания_МОЛОКО_ХамелеонЦРПТ</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

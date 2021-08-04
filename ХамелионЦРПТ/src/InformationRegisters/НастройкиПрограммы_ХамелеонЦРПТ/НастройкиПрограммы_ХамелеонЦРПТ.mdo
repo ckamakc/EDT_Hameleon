@@ -1308,4 +1308,103 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
+  <resources uuid="47ad03de-6ce3-4233-bfe2-1dee18052790">
+    <name>ПолучениеТокенаСУЗЧерезИдентификаторРазработчика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получение токена СУЗЧерез идентификатор разработчика</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9d12c740-0d94-4648-8082-fb5be8067b59">
+    <name>ТестовыйWEBSERVICE</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тестовый WEBSERVICE</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="33c38f12-7566-41ce-8325-59f94836b989">
+    <name>ОригинальныйWEBSERVICE</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оригинальный WEBSERVICE</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="e8fe8933-95d7-4103-ad98-0260c20e821a">
+    <name>МаксимальноеКоличествоДляОтправкиВНКПоAPI</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальное количество для отправки ВНКПо API</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="cc923134-f101-416e-b507-d1f1170b74d1">
+    <name>НеПроверятьБалансПриОправкеОтчетаОНанесении</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не проверять баланс при оправке отчета о нанесении</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="bcd851e7-3301-4474-9cbf-3a74fdc13ffa">
+    <name>ДелатьДвиженияВЛюбомСлучаеПоОтчетуОНанесении</name>
+    <synonym>
+      <key>ru</key>
+      <value>Делать движения в любом случае по отчету о нанесении</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
 </mdclass:InformationRegister>

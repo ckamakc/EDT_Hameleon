@@ -2103,78 +2103,170 @@
             <textEdit>true</textEdit>
           </extInfo>
         </items>
-        <items xsi:type="form:FormField">
-          <name>ПричинаВыводаИзОборота</name>
-          <id>294</id>
+        <items xsi:type="form:FormGroup">
+          <name>ПричинаНеТабак</name>
+          <id>788</id>
+          <items xsi:type="form:FormField">
+            <name>ПричинаВыводаИзОборота</name>
+            <id>294</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>Объект.ПричинаВыводаИзОборота</segments>
+              </paths>
+            </dataPath>
+            <handlers>
+              <event>OnChange</event>
+              <name>ПричинаВыводаИзОборотаПриИзменении</name>
+            </handlers>
+            <extendedTooltip>
+              <name>ПричинаВыводаИзОборотаРасширеннаяПодсказка</name>
+              <id>296</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ПричинаВыводаИзОборотаКонтекстноеМеню</name>
+              <id>295</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+              <choiceList>
+                <presentation>
+                  <key>ru</key>
+                  <value>Розничная реализация</value>
+                </presentation>
+                <value xsi:type="core:ReferenceValue">
+                  <value>Enum.ПричинаВыводаИзОборота_ХамелеонЦРПТ.EnumValue.RETAIL</value>
+                </value>
+              </choiceList>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ПричинаВыводаИзОборота_Строка</name>
+            <id>776</id>
+            <title>
+              <key>ru</key>
+              <value>Причина вывода из оборота</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>Объект.ПричинаВыводаИзОборота_Строка</segments>
+              </paths>
+            </dataPath>
+            <extendedTooltip>
+              <name>ПричинаВыводаИзОборота_СтрокаРасширеннаяПодсказка</name>
+              <id>778</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ПричинаВыводаИзОборота_СтрокаКонтекстноеМеню</name>
+              <id>777</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ПричинаВыводаИзОборота</segments>
-            </paths>
-          </dataPath>
-          <handlers>
-            <event>OnChange</event>
-            <name>ПричинаВыводаИзОборотаПриИзменении</name>
-          </handlers>
-          <extendedTooltip>
-            <name>ПричинаВыводаИзОборотаРасширеннаяПодсказка</name>
-            <id>296</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>ПричинаВыводаИзОборотаКонтекстноеМеню</name>
-            <id>295</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>InputField</type>
-          <editMode>Enter</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:InputFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <wrap>true</wrap>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
-            <choiceList>
-              <presentation>
-                <key>ru</key>
-                <value>Розничная реализация</value>
-              </presentation>
-              <value xsi:type="core:ReferenceValue">
-                <value>Enum.ПричинаВыводаИзОборота_ХамелеонЦРПТ.EnumValue.RETAIL</value>
-              </value>
-            </choiceList>
-          </extInfo>
-        </items>
-        <items xsi:type="form:FormField">
-          <name>ПричинаВыводаИзОборота_Строка</name>
-          <id>776</id>
           <title>
             <key>ru</key>
-            <value>Причина вывода из оборота</value>
+            <value>Причина не табак</value>
           </title>
+          <toolTip>
+            <key>ru</key>
+            <value>Причина не табак</value>
+          </toolTip>
+          <extendedTooltip>
+            <name>ПричинаНеТабакРасширеннаяПодсказка</name>
+            <id>789</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualGroup</type>
+          <extInfo xsi:type="form:UsualGroupExtInfo">
+            <group>AlwaysHorizontal</group>
+            <showLeftMargin>true</showLeftMargin>
+            <united>true</united>
+            <throughAlign>Auto</throughAlign>
+            <currentRowUse>Auto</currentRowUse>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>ПричинаВыводаИзОборота_Табак</name>
+          <id>785</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -2182,12 +2274,12 @@
           </userVisible>
           <dataPath xsi:type="form:MultiLanguageDataPath">
             <paths xsi:type="form:DataPath">
-              <segments>Объект.ПричинаВыводаИзОборота_Строка</segments>
+              <segments>Объект.ПричинаВыводаИзОборота_Табак</segments>
             </paths>
           </dataPath>
           <extendedTooltip>
-            <name>ПричинаВыводаИзОборота_СтрокаРасширеннаяПодсказка</name>
-            <id>778</id>
+            <name>ПричинаВыводаИзОборота_ТабакРасширеннаяПодсказка</name>
+            <id>787</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2201,8 +2293,8 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ПричинаВыводаИзОборота_СтрокаКонтекстноеМеню</name>
-            <id>777</id>
+            <name>ПричинаВыводаИзОборота_ТабакКонтекстноеМеню</name>
+            <id>786</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2224,26 +2316,436 @@
             <textEdit>true</textEdit>
           </extInfo>
         </items>
-        <items xsi:type="form:FormField">
-          <name>ВидПервичногоДокумента4</name>
-          <id>502</id>
+        <items xsi:type="form:FormGroup">
+          <name>ВидПерввичногоДокумента</name>
+          <id>790</id>
+          <items xsi:type="form:FormField">
+            <name>ВидПервичногоДокумента4</name>
+            <id>502</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>Объект.ВидПервичногоДокумента</segments>
+              </paths>
+            </dataPath>
+            <handlers>
+              <event>OnChange</event>
+              <name>ВидПервичногоДокументаПриИзменении</name>
+            </handlers>
+            <extendedTooltip>
+              <name>ВидПервичногоДокумента4РасширеннаяПодсказка</name>
+              <id>504</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ВидПервичногоДокумента4КонтекстноеМеню</name>
+              <id>503</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <listChoiceMode>true</listChoiceMode>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+              <choiceList>
+                <presentation>
+                  <key>ru</key>
+                  <value>Кассовый чек</value>
+                </presentation>
+                <value xsi:type="core:ReferenceValue">
+                  <value>Enum.ТипПервичногоДокумента_ХамелеонЦРПТ.EnumValue.RECEIPT</value>
+                </value>
+              </choiceList>
+              <choiceList>
+                <presentation>
+                  <key>ru</key>
+                  <value>Товарный чек</value>
+                </presentation>
+                <value xsi:type="core:ReferenceValue">
+                  <value>Enum.ТипПервичногоДокумента_ХамелеонЦРПТ.EnumValue.SALES_RECEIPT</value>
+                </value>
+              </choiceList>
+              <choiceList>
+                <presentation>
+                  <key>ru</key>
+                  <value>Товарная накладная</value>
+                </presentation>
+                <value xsi:type="core:ReferenceValue">
+                  <value>Enum.ТипПервичногоДокумента_ХамелеонЦРПТ.EnumValue.CONSIGNMENT_NOTE</value>
+                </value>
+              </choiceList>
+              <choiceList>
+                <presentation>
+                  <key>ru</key>
+                  <value>Универсальный передаточный документ</value>
+                </presentation>
+                <value xsi:type="core:ReferenceValue">
+                  <value>Enum.ТипПервичногоДокумента_ХамелеонЦРПТ.EnumValue.UTD</value>
+                </value>
+              </choiceList>
+              <choiceList>
+                <presentation>
+                  <key>ru</key>
+                  <value>Прочее</value>
+                </presentation>
+                <value xsi:type="core:ReferenceValue">
+                  <value>Enum.ТипПервичногоДокумента_ХамелеонЦРПТ.EnumValue.OTHER</value>
+                </value>
+              </choiceList>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ВидПервичногоДокумента</name>
+            <id>297</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>Объект.ВидПервичногоДокумента</segments>
+              </paths>
+            </dataPath>
+            <handlers>
+              <event>OnChange</event>
+              <name>ВидПервичногоДокументаПриИзменении</name>
+            </handlers>
+            <extendedTooltip>
+              <name>ВидПервичногоДокументаРасширеннаяПодсказка</name>
+              <id>299</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ВидПервичногоДокументаКонтекстноеМеню</name>
+              <id>298</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <listChoiceMode>true</listChoiceMode>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+              <choiceList>
+                <presentation>
+                  <key>ru</key>
+                  <value>Кассовый чек</value>
+                </presentation>
+                <value xsi:type="core:ReferenceValue">
+                  <value>Enum.ТипПервичногоДокумента_ХамелеонЦРПТ.EnumValue.RECEIPT</value>
+                </value>
+              </choiceList>
+              <choiceList>
+                <presentation>
+                  <key>ru</key>
+                  <value>Товарный чек</value>
+                </presentation>
+                <value xsi:type="core:ReferenceValue">
+                  <value>Enum.ТипПервичногоДокумента_ХамелеонЦРПТ.EnumValue.SALES_RECEIPT</value>
+                </value>
+              </choiceList>
+              <choiceList>
+                <presentation>
+                  <key>ru</key>
+                  <value>Прочее</value>
+                </presentation>
+                <value xsi:type="core:ReferenceValue">
+                  <value>Enum.ТипПервичногоДокумента_ХамелеонЦРПТ.EnumValue.OTHER</value>
+                </value>
+              </choiceList>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ВидПервичногоДокумента1</name>
+            <id>419</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>Объект.ВидПервичногоДокумента</segments>
+              </paths>
+            </dataPath>
+            <handlers>
+              <event>OnChange</event>
+              <name>ВидПервичногоДокумента1ПриИзменении</name>
+            </handlers>
+            <extendedTooltip>
+              <name>ВидПервичногоДокумента1РасширеннаяПодсказка</name>
+              <id>421</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ВидПервичногоДокумента1КонтекстноеМеню</name>
+              <id>420</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <listChoiceMode>true</listChoiceMode>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+              <choiceList>
+                <presentation>
+                  <key>ru</key>
+                  <value>Акт уничтожения (утраты/утилизации)</value>
+                </presentation>
+                <value xsi:type="core:ReferenceValue">
+                  <value>Enum.ТипПервичногоДокумента_ХамелеонЦРПТ.EnumValue.DESTRUCTION_ACT</value>
+                </value>
+              </choiceList>
+              <choiceList>
+                <presentation>
+                  <key>ru</key>
+                  <value>Прочее</value>
+                </presentation>
+                <value xsi:type="core:ReferenceValue">
+                  <value>Enum.ТипПервичногоДокумента_ХамелеонЦРПТ.EnumValue.OTHER</value>
+                </value>
+              </choiceList>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ВидПервичногоДокумента2</name>
+            <id>496</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>Объект.ВидПервичногоДокумента</segments>
+              </paths>
+            </dataPath>
+            <handlers>
+              <event>OnChange</event>
+              <name>ВидПервичногоДокументаПриИзменении</name>
+            </handlers>
+            <extendedTooltip>
+              <name>ВидПервичногоДокумента2РасширеннаяПодсказка</name>
+              <id>498</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ВидПервичногоДокумента2КонтекстноеМеню</name>
+              <id>497</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <listChoiceMode>true</listChoiceMode>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+              <choiceList>
+                <presentation>
+                  <key>ru</key>
+                  <value>Таможенная декларация на товары</value>
+                </presentation>
+                <value xsi:type="core:ReferenceValue">
+                  <value>Enum.ТипПервичногоДокумента_ХамелеонЦРПТ.EnumValue.CUSTOMS_DECLARATION</value>
+                </value>
+              </choiceList>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ВидПервичногоДокумента3</name>
+            <id>499</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>Объект.ВидПервичногоДокумента</segments>
+              </paths>
+            </dataPath>
+            <handlers>
+              <event>OnChange</event>
+              <name>ВидПервичногоДокументаПриИзменении</name>
+            </handlers>
+            <extendedTooltip>
+              <name>ВидПервичногоДокумента3РасширеннаяПодсказка</name>
+              <id>501</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ВидПервичногоДокумента3КонтекстноеМеню</name>
+              <id>500</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <listChoiceMode>true</listChoiceMode>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+              <choiceList>
+                <presentation>
+                  <key>ru</key>
+                  <value>Товарная накладная</value>
+                </presentation>
+                <value xsi:type="core:ReferenceValue">
+                  <value>Enum.ТипПервичногоДокумента_ХамелеонЦРПТ.EnumValue.CONSIGNMENT_NOTE</value>
+                </value>
+              </choiceList>
+              <choiceList>
+                <presentation>
+                  <key>ru</key>
+                  <value>Универсальный передаточный документ</value>
+                </presentation>
+                <value xsi:type="core:ReferenceValue">
+                  <value>Enum.ТипПервичногоДокумента_ХамелеонЦРПТ.EnumValue.UTD</value>
+                </value>
+              </choiceList>
+              <choiceList>
+                <presentation>
+                  <key>ru</key>
+                  <value>Прочее</value>
+                </presentation>
+                <value xsi:type="core:ReferenceValue">
+                  <value>Enum.ТипПервичногоДокумента_ХамелеонЦРПТ.EnumValue.OTHER</value>
+                </value>
+              </choiceList>
+            </extInfo>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ВидПервичногоДокумента</segments>
-            </paths>
-          </dataPath>
-          <handlers>
-            <event>OnChange</event>
-            <name>ВидПервичногоДокументаПриИзменении</name>
-          </handlers>
+          <title>
+            <key>ru</key>
+            <value>Вид перввичного документа</value>
+          </title>
+          <toolTip>
+            <key>ru</key>
+            <value>Вид перввичного документа</value>
+          </toolTip>
           <extendedTooltip>
-            <name>ВидПервичногоДокумента4РасширеннаяПодсказка</name>
-            <id>504</id>
+            <name>ВидПерввичногоДокументаРасширеннаяПодсказка</name>
+            <id>791</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2256,383 +2758,13 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <contextMenu>
-            <name>ВидПервичногоДокумента4КонтекстноеМеню</name>
-            <id>503</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>InputField</type>
-          <editMode>Enter</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:InputFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <wrap>true</wrap>
-            <listChoiceMode>true</listChoiceMode>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
-            <choiceList>
-              <presentation>
-                <key>ru</key>
-                <value>Кассовый чек</value>
-              </presentation>
-              <value xsi:type="core:ReferenceValue">
-                <value>Enum.ТипПервичногоДокумента_ХамелеонЦРПТ.EnumValue.RECEIPT</value>
-              </value>
-            </choiceList>
-            <choiceList>
-              <presentation>
-                <key>ru</key>
-                <value>Товарный чек</value>
-              </presentation>
-              <value xsi:type="core:ReferenceValue">
-                <value>Enum.ТипПервичногоДокумента_ХамелеонЦРПТ.EnumValue.SALES_RECEIPT</value>
-              </value>
-            </choiceList>
-            <choiceList>
-              <presentation>
-                <key>ru</key>
-                <value>Товарная накладная</value>
-              </presentation>
-              <value xsi:type="core:ReferenceValue">
-                <value>Enum.ТипПервичногоДокумента_ХамелеонЦРПТ.EnumValue.CONSIGNMENT_NOTE</value>
-              </value>
-            </choiceList>
-            <choiceList>
-              <presentation>
-                <key>ru</key>
-                <value>Универсальный передаточный документ</value>
-              </presentation>
-              <value xsi:type="core:ReferenceValue">
-                <value>Enum.ТипПервичногоДокумента_ХамелеонЦРПТ.EnumValue.UTD</value>
-              </value>
-            </choiceList>
-            <choiceList>
-              <presentation>
-                <key>ru</key>
-                <value>Прочее</value>
-              </presentation>
-              <value xsi:type="core:ReferenceValue">
-                <value>Enum.ТипПервичногоДокумента_ХамелеонЦРПТ.EnumValue.OTHER</value>
-              </value>
-            </choiceList>
-          </extInfo>
-        </items>
-        <items xsi:type="form:FormField">
-          <name>ВидПервичногоДокумента</name>
-          <id>297</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ВидПервичногоДокумента</segments>
-            </paths>
-          </dataPath>
-          <handlers>
-            <event>OnChange</event>
-            <name>ВидПервичногоДокументаПриИзменении</name>
-          </handlers>
-          <extendedTooltip>
-            <name>ВидПервичногоДокументаРасширеннаяПодсказка</name>
-            <id>299</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>ВидПервичногоДокументаКонтекстноеМеню</name>
-            <id>298</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>InputField</type>
-          <editMode>Enter</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:InputFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <wrap>true</wrap>
-            <listChoiceMode>true</listChoiceMode>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
-            <choiceList>
-              <presentation>
-                <key>ru</key>
-                <value>Кассовый чек</value>
-              </presentation>
-              <value xsi:type="core:ReferenceValue">
-                <value>Enum.ТипПервичногоДокумента_ХамелеонЦРПТ.EnumValue.RECEIPT</value>
-              </value>
-            </choiceList>
-            <choiceList>
-              <presentation>
-                <key>ru</key>
-                <value>Товарный чек</value>
-              </presentation>
-              <value xsi:type="core:ReferenceValue">
-                <value>Enum.ТипПервичногоДокумента_ХамелеонЦРПТ.EnumValue.SALES_RECEIPT</value>
-              </value>
-            </choiceList>
-            <choiceList>
-              <presentation>
-                <key>ru</key>
-                <value>Прочее</value>
-              </presentation>
-              <value xsi:type="core:ReferenceValue">
-                <value>Enum.ТипПервичногоДокумента_ХамелеонЦРПТ.EnumValue.OTHER</value>
-              </value>
-            </choiceList>
-          </extInfo>
-        </items>
-        <items xsi:type="form:FormField">
-          <name>ВидПервичногоДокумента1</name>
-          <id>419</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ВидПервичногоДокумента</segments>
-            </paths>
-          </dataPath>
-          <handlers>
-            <event>OnChange</event>
-            <name>ВидПервичногоДокумента1ПриИзменении</name>
-          </handlers>
-          <extendedTooltip>
-            <name>ВидПервичногоДокумента1РасширеннаяПодсказка</name>
-            <id>421</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>ВидПервичногоДокумента1КонтекстноеМеню</name>
-            <id>420</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>InputField</type>
-          <editMode>Enter</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:InputFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <wrap>true</wrap>
-            <listChoiceMode>true</listChoiceMode>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
-            <choiceList>
-              <presentation>
-                <key>ru</key>
-                <value>Акт уничтожения (утраты/утилизации)</value>
-              </presentation>
-              <value xsi:type="core:ReferenceValue">
-                <value>Enum.ТипПервичногоДокумента_ХамелеонЦРПТ.EnumValue.DESTRUCTION_ACT</value>
-              </value>
-            </choiceList>
-            <choiceList>
-              <presentation>
-                <key>ru</key>
-                <value>Прочее</value>
-              </presentation>
-              <value xsi:type="core:ReferenceValue">
-                <value>Enum.ТипПервичногоДокумента_ХамелеонЦРПТ.EnumValue.OTHER</value>
-              </value>
-            </choiceList>
-          </extInfo>
-        </items>
-        <items xsi:type="form:FormField">
-          <name>ВидПервичногоДокумента2</name>
-          <id>496</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ВидПервичногоДокумента</segments>
-            </paths>
-          </dataPath>
-          <handlers>
-            <event>OnChange</event>
-            <name>ВидПервичногоДокументаПриИзменении</name>
-          </handlers>
-          <extendedTooltip>
-            <name>ВидПервичногоДокумента2РасширеннаяПодсказка</name>
-            <id>498</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>ВидПервичногоДокумента2КонтекстноеМеню</name>
-            <id>497</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>InputField</type>
-          <editMode>Enter</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:InputFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <wrap>true</wrap>
-            <listChoiceMode>true</listChoiceMode>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
-            <choiceList>
-              <presentation>
-                <key>ru</key>
-                <value>Таможенная декларация на товары</value>
-              </presentation>
-              <value xsi:type="core:ReferenceValue">
-                <value>Enum.ТипПервичногоДокумента_ХамелеонЦРПТ.EnumValue.CUSTOMS_DECLARATION</value>
-              </value>
-            </choiceList>
-          </extInfo>
-        </items>
-        <items xsi:type="form:FormField">
-          <name>ВидПервичногоДокумента3</name>
-          <id>499</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ВидПервичногоДокумента</segments>
-            </paths>
-          </dataPath>
-          <handlers>
-            <event>OnChange</event>
-            <name>ВидПервичногоДокументаПриИзменении</name>
-          </handlers>
-          <extendedTooltip>
-            <name>ВидПервичногоДокумента3РасширеннаяПодсказка</name>
-            <id>501</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>ВидПервичногоДокумента3КонтекстноеМеню</name>
-            <id>500</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>InputField</type>
-          <editMode>Enter</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:InputFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <wrap>true</wrap>
-            <listChoiceMode>true</listChoiceMode>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
-            <choiceList>
-              <presentation>
-                <key>ru</key>
-                <value>Товарная накладная</value>
-              </presentation>
-              <value xsi:type="core:ReferenceValue">
-                <value>Enum.ТипПервичногоДокумента_ХамелеонЦРПТ.EnumValue.CONSIGNMENT_NOTE</value>
-              </value>
-            </choiceList>
-            <choiceList>
-              <presentation>
-                <key>ru</key>
-                <value>Универсальный передаточный документ</value>
-              </presentation>
-              <value xsi:type="core:ReferenceValue">
-                <value>Enum.ТипПервичногоДокумента_ХамелеонЦРПТ.EnumValue.UTD</value>
-              </value>
-            </choiceList>
-            <choiceList>
-              <presentation>
-                <key>ru</key>
-                <value>Прочее</value>
-              </presentation>
-              <value xsi:type="core:ReferenceValue">
-                <value>Enum.ТипПервичногоДокумента_ХамелеонЦРПТ.EnumValue.OTHER</value>
-              </value>
-            </choiceList>
+          <type>UsualGroup</type>
+          <extInfo xsi:type="form:UsualGroupExtInfo">
+            <group>AlwaysHorizontal</group>
+            <showLeftMargin>true</showLeftMargin>
+            <united>true</united>
+            <throughAlign>Auto</throughAlign>
+            <currentRowUse>Auto</currentRowUse>
           </extInfo>
         </items>
         <visible>true</visible>
@@ -7099,7 +7231,7 @@
         </items>
         <items xsi:type="form:FormField">
           <name>ТоварыМВ_КоличествоВСД</name>
-          <id>779</id>
+          <id>814</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -7112,7 +7244,7 @@
           </dataPath>
           <extendedTooltip>
             <name>ТоварыМВ_КоличествоВСДРасширеннаяПодсказка</name>
-            <id>781</id>
+            <id>816</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -7127,7 +7259,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>ТоварыМВ_КоличествоВСДКонтекстноеМеню</name>
-            <id>780</id>
+            <id>815</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -7637,51 +7769,119 @@
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
           </items>
-          <items xsi:type="form:Button">
-            <name>ЗаполнитьДекларацииПоВыделенным</name>
-            <id>404</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <extendedTooltip>
-              <name>ЗаполнитьДекларацииПоВыделеннымРасширеннаяПодсказка</name>
-              <id>405</id>
+          <items xsi:type="form:FormGroup">
+            <name>ТоварыЗаполнить</name>
+            <id>779</id>
+            <items xsi:type="form:Button">
+              <name>ЗаполнитьДекларацииПоВыделенным</name>
+              <id>404</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <type>Label</type>
+              <extendedTooltip>
+                <name>ЗаполнитьДекларацииПоВыделеннымРасширеннаяПодсказка</name>
+                <id>405</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <commandName>Form.Command.ЗаполнитьДекларацииПоВыделенным</commandName>
+              <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <commandName>Form.Command.ЗаполнитьДекларацииПоВыделенным</commandName>
-            <representation>Auto</representation>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <placementArea>UserCmds</placementArea>
-            <representationInContextMenu>Auto</representationInContextMenu>
-          </items>
-          <items xsi:type="form:Button">
-            <name>ТоварыЗаполнитьКодТНВЭДПоВыделенным</name>
-            <id>551</id>
+              <placementArea>UserCmds</placementArea>
+              <representationInContextMenu>Auto</representationInContextMenu>
+            </items>
+            <items xsi:type="form:Button">
+              <name>ТоварыЗаполнитьКодТНВЭДПоВыделенным</name>
+              <id>551</id>
+              <title>
+                <key>ru</key>
+                <value>Заполнить код ТНВЭД по выделенным</value>
+              </title>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>ТоварыЗаполнитьКодТНВЭДПоВыделеннымРасширеннаяПодсказка</name>
+                <id>552</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <commandName>Form.Command.ЗаполнитьКодТНВЭДПоВыделенным</commandName>
+              <representation>Auto</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <representationInContextMenu>Auto</representationInContextMenu>
+            </items>
+            <items xsi:type="form:Button">
+              <name>ПерезаполнитьПоОтчетуОНанесении</name>
+              <id>781</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>ПерезаполнитьПоОтчетуОНанесенииРасширеннаяПодсказка</name>
+                <id>782</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <commandName>Form.Command.ПерезаполнитьПоОтчетуОНанесении</commandName>
+              <representation>Auto</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <representationInContextMenu>Auto</representationInContextMenu>
+            </items>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
             <title>
               <key>ru</key>
-              <value>Заполнить код ТНВЭД по выделенным</value>
+              <value>Заполнить</value>
             </title>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
+            <toolTip>
+              <key>ru</key>
+              <value>Товары заполнить</value>
+            </toolTip>
             <extendedTooltip>
-              <name>ТоварыЗаполнитьКодТНВЭДПоВыделеннымРасширеннаяПодсказка</name>
-              <id>552</id>
+              <name>ТоварыЗаполнитьРасширеннаяПодсказка</name>
+              <id>780</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -7694,12 +7894,10 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>Form.Command.ЗаполнитьКодТНВЭДПоВыделенным</commandName>
-            <representation>Auto</representation>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <placementArea>UserCmds</placementArea>
-            <representationInContextMenu>Auto</representationInContextMenu>
+            <type>Popup</type>
+            <extInfo xsi:type="form:PopupGroupExtInfo">
+              <representation>Auto</representation>
+            </extInfo>
           </items>
           <items xsi:type="form:Button">
             <name>ТоварыРазбитьДокумент</name>
@@ -7890,6 +8088,40 @@
             <extInfo xsi:type="form:PopupGroupExtInfo">
               <representation>Auto</representation>
             </extInfo>
+          </items>
+          <items xsi:type="form:Button">
+            <name>НомераВСДПоказатьДетИнфуИзТоваров</name>
+            <id>783</id>
+            <title>
+              <key>ru</key>
+              <value>Показать дет инф. о ВСД</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>НомераВСДПоказатьДетИнфуИзТоваровРасширеннаяПодсказка</name>
+              <id>784</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Command.ПоказатьДетИнфуИзТоваров</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
           </items>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -9043,6 +9275,36 @@
               <placementArea>UserCmds</placementArea>
               <representationInContextMenu>Auto</representationInContextMenu>
             </items>
+            <items xsi:type="form:Button">
+              <name>СерийныеНомераТаблицаПроверитьСтатусыКМИОбработатьДокументОтчетОНанесении</name>
+              <id>794</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>СерийныеНомераТаблицаПроверитьСтатусыКМИОбработатьДокументОтчетОНанесенииРасширеннаяПодсказка</name>
+                <id>795</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <commandName>Form.Command.ПроверитьСтатусыКМИОбработатьДокументОтчетОНанесении</commandName>
+              <representation>Auto</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <representationInContextMenu>Auto</representationInContextMenu>
+            </items>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -9681,6 +9943,322 @@
           <extendedTooltip>
             <name>ОтветРасширеннаяПодсказка</name>
             <id>160</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>Page</type>
+          <extInfo xsi:type="form:PageGroupExtInfo">
+            <group>Vertical</group>
+            <showTitle>true</showTitle>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormGroup">
+          <name>ЗапросПолученияСтатусаОтчета</name>
+          <id>796</id>
+          <items xsi:type="form:FormGroup">
+            <name>ЗапросСтатусаСтраницы</name>
+            <id>798</id>
+            <items xsi:type="form:FormGroup">
+              <name>Запрос</name>
+              <id>800</id>
+              <items xsi:type="form:Button">
+                <name>СчитатьОтправку1</name>
+                <id>804</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>СчитатьОтправку1РасширеннаяПодсказка</name>
+                  <id>805</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <type>UsualButton</type>
+                <commandName>Form.Command.ЛогСтатусЗапрос</commandName>
+                <representation>Auto</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <representationInContextMenu>Auto</representationInContextMenu>
+              </items>
+              <items xsi:type="form:FormField">
+                <name>ОтправкаТекст1</name>
+                <id>806</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <dataPath xsi:type="form:MultiLanguageDataPath">
+                  <paths xsi:type="form:DataPath">
+                    <segments>Отправка</segments>
+                  </paths>
+                </dataPath>
+                <extendedTooltip>
+                  <name>ОтправкаТекст1РасширеннаяПодсказка</name>
+                  <id>808</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>ОтправкаТекст1КонтекстноеМеню</name>
+                  <id>807</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>InputField</type>
+                <editMode>Enter</editMode>
+                <showInHeader>true</showInHeader>
+                <headerHorizontalAlign>Left</headerHorizontalAlign>
+                <showInFooter>true</showInFooter>
+                <extInfo xsi:type="form:InputFieldExtInfo">
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <wrap>true</wrap>
+                  <multiLine>true</multiLine>
+                  <chooseType>true</chooseType>
+                  <typeDomainEnabled>true</typeDomainEnabled>
+                  <textEdit>true</textEdit>
+                </extInfo>
+              </items>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <title>
+                <key>ru</key>
+                <value>Запрос</value>
+              </title>
+              <toolTip>
+                <key>ru</key>
+                <value>Запрос</value>
+              </toolTip>
+              <extendedTooltip>
+                <name>ЗапросРасширеннаяПодсказка</name>
+                <id>801</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <type>Page</type>
+              <extInfo xsi:type="form:PageGroupExtInfo">
+                <group>Vertical</group>
+                <showTitle>true</showTitle>
+              </extInfo>
+            </items>
+            <items xsi:type="form:FormGroup">
+              <name>Ответ_Статус</name>
+              <id>802</id>
+              <items xsi:type="form:Button">
+                <name>СчитатьОтвет1</name>
+                <id>809</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>СчитатьОтвет1РасширеннаяПодсказка</name>
+                  <id>810</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <type>UsualButton</type>
+                <commandName>Form.Command.ЛогСтатусОтвет</commandName>
+                <representation>Auto</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <representationInContextMenu>Auto</representationInContextMenu>
+              </items>
+              <items xsi:type="form:FormField">
+                <name>ОтветОтЦРПТ1</name>
+                <id>811</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <dataPath xsi:type="form:MultiLanguageDataPath">
+                  <paths xsi:type="form:DataPath">
+                    <segments>ОтветОтЦРПТ</segments>
+                  </paths>
+                </dataPath>
+                <extendedTooltip>
+                  <name>ОтветОтЦРПТ1РасширеннаяПодсказка</name>
+                  <id>813</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>ОтветОтЦРПТ1КонтекстноеМеню</name>
+                  <id>812</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>InputField</type>
+                <editMode>Enter</editMode>
+                <showInHeader>true</showInHeader>
+                <headerHorizontalAlign>Left</headerHorizontalAlign>
+                <showInFooter>true</showInFooter>
+                <extInfo xsi:type="form:InputFieldExtInfo">
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <wrap>true</wrap>
+                  <multiLine>true</multiLine>
+                  <chooseType>true</chooseType>
+                  <typeDomainEnabled>true</typeDomainEnabled>
+                  <textEdit>true</textEdit>
+                </extInfo>
+              </items>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <title>
+                <key>ru</key>
+                <value>Ответ статус</value>
+              </title>
+              <toolTip>
+                <key>ru</key>
+                <value>Ответ статус</value>
+              </toolTip>
+              <extendedTooltip>
+                <name>Ответ_СтатусРасширеннаяПодсказка</name>
+                <id>803</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <type>Page</type>
+              <extInfo xsi:type="form:PageGroupExtInfo">
+                <group>Vertical</group>
+                <showTitle>true</showTitle>
+              </extInfo>
+            </items>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Запрос статуса страницы</value>
+            </title>
+            <toolTip>
+              <key>ru</key>
+              <value>Запрос статуса страницы</value>
+            </toolTip>
+            <extendedTooltip>
+              <name>ЗапросСтатусаСтраницыРасширеннаяПодсказка</name>
+              <id>799</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>Pages</type>
+            <extInfo xsi:type="form:PagesGroupExtInfo">
+              <pagesRepresentation>TabsOnTop</pagesRepresentation>
+              <currentRowUse>Auto</currentRowUse>
+            </extInfo>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Запрос получения статуса отчета</value>
+          </title>
+          <toolTip>
+            <key>ru</key>
+            <value>Запрос получения статуса отчета</value>
+          </toolTip>
+          <extendedTooltip>
+            <name>ЗапросПолученияСтатусаОтчетаРасширеннаяПодсказка</name>
+            <id>797</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -11725,6 +12303,10 @@
               <segments>Объект.НомераВСД.НомерВСД</segments>
             </paths>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>Таблица1НомерВСДПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>Таблица1НомерВСДРасширеннаяПодсказка</name>
             <id>746</id>
@@ -12511,6 +13093,109 @@
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
+      <items xsi:type="form:FormGroup">
+        <name>ВнешниеОбработки</name>
+        <id>86</id>
+        <items xsi:type="form:Button">
+          <name>ОткрытьВнешнююОбарботки</name>
+          <id>88</id>
+          <title>
+            <key>ru</key>
+            <value>Указать файл внешней обработки</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ОткрытьВнешнююОбарботкиРасширеннаяПодсказка</name>
+            <id>89</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <commandName>Form.Command.ОткрытьВнешниеОбработки</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <items xsi:type="form:FormGroup">
+          <name>ГруппаКнопокВнешняя</name>
+          <id>90</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Группа кнопок внешняя</value>
+          </title>
+          <toolTip>
+            <key>ru</key>
+            <value>Группа кнопок внешняя</value>
+          </toolTip>
+          <extendedTooltip>
+            <name>ГруппаКнопокВнешняяРасширеннаяПодсказка</name>
+            <id>91</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <extInfo xsi:type="form:ButtonGroupExtInfo"/>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Открытие внешней обработки</value>
+        </title>
+        <toolTip>
+          <key>ru</key>
+          <value>Внешние обработки</value>
+        </toolTip>
+        <extendedTooltip>
+          <name>ВнешниеОбработкиРасширеннаяПодсказка</name>
+          <id>87</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>Popup</type>
+        <extInfo xsi:type="form:PopupGroupExtInfo">
+          <representation>Auto</representation>
+        </extInfo>
+      </items>
       <items xsi:type="form:Button">
         <name>ФормаОтправитьЧерновик</name>
         <id>665</id>
@@ -12565,6 +13250,36 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Command.ПрикрепитьPDF</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <items xsi:type="form:Button">
+        <name>ФормаСверкаКМ</name>
+        <id>792</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ФормаСверкаКМРасширеннаяПодсказка</name>
+          <id>793</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.СверкаКМ</commandName>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -12679,109 +13394,6 @@
       <extendedTooltip>
         <name>ПечатьРасширеннаяПодсказка</name>
         <id>139</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <type>Popup</type>
-      <extInfo xsi:type="form:PopupGroupExtInfo">
-        <representation>Auto</representation>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormGroup">
-      <name>ВнешниеОбработки</name>
-      <id>86</id>
-      <items xsi:type="form:Button">
-        <name>ОткрытьВнешнююОбарботки</name>
-        <id>88</id>
-        <title>
-          <key>ru</key>
-          <value>Указать файл внешней обработки</value>
-        </title>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <extendedTooltip>
-          <name>ОткрытьВнешнююОбарботкиРасширеннаяПодсказка</name>
-          <id>89</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <commandName>Form.Command.ОткрытьВнешниеОбработки</commandName>
-        <representation>Auto</representation>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <placementArea>UserCmds</placementArea>
-        <representationInContextMenu>Auto</representationInContextMenu>
-      </items>
-      <items xsi:type="form:FormGroup">
-        <name>ГруппаКнопокВнешняя</name>
-        <id>90</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <title>
-          <key>ru</key>
-          <value>Группа кнопок внешняя</value>
-        </title>
-        <toolTip>
-          <key>ru</key>
-          <value>Группа кнопок внешняя</value>
-        </toolTip>
-        <extendedTooltip>
-          <name>ГруппаКнопокВнешняяРасширеннаяПодсказка</name>
-          <id>91</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <extInfo xsi:type="form:ButtonGroupExtInfo"/>
-      </items>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <title>
-        <key>ru</key>
-        <value>Открытие внешней обработки</value>
-      </title>
-      <toolTip>
-        <key>ru</key>
-        <value>Внешние обработки</value>
-      </toolTip>
-      <extendedTooltip>
-        <name>ВнешниеОбработкиРасширеннаяПодсказка</name>
-        <id>87</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -13496,6 +14108,76 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>МассивДляПроверки</name>
+    <title>
+      <key>ru</key>
+      <value>Массив для проверки</value>
+    </title>
+    <id>26</id>
+    <valueType>
+      <types>ValueTable</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <columns>
+      <name>КМ</name>
+      <title>
+        <key>ru</key>
+        <value>КМ</value>
+      </title>
+      <id>1</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Строка</name>
+      <title>
+        <key>ru</key>
+        <value>Строка</value>
+      </title>
+      <id>2</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+  </attributes>
+  <attributes>
+    <name>НеПроверятьБалансПриОправкеОтчетаОНанесении</name>
+    <title>
+      <key>ru</key>
+      <value>Не проверять баланс при оправке отчета о нанесении</value>
+    </title>
+    <id>27</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>ОтправитьВЦРПТ</name>
     <title>
@@ -13554,7 +14236,7 @@
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ПечатьЭтикеток</name>
+        <name>ПечатьЭтикеток_ЦРПТ</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
@@ -14411,6 +15093,132 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ПеренестиНомераВСД</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ПерезаполнитьПоОтчетуОНанесении</name>
+    <title>
+      <key>ru</key>
+      <value>Перезаполнить по отчету о нанесении</value>
+    </title>
+    <id>45</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Перезаполнить по отчету о нанесении</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПерезаполнитьПоОтчетуОНанесении</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ПоказатьДетИнфуИзТоваров</name>
+    <title>
+      <key>ru</key>
+      <value>Показать дет инфу из товаров</value>
+    </title>
+    <id>46</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Показать дет инфу из товаров</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПоказатьДетИнфуИзТоваров</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>СверкаКМ</name>
+    <title>
+      <key>ru</key>
+      <value>Валидация</value>
+    </title>
+    <id>47</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Функция сверки КМ в документе с КМ полученными от оборудования(валидация)</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>СверкаКМ</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ПроверитьСтатусыКМИОбработатьДокументОтчетОНанесении</name>
+    <title>
+      <key>ru</key>
+      <value>Проверить статусы КМ и обработать документ отчет о нанесении</value>
+    </title>
+    <id>48</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Проверить статусы КМИОбработать документ отчет о нанесении</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПроверитьСтатусыКМИОбработатьДокументОтчетОНанесении</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ЛогСтатусЗапрос</name>
+    <title>
+      <key>ru</key>
+      <value>Лог статус запрос</value>
+    </title>
+    <id>49</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Лог статус запрос</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ЛогСтатусЗапрос</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ЛогСтатусОтвет</name>
+    <title>
+      <key>ru</key>
+      <value>Лог статус ответ</value>
+    </title>
+    <id>50</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Лог статус ответ</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ЛогСтатусОтвет</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

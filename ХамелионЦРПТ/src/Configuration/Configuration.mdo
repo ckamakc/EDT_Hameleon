@@ -12,7 +12,7 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
-  <version>01/07/21</version>
+  <version>1Cv8_доп_03_08_21_ЦРПТ</version>
   <useManagedFormInOrdinaryApplication>true</useManagedFormInOrdinaryApplication>
   <requiredMobileApplicationPermissions>
     <permission>AllowOSBackup</permission>
@@ -243,6 +243,7 @@
   <catalogs>Catalog.ПредприятиеПроизводительМолоко_ХамелеонЦРПТ</catalogs>
   <catalogs>Catalog.ОтДоТочноеЗначение_ХамелеонЦРПТ</catalogs>
   <catalogs>Catalog.КМДляКорректировки_ХамелеонЦРПТ</catalogs>
+  <catalogs>Catalog.ПродукцияДляДетскогоПитания_МОЛОКО_ХамелеонЦРПТ</catalogs>
   <documents>Document.GS1_Обувь_ХамелеонЦРПТ</documents>
   <documents>Document.ЗаказМарок_ХамелеонЦРПТ</documents>
   <documents>Document.АвтоКорректировкаОстатков_ХамелеонЦРПТ</documents>
@@ -261,6 +262,7 @@
   <documents>Document.Инвентаризация_ХамелеонЦРПТ</documents>
   <documents>Document.СозданиеНовогоАТК_ХамелеонЦРПТ</documents>
   <documents>Document.АвтоКорректировкаОстатковСправочник_ХамелеонЦРПТ</documents>
+  <documents>Document.ОтправкаКарточекВНКПоAPI_ХамелеонЦРПТ</documents>
   <enums>Enum.СтатусыДокументов_ХамелеонЦРПТ</enums>
   <enums>Enum.Сайты_ХамелеонЦРПТ</enums>
   <enums>Enum.СпособИзготовленияСИ_ХамелеонЦРПТ</enums>
@@ -310,6 +312,7 @@
   <enums>Enum.УровниУпаковок_ХамелеонЦРПТ</enums>
   <enums>Enum.ТипПолученияТокенаИзПользователя_ХамелеонЦРПТ</enums>
   <enums>Enum.СхемыОбратногоАкцепта</enums>
+  <enums>Enum.Табак_ПричинаВыводаИзОборота_ХамелеонЦРПТ</enums>
   <reports>Report.ДвиженияДокумента_ХамелеонЦРПТ</reports>
   <reports>Report.ОтчетПоВыведеннымКМПоРознице_ХамелеонЦРПТ</reports>
   <reports>Report.ОтчетПоКМ_ХамелеонЦРПТ</reports>
@@ -365,7 +368,9 @@
   <informationRegisters>InformationRegister.СерийныеНомераСправочник_ХамелеонЦРПТ</informationRegisters>
   <informationRegisters>InformationRegister.ХН_СоотвествиеФайловВводуВОборот</informationRegisters>
   <informationRegisters>InformationRegister.ХН_СоответствиеОперациямВводВОборот</informationRegisters>
+  <informationRegisters>InformationRegister.ОтгрузкаПоОрганизациям_Фарма_ХамелеонЦРПТ</informationRegisters>
   <informationRegisters>InformationRegister.КМРаспечатано_ХамелеонЦРПТ</informationRegisters>
+  <informationRegisters>InformationRegister.СохранитьКэшМеркурий_ХамелеонЦРПТ</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиКМЭмитированые_ХамелеонЦРПТ</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиКМ_в_Обороте_ХамелеонЦРПТ</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Резервы_ХамелеонЦРПТ</accumulationRegisters>

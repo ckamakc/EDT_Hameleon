@@ -522,6 +522,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="10671322-5c19-4fee-9cf8-d2539823b149">
+    <name>email</name>
+    <synonym>
+      <key>ru</key>
+      <value>Email</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="fd2245f8-b110-4ace-abef-408be9f5edb8">
     <producedTypes>
       <objectType typeId="c9358723-79e0-425f-aa51-03cc76a0a051" valueTypeId="06bd8f0b-4277-4dd7-a5b8-e3111a0d9b30"/>
