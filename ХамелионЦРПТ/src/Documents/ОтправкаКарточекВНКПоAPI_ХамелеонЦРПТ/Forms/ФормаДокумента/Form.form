@@ -1362,7 +1362,7 @@
                 </userVisible>
                 <dataPath xsi:type="form:MultiLanguageDataPath">
                   <paths xsi:type="form:DataPath">
-                    <segments>Запрос</segments>
+                    <segments>Запрос_Отправки</segments>
                   </paths>
                 </dataPath>
                 <extendedTooltip>
@@ -2306,10 +2306,10 @@
     </edit>
   </attributes>
   <attributes>
-    <name>Запрос</name>
+    <name>Запрос_Отправки</name>
     <title>
       <key>ru</key>
-      <value>Запрос</value>
+      <value>Запрос отправки</value>
     </title>
     <id>4</id>
     <valueType>

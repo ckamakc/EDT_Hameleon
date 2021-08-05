@@ -12,7 +12,7 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
-  <version>1Cv8_доп_03_08_21_ЦРПТ</version>
+  <version>1Cv8_доп_04_08_21_ЦРПТ_2</version>
   <useManagedFormInOrdinaryApplication>true</useManagedFormInOrdinaryApplication>
   <requiredMobileApplicationPermissions>
     <permission>AllowOSBackup</permission>

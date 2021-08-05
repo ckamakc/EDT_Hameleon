@@ -33,4 +33,11 @@
       <value>Набор</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="42763390-f521-43d6-a3af-5515a5a4707e">
+    <name>GROUP</name>
+    <synonym>
+      <key>ru</key>
+      <value>Групповая потребительская упаковка</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

@@ -392,7 +392,7 @@
 		<endColumnOffset>135</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>Stretch</pictureSize>
-		<zOrder>1</zOrder>
+		<zOrder>0</zOrder>
 		<pictureIndex>1</pictureIndex>
 	</drawing>
 	<drawing>
@@ -409,7 +409,7 @@
 		<endColumnOffset>228</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>Proportionally</pictureSize>
-		<zOrder>2</zOrder>
+		<zOrder>0</zOrder>
 		<pictureIndex>1</pictureIndex>
 	</drawing>
 	<templateMode>true</templateMode>
